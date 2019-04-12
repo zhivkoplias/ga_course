@@ -1,0 +1,3173 @@
+locus_tag	ftype	gene	EC_number	product
+GPFGEMDG_00001	CDS			hypothetical protein
+GPFGEMDG_00002	CDS	nhaC_1		Na(+)/H(+) antiporter NhaC
+GPFGEMDG_00003	CDS	nhaC_2		Na(+)/H(+) antiporter NhaC
+GPFGEMDG_00004	CDS	abgB_1	3.5.1.-	p-aminobenzoyl-glutamate hydrolase subunit B
+GPFGEMDG_00005	CDS	metQ_1		D-methionine-binding lipoprotein MetQ
+GPFGEMDG_00006	CDS	metP_1		Methionine import system permease protein MetP
+GPFGEMDG_00007	CDS	metN_1	3.6.3.-	Methionine import ATP-binding protein MetN
+GPFGEMDG_00008	CDS			hypothetical protein
+GPFGEMDG_00009	CDS		3.1.3.-	Phosphorylated carbohydrates phosphatase
+GPFGEMDG_00010	CDS	mgtA	3.6.3.2	Magnesium-transporting ATPase, P-type 1
+GPFGEMDG_00011	CDS	ndk	2.7.4.6	Nucleoside diphosphate kinase
+GPFGEMDG_00012	CDS			hypothetical protein
+GPFGEMDG_00013	CDS	ltaS1_1		Lipoteichoic acid synthase 1
+GPFGEMDG_00014	CDS			hypothetical protein
+GPFGEMDG_00015	CDS	gmuD_1	3.2.1.86	6-phospho-beta-glucosidase GmuD
+GPFGEMDG_00016	CDS	rbsR		Ribose operon repressor
+GPFGEMDG_00017	CDS			hypothetical protein
+GPFGEMDG_00018	CDS			hypothetical protein
+GPFGEMDG_00019	CDS		2.7.1.113	Deoxyguanosine kinase
+GPFGEMDG_00020	CDS	DNPH1	3.2.2.-	2'-deoxynucleoside 5'-phosphate N-hydrolase 1
+GPFGEMDG_00021	CDS	yvdD		LOG family protein YvdD
+GPFGEMDG_00022	CDS			hypothetical protein
+GPFGEMDG_00023	CDS	fruA_1		PTS system fructose-specific EIIB'BC component
+GPFGEMDG_00024	CDS	mngR		Mannosyl-D-glycerate transport/metabolism system repressor MngR
+GPFGEMDG_00025	CDS	bglH_1	3.2.1.86	Aryl-phospho-beta-D-glucosidase BglH
+GPFGEMDG_00026	CDS	bglF_1		PTS system beta-glucoside-specific EIIBCA component
+GPFGEMDG_00027	CDS			hypothetical protein
+GPFGEMDG_00028	CDS	licT_1		Transcription antiterminator LicT
+GPFGEMDG_00029	CDS			hypothetical protein
+GPFGEMDG_00030	CDS			hypothetical protein
+GPFGEMDG_00031	CDS	ytcD		putative HTH-type transcriptional regulator YtcD
+GPFGEMDG_00032	CDS			hypothetical protein
+GPFGEMDG_00033	CDS			hypothetical protein
+GPFGEMDG_00034	CDS			hypothetical protein
+GPFGEMDG_00035	CDS			hypothetical protein
+GPFGEMDG_00036	CDS			hypothetical protein
+GPFGEMDG_00037	CDS			hypothetical protein
+GPFGEMDG_00038	CDS		2.7.1.-	Putative lipid kinase
+GPFGEMDG_00039	CDS			hypothetical protein
+GPFGEMDG_00040	CDS	prsA_1	5.2.1.8	Foldase protein PrsA
+GPFGEMDG_00041	CDS			hypothetical protein
+GPFGEMDG_00042	CDS	yknY_1	3.6.3.-	putative ABC transporter ATP-binding protein YknY
+GPFGEMDG_00043	CDS			hypothetical protein
+GPFGEMDG_00044	CDS			hypothetical protein
+GPFGEMDG_00045	CDS			hypothetical protein
+GPFGEMDG_00046	CDS			hypothetical protein
+GPFGEMDG_00047	CDS	hsdR	3.1.21.3	Type-1 restriction enzyme R protein
+GPFGEMDG_00048	CDS			hypothetical protein
+GPFGEMDG_00049	CDS		2.1.1.72	putative type I restriction enzymeP M protein
+GPFGEMDG_00050	CDS			hypothetical protein
+GPFGEMDG_00051	CDS			hypothetical protein
+GPFGEMDG_00052	CDS			hypothetical protein
+GPFGEMDG_00053	CDS			hypothetical protein
+GPFGEMDG_00054	CDS			hypothetical protein
+GPFGEMDG_00055	CDS			hypothetical protein
+GPFGEMDG_00056	CDS			hypothetical protein
+GPFGEMDG_00057	CDS			hypothetical protein
+GPFGEMDG_00058	CDS	Int-Tn_1		Transposase from transposon Tn916
+GPFGEMDG_00059	CDS	sufB_1		FeS cluster assembly protein SufB
+GPFGEMDG_00060	CDS	iscU		Iron-sulfur cluster assembly scaffold protein IscU
+GPFGEMDG_00061	CDS	sufS	2.8.1.7	Cysteine desulfurase SufS
+GPFGEMDG_00062	CDS	sufB_2		FeS cluster assembly protein SufB
+GPFGEMDG_00063	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_00064	CDS	metQ_2		Methionine-binding lipoprotein MetQ
+GPFGEMDG_00065	CDS	metP_2		Methionine import system permease protein MetP
+GPFGEMDG_00066	CDS	metN2	3.6.3.-	Methionine import ATP-binding protein MetN 2
+GPFGEMDG_00067	CDS	gcvH		Glycine cleavage system H protein
+GPFGEMDG_00068	CDS	mgsR		Regulatory protein MgsR
+GPFGEMDG_00069	CDS	rodA	2.4.1.129	Peptidoglycan glycosyltransferase RodA
+GPFGEMDG_00070	CDS	cysL		HTH-type transcriptional regulator CysL
+GPFGEMDG_00071	CDS			hypothetical protein
+GPFGEMDG_00072	CDS			hypothetical protein
+GPFGEMDG_00073	CDS	ogt	2.1.1.63	Methylated-DNA--protein-cysteine methyltransferase, constitutive
+GPFGEMDG_00074	CDS	yfdH	2.4.1.-	Prophage bactoprenol glucosyl transferase 
+GPFGEMDG_00075	CDS	topB_1	5.99.1.2	DNA topoisomerase 3
+GPFGEMDG_00076	CDS			hypothetical protein
+GPFGEMDG_00077	CDS			hypothetical protein
+GPFGEMDG_00078	CDS	yjhB_1		Putative metabolite transport protein YjhB
+GPFGEMDG_00079	CDS	vioD	4.2.1.145	Capreomycidine synthase
+GPFGEMDG_00080	CDS	arcD1_1		Arginine/ornithine antiporter ArcD1
+GPFGEMDG_00081	CDS	mnmA	2.8.1.13	tRNA-specific 2-thiouridylase MnmA
+GPFGEMDG_00082	CDS	cpdA_1	3.1.4.53	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+GPFGEMDG_00083	CDS			hypothetical protein
+GPFGEMDG_00084	CDS			hypothetical protein
+GPFGEMDG_00085	CDS	iscS_1	2.8.1.7	Cysteine desulfurase IscS
+GPFGEMDG_00086	CDS	prs2	2.7.6.1	Ribose-phosphate pyrophosphokinase 2
+GPFGEMDG_00087	CDS			hypothetical protein
+GPFGEMDG_00088	CDS	pepO	3.4.24.-	Neutral endopeptidase
+GPFGEMDG_00089	CDS	pelX	4.2.2.9	Pectate disaccharide-lyase
+GPFGEMDG_00090	CDS	yecD_1	3.-.-.-	Isochorismatase family protein YecD
+GPFGEMDG_00091	CDS	mtnN	3.2.2.9	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase
+GPFGEMDG_00092	CDS			hypothetical protein
+GPFGEMDG_00093	CDS	act	3.-.-.-	Methanol dehydrogenase activator
+GPFGEMDG_00094	CDS			hypothetical protein
+GPFGEMDG_00095	CDS			TelA-like protein
+GPFGEMDG_00096	CDS	yhdG		putative amino acid permease YhdG
+GPFGEMDG_00097	CDS	glcU_1		putative glucose uptake protein GlcU
+GPFGEMDG_00098	CDS	graS	2.7.13.3	Sensor histidine kinase GraS
+GPFGEMDG_00099	CDS	graR		Response regulator protein GraR
+GPFGEMDG_00100	CDS			hypothetical protein
+GPFGEMDG_00101	CDS			hypothetical protein
+GPFGEMDG_00102	CDS			hypothetical protein
+GPFGEMDG_00103	CDS			hypothetical protein
+GPFGEMDG_00104	CDS			hypothetical protein
+GPFGEMDG_00105	CDS	ybjG	3.6.1.27	Putative undecaprenyl-diphosphatase YbjG
+GPFGEMDG_00106	CDS			hypothetical protein
+GPFGEMDG_00107	CDS	araQ_1		L-arabinose transport system permease protein AraQ
+GPFGEMDG_00108	CDS	lacF_1		Lactose transport system permease protein LacF
+GPFGEMDG_00109	CDS	araN_1		putative arabinose-binding protein
+GPFGEMDG_00110	CDS	ydbD	1.11.1.6	putative manganese catalase
+GPFGEMDG_00111	CDS			hypothetical protein
+GPFGEMDG_00112	CDS			hypothetical protein
+GPFGEMDG_00113	CDS	mazF	3.1.27.-	Endoribonuclease MazF
+GPFGEMDG_00114	CDS			hypothetical protein
+GPFGEMDG_00115	CDS			hypothetical protein
+GPFGEMDG_00116	CDS			hypothetical protein
+GPFGEMDG_00117	CDS			hypothetical protein
+GPFGEMDG_00118	CDS	acuR		Transcriptional regulator AcuR
+GPFGEMDG_00119	CDS	yecD_2	3.-.-.-	Isochorismatase family protein YecD
+GPFGEMDG_00120	CDS	rclA		putative pyridine nucleotide-disulfide oxidoreductase RclA
+GPFGEMDG_00121	CDS	ohrB_1		Organic hydroperoxide resistance protein OhrB
+GPFGEMDG_00122	CDS			hypothetical protein
+GPFGEMDG_00123	CDS	algC	5.4.2.2	Phosphomannomutase/phosphoglucomutase
+GPFGEMDG_00124	CDS	argR_1		Arginine repressor
+GPFGEMDG_00125	CDS			hypothetical protein
+GPFGEMDG_00126	CDS	ribZ_1		Riboflavin transporter RibZ
+GPFGEMDG_00127	CDS	thiO	1.4.3.19	Glycine oxidase
+GPFGEMDG_00128	CDS			hypothetical protein
+GPFGEMDG_00129	CDS			hypothetical protein
+GPFGEMDG_00130	CDS	queG	1.17.99.6	Epoxyqueuosine reductase
+GPFGEMDG_00131	CDS			hypothetical protein
+GPFGEMDG_00132	CDS	ssaB_1		Manganese ABC transporter substrate-binding lipoprotein
+GPFGEMDG_00133	CDS	mntB_1		Manganese transport system membrane protein MntB
+GPFGEMDG_00134	CDS	znuC_1	3.6.3.-	High-affinity zinc uptake system ATP-binding protein ZnuC
+GPFGEMDG_00135	CDS	yifK		putative transport protein YifK
+GPFGEMDG_00136	CDS			hypothetical protein
+GPFGEMDG_00137	CDS			hypothetical protein
+GPFGEMDG_00138	CDS	ywrO	1.6.99.-	General stress protein 14
+GPFGEMDG_00139	CDS	araC_1		Arabinose operon regulatory protein
+GPFGEMDG_00140	CDS	lacS		Lactose permease
+GPFGEMDG_00141	CDS	galM_1	5.1.3.3	Aldose 1-epimerase
+GPFGEMDG_00142	CDS	galK_1	2.7.1.6	Galactokinase
+GPFGEMDG_00143	CDS	dinB_1	2.7.7.7	DNA polymerase IV
+GPFGEMDG_00144	CDS			hypothetical protein
+GPFGEMDG_00145	CDS			hypothetical protein
+GPFGEMDG_00146	CDS			hypothetical protein
+GPFGEMDG_00147	CDS			hypothetical protein
+GPFGEMDG_00148	CDS	npr_1	1.11.1.1	NADH peroxidase
+GPFGEMDG_00149	CDS	patA_1	2.6.1.-	Putative N-acetyl-LL-diaminopimelate aminotransferase
+GPFGEMDG_00150	CDS	yxeP	3.-.-.-	putative hydrolase YxeP
+GPFGEMDG_00151	CDS	yclM	2.7.2.4	Aspartokinase 3
+GPFGEMDG_00152	CDS	asd	1.2.1.11	Aspartate-semialdehyde dehydrogenase
+GPFGEMDG_00153	CDS	dapH	2.3.1.89	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase
+GPFGEMDG_00154	CDS	dapB	1.17.1.8	4-hydroxy-tetrahydrodipicolinate reductase
+GPFGEMDG_00155	CDS	dapA	4.3.3.7	4-hydroxy-tetrahydrodipicolinate synthase
+GPFGEMDG_00156	CDS	dapF	5.1.1.7	Diaminopimelate epimerase
+GPFGEMDG_00157	CDS	lysA	4.1.1.20	Diaminopimelate decarboxylase
+GPFGEMDG_00158	CDS	efp		Elongation factor P
+GPFGEMDG_00159	CDS	cysM	2.5.1.47	Cysteine synthase
+GPFGEMDG_00160	CDS	metB	2.5.1.48	Cystathionine gamma-synthase
+GPFGEMDG_00161	CDS	luxS	4.4.1.21	S-ribosylhomocysteine lyase
+GPFGEMDG_00162	CDS	bsaA		Glutathione peroxidase BsaA
+GPFGEMDG_00163	rRNA			5S ribosomal RNA
+GPFGEMDG_00164	rRNA			23S ribosomal RNA
+GPFGEMDG_00165	rRNA			16S ribosomal RNA
+GPFGEMDG_00166	CDS	spxA_1		Regulatory protein Spx
+GPFGEMDG_00167	CDS	spxA_2		Regulatory protein Spx
+GPFGEMDG_00168	CDS	yjcD	3.6.4.12	Putative ATP-dependent DNA helicase YjcD
+GPFGEMDG_00169	CDS			hypothetical protein
+GPFGEMDG_00170	CDS		2.7.1.113	Deoxyguanosine kinase
+GPFGEMDG_00171	CDS			hypothetical protein
+GPFGEMDG_00172	CDS	agrB	3.4.-.-	Accessory gene regulator protein B
+GPFGEMDG_00173	CDS			hypothetical protein
+GPFGEMDG_00174	CDS			hypothetical protein
+GPFGEMDG_00175	CDS	agrA_1		Accessory gene regulator A
+GPFGEMDG_00176	CDS	znuA_1		High-affinity zinc uptake system binding-protein ZnuA
+GPFGEMDG_00177	CDS	tqsA_1		AI-2 transport protein TqsA
+GPFGEMDG_00178	CDS	treA	3.2.1.93	Trehalose-6-phosphate hydrolase
+GPFGEMDG_00179	CDS			hypothetical protein
+GPFGEMDG_00180	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_00181	CDS	yecD_3	3.-.-.-	Isochorismatase family protein YecD
+GPFGEMDG_00182	CDS	degA_1		HTH-type transcriptional regulator DegA
+GPFGEMDG_00183	CDS	rbsK/rbiA		Bifunctional ribokinase/ribose-5-phosphate isomerase A
+GPFGEMDG_00184	CDS	rbsD	5.4.99.62	D-ribose pyranase
+GPFGEMDG_00185	CDS	bglF_2		PTS system beta-glucoside-specific EIIBCA component
+GPFGEMDG_00186	CDS			N-acetylmuramoyl-L-alanine amidase domain-containing protein
+GPFGEMDG_00187	CDS	mro_1	5.1.3.3	Aldose 1-epimerase
+GPFGEMDG_00188	CDS	bceB_1		Bacitracin export permease protein BceB
+GPFGEMDG_00189	CDS	bceA_1		Bacitracin export ATP-binding protein BceA
+GPFGEMDG_00190	CDS			hypothetical protein
+GPFGEMDG_00191	CDS			hypothetical protein
+GPFGEMDG_00192	CDS			hypothetical protein
+GPFGEMDG_00193	CDS			hypothetical protein
+GPFGEMDG_00194	CDS			hypothetical protein
+GPFGEMDG_00195	CDS			hypothetical protein
+GPFGEMDG_00196	CDS	ydfK		putative membrane protein YdfK
+GPFGEMDG_00197	CDS	gltC_1		HTH-type transcriptional regulator GltC
+GPFGEMDG_00198	CDS	phoR_1	2.7.13.3	Alkaline phosphatase synthesis sensor protein PhoR
+GPFGEMDG_00199	CDS	hssR		Heme response regulator HssR
+GPFGEMDG_00200	CDS	yknY_2	3.6.3.-	putative ABC transporter ATP-binding protein YknY
+GPFGEMDG_00201	CDS			hypothetical protein
+GPFGEMDG_00202	CDS	bsdC	4.1.1.-	Phenolic acid decarboxylase subunit C
+GPFGEMDG_00203	CDS	ecdB	2.5.1.129	putative UbiX-like flavin prenyltransferase
+GPFGEMDG_00204	CDS			hypothetical protein
+GPFGEMDG_00205	CDS			hypothetical protein
+GPFGEMDG_00206	CDS			hypothetical protein
+GPFGEMDG_00207	CDS	emrB		Multidrug export protein EmrB
+GPFGEMDG_00208	CDS			hypothetical protein
+GPFGEMDG_00209	CDS			hypothetical protein
+GPFGEMDG_00210	CDS	padC	4.1.1.-	Phenolic acid decarboxylase PadC
+GPFGEMDG_00211	CDS	yjaB	2.3.1.-	putative N-acetyltransferase YjaB
+GPFGEMDG_00212	CDS			hypothetical protein
+GPFGEMDG_00213	CDS			hypothetical protein
+GPFGEMDG_00214	CDS			hypothetical protein
+GPFGEMDG_00215	CDS	mapP	3.1.3.90	Maltose 6'-phosphate phosphatase
+GPFGEMDG_00216	CDS	ptsG_1	2.7.1.199	PTS system glucose-specific EIICBA component
+GPFGEMDG_00217	CDS	malP	2.4.1.8	Maltose phosphorylase
+GPFGEMDG_00218	CDS	pgmB	5.4.2.6	Beta-phosphoglucomutase
+GPFGEMDG_00219	CDS	mro_2	5.1.3.3	Aldose 1-epimerase
+GPFGEMDG_00220	CDS	ccpA_1		Catabolite control protein A
+GPFGEMDG_00221	CDS	nhaC_3		Na(+)/H(+) antiporter NhaC
+GPFGEMDG_00222	CDS	nhaC_4		Na(+)/H(+) antiporter NhaC
+GPFGEMDG_00223	CDS	gadC_1		putative glutamate/gamma-aminobutyrate antiporter
+GPFGEMDG_00224	CDS	ddc	4.1.1.86	L-2,4-diaminobutyrate decarboxylase
+GPFGEMDG_00225	CDS	tyrS1	6.1.1.1	Tyrosine--tRNA ligase 1
+GPFGEMDG_00226	CDS			hypothetical protein
+GPFGEMDG_00227	CDS	betI		HTH-type transcriptional regulator BetI
+GPFGEMDG_00228	CDS	artM_1		Arginine transport ATP-binding protein ArtM
+GPFGEMDG_00229	CDS			hypothetical protein
+GPFGEMDG_00230	CDS	natA_1		ABC transporter ATP-binding protein NatA
+GPFGEMDG_00231	CDS			hypothetical protein
+GPFGEMDG_00232	CDS	anr		Transcriptional activator protein Anr
+GPFGEMDG_00233	CDS			hypothetical protein
+GPFGEMDG_00234	CDS	dhaL	2.7.-.-	PTS-dependent dihydroxyacetone kinase, ADP-binding subunit DhaL
+GPFGEMDG_00235	CDS	dhaK	2.7.-.-	PTS-dependent dihydroxyacetone kinase, dihydroxyacetone-binding subunit DhaK
+GPFGEMDG_00236	CDS	dhaM	3.5.1.-	Protein-lysine deacetylase
+GPFGEMDG_00237	CDS			hypothetical protein
+GPFGEMDG_00238	CDS			hypothetical protein
+GPFGEMDG_00239	CDS	pgaC	2.4.1.-	Poly-beta-1,6-N-acetyl-D-glucosamine synthase
+GPFGEMDG_00240	CDS			hypothetical protein
+GPFGEMDG_00241	CDS			hypothetical protein
+GPFGEMDG_00242	CDS	helD_1	3.6.4.12	DNA helicase IV
+GPFGEMDG_00243	CDS	cdr_1	1.8.1.14	Coenzyme A disulfide reductase
+GPFGEMDG_00244	CDS	moeZ		putative adenylyltransferase/sulfurtransferase MoeZ
+GPFGEMDG_00245	CDS	ricR		Copper-sensing transcriptional repressor RicR
+GPFGEMDG_00246	CDS			hypothetical protein
+GPFGEMDG_00247	CDS	pgsA1	2.7.8.5	Putative CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyl-transferase 1
+GPFGEMDG_00248	CDS	mutS2_1	3.1.-.-	Endonuclease MutS2
+GPFGEMDG_00249	CDS	glpF		Glycerol uptake facilitator protein
+GPFGEMDG_00250	CDS	glpO	1.1.3.21	Alpha-glycerophosphate oxidase
+GPFGEMDG_00251	CDS	glpK	2.7.1.30	Glycerol kinase
+GPFGEMDG_00252	CDS			hypothetical protein
+GPFGEMDG_00253	CDS	npr_2	1.11.1.1	NADH peroxidase
+GPFGEMDG_00254	CDS	hchA	4.2.1.130	Molecular chaperone Hsp31 and glyoxalase 3
+GPFGEMDG_00255	CDS		1.-.-.-	putative oxidoreductase
+GPFGEMDG_00256	CDS			hypothetical protein
+GPFGEMDG_00257	CDS	malL_1	3.2.1.10	Oligo-1,6-glucosidase
+GPFGEMDG_00258	CDS	pbuG		Guanine/hypoxanthine permease PbuG
+GPFGEMDG_00259	CDS			hypothetical protein
+GPFGEMDG_00260	CDS			hypothetical protein
+GPFGEMDG_00261	CDS			hypothetical protein
+GPFGEMDG_00262	CDS			hypothetical protein
+GPFGEMDG_00263	CDS	paiA	2.3.1.57	Spermidine/spermine N(1)-acetyltransferase
+GPFGEMDG_00264	CDS	hosA		Transcriptional regulator HosA
+GPFGEMDG_00265	CDS			hypothetical protein
+GPFGEMDG_00266	CDS	ulaB_1	2.7.1.194	Ascorbate-specific PTS system EIIB component
+GPFGEMDG_00267	CDS	cmtB_1	2.7.1.197	Mannitol-specific cryptic phosphotransferase enzyme IIA component
+GPFGEMDG_00268	CDS	manR_1		Transcriptional regulator ManR
+GPFGEMDG_00269	CDS			hypothetical protein
+GPFGEMDG_00270	CDS	sstT		Serine/threonine transporter SstT
+GPFGEMDG_00271	CDS			hypothetical protein
+GPFGEMDG_00272	CDS			hypothetical protein
+GPFGEMDG_00273	CDS			hypothetical protein
+GPFGEMDG_00274	CDS			hypothetical protein
+GPFGEMDG_00275	CDS			hypothetical protein
+GPFGEMDG_00276	CDS	gmuE_1	2.7.1.4	Putative fructokinase
+GPFGEMDG_00277	CDS			hypothetical protein
+GPFGEMDG_00278	CDS			hypothetical protein
+GPFGEMDG_00279	CDS	manZ_1		PTS system mannose-specific EIID component
+GPFGEMDG_00280	CDS	agaC		N-acetylgalactosamine permease IIC component 1
+GPFGEMDG_00281	CDS	sorB_1	2.7.1.206	PTS system sorbose-specific EIIB component
+GPFGEMDG_00282	CDS	dgaR_1		Transcriptional regulatory protein DagR
+GPFGEMDG_00283	CDS			hypothetical protein
+GPFGEMDG_00284	CDS			hypothetical protein
+GPFGEMDG_00285	CDS			hypothetical protein
+GPFGEMDG_00286	CDS			hypothetical protein
+GPFGEMDG_00287	CDS	pinR	3.1.22.-	Serine recombinase PinR
+GPFGEMDG_00288	CDS			hypothetical protein
+GPFGEMDG_00289	CDS			hypothetical protein
+GPFGEMDG_00290	CDS			hypothetical protein
+GPFGEMDG_00291	CDS			hypothetical protein
+GPFGEMDG_00292	CDS			hypothetical protein
+GPFGEMDG_00293	CDS			hypothetical protein
+GPFGEMDG_00294	CDS			hypothetical protein
+GPFGEMDG_00295	CDS			hypothetical protein
+GPFGEMDG_00296	CDS			hypothetical protein
+GPFGEMDG_00297	CDS			hypothetical protein
+GPFGEMDG_00298	CDS			hypothetical protein
+GPFGEMDG_00299	CDS			hypothetical protein
+GPFGEMDG_00300	CDS			hypothetical protein
+GPFGEMDG_00301	CDS			hypothetical protein
+GPFGEMDG_00302	CDS	ymfD		Bacillibactin exporter
+GPFGEMDG_00303	CDS	agaSK_1		Bifunctional alpha-galactosidase/sucrose kinase AgaSK
+GPFGEMDG_00304	CDS	melR		Melibiose operon regulatory protein
+GPFGEMDG_00305	CDS			hypothetical protein
+GPFGEMDG_00306	CDS			hypothetical protein
+GPFGEMDG_00307	CDS			hypothetical protein
+GPFGEMDG_00308	CDS			hypothetical protein
+GPFGEMDG_00309	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+GPFGEMDG_00310	CDS	htrA	3.4.21.107	Serine protease Do-like HtrA
+GPFGEMDG_00311	CDS	pheT_1	6.1.1.20	Phenylalanine--tRNA ligase beta subunit
+GPFGEMDG_00312	CDS			Putative universal stress protein
+GPFGEMDG_00313	CDS	ytpP		Thioredoxin-like protein YtpP
+GPFGEMDG_00314	CDS	pepA	3.4.11.7	Glutamyl aminopeptidase
+GPFGEMDG_00315	CDS			hypothetical protein
+GPFGEMDG_00316	CDS	ppm1	2.4.1.-	Polyprenol monophosphomannose synthase
+GPFGEMDG_00317	CDS		1.2.1.97	3-sulfolactaldehyde dehydrogenase
+GPFGEMDG_00318	CDS			hypothetical protein
+GPFGEMDG_00319	CDS	pepV	3.4.13.-	Beta-Ala-Xaa dipeptidase
+GPFGEMDG_00320	CDS	nnrD	4.2.1.136	ADP-dependent (S)-NAD(P)H-hydrate dehydratase
+GPFGEMDG_00321	CDS		3.1.-.-	Putative esterase
+GPFGEMDG_00322	CDS			hypothetical protein
+GPFGEMDG_00323	CDS	rspR_1		HTH-type transcriptional repressor RspR
+GPFGEMDG_00324	CDS			hypothetical protein
+GPFGEMDG_00325	CDS	apc1	6.4.1.8	Acetophenone carboxylase alpha subunit
+GPFGEMDG_00326	CDS			hypothetical protein
+GPFGEMDG_00327	CDS	rplT		50S ribosomal protein L20
+GPFGEMDG_00328	CDS	rpmI		50S ribosomal protein L35
+GPFGEMDG_00329	CDS	infC		Translation initiation factor IF-3
+GPFGEMDG_00330	CDS	mfpA		Pentapeptide repeat protein MfpA
+GPFGEMDG_00331	CDS	corA_1		Cobalt/magnesium transport protein CorA
+GPFGEMDG_00332	CDS		2.7.1.113	Deoxyguanosine kinase
+GPFGEMDG_00333	CDS	galK_2	2.7.1.6	Galactokinase
+GPFGEMDG_00334	CDS	thrB	2.7.1.39	Homoserine kinase
+GPFGEMDG_00335	CDS		2.7.4.2	Phosphomevalonate kinase
+GPFGEMDG_00336	CDS	fni	5.3.3.2	Isopentenyl-diphosphate delta-isomerase
+GPFGEMDG_00337	CDS	gno	1.1.1.69	Gluconate 5-dehydrogenase
+GPFGEMDG_00338	CDS	hdhA	1.1.1.159	7-alpha-hydroxysteroid dehydrogenase
+GPFGEMDG_00339	CDS	kduI1	5.3.1.17	4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase 1
+GPFGEMDG_00340	CDS	kdgK	2.7.1.45	2-dehydro-3-deoxygluconokinase
+GPFGEMDG_00341	CDS	kdgA		KHG/KDPG aldolase
+GPFGEMDG_00342	CDS	iclR		Transcriptional repressor IclR
+GPFGEMDG_00343	CDS	fucO	1.1.1.77	Lactaldehyde reductase
+GPFGEMDG_00344	CDS	rhaM	5.1.3.32	L-rhamnose mutarotase
+GPFGEMDG_00345	CDS	rhaD	4.1.2.19	Rhamnulose-1-phosphate aldolase
+GPFGEMDG_00346	CDS	rhaA	5.3.1.14	L-rhamnose isomerase
+GPFGEMDG_00347	CDS	rhaB	2.7.1.5	Rhamnulokinase
+GPFGEMDG_00348	CDS			hypothetical protein
+GPFGEMDG_00349	CDS			hypothetical protein
+GPFGEMDG_00350	CDS	adhE		Aldehyde-alcohol dehydrogenase
+GPFGEMDG_00351	CDS			hypothetical protein
+GPFGEMDG_00352	CDS			hypothetical protein
+GPFGEMDG_00353	CDS	tgt	2.4.2.29	Queuine tRNA-ribosyltransferase
+GPFGEMDG_00354	CDS			hypothetical protein
+GPFGEMDG_00355	CDS		3.6.3.8	Calcium-transporting ATPase 1
+GPFGEMDG_00356	CDS	yoaB	3.6.3.8	Calcium-transporting ATPase 1
+GPFGEMDG_00357	CDS	queA	2.4.99.17	S-adenosylmethionine:tRNA ribosyltransferase-isomerase
+GPFGEMDG_00358	CDS	opuCA_1	3.6.3.32	Carnitine transport ATP-binding protein OpuCA
+GPFGEMDG_00359	CDS	opuCB		Carnitine transport permease protein OpuCB
+GPFGEMDG_00360	CDS	opuCC		Glycine betaine/carnitine/choline-binding protein OpuCC
+GPFGEMDG_00361	CDS	opuCD		Glycine betaine/carnitine/choline transport system permease protein OpuCD
+GPFGEMDG_00362	CDS			hypothetical protein
+GPFGEMDG_00363	CDS			hypothetical protein
+GPFGEMDG_00364	CDS			hypothetical protein
+GPFGEMDG_00365	CDS			hypothetical protein
+GPFGEMDG_00366	CDS			hypothetical protein
+GPFGEMDG_00367	CDS	smc_1		Chromosome partition protein Smc
+GPFGEMDG_00368	CDS			Zinc-type alcohol dehydrogenase-like protein
+GPFGEMDG_00369	CDS	rpsN2_1		Alternate 30S ribosomal protein S14
+GPFGEMDG_00370	CDS	ndoA	3.1.27.-	Endoribonuclease EndoA
+GPFGEMDG_00371	CDS	alr	5.1.1.1	Alanine racemase
+GPFGEMDG_00372	CDS	acpS	2.7.8.7	Holo-[acyl-carrier-protein] synthase
+GPFGEMDG_00373	CDS	cshA	3.6.4.13	ATP-dependent RNA helicase CshA
+GPFGEMDG_00374	CDS	murF_1	6.3.2.10	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+GPFGEMDG_00375	CDS	ddl_1	6.3.2.4	D-alanine--D-alanine ligase
+GPFGEMDG_00376	CDS	ubiB	2.7.-.-	putative protein kinase UbiB
+GPFGEMDG_00377	CDS			hypothetical protein
+GPFGEMDG_00378	CDS			hypothetical protein
+GPFGEMDG_00379	CDS		2.3.1.-	putative N-acetyltransferase
+GPFGEMDG_00380	CDS	ydjZ		TVP38/TMEM64 family inner membrane protein YdjZ
+GPFGEMDG_00381	CDS			hypothetical protein
+GPFGEMDG_00382	CDS			hypothetical protein
+GPFGEMDG_00383	CDS	udk	2.7.1.48	Uridine kinase
+GPFGEMDG_00384	CDS	yfnB_1	3.-.-.-	Putative HAD-hydrolase YfnB
+GPFGEMDG_00385	CDS	rsuA	5.4.99.19	Ribosomal small subunit pseudouridine synthase A
+GPFGEMDG_00386	CDS	ctc		General stress protein CTC
+GPFGEMDG_00387	CDS			hypothetical protein
+GPFGEMDG_00388	CDS	dinF		DNA damage-inducible protein F
+GPFGEMDG_00389	CDS	corC_1		Magnesium and cobalt efflux protein CorC
+GPFGEMDG_00390	CDS	kup		Low affinity potassium transport system protein kup
+GPFGEMDG_00391	CDS			hypothetical protein
+GPFGEMDG_00392	CDS	pnp	2.7.7.8	Polyribonucleotide nucleotidyltransferase
+GPFGEMDG_00393	CDS	rpsO		30S ribosomal protein S15
+GPFGEMDG_00394	CDS	def_1	3.5.1.88	Peptide deformylase
+GPFGEMDG_00395	CDS	nadR		Transcription repressor NadR
+GPFGEMDG_00396	CDS	maa	2.3.1.79	Maltose O-acetyltransferase
+GPFGEMDG_00397	CDS	cobB	3.5.1.-	NAD-dependent protein deacetylase
+GPFGEMDG_00398	CDS			hypothetical protein
+GPFGEMDG_00399	CDS			hypothetical protein
+GPFGEMDG_00400	CDS	glnP_1		Glutamine transport system permease protein GlnP
+GPFGEMDG_00401	CDS	artM_2		Arginine transport ATP-binding protein ArtM
+GPFGEMDG_00402	CDS	cycA		D-serine/D-alanine/glycine transporter
+GPFGEMDG_00403	CDS			hypothetical protein
+GPFGEMDG_00404	CDS	brnQ_1		Branched-chain amino acid transport system 2 carrier protein
+GPFGEMDG_00405	CDS			hypothetical protein
+GPFGEMDG_00406	CDS			hypothetical protein
+GPFGEMDG_00407	CDS	yfkJ	3.1.3.48	Low molecular weight protein-tyrosine-phosphatase YfkJ
+GPFGEMDG_00408	CDS	dhaS		HTH-type dhaKLM operon transcriptional activator DhaS
+GPFGEMDG_00409	CDS	ruvB	3.6.4.12	Holliday junction ATP-dependent DNA helicase RuvB
+GPFGEMDG_00410	CDS	ruvA	3.6.4.12	Holliday junction ATP-dependent DNA helicase RuvA
+GPFGEMDG_00411	CDS	msrB	1.8.4.12	Peptide methionine sulfoxide reductase MsrB
+GPFGEMDG_00412	CDS	treR		HTH-type transcriptional regulator TreR
+GPFGEMDG_00413	CDS	treB		PTS system trehalose-specific EIIBC component
+GPFGEMDG_00414	CDS	maf		Septum formation protein Maf
+GPFGEMDG_00415	CDS	mutL		DNA mismatch repair protein MutL
+GPFGEMDG_00416	CDS	mutS_1		DNA mismatch repair protein MutS
+GPFGEMDG_00417	CDS			hypothetical protein
+GPFGEMDG_00418	CDS			hypothetical protein
+GPFGEMDG_00419	CDS			Putative bifunctional phosphatase/peptidyl-prolyl cis-trans isomerase
+GPFGEMDG_00420	CDS			hypothetical protein
+GPFGEMDG_00421	CDS	nirC		Nitrite transporter NirC
+GPFGEMDG_00422	CDS	rpsD		30S ribosomal protein S4
+GPFGEMDG_00423	CDS	bioY2		Biotin transporter BioY2
+GPFGEMDG_00424	CDS	queT_1		Queuosine precursor transporter QueT
+GPFGEMDG_00425	CDS	bacC	1.1.1.385	Dihydroanticapsin 7-dehydrogenase
+GPFGEMDG_00426	CDS			hypothetical protein
+GPFGEMDG_00427	CDS			hypothetical protein
+GPFGEMDG_00428	CDS	yohK		Inner membrane protein YohK
+GPFGEMDG_00429	CDS	lrgA		Antiholin-like protein LrgA
+GPFGEMDG_00430	CDS	gla		Glycerol facilitator-aquaporin gla
+GPFGEMDG_00431	CDS			hypothetical protein
+GPFGEMDG_00432	CDS			Pesticidal crystal protein Cry22Aa
+GPFGEMDG_00433	CDS			hypothetical protein
+GPFGEMDG_00434	CDS			hypothetical protein
+GPFGEMDG_00435	CDS	cpdA_2	3.1.4.53	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+GPFGEMDG_00436	CDS			hypothetical protein
+GPFGEMDG_00437	CDS			hypothetical protein
+GPFGEMDG_00438	CDS			hypothetical protein
+GPFGEMDG_00439	CDS			hypothetical protein
+GPFGEMDG_00440	CDS			hypothetical protein
+GPFGEMDG_00441	CDS	yclQ		putative ABC transporter solute-binding protein YclQ
+GPFGEMDG_00442	CDS	fhuC	3.6.3.34	Iron(3+)-hydroxamate import ATP-binding protein FhuC
+GPFGEMDG_00443	CDS	hmuU		Hemin transport system permease protein HmuU
+GPFGEMDG_00444	CDS	feuB_1		Iron-uptake system permease protein FeuB
+GPFGEMDG_00445	CDS			hypothetical protein
+GPFGEMDG_00446	CDS	gshAB		Glutathione biosynthesis bifunctional protein GshAB
+GPFGEMDG_00447	CDS	ftsY		Signal recognition particle receptor FtsY
+GPFGEMDG_00448	CDS	yidA_1	3.1.3.23	Sugar phosphatase YidA
+GPFGEMDG_00449	CDS	smc_2		Chromosome partition protein Smc
+GPFGEMDG_00450	CDS	rnc	3.1.26.3	Ribonuclease 3
+GPFGEMDG_00451	CDS	appA		Oligopeptide-binding protein AppA
+GPFGEMDG_00452	CDS			Putative peptide transport permease protein
+GPFGEMDG_00453	CDS	gsiC		Glutathione transport system permease protein GsiC
+GPFGEMDG_00454	CDS	oppF_1		Oligopeptide transport ATP-binding protein OppF
+GPFGEMDG_00455	CDS	oppD_1		Oligopeptide transport ATP-binding protein OppD
+GPFGEMDG_00456	CDS			hypothetical protein
+GPFGEMDG_00457	CDS	acpP		Acyl carrier protein
+GPFGEMDG_00458	CDS	plsX	2.3.1.-	Phosphate acyltransferase
+GPFGEMDG_00459	CDS	recG	3.6.4.12	ATP-dependent DNA helicase RecG
+GPFGEMDG_00460	CDS			hypothetical protein
+GPFGEMDG_00461	CDS			hypothetical protein
+GPFGEMDG_00462	CDS	rpmB		50S ribosomal protein L28
+GPFGEMDG_00463	CDS			hypothetical protein
+GPFGEMDG_00464	CDS			hypothetical protein
+GPFGEMDG_00465	CDS			hypothetical protein
+GPFGEMDG_00466	CDS			hypothetical protein
+GPFGEMDG_00467	CDS			hypothetical protein
+GPFGEMDG_00468	CDS			hypothetical protein
+GPFGEMDG_00469	CDS			hypothetical protein
+GPFGEMDG_00470	CDS	lrpC		HTH-type transcriptional regulator LrpC
+GPFGEMDG_00471	CDS			hypothetical protein
+GPFGEMDG_00472	CDS	truA	5.4.99.12	tRNA pseudouridine synthase A
+GPFGEMDG_00473	CDS	ecfT		Energy-coupling factor transporter transmembrane protein EcfT
+GPFGEMDG_00474	CDS	ecfA2_1	3.6.3.-	Energy-coupling factor transporter ATP-binding protein EcfA2
+GPFGEMDG_00475	CDS	ecfA1	3.6.3.-	Energy-coupling factor transporter ATP-binding protein EcfA1
+GPFGEMDG_00476	CDS	rplQ		50S ribosomal protein L17
+GPFGEMDG_00477	CDS	rpoA	2.7.7.6	DNA-directed RNA polymerase subunit alpha
+GPFGEMDG_00478	CDS	rpsK		30S ribosomal protein S11
+GPFGEMDG_00479	CDS	rpsM		30S ribosomal protein S13
+GPFGEMDG_00480	CDS	rpmJ		50S ribosomal protein L36
+GPFGEMDG_00481	CDS	infA		Translation initiation factor IF-1
+GPFGEMDG_00482	CDS	adk	2.7.4.3	Adenylate kinase
+GPFGEMDG_00483	CDS	secY		Protein translocase subunit SecY
+GPFGEMDG_00484	CDS	rplO		50S ribosomal protein L15
+GPFGEMDG_00485	CDS	rpmD		50S ribosomal protein L30
+GPFGEMDG_00486	CDS	rpsE		30S ribosomal protein S5
+GPFGEMDG_00487	CDS	rplR		50S ribosomal protein L18
+GPFGEMDG_00488	CDS	rplF		50S ribosomal protein L6
+GPFGEMDG_00489	CDS	rpsH		30S ribosomal protein S8
+GPFGEMDG_00490	CDS	rpsN1		30S ribosomal protein S14
+GPFGEMDG_00491	CDS	rplE		50S ribosomal protein L5
+GPFGEMDG_00492	CDS	rplX		50S ribosomal protein L24
+GPFGEMDG_00493	CDS	rplN		50S ribosomal protein L14
+GPFGEMDG_00494	CDS	rpsQ		30S ribosomal protein S17
+GPFGEMDG_00495	CDS	rpmC		50S ribosomal protein L29
+GPFGEMDG_00496	CDS	rplP		50S ribosomal protein L16
+GPFGEMDG_00497	CDS	rpsC		30S ribosomal protein S3
+GPFGEMDG_00498	CDS	rplV		50S ribosomal protein L22
+GPFGEMDG_00499	CDS	rpsS		30S ribosomal protein S19
+GPFGEMDG_00500	CDS	rplB		50S ribosomal protein L2
+GPFGEMDG_00501	CDS	rplW		50S ribosomal protein L23
+GPFGEMDG_00502	CDS	rplD		50S ribosomal protein L4
+GPFGEMDG_00503	CDS	rplC		50S ribosomal protein L3
+GPFGEMDG_00504	CDS	rpsJ		30S ribosomal protein S10
+GPFGEMDG_00505	CDS	tuf_1		Elongation factor Tu
+GPFGEMDG_00506	CDS	fus		Elongation factor G
+GPFGEMDG_00507	CDS	rpsG		30S ribosomal protein S7
+GPFGEMDG_00508	CDS	rpsL		30S ribosomal protein S12
+GPFGEMDG_00509	CDS	rpiA	5.3.1.6	Ribose-5-phosphate isomerase A
+GPFGEMDG_00510	CDS	hin		DNA-invertase hin
+GPFGEMDG_00511	CDS	gpmA_1	5.4.2.11	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+GPFGEMDG_00512	CDS	deoD	2.4.2.1	Purine nucleoside phosphorylase DeoD-type
+GPFGEMDG_00513	CDS	punA	2.4.2.1	Purine nucleoside phosphorylase 1
+GPFGEMDG_00514	CDS	deoB	5.4.2.7	Phosphopentomutase
+GPFGEMDG_00515	CDS			hypothetical protein
+GPFGEMDG_00516	CDS			hypothetical protein
+GPFGEMDG_00517	CDS	mglA	3.6.3.17	Galactose/methyl galactoside import ATP-binding protein MglA
+GPFGEMDG_00518	CDS	tmpC		Membrane lipoprotein TmpC
+GPFGEMDG_00519	CDS	cdd	3.5.4.5	Cytidine deaminase
+GPFGEMDG_00520	CDS	deoC	4.1.2.4	Deoxyribose-phosphate aldolase
+GPFGEMDG_00521	CDS	pdp	2.4.2.2	Pyrimidine-nucleoside phosphorylase
+GPFGEMDG_00522	CDS	degA_2		HTH-type transcriptional regulator DegA
+GPFGEMDG_00523	CDS	rsmC	2.1.1.172	Ribosomal RNA small subunit methyltransferase C
+GPFGEMDG_00524	CDS	coaA	2.7.1.33	Pantothenate kinase
+GPFGEMDG_00525	CDS	guaA_1	6.3.5.2	GMP synthase [glutamine-hydrolyzing]
+GPFGEMDG_00526	CDS	ganB	3.2.1.89	Arabinogalactan endo-beta-1,4-galactanase
+GPFGEMDG_00527	CDS	lacE_1		PTS system lactose-specific EIICB component
+GPFGEMDG_00528	CDS	lacF_2	2.7.1.207	PTS system lactose-specific EIIA component
+GPFGEMDG_00529	CDS	lacG_1	3.2.1.85	6-phospho-beta-galactosidase
+GPFGEMDG_00530	CDS	lacR_1		Lactose phosphotransferase system repressor
+GPFGEMDG_00531	CDS	yvdM_1	5.4.2.6	Beta-phosphoglucomutase
+GPFGEMDG_00532	CDS			hypothetical protein
+GPFGEMDG_00533	CDS			hypothetical protein
+GPFGEMDG_00534	CDS			hypothetical protein
+GPFGEMDG_00535	CDS			hypothetical protein
+GPFGEMDG_00536	CDS			hypothetical protein
+GPFGEMDG_00537	CDS			hypothetical protein
+GPFGEMDG_00538	CDS			hypothetical protein
+GPFGEMDG_00539	CDS			hypothetical protein
+GPFGEMDG_00540	CDS			hypothetical protein
+GPFGEMDG_00541	CDS			hypothetical protein
+GPFGEMDG_00542	CDS	zupT		Zinc transporter ZupT
+GPFGEMDG_00543	CDS	pox5	1.2.3.3	Pyruvate oxidase
+GPFGEMDG_00544	CDS			hypothetical protein
+GPFGEMDG_00545	CDS	ybiT_1		putative ABC transporter ATP-binding protein YbiT
+GPFGEMDG_00546	CDS			DegV domain-containing protein
+GPFGEMDG_00547	CDS	purA	6.3.4.4	Adenylosuccinate synthetase
+GPFGEMDG_00548	CDS	dnaC	3.6.4.12	Replicative DNA helicase
+GPFGEMDG_00549	CDS	rplI		50S ribosomal protein L9
+GPFGEMDG_00550	CDS	gdpP	3.1.4.-	Cyclic-di-AMP phosphodiesterase GdpP
+GPFGEMDG_00551	CDS	rpsR		30S ribosomal protein S18
+GPFGEMDG_00552	CDS	ssb_1		Single-stranded DNA-binding protein
+GPFGEMDG_00553	CDS	rpsF		30S ribosomal protein S6
+GPFGEMDG_00554	CDS	gyrA	5.99.1.3	DNA gyrase subunit A
+GPFGEMDG_00555	CDS	gyrB	5.99.1.3	DNA gyrase subunit B
+GPFGEMDG_00556	CDS	recF		DNA replication and repair protein RecF
+GPFGEMDG_00557	CDS			hypothetical protein
+GPFGEMDG_00558	CDS	dnaN	2.7.7.7	DNA polymerase III subunit beta
+GPFGEMDG_00559	CDS	dnaA		Chromosomal replication initiator protein DnaA
+GPFGEMDG_00560	CDS	rpmH		50S ribosomal protein L34
+GPFGEMDG_00561	CDS	rnpA	3.1.26.5	Ribonuclease P protein component
+GPFGEMDG_00562	CDS	misCA		Membrane protein insertase MisCA
+GPFGEMDG_00563	CDS			hypothetical protein
+GPFGEMDG_00564	CDS			hypothetical protein
+GPFGEMDG_00565	CDS	mnmE	3.6.-.-	tRNA modification GTPase MnmE
+GPFGEMDG_00566	CDS	mnmG_1		tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+GPFGEMDG_00567	CDS	rsmG	2.1.1.-	Ribosomal RNA small subunit methyltransferase G
+GPFGEMDG_00568	CDS	soj_1	3.6.-.-	Sporulation initiation inhibitor protein Soj
+GPFGEMDG_00569	CDS	parB		putative chromosome-partitioning protein ParB
+GPFGEMDG_00570	CDS			hypothetical protein
+GPFGEMDG_00571	CDS	ychF		Ribosome-binding ATPase YchF
+GPFGEMDG_00572	CDS			hypothetical protein
+GPFGEMDG_00573	CDS	guaB	1.1.1.205	Inosine-5'-monophosphate dehydrogenase
+GPFGEMDG_00574	CDS	serS	6.1.1.11	Serine--tRNA ligase
+GPFGEMDG_00575	CDS	walK_1	2.7.13.3	Sensor protein kinase WalK
+GPFGEMDG_00576	CDS	srrA_1		Transcriptional regulatory protein SrrA
+GPFGEMDG_00577	rRNA			16S ribosomal RNA
+GPFGEMDG_00578	rRNA			23S ribosomal RNA
+GPFGEMDG_00579	rRNA			5S ribosomal RNA
+GPFGEMDG_00580	tRNA			tRNA-Val(tac)
+GPFGEMDG_00581	tRNA			tRNA-Lys(ttt)
+GPFGEMDG_00582	tRNA			tRNA-Leu(tag)
+GPFGEMDG_00583	tRNA			tRNA-Thr(tgt)
+GPFGEMDG_00584	tRNA			tRNA-Gly(gcc)
+GPFGEMDG_00585	tRNA			tRNA-Leu(taa)
+GPFGEMDG_00586	tRNA			tRNA-Arg(acg)
+GPFGEMDG_00587	tRNA			tRNA-Pro(tgg)
+GPFGEMDG_00588	tRNA			tRNA-Arg(acg)
+GPFGEMDG_00589	CDS	ctsR		Transcriptional regulator CtsR
+GPFGEMDG_00590	CDS	clpC		Negative regulator of genetic competence ClpC/MecB
+GPFGEMDG_00591	CDS	ydcP_1	3.4.-.-	putative protease YdcP
+GPFGEMDG_00592	CDS	ydcP_2	3.4.-.-	putative protease YdcP
+GPFGEMDG_00593	CDS	gor	1.8.1.7	Glutathione reductase
+GPFGEMDG_00594	CDS	menA	2.5.1.74	1,4-dihydroxy-2-naphthoate octaprenyltransferase
+GPFGEMDG_00595	CDS	apbE	2.7.1.180	FAD:protein FMN transferase
+GPFGEMDG_00596	CDS			hypothetical protein
+GPFGEMDG_00597	CDS	yjlD	1.6.99.-	NADH dehydrogenase-like protein YjlD
+GPFGEMDG_00598	CDS			hypothetical protein
+GPFGEMDG_00599	CDS			hypothetical protein
+GPFGEMDG_00600	CDS	hepT	2.5.1.30	Heptaprenyl diphosphate synthase component 2
+GPFGEMDG_00601	CDS			hypothetical protein
+GPFGEMDG_00602	CDS			hypothetical protein
+GPFGEMDG_00603	CDS	birA	6.3.4.15	Bifunctional ligase/repressor BirA
+GPFGEMDG_00604	CDS	yxdL_1		ABC transporter ATP-binding protein YxdL
+GPFGEMDG_00605	CDS	lsrC_1		Autoinducer 2 import system permease protein LsrC
+GPFGEMDG_00606	CDS			hypothetical protein
+GPFGEMDG_00607	CDS	rpoB	2.7.7.6	DNA-directed RNA polymerase subunit beta
+GPFGEMDG_00608	CDS	rpoC	2.7.7.6	DNA-directed RNA polymerase subunit beta'
+GPFGEMDG_00609	CDS	purR_1		HTH-type transcriptional repressor PurR
+GPFGEMDG_00610	CDS		2.4.1.329	Sucrose 6(F)-phosphate phosphorylase
+GPFGEMDG_00611	CDS	msmE		Multiple sugar-binding protein
+GPFGEMDG_00612	CDS	ycjO		Inner membrane ABC transporter permease protein YcjO
+GPFGEMDG_00613	CDS	ycjP		Inner membrane ABC transporter permease protein YcjP
+GPFGEMDG_00614	CDS	adh	1.1.1.1	Alcohol dehydrogenase
+GPFGEMDG_00615	CDS		5.1.3.30	D-psicose 3-epimerase
+GPFGEMDG_00616	CDS	rifL	1.1.1.-	Putative UDP-kanosamine synthase oxidoreductase subunit
+GPFGEMDG_00617	CDS	kojP	2.4.1.230	Kojibiose phosphorylase
+GPFGEMDG_00618	CDS	glxK	2.7.1.31	Glycerate kinase
+GPFGEMDG_00619	CDS	yvdM_2	5.4.2.6	Beta-phosphoglucomutase
+GPFGEMDG_00620	CDS	msrA_1	1.8.4.11	Peptide methionine sulfoxide reductase MsrA
+GPFGEMDG_00621	CDS	comC		Type 4 prepilin-like proteins leader peptide-processing enzyme
+GPFGEMDG_00622	CDS	xylB_1	2.7.1.17	Xylulose kinase
+GPFGEMDG_00623	CDS	dps	1.16.-.-	DNA protection during starvation protein
+GPFGEMDG_00624	CDS	rplM		50S ribosomal protein L13
+GPFGEMDG_00625	CDS	rpsI		30S ribosomal protein S9
+GPFGEMDG_00626	CDS	xerD_1		Tyrosine recombinase XerD
+GPFGEMDG_00627	CDS	znuC_2	3.6.3.-	High-affinity zinc uptake system ATP-binding protein ZnuC
+GPFGEMDG_00628	CDS			hypothetical protein
+GPFGEMDG_00629	CDS	mntB_2		Manganese transport system membrane protein MntB
+GPFGEMDG_00630	CDS	ssaB_2		Manganese ABC transporter substrate-binding lipoprotein
+GPFGEMDG_00631	CDS	mntR		Transcriptional regulator MntR
+GPFGEMDG_00632	CDS			hypothetical protein
+GPFGEMDG_00633	CDS			hypothetical protein
+GPFGEMDG_00634	CDS			hypothetical protein
+GPFGEMDG_00635	CDS	ykoD	3.6.3.-	Putative HMP/thiamine import ATP-binding protein YkoD
+GPFGEMDG_00636	CDS			hypothetical protein
+GPFGEMDG_00637	CDS	irtA	3.6.3.-	Iron import ATP-binding/permease protein IrtA
+GPFGEMDG_00638	CDS	ndvA	3.6.3.42	Beta-(1-->2)glucan export ATP-binding/permease protein NdvA
+GPFGEMDG_00639	CDS	rpsN2_2		Alternate 30S ribosomal protein S14
+GPFGEMDG_00640	CDS	rpmF_1		50S ribosomal protein L32
+GPFGEMDG_00641	CDS			hypothetical protein
+GPFGEMDG_00642	CDS	rpmGA_1		50S ribosomal protein L33 1
+GPFGEMDG_00643	CDS	yjiA		putative GTP-binding protein YjiA
+GPFGEMDG_00644	CDS			hypothetical protein
+GPFGEMDG_00645	CDS	znuA_2		High-affinity zinc uptake system binding-protein ZnuA
+GPFGEMDG_00646	CDS			hypothetical protein
+GPFGEMDG_00647	CDS			hypothetical protein
+GPFGEMDG_00648	CDS	yciC		Putative metal chaperone YciC
+GPFGEMDG_00649	CDS			hypothetical protein
+GPFGEMDG_00650	CDS			hypothetical protein
+GPFGEMDG_00651	CDS			hypothetical protein
+GPFGEMDG_00652	CDS			hypothetical protein
+GPFGEMDG_00653	CDS			hypothetical protein
+GPFGEMDG_00654	CDS	araC_2		Arabinose operon regulatory protein
+GPFGEMDG_00655	CDS			hypothetical protein
+GPFGEMDG_00656	CDS	bca		C protein alpha-antigen
+GPFGEMDG_00657	CDS	noxE	1.6.99.3	NADH oxidase
+GPFGEMDG_00658	CDS		3.2.1.-	Autolysin
+GPFGEMDG_00659	CDS			hypothetical protein
+GPFGEMDG_00660	CDS	ribZ_2		Riboflavin transporter RibZ
+GPFGEMDG_00661	CDS			hypothetical protein
+GPFGEMDG_00662	CDS			hypothetical protein
+GPFGEMDG_00663	CDS	pgdS	3.4.19.-	Gamma-DL-glutamyl hydrolase
+GPFGEMDG_00664	CDS			hypothetical protein
+GPFGEMDG_00665	CDS			hypothetical protein
+GPFGEMDG_00666	CDS			hypothetical protein
+GPFGEMDG_00667	CDS			hypothetical protein
+GPFGEMDG_00668	CDS	ltrA_1		Group II intron-encoded protein LtrA
+GPFGEMDG_00669	CDS			hypothetical protein
+GPFGEMDG_00670	CDS			hypothetical protein
+GPFGEMDG_00671	CDS			hypothetical protein
+GPFGEMDG_00672	CDS	banIM	2.1.1.37	Modification methylase BanI
+GPFGEMDG_00673	CDS	hhaIM	2.1.1.37	Modification methylase HhaI
+GPFGEMDG_00674	CDS			hypothetical protein
+GPFGEMDG_00675	CDS	pezT	2.7.1.176	Toxin PezT
+GPFGEMDG_00676	CDS			hypothetical protein
+GPFGEMDG_00677	CDS	ltrA_2		Group II intron-encoded protein LtrA
+GPFGEMDG_00678	CDS	ftsK_1		DNA translocase FtsK
+GPFGEMDG_00679	CDS			hypothetical protein
+GPFGEMDG_00680	CDS			hypothetical protein
+GPFGEMDG_00681	CDS			hypothetical protein
+GPFGEMDG_00682	CDS			hypothetical protein
+GPFGEMDG_00683	CDS			hypothetical protein
+GPFGEMDG_00684	CDS	rbbA		Ribosome-associated ATPase
+GPFGEMDG_00685	CDS			hypothetical protein
+GPFGEMDG_00686	CDS	arlR_1		Response regulator ArlR
+GPFGEMDG_00687	CDS	phoR_2	2.7.13.3	Alkaline phosphatase synthesis sensor protein PhoR
+GPFGEMDG_00688	CDS	mutS_2		DNA mismatch repair protein MutS
+GPFGEMDG_00689	CDS			hypothetical protein
+GPFGEMDG_00690	CDS	drrA	3.6.3.-	Daunorubicin/doxorubicin resistance ATP-binding protein DrrA
+GPFGEMDG_00691	CDS	yadH		Inner membrane transport permease YadH
+GPFGEMDG_00692	CDS	dus_1	1.3.1.-	putative tRNA-dihydrouridine synthase
+GPFGEMDG_00693	CDS			Zinc-type alcohol dehydrogenase-like protein
+GPFGEMDG_00694	CDS			hypothetical protein
+GPFGEMDG_00695	CDS	ygaZ_1		Inner membrane protein YgaZ
+GPFGEMDG_00696	CDS	xylB_2	2.7.1.17	Xylulose kinase
+GPFGEMDG_00697	CDS			hypothetical protein
+GPFGEMDG_00698	CDS	soxS		Regulatory protein SoxS
+GPFGEMDG_00699	CDS			hypothetical protein
+GPFGEMDG_00700	CDS	ywnA		Putative HTH-type transcriptional regulator YwnA
+GPFGEMDG_00701	CDS	qorB	1.6.5.2	Quinone oxidoreductase 2
+GPFGEMDG_00702	CDS			hypothetical protein
+GPFGEMDG_00703	CDS	ptsG_2	2.7.1.199	PTS system glucose-specific EIICBA component
+GPFGEMDG_00704	CDS	sacY		Levansucrase and sucrase synthesis operon antiterminator
+GPFGEMDG_00705	CDS	benM		HTH-type transcriptional regulator BenM
+GPFGEMDG_00706	CDS		2.3.1.-	Putative acetyltransferase
+GPFGEMDG_00707	CDS		1.-.-.-	putative oxidoreductase
+GPFGEMDG_00708	CDS		3.2.1.-	Autolysin
+GPFGEMDG_00709	CDS			putative HTH-type transcriptional regulator/GBAA_1941/BAS1801
+GPFGEMDG_00710	CDS	yodC_1	1.-.-.-	Putative NAD(P)H nitroreductase YodC
+GPFGEMDG_00711	CDS	yodC_2	1.-.-.-	Putative NAD(P)H nitroreductase YodC
+GPFGEMDG_00712	CDS	ettA_1		Energy-dependent translational throttle protein EttA
+GPFGEMDG_00713	CDS			hypothetical protein
+GPFGEMDG_00714	CDS			hypothetical protein
+GPFGEMDG_00715	CDS	yfmO_1		Multidrug efflux protein YfmO
+GPFGEMDG_00716	CDS	yfmO_2		Multidrug efflux protein YfmO
+GPFGEMDG_00717	CDS			hypothetical protein
+GPFGEMDG_00718	CDS			hypothetical protein
+GPFGEMDG_00719	CDS	proA	1.2.1.41	Gamma-glutamyl phosphate reductase
+GPFGEMDG_00720	CDS	proB	2.7.2.11	Glutamate 5-kinase 1
+GPFGEMDG_00721	CDS	dut	3.6.1.23	Deoxyuridine 5'-triphosphate nucleotidohydrolase
+GPFGEMDG_00722	CDS	radA	3.6.4.-	DNA repair protein RadA
+GPFGEMDG_00723	CDS	yacL	3.1.-.-	putative PIN and TRAM-domain containing protein YacL
+GPFGEMDG_00724	CDS	gltX	6.1.1.17	Glutamate--tRNA ligase
+GPFGEMDG_00725	CDS	cysE	2.3.1.30	Serine acetyltransferase
+GPFGEMDG_00726	CDS	cysS	6.1.1.16	Cysteine--tRNA ligase
+GPFGEMDG_00727	CDS	mrnC	3.1.26.-	Mini-ribonuclease 3
+GPFGEMDG_00728	CDS		2.1.1.-	Putative TrmH family tRNA/rRNA methyltransferase
+GPFGEMDG_00729	CDS			hypothetical protein
+GPFGEMDG_00730	CDS	sigH		RNA polymerase sigma-H factor
+GPFGEMDG_00731	CDS			hypothetical protein
+GPFGEMDG_00732	CDS		2.3.1.-	Acetyltransferase
+GPFGEMDG_00733	CDS	mscL		Large-conductance mechanosensitive channel
+GPFGEMDG_00734	CDS		3.4.24.-	putative zinc protease
+GPFGEMDG_00735	CDS	albF	3.4.24.-	Putative zinc protease AlbF
+GPFGEMDG_00736	CDS			hypothetical protein
+GPFGEMDG_00737	CDS	pgsA	2.7.8.5	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+GPFGEMDG_00738	CDS	cinA		Putative competence-damage inducible protein
+GPFGEMDG_00739	CDS	recA		Protein RecA
+GPFGEMDG_00740	CDS	rny_1	3.1.-.-	Ribonuclease Y
+GPFGEMDG_00741	CDS	proC	1.5.1.2	Pyrroline-5-carboxylate reductase
+GPFGEMDG_00742	CDS	mprF_1	2.3.2.3	Phosphatidylglycerol lysyltransferase
+GPFGEMDG_00743	CDS	ispE	2.7.1.148	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+GPFGEMDG_00744	CDS	znuA_3		High-affinity zinc uptake system binding-protein ZnuA
+GPFGEMDG_00745	CDS	znuC_3	3.6.3.-	High-affinity zinc uptake system ATP-binding protein ZnuC
+GPFGEMDG_00746	CDS	znuB		High-affinity zinc uptake system membrane protein ZnuB
+GPFGEMDG_00747	CDS	purR_2		Pur operon repressor
+GPFGEMDG_00748	CDS	glmU		Bifunctional protein GlmU
+GPFGEMDG_00749	CDS	prs	2.7.6.1	Ribose-phosphate pyrophosphokinase
+GPFGEMDG_00750	CDS	thiT		Thiamine transporter ThiT
+GPFGEMDG_00751	CDS			hypothetical protein
+GPFGEMDG_00752	CDS			hypothetical protein
+GPFGEMDG_00753	CDS			hypothetical protein
+GPFGEMDG_00754	CDS			hypothetical protein
+GPFGEMDG_00755	CDS			hypothetical protein
+GPFGEMDG_00756	CDS	gmk_1	2.7.4.8	Guanylate kinase
+GPFGEMDG_00757	CDS	rpoZ	2.7.7.6	DNA-directed RNA polymerase subunit omega
+GPFGEMDG_00758	CDS	priA	3.6.4.-	Primosomal protein N'
+GPFGEMDG_00759	CDS	def_2	3.5.1.88	Peptide deformylase
+GPFGEMDG_00760	CDS	fmt	2.1.2.9	Methionyl-tRNA formyltransferase
+GPFGEMDG_00761	CDS	rsmB	2.1.1.176	Ribosomal RNA small subunit methyltransferase B
+GPFGEMDG_00762	CDS	stp	3.1.3.16	Serine/threonine phosphatase stp
+GPFGEMDG_00763	CDS	prkC	2.7.11.1	Serine/threonine-protein kinase PrkC
+GPFGEMDG_00764	CDS	rsgA	3.6.1.-	Small ribosomal subunit biogenesis GTPase RsgA
+GPFGEMDG_00765	CDS	rpe_1	5.1.3.1	Ribulose-phosphate 3-epimerase
+GPFGEMDG_00766	CDS	thiN	2.7.6.2	Thiamine pyrophosphokinase
+GPFGEMDG_00767	CDS	mreC		Cell shape-determining protein MreC
+GPFGEMDG_00768	CDS			hypothetical protein
+GPFGEMDG_00769	CDS			Secreted 45 kDa protein
+GPFGEMDG_00770	CDS	pepF1_1	3.4.24.-	Oligoendopeptidase F, plasmid
+GPFGEMDG_00771	CDS			hypothetical protein
+GPFGEMDG_00772	CDS			putative transcriptional regulatory protein
+GPFGEMDG_00773	CDS	ldtA	2.3.2.-	L,D-transpeptidase 1
+GPFGEMDG_00774	CDS	ldh	1.1.1.27	L-lactate dehydrogenase
+GPFGEMDG_00775	CDS	pth	3.1.1.29	Peptidyl-tRNA hydrolase
+GPFGEMDG_00776	CDS	mfd	3.6.4.-	Transcription-repair-coupling factor
+GPFGEMDG_00777	CDS	murJ_1		Lipid II flippase MurJ
+GPFGEMDG_00778	CDS	hslR		Heat shock protein 15
+GPFGEMDG_00779	CDS	ftsL_1		Cell division protein FtsL
+GPFGEMDG_00780	CDS	yugI_1		General stress protein 13
+GPFGEMDG_00781	CDS	tilS	6.3.4.19	tRNA(Ile)-lysidine synthase
+GPFGEMDG_00782	CDS	hpt	2.4.2.8	Hypoxanthine-guanine phosphoribosyltransferase
+GPFGEMDG_00783	CDS	ftsH	3.4.24.-	ATP-dependent zinc metalloprotease FtsH
+GPFGEMDG_00784	CDS	hslO		33 kDa chaperonin
+GPFGEMDG_00785	CDS	dus_2	1.3.1.-	putative tRNA-dihydrouridine synthase
+GPFGEMDG_00786	CDS	lysS	6.1.1.6	Lysine--tRNA ligase
+GPFGEMDG_00787	CDS			hypothetical protein
+GPFGEMDG_00788	rRNA			16S ribosomal RNA
+GPFGEMDG_00789	tRNA			tRNA-Ala(tgc)
+GPFGEMDG_00790	rRNA			23S ribosomal RNA
+GPFGEMDG_00791	rRNA			5S ribosomal RNA
+GPFGEMDG_00792	tRNA			tRNA-Val(tac)
+GPFGEMDG_00793	tRNA			tRNA-Lys(ttt)
+GPFGEMDG_00794	tRNA			tRNA-Leu(tag)
+GPFGEMDG_00795	tRNA			tRNA-Thr(tgt)
+GPFGEMDG_00796	tRNA			tRNA-Gly(gcc)
+GPFGEMDG_00797	tRNA			tRNA-Leu(taa)
+GPFGEMDG_00798	tRNA			tRNA-Arg(acg)
+GPFGEMDG_00799	tRNA			tRNA-Pro(tgg)
+GPFGEMDG_00800	tRNA			tRNA-Ala(tgc)
+GPFGEMDG_00801	tRNA			tRNA-Met(cat)
+GPFGEMDG_00802	tRNA			tRNA-Met(cat)
+GPFGEMDG_00803	tRNA			tRNA-Ser(tga)
+GPFGEMDG_00804	tRNA			tRNA-Met(cat)
+GPFGEMDG_00805	tRNA			tRNA-Asp(gtc)
+GPFGEMDG_00806	tRNA			tRNA-Gly(tcc)
+GPFGEMDG_00807	tRNA			tRNA-Ile(gat)
+GPFGEMDG_00808	tRNA			tRNA-Ser(gct)
+GPFGEMDG_00809	tRNA			tRNA-Glu(ttc)
+GPFGEMDG_00810	tRNA			tRNA-Ser(tga)
+GPFGEMDG_00811	tRNA			tRNA-Met(cat)
+GPFGEMDG_00812	tRNA			tRNA-Asp(gtc)
+GPFGEMDG_00813	tRNA			tRNA-Phe(gaa)
+GPFGEMDG_00814	tRNA			tRNA-Gly(tcc)
+GPFGEMDG_00815	tRNA			tRNA-Ile(gat)
+GPFGEMDG_00816	tRNA			tRNA-Glu(ttc)
+GPFGEMDG_00817	CDS	metK	2.5.1.6	S-adenosylmethionine synthase
+GPFGEMDG_00818	CDS			hypothetical protein
+GPFGEMDG_00819	CDS	bmr3		Multidrug resistance protein 3
+GPFGEMDG_00820	CDS	frmB	3.1.2.12	S-formylglutathione hydrolase FrmB
+GPFGEMDG_00821	CDS	tetR		Tetracycline repressor protein class H
+GPFGEMDG_00822	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_00823	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_00824	CDS	rsmH_1	2.1.1.199	Ribosomal RNA small subunit methyltransferase H
+GPFGEMDG_00825	CDS			hypothetical protein
+GPFGEMDG_00826	CDS	bcrC	3.6.1.27	Undecaprenyl-diphosphatase BcrC
+GPFGEMDG_00827	CDS		3.2.1.17	Muramidase-2
+GPFGEMDG_00828	CDS	leuS	6.1.1.4	Leucine--tRNA ligase
+GPFGEMDG_00829	CDS	hcf136		Ycf48-like protein
+GPFGEMDG_00830	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_00831	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_00832	CDS			hypothetical protein
+GPFGEMDG_00833	CDS			hypothetical protein
+GPFGEMDG_00834	CDS			hypothetical protein
+GPFGEMDG_00835	CDS	sdrD		Serine-aspartate repeat-containing protein D
+GPFGEMDG_00836	CDS			hypothetical protein
+GPFGEMDG_00837	CDS			hypothetical protein
+GPFGEMDG_00838	CDS	celA_1	2.7.1.205	PTS system cellobiose-specific EIIB component
+GPFGEMDG_00839	CDS	licR_1		putative licABCH operon regulator
+GPFGEMDG_00840	CDS	licA_1	2.7.1.-	Lichenan-specific phosphotransferase enzyme IIA component
+GPFGEMDG_00841	CDS			hypothetical protein
+GPFGEMDG_00842	CDS	licC_1		Lichenan permease IIC component
+GPFGEMDG_00843	CDS	murE	6.3.2.7	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--L-lysine ligase
+GPFGEMDG_00844	CDS			hypothetical protein
+GPFGEMDG_00845	CDS	murJ_2		Lipid II flippase MurJ
+GPFGEMDG_00846	CDS	rluB_1	5.4.99.22	Ribosomal large subunit pseudouridine synthase B
+GPFGEMDG_00847	CDS	yteP_1		putative multiple-sugar transport system permease YteP
+GPFGEMDG_00848	CDS	araQ_2		L-arabinose transport system permease protein AraQ
+GPFGEMDG_00849	CDS			hypothetical protein
+GPFGEMDG_00850	CDS			hypothetical protein
+GPFGEMDG_00851	CDS	ypdA_1	2.7.13.3	Sensor histidine kinase YpdA
+GPFGEMDG_00852	CDS			putative response regulatory protein
+GPFGEMDG_00853	CDS			hypothetical protein
+GPFGEMDG_00854	CDS	araR_1		Arabinose metabolism transcriptional repressor
+GPFGEMDG_00855	CDS			hypothetical protein
+GPFGEMDG_00856	CDS	mngB	3.2.1.170	Mannosylglycerate hydrolase
+GPFGEMDG_00857	CDS	gmuE_2	2.7.1.4	Putative fructokinase
+GPFGEMDG_00858	CDS	rluD_1	5.4.99.23	Ribosomal large subunit pseudouridine synthase D
+GPFGEMDG_00859	CDS	pbpF		Penicillin-binding protein 1F
+GPFGEMDG_00860	CDS			hypothetical protein
+GPFGEMDG_00861	CDS		3.6.3.-	Putative multidrug export ATP-binding/permease protein
+GPFGEMDG_00862	CDS	nfo_1	3.1.21.2	endonuclease 4
+GPFGEMDG_00863	CDS	rhgT	3.1.1.-	Rhamnogalacturonan acetylesterase RhgT
+GPFGEMDG_00864	CDS	uxaC	5.3.1.12	Uronate isomerase
+GPFGEMDG_00865	CDS	uxaA	4.2.1.7	Altronate dehydratase
+GPFGEMDG_00866	CDS	uxaB	1.1.1.58	Altronate oxidoreductase
+GPFGEMDG_00867	CDS	exuR_1		putative HTH-type transcriptional repressor ExuR
+GPFGEMDG_00868	CDS	yesS		HTH-type transcriptional regulator YesS
+GPFGEMDG_00869	CDS	araQ_3		L-arabinose transport system permease protein AraQ
+GPFGEMDG_00870	CDS	yteP_2		putative multiple-sugar transport system permease YteP
+GPFGEMDG_00871	CDS			hypothetical protein
+GPFGEMDG_00872	CDS	lipO_1		Lipoprotein LipO
+GPFGEMDG_00873	CDS	yteR	3.2.1.172	Unsaturated rhamnogalacturonyl hydrolase YteR
+GPFGEMDG_00874	CDS	pgl_1	3.2.1.15	Polygalacturonase
+GPFGEMDG_00875	CDS			hypothetical protein
+GPFGEMDG_00876	CDS	pemA	3.1.1.11	Pectinesterase A
+GPFGEMDG_00877	CDS			hypothetical protein
+GPFGEMDG_00878	CDS	xynB	3.2.1.37	Beta-xylosidase
+GPFGEMDG_00879	CDS	yjmB		putative symporter YjmB
+GPFGEMDG_00880	CDS	pehX	3.2.1.82	Exo-poly-alpha-D-galacturonosidase
+GPFGEMDG_00881	rRNA			16S ribosomal RNA
+GPFGEMDG_00882	rRNA			23S ribosomal RNA
+GPFGEMDG_00883	rRNA			5S ribosomal RNA
+GPFGEMDG_00884	CDS	ywpJ_1	3.1.3.-	Phosphatase YwpJ
+GPFGEMDG_00885	CDS	yhaO		putative metallophosphoesterase YhaO
+GPFGEMDG_00886	CDS			hypothetical protein
+GPFGEMDG_00887	CDS	yhaM	3.1.-.-	3'-5' exoribonuclease YhaM
+GPFGEMDG_00888	CDS	prsA_2	5.2.1.8	Foldase protein PrsA
+GPFGEMDG_00889	CDS			hypothetical protein
+GPFGEMDG_00890	CDS			putative HIT-like protein
+GPFGEMDG_00891	CDS	ecsA_1		ABC-type transporter ATP-binding protein EcsA
+GPFGEMDG_00892	CDS			hypothetical protein
+GPFGEMDG_00893	CDS			hypothetical protein
+GPFGEMDG_00894	CDS	trmB	2.1.1.33	tRNA (guanine-N(7)-)-methyltransferase
+GPFGEMDG_00895	CDS	adeC	3.5.4.2	Adenine deaminase
+GPFGEMDG_00896	CDS	comGA		ComG operon protein 1
+GPFGEMDG_00897	CDS	epsF		Type II secretion system protein F
+GPFGEMDG_00898	CDS	comGC		ComG operon protein 3
+GPFGEMDG_00899	CDS			hypothetical protein
+GPFGEMDG_00900	CDS			hypothetical protein
+GPFGEMDG_00901	CDS			hypothetical protein
+GPFGEMDG_00902	CDS			hypothetical protein
+GPFGEMDG_00903	CDS	prmC_1	2.1.1.297	Release factor glutamine methyltransferase
+GPFGEMDG_00904	CDS	ackA	2.7.2.1	Acetate kinase
+GPFGEMDG_00905	CDS	ybiT_2		putative ABC transporter ATP-binding protein YbiT
+GPFGEMDG_00906	CDS			hypothetical protein
+GPFGEMDG_00907	CDS			Putative universal stress protein
+GPFGEMDG_00908	CDS			hypothetical protein
+GPFGEMDG_00909	CDS			putative AAA domain-containing protein
+GPFGEMDG_00910	CDS		3.2.2.-	Putative 3-methyladenine DNA glycosylase
+GPFGEMDG_00911	CDS			hypothetical protein
+GPFGEMDG_00912	CDS	prmA	2.1.1.-	Ribosomal protein L11 methyltransferase
+GPFGEMDG_00913	CDS	rsmE	2.1.1.193	Ribosomal RNA small subunit methyltransferase E
+GPFGEMDG_00914	CDS	relA	2.7.6.5	GTP pyrophosphokinase
+GPFGEMDG_00915	CDS	dtd	3.1.1.96	D-aminoacyl-tRNA deacylase
+GPFGEMDG_00916	CDS	cypC	1.11.2.4	Fatty-acid peroxygenase
+GPFGEMDG_00917	CDS	yhdN	1.1.1.-	General stress protein 69
+GPFGEMDG_00918	CDS	hisS	6.1.1.21	Histidine--tRNA ligase
+GPFGEMDG_00919	CDS	aspS	6.1.1.12	Aspartate--tRNA ligase
+GPFGEMDG_00920	CDS			hypothetical protein
+GPFGEMDG_00921	CDS	oatA	2.3.1.-	O-acetyltransferase OatA
+GPFGEMDG_00922	CDS			hypothetical protein
+GPFGEMDG_00923	CDS	yfiC	2.1.1.223	tRNA1(Val) (adenine(37)-N6)-methyltransferase
+GPFGEMDG_00924	CDS	plsC	2.3.1.-	1-acyl-sn-glycerol-3-phosphate acyltransferase
+GPFGEMDG_00925	CDS	sbcD		Nuclease SbcCD subunit D
+GPFGEMDG_00926	CDS	sbcC		Nuclease SbcCD subunit C
+GPFGEMDG_00927	CDS	rapA	3.6.4.-	RNA polymerase-associated protein RapA
+GPFGEMDG_00928	CDS	yfnB_2	3.-.-.-	Putative HAD-hydrolase YfnB
+GPFGEMDG_00929	CDS	spxA_3		Regulatory protein Spx
+GPFGEMDG_00930	CDS	mecA		Adapter protein MecA 1
+GPFGEMDG_00931	CDS	coiA		Competence protein CoiA
+GPFGEMDG_00932	CDS	pepF1_2	3.4.24.-	Oligoendopeptidase F, plasmid
+GPFGEMDG_00933	CDS			hypothetical protein
+GPFGEMDG_00934	CDS			hypothetical protein
+GPFGEMDG_00935	CDS	yjbK	3.6.1.-	Putative triphosphatase YjbK
+GPFGEMDG_00936	CDS	yjbM	2.7.6.5	GTP pyrophosphokinase YjbM
+GPFGEMDG_00937	CDS	ppnKA	2.7.1.23	NAD kinase 1
+GPFGEMDG_00938	CDS	rluD_2	5.4.99.23	Ribosomal large subunit pseudouridine synthase D
+GPFGEMDG_00939	CDS	mgtE		Magnesium transporter MgtE
+GPFGEMDG_00940	CDS			CutC-like protein
+GPFGEMDG_00941	CDS	rlmA	2.1.1.187	23S rRNA (guanine(745)-N(1))-methyltransferase
+GPFGEMDG_00942	CDS	trmL	2.1.1.207	tRNA (cytidine(34)-2'-O)-methyltransferase
+GPFGEMDG_00943	CDS	pspB_1	3.1.3.3	Putative phosphoserine phosphatase 2
+GPFGEMDG_00944	CDS	recD2	3.6.4.12	ATP-dependent RecD-like DNA helicase
+GPFGEMDG_00945	CDS			hypothetical protein
+GPFGEMDG_00946	CDS	desR		Transcriptional regulatory protein DesR
+GPFGEMDG_00947	CDS	desK	2.7.13.3	Sensor histidine kinase DesK
+GPFGEMDG_00948	CDS	ybhF		putative ABC transporter ATP-binding protein YbhF
+GPFGEMDG_00949	CDS			hypothetical protein
+GPFGEMDG_00950	CDS			hypothetical protein
+GPFGEMDG_00951	CDS	ytlR	2.7.1.-	Putative lipid kinase YtlR
+GPFGEMDG_00952	CDS	queT_2		Queuosine precursor transporter QueT
+GPFGEMDG_00953	CDS			hypothetical protein
+GPFGEMDG_00954	CDS	rpmG2		50S ribosomal protein L33 2
+GPFGEMDG_00955	CDS	secE		Protein translocase subunit SecE
+GPFGEMDG_00956	CDS	nusG		Transcription termination/antitermination protein NusG
+GPFGEMDG_00957	CDS			hypothetical protein
+GPFGEMDG_00958	CDS		1.13.12.4	Lactate 2-monooxygenase
+GPFGEMDG_00959	CDS	sdhA	4.3.1.17	L-serine dehydratase, alpha chain
+GPFGEMDG_00960	CDS	sdhB	4.3.1.17	L-serine dehydratase, beta chain
+GPFGEMDG_00961	CDS	rplK		50S ribosomal protein L11
+GPFGEMDG_00962	CDS	rplA		50S ribosomal protein L1
+GPFGEMDG_00963	CDS	rplJ		50S ribosomal protein L10
+GPFGEMDG_00964	CDS	rplL		50S ribosomal protein L7/L12
+GPFGEMDG_00965	CDS			hypothetical protein
+GPFGEMDG_00966	CDS			putative transporter
+GPFGEMDG_00967	CDS			hypothetical protein
+GPFGEMDG_00968	CDS	ybiT_3		putative ABC transporter ATP-binding protein YbiT
+GPFGEMDG_00969	CDS	nagB	3.5.99.6	Glucosamine-6-phosphate deaminase
+GPFGEMDG_00970	CDS			hypothetical protein
+GPFGEMDG_00971	CDS	tqsA_2		AI-2 transport protein TqsA
+GPFGEMDG_00972	CDS	nrdF	1.17.4.1	Ribonucleoside-diphosphate reductase 2 subunit beta
+GPFGEMDG_00973	CDS	nrdE1	1.17.4.1	Ribonucleoside-diphosphate reductase subunit alpha 1
+GPFGEMDG_00974	CDS	nrdH		Glutaredoxin-like protein NrdH
+GPFGEMDG_00975	CDS			hypothetical protein
+GPFGEMDG_00976	CDS	feoB		Fe(2+) transporter FeoB
+GPFGEMDG_00977	CDS			hypothetical protein
+GPFGEMDG_00978	CDS			hypothetical protein
+GPFGEMDG_00979	CDS	opuAA	3.6.3.32	Glycine betaine transport ATP-binding protein OpuAA
+GPFGEMDG_00980	CDS	gbuB		Glycine betaine/carnitine transport permease protein GbuB
+GPFGEMDG_00981	CDS	pisA		Bacteriocin piscicolin-126
+GPFGEMDG_00982	CDS			hypothetical protein
+GPFGEMDG_00983	CDS			hypothetical protein
+GPFGEMDG_00984	CDS			hypothetical protein
+GPFGEMDG_00985	CDS			hypothetical protein
+GPFGEMDG_00986	tRNA			tRNA-Lys(ctt)
+GPFGEMDG_00987	CDS			hypothetical protein
+GPFGEMDG_00988	CDS			DegV domain-containing protein
+GPFGEMDG_00989	CDS	walR_1		Transcriptional regulatory protein WalR
+GPFGEMDG_00990	CDS	walK_2	2.7.13.3	Sensor histidine kinase WalK
+GPFGEMDG_00991	CDS			hypothetical protein
+GPFGEMDG_00992	CDS	yycI		Two-component system WalR/WalK regulatory protein YycI
+GPFGEMDG_00993	CDS	yycJ	3.-.-.-	Putative metallo-hydrolase YycJ
+GPFGEMDG_00994	CDS			hypothetical protein
+GPFGEMDG_00995	CDS	gmuC_1		PTS system oligo-beta-mannoside-specific EIIC component
+GPFGEMDG_00996	CDS			hypothetical protein
+GPFGEMDG_00997	CDS	groS		10 kDa chaperonin
+GPFGEMDG_00998	CDS	groL		60 kDa chaperonin
+GPFGEMDG_00999	CDS	xerD_2		Tyrosine recombinase XerD
+GPFGEMDG_01000	CDS			hypothetical protein
+GPFGEMDG_01001	CDS			hypothetical protein
+GPFGEMDG_01002	CDS			hypothetical protein
+GPFGEMDG_01003	CDS			hypothetical protein
+GPFGEMDG_01004	CDS			hypothetical protein
+GPFGEMDG_01005	CDS			hypothetical protein
+GPFGEMDG_01006	CDS			hypothetical protein
+GPFGEMDG_01007	CDS			hypothetical protein
+GPFGEMDG_01008	CDS			hypothetical protein
+GPFGEMDG_01009	CDS			hypothetical protein
+GPFGEMDG_01010	CDS			hypothetical protein
+GPFGEMDG_01011	CDS			hypothetical protein
+GPFGEMDG_01012	CDS			hypothetical protein
+GPFGEMDG_01013	CDS			hypothetical protein
+GPFGEMDG_01014	CDS			hypothetical protein
+GPFGEMDG_01015	CDS			hypothetical protein
+GPFGEMDG_01016	CDS			hypothetical protein
+GPFGEMDG_01017	CDS			hypothetical protein
+GPFGEMDG_01018	CDS			hypothetical protein
+GPFGEMDG_01019	CDS			hypothetical protein
+GPFGEMDG_01020	CDS			hypothetical protein
+GPFGEMDG_01021	CDS			hypothetical protein
+GPFGEMDG_01022	CDS			hypothetical protein
+GPFGEMDG_01023	CDS			hypothetical protein
+GPFGEMDG_01024	CDS			hypothetical protein
+GPFGEMDG_01025	CDS			hypothetical protein
+GPFGEMDG_01026	CDS			hypothetical protein
+GPFGEMDG_01027	CDS			hypothetical protein
+GPFGEMDG_01028	CDS			hypothetical protein
+GPFGEMDG_01029	CDS			hypothetical protein
+GPFGEMDG_01030	CDS			hypothetical protein
+GPFGEMDG_01031	CDS			hypothetical protein
+GPFGEMDG_01032	CDS	cas2_1	3.1.-.-	CRISPR-associated endoribonuclease Cas2
+GPFGEMDG_01033	CDS			hypothetical protein
+GPFGEMDG_01034	CDS			hypothetical protein
+GPFGEMDG_01035	CDS			hypothetical protein
+GPFGEMDG_01036	CDS			hypothetical protein
+GPFGEMDG_01037	CDS			hypothetical protein
+GPFGEMDG_01038	CDS			hypothetical protein
+GPFGEMDG_01039	CDS			hypothetical protein
+GPFGEMDG_01040	CDS			hypothetical protein
+GPFGEMDG_01041	CDS			hypothetical protein
+GPFGEMDG_01042	CDS			hypothetical protein
+GPFGEMDG_01043	CDS			hypothetical protein
+GPFGEMDG_01044	CDS			hypothetical protein
+GPFGEMDG_01045	CDS			hypothetical protein
+GPFGEMDG_01046	CDS			hypothetical protein
+GPFGEMDG_01047	CDS			hypothetical protein
+GPFGEMDG_01048	CDS			hypothetical protein
+GPFGEMDG_01049	CDS			hypothetical protein
+GPFGEMDG_01050	CDS			hypothetical protein
+GPFGEMDG_01051	CDS			hypothetical protein
+GPFGEMDG_01052	CDS			hypothetical protein
+GPFGEMDG_01053	CDS			hypothetical protein
+GPFGEMDG_01054	CDS			hypothetical protein
+GPFGEMDG_01055	CDS			hypothetical protein
+GPFGEMDG_01056	CDS	mepM_1	3.4.24.-	Murein DD-endopeptidase MepM
+GPFGEMDG_01057	CDS			hypothetical protein
+GPFGEMDG_01058	CDS			hypothetical protein
+GPFGEMDG_01059	CDS			hypothetical protein
+GPFGEMDG_01060	CDS			hypothetical protein
+GPFGEMDG_01061	CDS			hypothetical protein
+GPFGEMDG_01062	CDS			hypothetical protein
+GPFGEMDG_01063	CDS			hypothetical protein
+GPFGEMDG_01064	CDS	lytA_1	3.5.1.28	Autolysin
+GPFGEMDG_01065	tRNA			tRNA-Met(cat)
+GPFGEMDG_01066	CDS			hypothetical protein
+GPFGEMDG_01067	CDS			hypothetical protein
+GPFGEMDG_01068	CDS			hypothetical protein
+GPFGEMDG_01069	CDS			hypothetical protein
+GPFGEMDG_01070	CDS			hypothetical protein
+GPFGEMDG_01071	CDS			hypothetical protein
+GPFGEMDG_01072	CDS			hypothetical protein
+GPFGEMDG_01073	CDS	pepS	3.4.11.-	Aminopeptidase PepS
+GPFGEMDG_01074	CDS			hypothetical protein
+GPFGEMDG_01075	CDS			Flavodoxin
+GPFGEMDG_01076	CDS	map	3.4.11.18	Methionine aminopeptidase 1
+GPFGEMDG_01077	CDS			hypothetical protein
+GPFGEMDG_01078	CDS	tagO	2.7.8.33	putative undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase
+GPFGEMDG_01079	CDS	wbbL	2.4.1.289	N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase
+GPFGEMDG_01080	CDS			hypothetical protein
+GPFGEMDG_01081	CDS	epsH	2.4.-.-	Putative glycosyltransferase EpsH
+GPFGEMDG_01082	CDS	rfbA	2.7.7.24	Glucose-1-phosphate thymidylyltransferase 1
+GPFGEMDG_01083	CDS	rfbC	5.1.3.13	dTDP-4-dehydrorhamnose 3,5-epimerase
+GPFGEMDG_01084	CDS	rmlB	4.2.1.46	dTDP-glucose 4,6-dehydratase
+GPFGEMDG_01085	CDS	rmlD	1.1.1.133	dTDP-4-dehydrorhamnose reductase
+GPFGEMDG_01086	CDS			hypothetical protein
+GPFGEMDG_01087	CDS			hypothetical protein
+GPFGEMDG_01088	CDS	tagG		Teichoic acid translocation permease protein TagG
+GPFGEMDG_01089	CDS	tagH	3.6.3.40	Teichoic acids export ATP-binding protein TagH
+GPFGEMDG_01090	CDS	rsmA_1	2.1.1.-	Ribosomal RNA small subunit methyltransferase A
+GPFGEMDG_01091	CDS	kfoC		Chondroitin synthase
+GPFGEMDG_01092	CDS			hypothetical protein
+GPFGEMDG_01093	CDS	wecA	2.7.8.40	UDP-N-acetylgalactosamine-undecaprenyl-phosphate N-acetylgalactosaminephosphotransferase
+GPFGEMDG_01094	CDS	wbbD	2.4.1.303	UDP-Gal:alpha-D-GlcNAc-diphosphoundecaprenol beta-1,3-galactosyltransferase
+GPFGEMDG_01095	CDS			hypothetical protein
+GPFGEMDG_01096	CDS	ispD	2.7.7.60	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+GPFGEMDG_01097	CDS	rmd	1.1.1.281	GDP-6-deoxy-D-mannose reductase
+GPFGEMDG_01098	CDS	epsJ_1	2.4.-.-	putative glycosyltransferase EpsJ
+GPFGEMDG_01099	CDS	epsJ_2	2.4.-.-	putative glycosyltransferase EpsJ
+GPFGEMDG_01100	CDS			hypothetical protein
+GPFGEMDG_01101	CDS	pglH_1	2.4.1.292	GalNAc-alpha-(1->4)-GalNAc-alpha-(1->3)-diNAcBac-PP-undecaprenol alpha-1,4-N-acetyl-D-galactosaminyltransferase
+GPFGEMDG_01102	CDS			hypothetical protein
+GPFGEMDG_01103	CDS	wbgU_1	5.1.3.7	UDP-N-acetylglucosamine 4-epimerase
+GPFGEMDG_01104	CDS			hypothetical protein
+GPFGEMDG_01105	CDS	pbpX_1		Putative penicillin-binding protein PbpX
+GPFGEMDG_01106	CDS	mltG	4.2.2.-	Endolytic murein transglycosylase
+GPFGEMDG_01107	CDS	greA		Transcription elongation factor GreA
+GPFGEMDG_01108	CDS			hypothetical protein
+GPFGEMDG_01109	CDS	liaS	2.7.13.3	Sensor histidine kinase LiaS
+GPFGEMDG_01110	CDS	vraR		Response regulator protein VraR
+GPFGEMDG_01111	CDS	ktrA		Ktr system potassium uptake protein A
+GPFGEMDG_01112	CDS			hypothetical protein
+GPFGEMDG_01113	CDS			hypothetical protein
+GPFGEMDG_01114	CDS			hypothetical protein
+GPFGEMDG_01115	CDS			hypothetical protein
+GPFGEMDG_01116	CDS	ghrB	1.1.1.79	Glyoxylate/hydroxypyruvate reductase B
+GPFGEMDG_01117	CDS			hypothetical protein
+GPFGEMDG_01118	CDS	czcD		Cadmium, cobalt and zinc/H(+)-K(+) antiporter
+GPFGEMDG_01119	CDS			hypothetical protein
+GPFGEMDG_01120	CDS	sodA	1.15.1.1	Superoxide dismutase [Mn]
+GPFGEMDG_01121	CDS	cspD		Cold shock protein CspD
+GPFGEMDG_01122	CDS	lytR_1		Transcriptional regulator LytR
+GPFGEMDG_01123	CDS	crtK-2		Tryptophan-rich protein TspO
+GPFGEMDG_01124	CDS	gbpA		GlcNAc-binding protein A
+GPFGEMDG_01125	CDS	rlmCD_1	2.1.1.189	23S rRNA (uracil-C(5))-methyltransferase RlmCD
+GPFGEMDG_01126	CDS	recX		Regulatory protein RecX
+GPFGEMDG_01127	CDS	mutY	3.2.2.-	Adenine DNA glycosylase
+GPFGEMDG_01128	CDS			hypothetical protein
+GPFGEMDG_01129	CDS		2.3.1.-	Acetyltransferase
+GPFGEMDG_01130	CDS	tqsA_3		AI-2 transport protein TqsA
+GPFGEMDG_01131	CDS	corC_2		Magnesium and cobalt efflux protein CorC
+GPFGEMDG_01132	CDS	prfC		Peptide chain release factor 3
+GPFGEMDG_01133	CDS			hypothetical protein
+GPFGEMDG_01134	CDS			hypothetical protein
+GPFGEMDG_01135	CDS	clpE		ATP-dependent Clp protease ATP-binding subunit ClpE
+GPFGEMDG_01136	CDS	ptsH	2.7.11.-	Phosphocarrier protein HPr
+GPFGEMDG_01137	CDS	ptsI	2.7.3.9	Phosphoenolpyruvate-protein phosphotransferase
+GPFGEMDG_01138	CDS	dgs	2.4.1.208	Processive diacylglycerol alpha-glucosyltransferase
+GPFGEMDG_01139	CDS		2.4.1.337	Alpha-monoglucosyldiacylglycerol synthase
+GPFGEMDG_01140	CDS	glxR	1.1.1.60	2-hydroxy-3-oxopropionate reductase
+GPFGEMDG_01141	CDS			hypothetical protein
+GPFGEMDG_01142	CDS	uvrC_1		UvrABC system protein C
+GPFGEMDG_01143	CDS	marR		Multiple antibiotic resistance protein MarR
+GPFGEMDG_01144	CDS	fabH	2.3.1.180	3-oxoacyl-[acyl-carrier-protein] synthase 3
+GPFGEMDG_01145	CDS	acpA_1		Acyl carrier protein
+GPFGEMDG_01146	CDS	fabD	2.3.1.39	Malonyl CoA-acyl carrier protein transacylase
+GPFGEMDG_01147	CDS	fabG_1	1.1.1.100	3-oxoacyl-[acyl-carrier-protein] reductase FabG
+GPFGEMDG_01148	CDS	fabF	2.3.1.179	3-oxoacyl-[acyl-carrier-protein] synthase 2
+GPFGEMDG_01149	CDS	accB		Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+GPFGEMDG_01150	CDS	fabZ_1	4.2.1.59	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ
+GPFGEMDG_01151	CDS	cfiB_1	6.4.1.7	2-oxoglutarate carboxylase small subunit
+GPFGEMDG_01152	CDS	accD	6.4.1.2	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta
+GPFGEMDG_01153	CDS	accA	6.4.1.2	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha
+GPFGEMDG_01154	CDS	gph_1	3.1.3.18	Phosphoglycolate phosphatase
+GPFGEMDG_01155	CDS	der_1		GTPase Der
+GPFGEMDG_01156	CDS			RNA-binding protein
+GPFGEMDG_01157	CDS	nadD	2.7.7.18	Nicotinate-nucleotide adenylyltransferase
+GPFGEMDG_01158	CDS			hypothetical protein
+GPFGEMDG_01159	CDS	rsfS		Ribosomal silencing factor RsfS
+GPFGEMDG_01160	CDS		2.1.1.156	Glycine/sarcosine N-methyltransferase
+GPFGEMDG_01161	CDS			hypothetical protein
+GPFGEMDG_01162	CDS			putative transcriptional regulatory protein
+GPFGEMDG_01163	CDS			hypothetical protein
+GPFGEMDG_01164	CDS			hypothetical protein
+GPFGEMDG_01165	CDS	helD_2	3.6.4.12	DNA helicase IV
+GPFGEMDG_01166	CDS	ziaA	3.6.3.5	Zinc-transporting ATPase
+GPFGEMDG_01167	CDS		5.3.2.-	putative tautomerase.1
+GPFGEMDG_01168	CDS	thrS	6.1.1.3	Threonine--tRNA ligase
+GPFGEMDG_01169	CDS	ybbH_1		putative HTH-type transcriptional regulator YbbH
+GPFGEMDG_01170	CDS	penA		Penicillin-binding protein 2B
+GPFGEMDG_01171	CDS			hypothetical protein
+GPFGEMDG_01172	CDS	yitU	3.1.3.-	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YitU
+GPFGEMDG_01173	CDS	pbuO		Guanine/hypoxanthine permease PbuO
+GPFGEMDG_01174	CDS			hypothetical protein
+GPFGEMDG_01175	CDS	yjhB_2		Putative metabolite transport protein YjhB
+GPFGEMDG_01176	CDS			hypothetical protein
+GPFGEMDG_01177	CDS	dnaE	2.7.7.7	DNA polymerase III subunit alpha
+GPFGEMDG_01178	CDS	pfkA	2.7.1.11	ATP-dependent 6-phosphofructokinase
+GPFGEMDG_01179	CDS	pyk	2.7.1.40	Pyruvate kinase
+GPFGEMDG_01180	CDS	gltC_2		HTH-type transcriptional regulator GltC
+GPFGEMDG_01181	CDS			hypothetical protein
+GPFGEMDG_01182	CDS	rpmF_2		50S ribosomal protein L32
+GPFGEMDG_01183	CDS	gnd	1.1.1.44	6-phosphogluconate dehydrogenase, decarboxylating
+GPFGEMDG_01184	CDS	arlR_2		Response regulator ArlR
+GPFGEMDG_01185	CDS	arlS	2.7.13.3	Signal transduction histidine-protein kinase ArlS
+GPFGEMDG_01186	rRNA			16S ribosomal RNA
+GPFGEMDG_01187	tRNA			tRNA-Ala(tgc)
+GPFGEMDG_01188	rRNA			23S ribosomal RNA
+GPFGEMDG_01189	rRNA			5S ribosomal RNA
+GPFGEMDG_01190	tRNA			tRNA-Asn(gtt)
+GPFGEMDG_01191	tRNA			tRNA-Ser(gga)
+GPFGEMDG_01192	tRNA			tRNA-Glu(ttc)
+GPFGEMDG_01193	tRNA			tRNA-Val(tac)
+GPFGEMDG_01194	tRNA			tRNA-Asp(gtc)
+GPFGEMDG_01195	tRNA			tRNA-Phe(gaa)
+GPFGEMDG_01196	tRNA			tRNA-Tyr(gta)
+GPFGEMDG_01197	tRNA			tRNA-Trp(cca)
+GPFGEMDG_01198	tRNA			tRNA-His(gtg)
+GPFGEMDG_01199	tRNA			tRNA-Gln(ttg)
+GPFGEMDG_01200	tRNA			tRNA-Cys(gca)
+GPFGEMDG_01201	tRNA			tRNA-Leu(caa)
+GPFGEMDG_01202	tRNA			tRNA-His(gtg)
+GPFGEMDG_01203	tRNA			tRNA-Gln(ttg)
+GPFGEMDG_01204	tRNA			tRNA-Leu(caa)
+GPFGEMDG_01205	CDS	licT_2		Transcription antiterminator LicT
+GPFGEMDG_01206	CDS		3.5.1.-	Carbohydrate deacetylase
+GPFGEMDG_01207	CDS	nagE		PTS system N-acetylglucosamine-specific EIICBA component
+GPFGEMDG_01208	CDS	malH	3.2.1.122	Maltose-6'-phosphate glucosidase MalH
+GPFGEMDG_01209	CDS	ptsG_3	2.7.1.199	PTS system glucose-specific EIICBA component
+GPFGEMDG_01210	CDS	licC_2		Lichenan permease IIC component
+GPFGEMDG_01211	CDS			hypothetical protein
+GPFGEMDG_01212	CDS			hypothetical protein
+GPFGEMDG_01213	CDS			hypothetical protein
+GPFGEMDG_01214	CDS	srlR		Glucitol operon repressor
+GPFGEMDG_01215	CDS	ulaG	3.1.1.-	putative L-ascorbate-6-phosphate lactonase UlaG
+GPFGEMDG_01216	CDS	cmtB_2	2.7.1.197	Mannitol-specific cryptic phosphotransferase enzyme IIA component
+GPFGEMDG_01217	CDS	ulaA_1		Ascorbate-specific PTS system EIIC component
+GPFGEMDG_01218	CDS	ulaB_2	2.7.1.194	Ascorbate-specific PTS system EIIB component
+GPFGEMDG_01219	CDS	ulaD	4.1.1.85	3-keto-L-gulonate-6-phosphate decarboxylase UlaD
+GPFGEMDG_01220	CDS	ulaE	5.1.3.22	L-ribulose-5-phosphate 3-epimerase UlaE
+GPFGEMDG_01221	CDS	araD	5.1.3.4	L-ribulose-5-phosphate 4-epimerase AraD
+GPFGEMDG_01222	CDS			hypothetical protein
+GPFGEMDG_01223	CDS			hypothetical protein
+GPFGEMDG_01224	CDS			hypothetical protein
+GPFGEMDG_01225	CDS			hypothetical protein
+GPFGEMDG_01226	CDS	mtlR_1		Transcriptional regulator MtlR
+GPFGEMDG_01227	CDS			hypothetical protein
+GPFGEMDG_01228	CDS			hypothetical protein
+GPFGEMDG_01229	CDS			hypothetical protein
+GPFGEMDG_01230	CDS			hypothetical protein
+GPFGEMDG_01231	CDS			hypothetical protein
+GPFGEMDG_01232	CDS			hypothetical protein
+GPFGEMDG_01233	CDS		3.1.1.-	Deacetylase
+GPFGEMDG_01234	CDS	dgaE	4.3.1.29	D-glucosaminate-6-phosphate ammonia lyase
+GPFGEMDG_01235	CDS	dgaF	4.1.2.14	2-dehydro-3-deoxy-phosphogluconate aldolase
+GPFGEMDG_01236	CDS	manP		PTS system mannose-specific EIIBCA component
+GPFGEMDG_01237	CDS	manR_2		Transcriptional regulator ManR
+GPFGEMDG_01238	CDS	arsC	1.20.4.1	Glutaredoxin arsenate reductase
+GPFGEMDG_01239	CDS	luxA	1.14.14.3	Alkanal monooxygenase alpha chain
+GPFGEMDG_01240	CDS			putative HTH-type transcriptional regulator
+GPFGEMDG_01241	CDS			hypothetical protein
+GPFGEMDG_01242	CDS	lacC_1	2.7.1.144	Tagatose-6-phosphate kinase
+GPFGEMDG_01243	CDS	lacR_2		Lactose phosphotransferase system repressor
+GPFGEMDG_01244	CDS	gatA_1	2.7.1.200	PTS system galactitol-specific EIIA component
+GPFGEMDG_01245	CDS	gatB_1	2.7.1.200	PTS system galactitol-specific EIIB component
+GPFGEMDG_01246	CDS	gatC_1		PTS system galactitol-specific EIIC component
+GPFGEMDG_01247	CDS			hypothetical protein
+GPFGEMDG_01248	CDS	mtnB	4.2.1.109	Methylthioribulose-1-phosphate dehydratase
+GPFGEMDG_01249	CDS	mhqD	3.1.-.-	Putative hydrolase MhqD
+GPFGEMDG_01250	CDS	mhqA	1.13.11.-	Putative ring-cleaving dioxygenase MhqA
+GPFGEMDG_01251	CDS	gmuR		HTH-type transcriptional regulator GmuR
+GPFGEMDG_01252	CDS	gmuC_2		PTS system oligo-beta-mannoside-specific EIIC component
+GPFGEMDG_01253	CDS	gmuD_2	3.2.1.86	6-phospho-beta-glucosidase GmuD
+GPFGEMDG_01254	CDS			Putative universal stress protein
+GPFGEMDG_01255	CDS			hypothetical protein
+GPFGEMDG_01256	CDS			hypothetical protein
+GPFGEMDG_01257	CDS	spxA_4		Regulatory protein Spx
+GPFGEMDG_01258	CDS			hypothetical protein
+GPFGEMDG_01259	CDS	thiD	2.7.1.49	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+GPFGEMDG_01260	CDS	clsA_1	2.7.8.-	Major cardiolipin synthase ClsA
+GPFGEMDG_01261	CDS		3.6.3.8	Calcium-transporting ATPase
+GPFGEMDG_01262	CDS	ubiE_1	2.1.1.163	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE
+GPFGEMDG_01263	CDS	mvaS	2.3.3.10	Hydroxymethylglutaryl-CoA synthase
+GPFGEMDG_01264	CDS	thlA	2.3.1.9	Acetyl-CoA acetyltransferase
+GPFGEMDG_01265	CDS	mvaA	1.1.1.88	3-hydroxy-3-methylglutaryl-coenzyme A reductase
+GPFGEMDG_01266	CDS			hypothetical protein
+GPFGEMDG_01267	CDS			hypothetical protein
+GPFGEMDG_01268	CDS	yvgN	1.1.1.-	Glyoxal reductase
+GPFGEMDG_01269	CDS			hypothetical protein
+GPFGEMDG_01270	CDS			hypothetical protein
+GPFGEMDG_01271	CDS	tuf_2		Elongation factor Tu
+GPFGEMDG_01272	CDS	mprF_2	2.3.2.3	Phosphatidylglycerol lysyltransferase
+GPFGEMDG_01273	CDS	xylF	3.7.1.9	2-hydroxymuconate semialdehyde hydrolase
+GPFGEMDG_01274	CDS			hypothetical protein
+GPFGEMDG_01275	CDS			hypothetical protein
+GPFGEMDG_01276	CDS	ctpE_1	3.6.3.-	putative cation-transporting ATPase E
+GPFGEMDG_01277	CDS	dnaG_1	2.7.7.-	DNA primase
+GPFGEMDG_01278	CDS	sigA		RNA polymerase sigma factor SigA
+GPFGEMDG_01279	CDS			hypothetical protein
+GPFGEMDG_01280	CDS	mapZ		Mid-cell-anchored protein Z
+GPFGEMDG_01281	CDS	cvfB		Conserved virulence factor B
+GPFGEMDG_01282	CDS	fur		Ferric uptake regulation protein
+GPFGEMDG_01283	CDS			hypothetical protein
+GPFGEMDG_01284	CDS	xerD_3		Tyrosine recombinase XerD
+GPFGEMDG_01285	CDS			hypothetical protein
+GPFGEMDG_01286	CDS	scpA		Segregation and condensation protein A
+GPFGEMDG_01287	CDS	scpB		Segregation and condensation protein B
+GPFGEMDG_01288	CDS	rluB_2	5.4.99.22	Ribosomal large subunit pseudouridine synthase B
+GPFGEMDG_01289	CDS	fmnP		Riboflavin transporter FmnP
+GPFGEMDG_01290	CDS			hypothetical protein
+GPFGEMDG_01291	CDS		3.4.13.-	Putative dipeptidase
+GPFGEMDG_01292	CDS			hypothetical protein
+GPFGEMDG_01293	CDS			hypothetical protein
+GPFGEMDG_01294	CDS			hypothetical protein
+GPFGEMDG_01295	CDS	recQ_1	3.6.4.12	ATP-dependent DNA helicase RecQ
+GPFGEMDG_01296	CDS	sle1	3.5.1.28	N-acetylmuramoyl-L-alanine amidase sle1
+GPFGEMDG_01297	CDS	cmk	2.7.4.25	Cytidylate kinase
+GPFGEMDG_01298	CDS	ypfD		30S ribosomal protein S1 
+GPFGEMDG_01299	CDS	der_2		GTPase Der
+GPFGEMDG_01300	CDS	hupA		DNA-binding protein HU 1
+GPFGEMDG_01301	CDS			hypothetical protein
+GPFGEMDG_01302	CDS	bepA	3.4.-.-	Beta-barrel assembly-enhancing protease
+GPFGEMDG_01303	CDS			hypothetical protein
+GPFGEMDG_01304	CDS			hypothetical protein
+GPFGEMDG_01305	CDS			hypothetical protein
+GPFGEMDG_01306	CDS	cca	2.7.7.72	CCA-adding enzyme
+GPFGEMDG_01307	CDS			hypothetical protein
+GPFGEMDG_01308	CDS			hypothetical protein
+GPFGEMDG_01309	CDS	nhaK		Sodium, potassium, lithium and rubidium/H(+) antiporter
+GPFGEMDG_01310	CDS	ettA_2		Energy-dependent translational throttle protein EttA
+GPFGEMDG_01311	CDS	thyA	2.1.1.45	Thymidylate synthase
+GPFGEMDG_01312	CDS	folA_1	1.5.1.3	Dihydrofolate reductase
+GPFGEMDG_01313	CDS			hypothetical protein
+GPFGEMDG_01314	CDS			DegV domain-containing protein
+GPFGEMDG_01315	CDS	lipC	3.-.-.-	Spore germination lipase LipC
+GPFGEMDG_01316	CDS			hypothetical protein
+GPFGEMDG_01317	CDS	msrA_2	1.8.4.11	Peptide methionine sulfoxide reductase MsrA
+GPFGEMDG_01318	CDS			hypothetical protein
+GPFGEMDG_01319	CDS	sipV	3.4.21.89	Signal peptidase I V
+GPFGEMDG_01320	CDS	folT_1		Folate transporter FolT
+GPFGEMDG_01321	CDS			hypothetical protein
+GPFGEMDG_01322	CDS	rbgA		Ribosome biogenesis GTPase A
+GPFGEMDG_01323	CDS	rnhB	3.1.26.4	Ribonuclease HII
+GPFGEMDG_01324	CDS	dprA		DNA processing protein DprA
+GPFGEMDG_01325	CDS	topA	5.99.1.2	DNA topoisomerase 1
+GPFGEMDG_01326	CDS	trmFO	2.1.1.74	Methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase TrmFO
+GPFGEMDG_01327	CDS	xerC_1		Tyrosine recombinase XerC
+GPFGEMDG_01328	CDS	hslV	3.4.25.2	ATP-dependent protease subunit HslV
+GPFGEMDG_01329	CDS	clpY		ATP-dependent protease ATPase subunit ClpY
+GPFGEMDG_01330	CDS	codY		GTP-sensing transcriptional pleiotropic repressor CodY
+GPFGEMDG_01331	CDS	galM_2	5.1.3.3	Aldose 1-epimerase
+GPFGEMDG_01332	CDS	plsY	2.3.1.-	Glycerol-3-phosphate acyltransferase
+GPFGEMDG_01333	CDS			hypothetical protein
+GPFGEMDG_01334	CDS	parE	5.99.1.3	DNA topoisomerase 4 subunit B
+GPFGEMDG_01335	CDS	parC	5.99.1.3	DNA topoisomerase 4 subunit A
+GPFGEMDG_01336	CDS	pflB	2.3.1.54	Formate acetyltransferase
+GPFGEMDG_01337	CDS	pflA	1.97.1.4	Pyruvate formate-lyase-activating enzyme
+GPFGEMDG_01338	CDS	ppaC	3.6.1.1	putative manganese-dependent inorganic pyrophosphatase
+GPFGEMDG_01339	CDS			hypothetical protein
+GPFGEMDG_01340	CDS			hypothetical protein
+GPFGEMDG_01341	CDS			hypothetical protein
+GPFGEMDG_01342	CDS			hypothetical protein
+GPFGEMDG_01343	CDS		3.1.1.2	Arylesterase
+GPFGEMDG_01344	CDS	exuR_2		putative HTH-type transcriptional repressor ExuR
+GPFGEMDG_01345	CDS			hypothetical protein
+GPFGEMDG_01346	CDS			hypothetical protein
+GPFGEMDG_01347	CDS			hypothetical protein
+GPFGEMDG_01348	CDS	opuBB		Choline transport system permease protein OpuBB
+GPFGEMDG_01349	CDS	opuCA_2	3.6.3.32	Carnitine transport ATP-binding protein OpuCA
+GPFGEMDG_01350	CDS			hypothetical protein
+GPFGEMDG_01351	CDS	garB	1.8.1.16	Glutathione amide reductase
+GPFGEMDG_01352	CDS	ribX		Riboflavin transport system permease protein RibX
+GPFGEMDG_01353	CDS	thiY		Formylaminopyrimidine-binding protein
+GPFGEMDG_01354	CDS	ssuB	3.6.3.-	Aliphatic sulfonates import ATP-binding protein SsuB
+GPFGEMDG_01355	CDS	dtd3_1	3.1.1.96	D-aminoacyl-tRNA deacylase
+GPFGEMDG_01356	CDS			hypothetical protein
+GPFGEMDG_01357	CDS	smc_3		Chromosome partition protein Smc
+GPFGEMDG_01358	CDS			hypothetical protein
+GPFGEMDG_01359	CDS	fosX		Fosfomycin resistance protein FosX
+GPFGEMDG_01360	CDS			hypothetical protein
+GPFGEMDG_01361	CDS			hypothetical protein
+GPFGEMDG_01362	CDS			hypothetical protein
+GPFGEMDG_01363	CDS			hypothetical protein
+GPFGEMDG_01364	tRNA			tRNA-Leu(gag)
+GPFGEMDG_01365	CDS			hypothetical protein
+GPFGEMDG_01366	CDS	alaA	2.6.1.2	Glutamate-pyruvate aminotransferase AlaA
+GPFGEMDG_01367	CDS			hypothetical protein
+GPFGEMDG_01368	CDS	nagA	3.5.1.25	N-acetylglucosamine-6-phosphate deacetylase
+GPFGEMDG_01369	CDS			hypothetical protein
+GPFGEMDG_01370	CDS	fldH_1	1.1.1.-	Phenyllactate dehydrogenase
+GPFGEMDG_01371	CDS	dcuR		Transcriptional regulatory protein DcuR
+GPFGEMDG_01372	CDS	dcuS_1	2.7.13.3	Sensor histidine kinase DcuS
+GPFGEMDG_01373	CDS	dcuS_2	2.7.13.3	Sensor histidine kinase DcuS
+GPFGEMDG_01374	CDS	yuaF		putative membrane protein YuaF
+GPFGEMDG_01375	CDS	yqiK		Inner membrane protein YqiK
+GPFGEMDG_01376	CDS			hypothetical protein
+GPFGEMDG_01377	CDS			hypothetical protein
+GPFGEMDG_01378	CDS	afr_1	1.1.1.292	1,5-anhydro-D-fructose reductase
+GPFGEMDG_01379	CDS			hypothetical protein
+GPFGEMDG_01380	CDS	yodJ	3.4.-.-	Putative carboxypeptidase YodJ
+GPFGEMDG_01381	CDS	lytG	3.2.1.-	Exo-glucosaminidase LytG
+GPFGEMDG_01382	CDS			hypothetical protein
+GPFGEMDG_01383	CDS	yesO		Putative ABC transporter substrate-binding protein YesO
+GPFGEMDG_01384	CDS	lacF_3		Lactose transport system permease protein LacF
+GPFGEMDG_01385	CDS	araQ_4		L-arabinose transport system permease protein AraQ
+GPFGEMDG_01386	CDS			hypothetical protein
+GPFGEMDG_01387	CDS	yteT	1.-.-.-	Putative oxidoreductase YteT
+GPFGEMDG_01388	CDS	xpt	2.4.2.22	Xanthine phosphoribosyltransferase
+GPFGEMDG_01389	CDS	pucK		Uric acid permease PucK
+GPFGEMDG_01390	CDS	purE	5.4.99.18	N5-carboxyaminoimidazole ribonucleotide mutase
+GPFGEMDG_01391	CDS	purK	6.3.4.18	N5-carboxyaminoimidazole ribonucleotide synthase
+GPFGEMDG_01392	CDS	purB	4.3.2.2	Adenylosuccinate lyase
+GPFGEMDG_01393	CDS			hypothetical protein
+GPFGEMDG_01394	CDS	purC	6.3.2.6	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+GPFGEMDG_01395	CDS	purS	6.3.5.3	Phosphoribosylformylglycinamidine synthase subunit PurS
+GPFGEMDG_01396	CDS	purQ	6.3.5.3	Phosphoribosylformylglycinamidine synthase subunit PurQ
+GPFGEMDG_01397	CDS	purL	6.3.5.3	Phosphoribosylformylglycinamidine synthase subunit PurL
+GPFGEMDG_01398	CDS	purF	2.4.2.14	Amidophosphoribosyltransferase
+GPFGEMDG_01399	CDS	purM	6.3.3.1	Phosphoribosylformylglycinamidine cyclo-ligase
+GPFGEMDG_01400	CDS	purN	2.1.2.2	Phosphoribosylglycinamide formyltransferase
+GPFGEMDG_01401	CDS	purH		Bifunctional purine biosynthesis protein PurH
+GPFGEMDG_01402	CDS	purD	6.3.4.13	Phosphoribosylamine--glycine ligase
+GPFGEMDG_01403	CDS	ydhF	1.-.-.-	Oxidoreductase YdhF
+GPFGEMDG_01404	CDS			putative response regulatory protein
+GPFGEMDG_01405	CDS	yehU_1	2.7.13.3	Sensor histidine kinase YehU
+GPFGEMDG_01406	CDS	ytfQ		ABC transporter periplasmic-binding protein YtfQ
+GPFGEMDG_01407	CDS	chvE		Multiple sugar-binding periplasmic receptor ChvE
+GPFGEMDG_01408	CDS	xylG	3.6.3.17	Xylose import ATP-binding protein XylG
+GPFGEMDG_01409	CDS	xylH		Xylose transport system permease protein XylH
+GPFGEMDG_01410	CDS	guaC	1.7.1.7	GMP reductase
+GPFGEMDG_01411	CDS	norG		HTH-type transcriptional regulator NorG
+GPFGEMDG_01412	CDS	pdhA	1.2.4.1	Pyruvate dehydrogenase E1 component subunit alpha
+GPFGEMDG_01413	CDS	pdhB	1.2.4.1	Pyruvate dehydrogenase E1 component subunit beta
+GPFGEMDG_01414	CDS	pdhC	2.3.1.12	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex
+GPFGEMDG_01415	CDS	pdhD	1.8.1.4	Dihydrolipoyl dehydrogenase
+GPFGEMDG_01416	CDS			hypothetical protein
+GPFGEMDG_01417	CDS	suhB	3.1.3.11	Fructose-1,6-bisphosphatase/inositol-1-monophosphatase
+GPFGEMDG_01418	CDS	typA		GTP-binding protein TypA/BipA
+GPFGEMDG_01419	CDS	recQ_2	3.6.4.12	ATP-dependent DNA helicase RecQ
+GPFGEMDG_01420	CDS			hypothetical protein
+GPFGEMDG_01421	CDS	ftsW_1	2.4.1.129	putative peptidoglycan glycosyltransferase FtsW
+GPFGEMDG_01422	CDS	cfiB_2	6.4.1.7	2-oxoglutarate carboxylase small subunit
+GPFGEMDG_01423	CDS			hypothetical protein
+GPFGEMDG_01424	CDS			hypothetical protein
+GPFGEMDG_01425	CDS			hypothetical protein
+GPFGEMDG_01426	CDS	rsmD	2.1.1.171	Ribosomal RNA small subunit methyltransferase D
+GPFGEMDG_01427	CDS	coaD	2.7.7.3	Phosphopantetheine adenylyltransferase
+GPFGEMDG_01428	CDS	lon	3.4.21.53	Lon protease
+GPFGEMDG_01429	CDS	comEA		ComE operon protein 1
+GPFGEMDG_01430	CDS			hypothetical protein
+GPFGEMDG_01431	CDS			hypothetical protein
+GPFGEMDG_01432	CDS	tadA_1	3.5.4.33	tRNA-specific adenosine deaminase
+GPFGEMDG_01433	CDS	comEC		ComE operon protein 3
+GPFGEMDG_01434	CDS			hypothetical protein
+GPFGEMDG_01435	CDS	rpsT		30S ribosomal protein S20
+GPFGEMDG_01436	CDS			hypothetical protein
+GPFGEMDG_01437	CDS			hypothetical protein
+GPFGEMDG_01438	CDS	zosA	3.6.3.-	Zinc-transporting ATPase
+GPFGEMDG_01439	CDS	uppP	3.6.1.27	Undecaprenyl-diphosphatase
+GPFGEMDG_01440	CDS	pspB_2	3.1.3.3	Putative phosphoserine phosphatase 2
+GPFGEMDG_01441	CDS		3.-.-.-	putative metallo-hydrolase
+GPFGEMDG_01442	CDS	dinG_1	3.6.4.12	putative ATP-dependent helicase DinG 
+GPFGEMDG_01443	CDS			hypothetical protein
+GPFGEMDG_01444	CDS			hypothetical protein
+GPFGEMDG_01445	CDS	mrp		Iron-sulfur cluster carrier protein
+GPFGEMDG_01446	CDS			hypothetical protein
+GPFGEMDG_01447	tRNA			tRNA-Leu(cag)
+GPFGEMDG_01448	CDS			hypothetical protein
+GPFGEMDG_01449	CDS			Putative universal stress protein
+GPFGEMDG_01450	CDS			hypothetical protein
+GPFGEMDG_01451	CDS			hypothetical protein
+GPFGEMDG_01452	CDS			hypothetical protein
+GPFGEMDG_01453	CDS			hypothetical protein
+GPFGEMDG_01454	CDS			hypothetical protein
+GPFGEMDG_01455	CDS			hypothetical protein
+GPFGEMDG_01456	CDS			hypothetical protein
+GPFGEMDG_01457	tRNA			tRNA-Gln(ctg)
+GPFGEMDG_01458	CDS			hypothetical protein
+GPFGEMDG_01459	CDS			hypothetical protein
+GPFGEMDG_01460	CDS			hypothetical protein
+GPFGEMDG_01461	CDS			hypothetical protein
+GPFGEMDG_01462	CDS			hypothetical protein
+GPFGEMDG_01463	CDS	dtpT_1		Di-/tripeptide transporter
+GPFGEMDG_01464	CDS	dtpT_2		Di-/tripeptide transporter
+GPFGEMDG_01465	CDS			hypothetical protein
+GPFGEMDG_01466	CDS	addB	3.1.-.-	ATP-dependent helicase/deoxyribonuclease subunit B
+GPFGEMDG_01467	CDS	addA	3.1.-.-	ATP-dependent helicase/nuclease subunit A
+GPFGEMDG_01468	CDS	yodB		HTH-type transcriptional regulator YodB
+GPFGEMDG_01469	CDS	pheS	6.1.1.20	Phenylalanine--tRNA ligase alpha subunit
+GPFGEMDG_01470	CDS	pheT_2	6.1.1.20	Phenylalanine--tRNA ligase beta subunit
+GPFGEMDG_01471	CDS	trpS2	6.1.1.2	Tryptophan--tRNA ligase 2
+GPFGEMDG_01472	CDS	glnQ_1	3.6.3.-	Glutamine transport ATP-binding protein GlnQ
+GPFGEMDG_01473	CDS	glnH		ABC transporter glutamine-binding protein GlnH
+GPFGEMDG_01474	CDS	glnM_1		putative glutamine ABC transporter permease protein GlnM
+GPFGEMDG_01475	CDS	glnP_2		putative glutamine ABC transporter permease protein GlnP
+GPFGEMDG_01476	CDS	murI	5.1.1.3	Glutamate racemase
+GPFGEMDG_01477	CDS	rph	2.7.7.56	Ribonuclease PH
+GPFGEMDG_01478	CDS		3.1.4.-	Putative metallophosphoesterase MG207 
+GPFGEMDG_01479	CDS	ykuL		CBS domain-containing protein YkuL
+GPFGEMDG_01480	CDS	ykuT		putative MscS family protein YkuT
+GPFGEMDG_01481	CDS	ilvE	2.6.1.42	Branched-chain-amino-acid aminotransferase
+GPFGEMDG_01482	CDS	fabI	1.3.1.9	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI
+GPFGEMDG_01483	CDS	fabZ_2	4.2.1.59	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ
+GPFGEMDG_01484	CDS		5.2.1.8	Putative peptidyl-prolyl cis-trans isomerase
+GPFGEMDG_01485	CDS			hypothetical protein
+GPFGEMDG_01486	CDS			hypothetical protein
+GPFGEMDG_01487	CDS		3.1.1.23	Thermostable monoacylglycerol lipase
+GPFGEMDG_01488	CDS	gap_1	1.2.1.12	Glyceraldehyde-3-phosphate dehydrogenase
+GPFGEMDG_01489	CDS	obg	3.6.5.-	GTPase Obg
+GPFGEMDG_01490	CDS			hypothetical protein
+GPFGEMDG_01491	CDS	rnz	3.1.26.11	Ribonuclease Z
+GPFGEMDG_01492	CDS	fabG_2	1.1.1.100	3-oxoacyl-[acyl-carrier-protein] reductase FabG
+GPFGEMDG_01493	CDS			hypothetical protein
+GPFGEMDG_01494	CDS	recJ	3.1.-.-	Single-stranded-DNA-specific exonuclease RecJ
+GPFGEMDG_01495	CDS	apt	2.4.2.7	Adenine phosphoribosyltransferase
+GPFGEMDG_01496	CDS			hypothetical protein
+GPFGEMDG_01497	CDS	lexA	3.4.21.88	LexA repressor
+GPFGEMDG_01498	CDS			hypothetical protein
+GPFGEMDG_01499	CDS	tkt	2.2.1.1	Transketolase
+GPFGEMDG_01500	CDS			hypothetical protein
+GPFGEMDG_01501	CDS		3.2.1.-	Autolysin
+GPFGEMDG_01502	CDS	cysK	2.5.1.47	Cysteine synthase
+GPFGEMDG_01503	CDS	perR		Peroxide operon regulator
+GPFGEMDG_01504	CDS	nox_1	1.6.99.3	NADH oxidase
+GPFGEMDG_01505	CDS			hypothetical protein
+GPFGEMDG_01506	CDS			hypothetical protein
+GPFGEMDG_01507	CDS	tetA		Tetracycline resistance protein, class C
+GPFGEMDG_01508	CDS	dnaD		DNA replication protein DnaD
+GPFGEMDG_01509	CDS	nth	4.2.99.18	Endonuclease III
+GPFGEMDG_01510	CDS			hypothetical protein
+GPFGEMDG_01511	CDS			hypothetical protein
+GPFGEMDG_01512	CDS	ponA_1		Penicillin-binding protein 1A
+GPFGEMDG_01513	CDS	recU	3.1.22.-	Holliday junction resolvase RecU
+GPFGEMDG_01514	CDS			hypothetical protein
+GPFGEMDG_01515	CDS	gpsB		Cell cycle protein GpsB
+GPFGEMDG_01516	CDS	rlmL	2.1.1.173	Ribosomal RNA large subunit methyltransferase L
+GPFGEMDG_01517	CDS	ypwA	3.4.17.19	Carboxypeptidase 1
+GPFGEMDG_01518	CDS			hypothetical protein
+GPFGEMDG_01519	CDS			hypothetical protein
+GPFGEMDG_01520	CDS		2.3.1.-	Putative pyridoxal phosphate-dependent acyltransferase
+GPFGEMDG_01521	CDS			putative epimerase/dehydratase
+GPFGEMDG_01522	CDS	steT_1		Serine/threonine exchanger SteT
+GPFGEMDG_01523	CDS			hypothetical protein
+GPFGEMDG_01524	CDS			hypothetical protein
+GPFGEMDG_01525	CDS	cshB	3.6.4.13	DEAD-box ATP-dependent RNA helicase CshB
+GPFGEMDG_01526	CDS		2.3.1.-	Acetyltransferase
+GPFGEMDG_01527	CDS	alaS	6.1.1.7	Alanine--tRNA ligase
+GPFGEMDG_01528	CDS	panT_1		Pantothenate transporter PanT
+GPFGEMDG_01529	CDS	fieF		Ferrous-iron efflux pump FieF
+GPFGEMDG_01530	CDS	rnhA		14.7 kDa ribonuclease H-like protein
+GPFGEMDG_01531	CDS			hypothetical protein
+GPFGEMDG_01532	CDS	csp		Cold shock-like protein
+GPFGEMDG_01533	CDS	fhs1	6.3.4.3	Formate--tetrahydrofolate ligase 1
+GPFGEMDG_01534	CDS			hypothetical protein
+GPFGEMDG_01535	CDS			hypothetical protein
+GPFGEMDG_01536	CDS	lspA	3.4.23.36	Lipoprotein signal peptidase
+GPFGEMDG_01537	CDS	rluD_3	5.4.99.23	Ribosomal large subunit pseudouridine synthase D
+GPFGEMDG_01538	CDS	pyrR		Bifunctional protein pyrR
+GPFGEMDG_01539	CDS	pyrP		Uracil permease
+GPFGEMDG_01540	CDS	pyrB	2.1.3.2	Aspartate carbamoyltransferase
+GPFGEMDG_01541	CDS	pyrC	3.5.2.3	Dihydroorotase
+GPFGEMDG_01542	CDS	carA	6.3.5.5	Carbamoyl-phosphate synthase small chain
+GPFGEMDG_01543	CDS	carB	6.3.5.5	Carbamoyl-phosphate synthase large chain
+GPFGEMDG_01544	CDS	pyrK_1		Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit
+GPFGEMDG_01545	CDS	pyrK_2		Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit
+GPFGEMDG_01546	CDS	pyrDB	1.3.1.14	Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit
+GPFGEMDG_01547	CDS	pyrF	4.1.1.23	Orotidine 5'-phosphate decarboxylase
+GPFGEMDG_01548	CDS	pyrE	2.4.2.10	Orotate phosphoribosyltransferase
+GPFGEMDG_01549	CDS	yfbR	3.1.3.89	5'-deoxynucleotidase YfbR
+GPFGEMDG_01550	CDS	cah	4.2.1.1	Carbonic anhydrase
+GPFGEMDG_01551	CDS	oxyR		Hydrogen peroxide-inducible genes activator
+GPFGEMDG_01552	CDS			hypothetical protein
+GPFGEMDG_01553	CDS			hypothetical protein
+GPFGEMDG_01554	CDS			hypothetical protein
+GPFGEMDG_01555	CDS			hypothetical protein
+GPFGEMDG_01556	CDS	lsrC_2		Autoinducer 2 import system permease protein LsrC
+GPFGEMDG_01557	CDS	cmpD	3.6.3.-	Bicarbonate transport ATP-binding protein CmpD
+GPFGEMDG_01558	CDS	aroE	1.1.1.25	Shikimate dehydrogenase (NADP(+))
+GPFGEMDG_01559	CDS	msrR_1		Regulatory protein MsrR
+GPFGEMDG_01560	CDS			hypothetical protein
+GPFGEMDG_01561	CDS	topB_2	5.99.1.2	DNA topoisomerase 3
+GPFGEMDG_01562	CDS			hypothetical protein
+GPFGEMDG_01563	CDS			hypothetical protein
+GPFGEMDG_01564	CDS	doc		Toxin Doc
+GPFGEMDG_01565	CDS	ldhB	1.1.1.27	L-lactate dehydrogenase 2
+GPFGEMDG_01566	CDS			hypothetical protein
+GPFGEMDG_01567	CDS	chbR		HTH-type transcriptional regulator ChbR
+GPFGEMDG_01568	CDS			hypothetical protein
+GPFGEMDG_01569	CDS			hypothetical protein
+GPFGEMDG_01570	CDS	ulaA_2		Ascorbate-specific PTS system EIIC component
+GPFGEMDG_01571	CDS			hypothetical protein
+GPFGEMDG_01572	CDS	ulaC	2.7.1.194	Ascorbate-specific PTS system EIIA component
+GPFGEMDG_01573	CDS			hypothetical protein
+GPFGEMDG_01574	CDS	yhhX	1.-.-.-	putative oxidoreductase YhhX
+GPFGEMDG_01575	CDS	ybbH_2		putative HTH-type transcriptional regulator YbbH
+GPFGEMDG_01576	CDS			hypothetical protein
+GPFGEMDG_01577	CDS			hypothetical protein
+GPFGEMDG_01578	CDS			hypothetical protein
+GPFGEMDG_01579	CDS			hypothetical protein
+GPFGEMDG_01580	CDS			hypothetical protein
+GPFGEMDG_01581	CDS			hypothetical protein
+GPFGEMDG_01582	CDS			hypothetical protein
+GPFGEMDG_01583	CDS	hrtA_1	3.6.3.-	Putative hemin import ATP-binding protein HrtA
+GPFGEMDG_01584	CDS			putative ABC transporter permease
+GPFGEMDG_01585	CDS	mprA		Response regulator MprA
+GPFGEMDG_01586	CDS	srrB	2.7.13.3	Sensor protein SrrB
+GPFGEMDG_01587	CDS	ysnF		Stress response protein YsnF
+GPFGEMDG_01588	CDS	xerS_1		Tyrosine recombinase XerS
+GPFGEMDG_01589	CDS	fcbA1	6.2.1.33	4-chlorobenzoate--CoA ligase
+GPFGEMDG_01590	CDS	pdxK	2.7.1.35	Pyridoxine kinase
+GPFGEMDG_01591	CDS	hmpT		Thiamine precursor transporter HmpT
+GPFGEMDG_01592	CDS			hypothetical protein
+GPFGEMDG_01593	CDS	malL_2	3.2.1.10	Oligo-1,6-glucosidase
+GPFGEMDG_01594	CDS			hypothetical protein
+GPFGEMDG_01595	CDS			hypothetical protein
+GPFGEMDG_01596	CDS			DegV domain-containing protein
+GPFGEMDG_01597	CDS	murJ_3		Lipid II flippase MurJ
+GPFGEMDG_01598	CDS			hypothetical protein
+GPFGEMDG_01599	CDS	ygaZ_2		Inner membrane protein YgaZ
+GPFGEMDG_01600	CDS	zitB		Zinc transporter ZitB
+GPFGEMDG_01601	CDS			hypothetical protein
+GPFGEMDG_01602	CDS			hypothetical protein
+GPFGEMDG_01603	CDS			hypothetical protein
+GPFGEMDG_01604	CDS			hypothetical protein
+GPFGEMDG_01605	CDS			hypothetical protein
+GPFGEMDG_01606	CDS			hypothetical protein
+GPFGEMDG_01607	CDS	nupC		Nucleoside permease NupC
+GPFGEMDG_01608	CDS	gmk_2	2.7.4.8	Guanylate kinase
+GPFGEMDG_01609	CDS			hypothetical protein
+GPFGEMDG_01610	CDS			hypothetical protein
+GPFGEMDG_01611	CDS			hypothetical protein
+GPFGEMDG_01612	CDS	yecS_1		L-cystine transport system permease protein YecS
+GPFGEMDG_01613	CDS	yckB		putative ABC transporter extracellular-binding protein YckB
+GPFGEMDG_01614	CDS	nylA	3.5.2.12	6-aminohexanoate-cyclic-dimer hydrolase
+GPFGEMDG_01615	CDS	pyrDA	1.3.98.1	Dihydroorotate dehydrogenase A (fumarate)
+GPFGEMDG_01616	CDS			hypothetical protein
+GPFGEMDG_01617	CDS	cfa	2.1.1.79	Cyclopropane-fatty-acyl-phospholipid synthase
+GPFGEMDG_01618	CDS			hypothetical protein
+GPFGEMDG_01619	CDS	malG		Maltose transport system permease protein MalG
+GPFGEMDG_01620	CDS	malF		Maltose transport system permease protein MalF
+GPFGEMDG_01621	CDS	mdxE		Maltodextrin-binding protein MdxE
+GPFGEMDG_01622	CDS	bbmA	3.2.1.-	Intracellular maltogenic amylase
+GPFGEMDG_01623	CDS			hypothetical protein
+GPFGEMDG_01624	CDS			hypothetical protein
+GPFGEMDG_01625	CDS	ohrA		Organic hydroperoxide resistance protein OhrA
+GPFGEMDG_01626	CDS	ohrR		Organic hydroperoxide resistance transcriptional regulator
+GPFGEMDG_01627	CDS			hypothetical protein
+GPFGEMDG_01628	CDS			hypothetical protein
+GPFGEMDG_01629	CDS			hypothetical protein
+GPFGEMDG_01630	CDS	uxuA_1	4.2.1.8	Mannonate dehydratase
+GPFGEMDG_01631	CDS	por_1	1.1.1.-	Polyol:NADP oxidoreductase
+GPFGEMDG_01632	CDS	rspR_2		HTH-type transcriptional repressor RspR
+GPFGEMDG_01633	CDS	ahpC	1.11.1.15	Alkyl hydroperoxide reductase subunit C
+GPFGEMDG_01634	CDS	ahpF	1.6.99.3	NADH dehydrogenase
+GPFGEMDG_01635	CDS			hypothetical protein
+GPFGEMDG_01636	CDS			hypothetical protein
+GPFGEMDG_01637	CDS	napA		Na(+)/H(+) antiporter
+GPFGEMDG_01638	CDS	pbp		Beta-lactam-inducible penicillin-binding protein
+GPFGEMDG_01639	CDS	msrR_2		Regulatory protein MsrR
+GPFGEMDG_01640	CDS	ftsW_2	2.4.1.129	putative peptidoglycan glycosyltransferase FtsW
+GPFGEMDG_01641	CDS			hypothetical protein
+GPFGEMDG_01642	CDS			hypothetical protein
+GPFGEMDG_01643	CDS	nanE_1	5.1.3.9	Putative N-acetylmannosamine-6-phosphate 2-epimerase
+GPFGEMDG_01644	CDS			hypothetical protein
+GPFGEMDG_01645	CDS	dxs	2.2.1.7	1-deoxy-D-xylulose-5-phosphate synthase
+GPFGEMDG_01646	CDS			hypothetical protein
+GPFGEMDG_01647	CDS	glsA	3.5.1.2	Glutaminase
+GPFGEMDG_01648	CDS	gadC_2		Glutamate/gamma-aminobutyrate antiporter
+GPFGEMDG_01649	CDS	amt		Ammonia channel
+GPFGEMDG_01650	CDS			hypothetical protein
+GPFGEMDG_01651	CDS			hypothetical protein
+GPFGEMDG_01652	CDS			Stress response regulator gls24 
+GPFGEMDG_01653	CDS			hypothetical protein
+GPFGEMDG_01654	CDS			hypothetical protein
+GPFGEMDG_01655	CDS			hypothetical protein
+GPFGEMDG_01656	CDS			hypothetical protein
+GPFGEMDG_01657	CDS			hypothetical protein
+GPFGEMDG_01658	CDS			hypothetical protein
+GPFGEMDG_01659	CDS			hypothetical protein
+GPFGEMDG_01660	CDS			Stress response regulator gls24 
+GPFGEMDG_01661	CDS			hypothetical protein
+GPFGEMDG_01662	CDS			hypothetical protein
+GPFGEMDG_01663	CDS	yghA	1.-.-.-	putative oxidoreductase YghA
+GPFGEMDG_01664	CDS	corA_2		Cobalt/magnesium transport protein CorA
+GPFGEMDG_01665	CDS			hypothetical protein
+GPFGEMDG_01666	CDS	gspA_1		General stress protein A
+GPFGEMDG_01667	CDS	gspA_2		General stress protein A
+GPFGEMDG_01668	CDS	yidA_2	3.1.3.23	Sugar phosphatase YidA
+GPFGEMDG_01669	CDS			hypothetical protein
+GPFGEMDG_01670	tRNA			tRNA-Met(cat)
+GPFGEMDG_01671	CDS			hypothetical protein
+GPFGEMDG_01672	CDS			hypothetical protein
+GPFGEMDG_01673	CDS			hypothetical protein
+GPFGEMDG_01674	CDS			hypothetical protein
+GPFGEMDG_01675	CDS			hypothetical protein
+GPFGEMDG_01676	CDS	cspL		Cold shock protein 2
+GPFGEMDG_01677	CDS			hypothetical protein
+GPFGEMDG_01678	CDS		3.1.3.-	Phosphorylated carbohydrates phosphatase
+GPFGEMDG_01679	CDS	uxuA_2	4.2.1.8	Mannonate dehydratase
+GPFGEMDG_01680	CDS	manX_1	2.7.1.191	PTS system mannose-specific EIIAB component
+GPFGEMDG_01681	CDS			hypothetical protein
+GPFGEMDG_01682	CDS			hypothetical protein
+GPFGEMDG_01683	CDS	sorB_2	2.7.1.206	PTS system sorbose-specific EIIB component
+GPFGEMDG_01684	CDS	manZ_2		PTS system mannose-specific EIID component
+GPFGEMDG_01685	CDS	sorA_1		PTS system sorbose-specific EIIC component
+GPFGEMDG_01686	CDS	ybdH	1.1.-.-	putative oxidoreductase YbdH
+GPFGEMDG_01687	CDS			hypothetical protein
+GPFGEMDG_01688	CDS	fldH_2	1.1.1.-	Phenyllactate dehydrogenase
+GPFGEMDG_01689	CDS		1.1.1.343	6-phosphogluconate dehydrogenase, NAD(+)-dependent, decarboxylating
+GPFGEMDG_01690	CDS	murR_1		HTH-type transcriptional regulator MurR
+GPFGEMDG_01691	CDS			hypothetical protein
+GPFGEMDG_01692	CDS	aes_1	3.1.1.-	Acetyl esterase
+GPFGEMDG_01693	CDS			hypothetical protein
+GPFGEMDG_01694	CDS	sttH	3.5.2.19	Streptothricin hydrolase
+GPFGEMDG_01695	CDS	spxA_5		Regulatory protein Spx
+GPFGEMDG_01696	CDS			hypothetical protein
+GPFGEMDG_01697	CDS			hypothetical protein
+GPFGEMDG_01698	CDS			hypothetical protein
+GPFGEMDG_01699	CDS			hypothetical protein
+GPFGEMDG_01700	CDS	prsA_3	5.2.1.8	Foldase protein PrsA
+GPFGEMDG_01701	CDS	fsaA	4.1.2.-	Fructose-6-phosphate aldolase 1
+GPFGEMDG_01702	CDS	srlB	2.7.1.198	PTS system glucitol/sorbitol-specific EIIA component
+GPFGEMDG_01703	CDS			hypothetical protein
+GPFGEMDG_01704	CDS	srlE	2.7.1.198	PTS system glucitol/sorbitol-specific EIIB component
+GPFGEMDG_01705	CDS	srlA		PTS system glucitol/sorbitol-specific EIIC component
+GPFGEMDG_01706	CDS			hypothetical protein
+GPFGEMDG_01707	CDS	licR_2		putative licABCH operon regulator
+GPFGEMDG_01708	CDS	fabG_3	1.1.1.100	3-oxoacyl-[acyl-carrier-protein] reductase FabG
+GPFGEMDG_01709	CDS			hypothetical protein
+GPFGEMDG_01710	CDS			hypothetical protein
+GPFGEMDG_01711	CDS			18 kDa heat shock protein
+GPFGEMDG_01712	CDS			hypothetical protein
+GPFGEMDG_01713	CDS			hypothetical protein
+GPFGEMDG_01714	CDS	xerC_2		Tyrosine recombinase XerC
+GPFGEMDG_01715	CDS	lepA	3.6.5.-	Elongation factor 4
+GPFGEMDG_01716	CDS			hypothetical protein
+GPFGEMDG_01717	CDS			hypothetical protein
+GPFGEMDG_01718	CDS			hypothetical protein
+GPFGEMDG_01719	CDS	clpB		Chaperone protein ClpB
+GPFGEMDG_01720	CDS			hypothetical protein
+GPFGEMDG_01721	CDS			hypothetical protein
+GPFGEMDG_01722	CDS	dagK_1	2.7.1.107	Diacylglycerol kinase
+GPFGEMDG_01723	CDS	pepT	3.4.11.4	Peptidase T
+GPFGEMDG_01724	CDS			GTP cyclohydrolase 1 type 2 
+GPFGEMDG_01725	CDS	trmK	2.1.1.217	tRNA (adenine(22)-N(1))-methyltransferase
+GPFGEMDG_01726	CDS			hypothetical protein
+GPFGEMDG_01727	CDS			hypothetical protein
+GPFGEMDG_01728	CDS	dnaI		Primosomal protein DnaI
+GPFGEMDG_01729	CDS	dnaB		Replication initiation and membrane attachment protein
+GPFGEMDG_01730	CDS	nrdR		Transcriptional repressor NrdR
+GPFGEMDG_01731	CDS			hypothetical protein
+GPFGEMDG_01732	CDS	coaE	2.7.1.24	Dephospho-CoA kinase
+GPFGEMDG_01733	CDS	mutM	3.2.2.23	Formamidopyrimidine-DNA glycosylase
+GPFGEMDG_01734	CDS	polA	2.7.7.7	DNA polymerase I
+GPFGEMDG_01735	CDS	ybhL		Inner membrane protein YbhL
+GPFGEMDG_01736	CDS	phaJ	4.2.1.119	(R)-specific enoyl-CoA hydratase
+GPFGEMDG_01737	CDS	murC	6.3.2.8	UDP-N-acetylmuramate--L-alanine ligase
+GPFGEMDG_01738	CDS			hypothetical protein
+GPFGEMDG_01739	CDS			Protein SprT-like protein
+GPFGEMDG_01740	CDS	rpsA		30S ribosomal protein S1
+GPFGEMDG_01741	CDS	pphA	3.1.3.16	Serine/threonine-protein phosphatase 1
+GPFGEMDG_01742	CDS	glpE_1	2.8.1.1	Thiosulfate sulfurtransferase GlpE
+GPFGEMDG_01743	CDS			hypothetical protein
+GPFGEMDG_01744	CDS	tcyP		L-cystine uptake protein TcyP
+GPFGEMDG_01745	CDS			hypothetical protein
+GPFGEMDG_01746	CDS	gph_2	3.1.3.18	Phosphoglycolate phosphatase
+GPFGEMDG_01747	CDS	gpmA_2	5.4.2.11	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+GPFGEMDG_01748	CDS			hypothetical protein
+GPFGEMDG_01749	CDS			hypothetical protein
+GPFGEMDG_01750	CDS			hypothetical protein
+GPFGEMDG_01751	CDS			hypothetical protein
+GPFGEMDG_01752	CDS			hypothetical protein
+GPFGEMDG_01753	CDS	lacG_2		Lactose transport system permease protein LacG
+GPFGEMDG_01754	CDS	lacF_4		Lactose transport system permease protein LacF
+GPFGEMDG_01755	CDS	lacE_2		Lactose-binding protein
+GPFGEMDG_01756	CDS			putative response regulatory protein
+GPFGEMDG_01757	CDS	araC_3		Arabinose operon regulatory protein
+GPFGEMDG_01758	CDS	yehU_2	2.7.13.3	Sensor histidine kinase YehU
+GPFGEMDG_01759	CDS	pheA	4.2.1.51	Prephenate dehydratase
+GPFGEMDG_01760	CDS	aroK	2.7.1.71	Shikimate kinase
+GPFGEMDG_01761	CDS	aroA	2.5.1.19	3-phosphoshikimate 1-carboxyvinyltransferase
+GPFGEMDG_01762	CDS	tyrA	1.3.1.12	Prephenate dehydrogenase
+GPFGEMDG_01763	CDS	aroC	4.2.3.5	Chorismate synthase
+GPFGEMDG_01764	CDS	aroB	4.2.3.4	3-dehydroquinate synthase
+GPFGEMDG_01765	CDS	aroF	2.5.1.54	Phospho-2-dehydro-3-deoxyheptonate aldolase
+GPFGEMDG_01766	CDS	lacM	3.2.1.23	Beta-galactosidase small subunit
+GPFGEMDG_01767	CDS	lacL	3.2.1.23	Beta-galactosidase large subunit
+GPFGEMDG_01768	CDS	agaSK_2		Bifunctional alpha-galactosidase/sucrose kinase AgaSK
+GPFGEMDG_01769	CDS	lacR_3		HTH-type transcriptional regulator LacR
+GPFGEMDG_01770	CDS	aes_2	3.1.1.-	Acetyl esterase
+GPFGEMDG_01771	CDS			hypothetical protein
+GPFGEMDG_01772	CDS	rlmCD_2	2.1.1.189	23S rRNA (uracil-C(5))-methyltransferase RlmCD
+GPFGEMDG_01773	CDS	dagK_2	2.7.1.107	Diacylglycerol kinase
+GPFGEMDG_01774	CDS	gatB_2	6.3.5.-	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B
+GPFGEMDG_01775	CDS	gatA_2	6.3.5.7	Glutamyl-tRNA(Gln) amidotransferase subunit A
+GPFGEMDG_01776	CDS	gatC_2	6.3.5.-	Glutamyl-tRNA(Gln) amidotransferase subunit C
+GPFGEMDG_01777	CDS	ligA_1	6.5.1.2	DNA ligase
+GPFGEMDG_01778	CDS	pcrA	3.6.4.12	ATP-dependent DNA helicase PcrA
+GPFGEMDG_01779	CDS	clcA		H(+)/Cl(-) exchange transporter ClcA
+GPFGEMDG_01780	CDS	fruA_2		PTS system fructose-specific EIIABC component
+GPFGEMDG_01781	CDS	lacC_2	2.7.1.144	Tagatose-6-phosphate kinase
+GPFGEMDG_01782	CDS	glcR_1		HTH-type transcriptional repressor GlcR
+GPFGEMDG_01783	CDS			hypothetical protein
+GPFGEMDG_01784	CDS			hypothetical protein
+GPFGEMDG_01785	CDS			hypothetical protein
+GPFGEMDG_01786	CDS	engB		putative GTP-binding protein EngB
+GPFGEMDG_01787	CDS	clpX		ATP-dependent Clp protease ATP-binding subunit ClpX
+GPFGEMDG_01788	CDS	tig	5.2.1.8	Trigger factor
+GPFGEMDG_01789	CDS			hypothetical protein
+GPFGEMDG_01790	CDS			hypothetical protein
+GPFGEMDG_01791	CDS	sppA	3.4.21.-	Putative signal peptide peptidase SppA
+GPFGEMDG_01792	CDS			hypothetical protein
+GPFGEMDG_01793	CDS	glmS	2.6.1.16	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]
+GPFGEMDG_01794	CDS	glmM	5.4.2.10	Phosphoglucosamine mutase
+GPFGEMDG_01795	CDS	cdaR_1		CdaA regulatory protein CdaR
+GPFGEMDG_01796	CDS	cdaA	2.7.7.85	Cyclic di-AMP synthase CdaA
+GPFGEMDG_01797	CDS	por_2	1.2.7.1	Pyruvate synthase
+GPFGEMDG_01798	CDS			hypothetical protein
+GPFGEMDG_01799	CDS			hypothetical protein
+GPFGEMDG_01800	CDS			hypothetical protein
+GPFGEMDG_01801	CDS			hypothetical protein
+GPFGEMDG_01802	CDS			hypothetical protein
+GPFGEMDG_01803	CDS			hypothetical protein
+GPFGEMDG_01804	CDS			hypothetical protein
+GPFGEMDG_01805	CDS			hypothetical protein
+GPFGEMDG_01806	CDS			hypothetical protein
+GPFGEMDG_01807	CDS	whiA		Putative sporulation transcription regulator WhiA
+GPFGEMDG_01808	CDS			Putative gluconeogenesis factor
+GPFGEMDG_01809	CDS	yvcJ		Nucleotide-binding protein YvcJ
+GPFGEMDG_01810	CDS		5.1.1.13	Aspartate racemase
+GPFGEMDG_01811	CDS		6.3.1.12	D-aspartate ligase
+GPFGEMDG_01812	CDS	uvrA		UvrABC system protein A
+GPFGEMDG_01813	CDS	uvrB		UvrABC system protein B
+GPFGEMDG_01814	CDS	glnM_2		putative glutamine ABC transporter permease protein GlnM
+GPFGEMDG_01815	CDS	artM_3		Arginine transport ATP-binding protein ArtM
+GPFGEMDG_01816	CDS	cdaR_2		Carbohydrate diacid regulator
+GPFGEMDG_01817	CDS	dnaJ		Chaperone protein DnaJ
+GPFGEMDG_01818	CDS	dnaK		Chaperone protein DnaK
+GPFGEMDG_01819	CDS	grpE		Protein GrpE
+GPFGEMDG_01820	CDS	hrcA		Heat-inducible transcription repressor HrcA
+GPFGEMDG_01821	CDS	hemN	1.3.99.-	Oxygen-independent coproporphyrinogen-III oxidase-like protein
+GPFGEMDG_01822	CDS			hypothetical protein
+GPFGEMDG_01823	CDS	ydeA	3.2.-.-	putative protease YdeA
+GPFGEMDG_01824	CDS			hypothetical protein
+GPFGEMDG_01825	CDS	mccF		Microcin C7 self-immunity protein MccF
+GPFGEMDG_01826	CDS	proX_1		Prolyl-tRNA editing protein ProX
+GPFGEMDG_01827	CDS	fra		Intracellular iron chaperone frataxin
+GPFGEMDG_01828	CDS			hypothetical protein
+GPFGEMDG_01829	CDS	glcU_2		Glucose uptake protein GlcU
+GPFGEMDG_01830	CDS	gdhIV	1.1.1.47	Glucose 1-dehydrogenase 4
+GPFGEMDG_01831	CDS	ribF		Riboflavin biosynthesis protein RibF
+GPFGEMDG_01832	CDS	truB	5.4.99.25	tRNA pseudouridine synthase B
+GPFGEMDG_01833	CDS	xpkA_1	4.1.2.9	Xylulose-5-phosphate phosphoketolase
+GPFGEMDG_01834	CDS	xpkA_2	4.1.2.9	Xylulose-5-phosphate phosphoketolase
+GPFGEMDG_01835	CDS	xpkA_3	4.1.2.9	Xylulose-5-phosphate phosphoketolase
+GPFGEMDG_01836	CDS	rbfA		Ribosome-binding factor A
+GPFGEMDG_01837	CDS	infB		Translation initiation factor IF-2
+GPFGEMDG_01838	CDS	rplGA		putative ribosomal protein YlxQ
+GPFGEMDG_01839	CDS			hypothetical protein
+GPFGEMDG_01840	CDS	nusA		Transcription termination/antitermination protein NusA
+GPFGEMDG_01841	CDS	rimP		Ribosome maturation factor RimP
+GPFGEMDG_01842	CDS	polC_1	2.7.7.7	DNA polymerase III PolC-type
+GPFGEMDG_01843	CDS	proS	6.1.1.15	Proline--tRNA ligase
+GPFGEMDG_01844	CDS	rasP	3.4.24.-	Regulator of sigma-W protease RasP
+GPFGEMDG_01845	CDS	cdsA	2.7.7.41	Phosphatidate cytidylyltransferase
+GPFGEMDG_01846	CDS	uppS	2.5.1.31	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)
+GPFGEMDG_01847	CDS	frr		Ribosome-recycling factor
+GPFGEMDG_01848	CDS	pyrH	2.7.4.22	Uridylate kinase
+GPFGEMDG_01849	CDS	tsf		Elongation factor Ts
+GPFGEMDG_01850	CDS	rpsB		30S ribosomal protein S2
+GPFGEMDG_01851	CDS	argR_2		Arginine repressor
+GPFGEMDG_01852	CDS	phnW	2.6.1.37	2-aminoethylphosphonate--pyruvate transaminase
+GPFGEMDG_01853	CDS	phnX_1	3.11.1.1	Phosphonoacetaldehyde hydrolase
+GPFGEMDG_01854	CDS	phnX_2	3.11.1.1	Phosphonoacetaldehyde hydrolase
+GPFGEMDG_01855	CDS	argS	6.1.1.19	Arginine--tRNA ligase
+GPFGEMDG_01856	CDS	arcC1	2.7.2.2	Carbamate kinase 1
+GPFGEMDG_01857	CDS	arcB	2.1.3.3	Ornithine carbamoyltransferase, catabolic
+GPFGEMDG_01858	CDS	arcA	3.5.3.6	Arginine deiminase
+GPFGEMDG_01859	CDS	ntcA		Global nitrogen regulator
+GPFGEMDG_01860	CDS	tsaD	2.3.1.234	tRNA N6-adenosine threonylcarbamoyltransferase
+GPFGEMDG_01861	CDS	rimI_1	2.3.1.255	N-alpha-acetyltransferase RimI
+GPFGEMDG_01862	CDS	rimI_2	2.3.1.255	N-alpha-acetyltransferase RimI
+GPFGEMDG_01863	CDS	tsaB		tRNA threonylcarbamoyladenosine biosynthesis protein TsaB
+GPFGEMDG_01864	CDS	exuR_3		putative HTH-type transcriptional repressor ExuR
+GPFGEMDG_01865	CDS	galT	2.7.7.12	Galactose-1-phosphate uridylyltransferase
+GPFGEMDG_01866	CDS	galE	5.1.3.2	UDP-glucose 4-epimerase
+GPFGEMDG_01867	CDS			hypothetical protein
+GPFGEMDG_01868	CDS			hypothetical protein
+GPFGEMDG_01869	CDS			hypothetical protein
+GPFGEMDG_01870	CDS	glpE_2	2.8.1.1	Thiosulfate sulfurtransferase GlpE
+GPFGEMDG_01871	CDS	glcK	2.7.1.2	Glucokinase
+GPFGEMDG_01872	CDS			hypothetical protein
+GPFGEMDG_01873	CDS	gluP	3.4.21.105	Rhomboid protease GluP
+GPFGEMDG_01874	CDS	ygfA	6.3.3.2	5-formyltetrahydrofolate cyclo-ligase
+GPFGEMDG_01875	CDS	feuC		Iron-uptake system permease protein FeuC
+GPFGEMDG_01876	CDS	feuB_2		Iron-uptake system permease protein FeuB
+GPFGEMDG_01877	CDS	fepC		Ferric enterobactin transport ATP-binding protein FepC
+GPFGEMDG_01878	CDS	yfiY		putative siderophore-binding lipoprotein YfiY
+GPFGEMDG_01879	CDS	folA_2	1.5.1.3	Dihydrofolate reductase
+GPFGEMDG_01880	CDS	rpmGA_2		50S ribosomal protein L33 1
+GPFGEMDG_01881	CDS			hypothetical protein
+GPFGEMDG_01882	CDS	asnB	6.3.5.4	Asparagine synthetase [glutamine-hydrolyzing] 1
+GPFGEMDG_01883	CDS			hypothetical protein
+GPFGEMDG_01884	CDS	cbh_1	3.5.1.24	Choloylglycine hydrolase
+GPFGEMDG_01885	CDS			hypothetical protein
+GPFGEMDG_01886	CDS	cbh_2	3.5.1.24	Choloylglycine hydrolase
+GPFGEMDG_01887	CDS			hypothetical protein
+GPFGEMDG_01888	CDS			hypothetical protein
+GPFGEMDG_01889	CDS	lytA_2	3.5.1.28	Autolysin
+GPFGEMDG_01890	CDS			hypothetical protein
+GPFGEMDG_01891	CDS			hypothetical protein
+GPFGEMDG_01892	CDS			hypothetical protein
+GPFGEMDG_01893	CDS			hypothetical protein
+GPFGEMDG_01894	CDS			hypothetical protein
+GPFGEMDG_01895	CDS			hypothetical protein
+GPFGEMDG_01896	CDS			hypothetical protein
+GPFGEMDG_01897	CDS	mepM_2	3.4.24.-	Murein DD-endopeptidase MepM
+GPFGEMDG_01898	CDS			hypothetical protein
+GPFGEMDG_01899	CDS	smc_4		Chromosome partition protein Smc
+GPFGEMDG_01900	CDS			hypothetical protein
+GPFGEMDG_01901	CDS			hypothetical protein
+GPFGEMDG_01902	CDS			hypothetical protein
+GPFGEMDG_01903	CDS			hypothetical protein
+GPFGEMDG_01904	CDS			hypothetical protein
+GPFGEMDG_01905	CDS			hypothetical protein
+GPFGEMDG_01906	CDS			hypothetical protein
+GPFGEMDG_01907	CDS			hypothetical protein
+GPFGEMDG_01908	CDS			hypothetical protein
+GPFGEMDG_01909	CDS			hypothetical protein
+GPFGEMDG_01910	CDS			hypothetical protein
+GPFGEMDG_01911	CDS			hypothetical protein
+GPFGEMDG_01912	CDS			hypothetical protein
+GPFGEMDG_01913	CDS			hypothetical protein
+GPFGEMDG_01914	CDS			hypothetical protein
+GPFGEMDG_01915	CDS			hypothetical protein
+GPFGEMDG_01916	CDS			hypothetical protein
+GPFGEMDG_01917	CDS			hypothetical protein
+GPFGEMDG_01918	CDS			hypothetical protein
+GPFGEMDG_01919	CDS			hypothetical protein
+GPFGEMDG_01920	CDS			hypothetical protein
+GPFGEMDG_01921	CDS			hypothetical protein
+GPFGEMDG_01922	CDS			hypothetical protein
+GPFGEMDG_01923	CDS			hypothetical protein
+GPFGEMDG_01924	CDS			hypothetical protein
+GPFGEMDG_01925	CDS			hypothetical protein
+GPFGEMDG_01926	CDS			hypothetical protein
+GPFGEMDG_01927	CDS			hypothetical protein
+GPFGEMDG_01928	CDS			hypothetical protein
+GPFGEMDG_01929	CDS			hypothetical protein
+GPFGEMDG_01930	CDS			hypothetical protein
+GPFGEMDG_01931	CDS			hypothetical protein
+GPFGEMDG_01932	CDS			hypothetical protein
+GPFGEMDG_01933	CDS			hypothetical protein
+GPFGEMDG_01934	CDS			hypothetical protein
+GPFGEMDG_01935	CDS			hypothetical protein
+GPFGEMDG_01936	CDS	xre		HTH-type transcriptional regulator Xre
+GPFGEMDG_01937	CDS	immA	3.4.-.-	Metallopeptidase ImmA
+GPFGEMDG_01938	CDS			hypothetical protein
+GPFGEMDG_01939	CDS			hypothetical protein
+GPFGEMDG_01940	CDS	intQ_1		Putative defective protein IntQ
+GPFGEMDG_01941	tRNA			tRNA-Ser(cga)
+GPFGEMDG_01942	CDS			hypothetical protein
+GPFGEMDG_01943	CDS			hypothetical protein
+GPFGEMDG_01944	CDS			hypothetical protein
+GPFGEMDG_01945	CDS			hypothetical protein
+GPFGEMDG_01946	CDS			hypothetical protein
+GPFGEMDG_01947	CDS			hypothetical protein
+GPFGEMDG_01948	CDS			hypothetical protein
+GPFGEMDG_01949	CDS	glpQ_1	3.1.4.46	Glycerophosphodiester phosphodiesterase
+GPFGEMDG_01950	CDS			hypothetical protein
+GPFGEMDG_01951	CDS			hypothetical protein
+GPFGEMDG_01952	CDS			hypothetical protein
+GPFGEMDG_01953	CDS			hypothetical protein
+GPFGEMDG_01954	CDS			hypothetical protein
+GPFGEMDG_01955	CDS			hypothetical protein
+GPFGEMDG_01956	CDS			hypothetical protein
+GPFGEMDG_01957	CDS			hypothetical protein
+GPFGEMDG_01958	CDS	pgi	5.3.1.9	Glucose-6-phosphate isomerase
+GPFGEMDG_01959	CDS	gdh	1.4.1.4	NADP-specific glutamate dehydrogenase
+GPFGEMDG_01960	CDS	mnmG_2		tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+GPFGEMDG_01961	CDS	ybaK_1	4.2.-.-	Cys-tRNA(Pro)/Cys-tRNA(Cys) deacylase YbaK
+GPFGEMDG_01962	CDS	aroD	4.2.1.10	3-dehydroquinate dehydratase
+GPFGEMDG_01963	CDS	rlmI	2.1.1.191	Ribosomal RNA large subunit methyltransferase I
+GPFGEMDG_01964	CDS	ltaS1_2		Lipoteichoic acid synthase 1
+GPFGEMDG_01965	CDS			hypothetical protein
+GPFGEMDG_01966	CDS			hypothetical protein
+GPFGEMDG_01967	CDS	phoR_3	2.7.13.3	Alkaline phosphatase synthesis sensor protein PhoR
+GPFGEMDG_01968	CDS	srrA_2		Transcriptional regulatory protein SrrA
+GPFGEMDG_01969	CDS			hypothetical protein
+GPFGEMDG_01970	CDS		3.1.3.-	Putative phosphatase
+GPFGEMDG_01971	tmRNA	ssrA		transfer-messenger RNA, SsrA
+GPFGEMDG_01972	CDS			hypothetical protein
+GPFGEMDG_01973	CDS			hypothetical protein
+GPFGEMDG_01974	tRNA			tRNA-Met(cat)
+GPFGEMDG_01975	CDS			hypothetical protein
+GPFGEMDG_01976	CDS			hypothetical protein
+GPFGEMDG_01977	CDS			hypothetical protein
+GPFGEMDG_01978	CDS	msrC	1.8.4.14	Free methionine-R-sulfoxide reductase
+GPFGEMDG_01979	CDS	aldC	4.1.1.5	Alpha-acetolactate decarboxylase
+GPFGEMDG_01980	CDS	alsS	2.2.1.6	Acetolactate synthase
+GPFGEMDG_01981	CDS			hypothetical protein
+GPFGEMDG_01982	CDS			hypothetical protein
+GPFGEMDG_01983	CDS	araQ_5		L-arabinose transport system permease protein AraQ
+GPFGEMDG_01984	CDS			hypothetical protein
+GPFGEMDG_01985	CDS			hypothetical protein
+GPFGEMDG_01986	CDS	catM		HTH-type transcriptional regulator CatM
+GPFGEMDG_01987	CDS	adhR		HTH-type transcriptional regulator AdhR
+GPFGEMDG_01988	CDS	yjhB_3		Putative metabolite transport protein YjhB
+GPFGEMDG_01989	CDS			hypothetical protein
+GPFGEMDG_01990	CDS			hypothetical protein
+GPFGEMDG_01991	CDS			hypothetical protein
+GPFGEMDG_01992	CDS			hypothetical protein
+GPFGEMDG_01993	CDS			Fimbrial subunit type 1
+GPFGEMDG_01994	CDS			hypothetical protein
+GPFGEMDG_01995	CDS			hypothetical protein
+GPFGEMDG_01996	CDS			hypothetical protein
+GPFGEMDG_01997	CDS			hypothetical protein
+GPFGEMDG_01998	CDS			hypothetical protein
+GPFGEMDG_01999	CDS	xerC_3		Tyrosine recombinase XerC
+GPFGEMDG_02000	CDS			hypothetical protein
+GPFGEMDG_02001	CDS			hypothetical protein
+GPFGEMDG_02002	CDS			hypothetical protein
+GPFGEMDG_02003	CDS			hypothetical protein
+GPFGEMDG_02004	CDS			hypothetical protein
+GPFGEMDG_02005	CDS			hypothetical protein
+GPFGEMDG_02006	CDS			hypothetical protein
+GPFGEMDG_02007	CDS			hypothetical protein
+GPFGEMDG_02008	CDS	sacA	3.2.1.26	Sucrose-6-phosphate hydrolase
+GPFGEMDG_02009	CDS	sorF	2.7.1.206	PTS system sorbose-specific EIIA component
+GPFGEMDG_02010	CDS	manX_2	2.7.1.191	PTS system mannose-specific EIIAB component
+GPFGEMDG_02011	CDS	manZ_3		PTS system mannose-specific EIID component
+GPFGEMDG_02012	CDS	sorC_1		PTS system sorbose-specific EIIC component
+GPFGEMDG_02013	CDS	dgaR_2		Transcriptional regulatory protein DagR
+GPFGEMDG_02014	CDS	gmuE_3	2.7.1.4	Putative fructokinase
+GPFGEMDG_02015	CDS	crr_1	2.7.1.199	PTS system glucose-specific EIIA component
+GPFGEMDG_02016	CDS	treP_1		PTS system trehalose-specific EIIBC component
+GPFGEMDG_02017	CDS	bfrA	3.2.1.26	Beta-fructosidase
+GPFGEMDG_02018	CDS	degA_3		HTH-type transcriptional regulator DegA
+GPFGEMDG_02019	CDS			hypothetical protein
+GPFGEMDG_02020	CDS			hypothetical protein
+GPFGEMDG_02021	CDS			hypothetical protein
+GPFGEMDG_02022	CDS			hypothetical protein
+GPFGEMDG_02023	CDS			hypothetical protein
+GPFGEMDG_02024	CDS			hypothetical protein
+GPFGEMDG_02025	CDS			Insertion sequence IS5376 putative ATP-binding protein
+GPFGEMDG_02026	CDS			hypothetical protein
+GPFGEMDG_02027	CDS	iap_1	3.4.-.-	putative endopeptidase p60
+GPFGEMDG_02028	CDS			hypothetical protein
+GPFGEMDG_02029	CDS			hypothetical protein
+GPFGEMDG_02030	CDS			hypothetical protein
+GPFGEMDG_02031	CDS			hypothetical protein
+GPFGEMDG_02032	CDS			hypothetical protein
+GPFGEMDG_02033	CDS			hypothetical protein
+GPFGEMDG_02034	CDS			hypothetical protein
+GPFGEMDG_02035	CDS	ltrA_3		Group II intron-encoded protein LtrA
+GPFGEMDG_02036	CDS			hypothetical protein
+GPFGEMDG_02037	CDS			hypothetical protein
+GPFGEMDG_02038	CDS			hypothetical protein
+GPFGEMDG_02039	CDS	hpaIIM	2.1.1.37	Modification methylase HpaII
+GPFGEMDG_02040	CDS			hypothetical protein
+GPFGEMDG_02041	CDS	ltrA_4		Group II intron-encoded protein LtrA
+GPFGEMDG_02042	CDS	ftsK_2		DNA translocase FtsK
+GPFGEMDG_02043	CDS			hypothetical protein
+GPFGEMDG_02044	CDS			hypothetical protein
+GPFGEMDG_02045	CDS			hypothetical protein
+GPFGEMDG_02046	CDS			hypothetical protein
+GPFGEMDG_02047	CDS			hypothetical protein
+GPFGEMDG_02048	CDS	rplS		50S ribosomal protein L19
+GPFGEMDG_02049	CDS	trmD	2.1.1.228	tRNA (guanine-N(1)-)-methyltransferase
+GPFGEMDG_02050	CDS	rimM		Ribosome maturation factor RimM
+GPFGEMDG_02051	CDS			hypothetical protein
+GPFGEMDG_02052	CDS			hypothetical protein
+GPFGEMDG_02053	CDS	rpsP		30S ribosomal protein S16
+GPFGEMDG_02054	CDS	chrR	1.6.5.2	Chromate reductase
+GPFGEMDG_02055	CDS	folA_3	1.5.1.3	Dihydrofolate reductase
+GPFGEMDG_02056	CDS	tag	3.2.2.20	DNA-3-methyladenine glycosylase 1
+GPFGEMDG_02057	CDS	ffh		Signal recognition particle protein
+GPFGEMDG_02058	CDS			hypothetical protein
+GPFGEMDG_02059	CDS			hypothetical protein
+GPFGEMDG_02060	CDS	phoP		Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+GPFGEMDG_02061	CDS	phoR_4	2.7.13.3	Alkaline phosphatase synthesis sensor protein PhoR
+GPFGEMDG_02062	CDS	ctpE_2	3.6.3.-	putative cation-transporting ATPase E
+GPFGEMDG_02063	CDS			hypothetical protein
+GPFGEMDG_02064	CDS			hypothetical protein
+GPFGEMDG_02065	CDS	pstS1_1		Phosphate-binding protein PstS 1
+GPFGEMDG_02066	CDS			hypothetical protein
+GPFGEMDG_02067	CDS			hypothetical protein
+GPFGEMDG_02068	CDS			hypothetical protein
+GPFGEMDG_02069	CDS			hypothetical protein
+GPFGEMDG_02070	CDS			hypothetical protein
+GPFGEMDG_02071	CDS	cbh_3	3.5.1.24	Choloylglycine hydrolase
+GPFGEMDG_02072	CDS			hypothetical protein
+GPFGEMDG_02073	CDS			hypothetical protein
+GPFGEMDG_02074	CDS			hypothetical protein
+GPFGEMDG_02075	CDS			hypothetical protein
+GPFGEMDG_02076	CDS			hypothetical protein
+GPFGEMDG_02077	CDS			hypothetical protein
+GPFGEMDG_02078	CDS			hypothetical protein
+GPFGEMDG_02079	CDS	lytA_3	3.5.1.28	Autolysin
+GPFGEMDG_02080	CDS			hypothetical protein
+GPFGEMDG_02081	CDS			hypothetical protein
+GPFGEMDG_02082	CDS			hypothetical protein
+GPFGEMDG_02083	CDS			hypothetical protein
+GPFGEMDG_02084	CDS			hypothetical protein
+GPFGEMDG_02085	CDS			hypothetical protein
+GPFGEMDG_02086	CDS			hypothetical protein
+GPFGEMDG_02087	CDS			hypothetical protein
+GPFGEMDG_02088	CDS	copB	3.6.3.54	Copper-exporting P-type ATPase B
+GPFGEMDG_02089	CDS	copA	3.6.3.54	putative copper-importing P-type ATPase A
+GPFGEMDG_02090	CDS	copZ		Copper chaperone CopZ
+GPFGEMDG_02091	CDS	copY		Transcriptional repressor CopY
+GPFGEMDG_02092	CDS			hypothetical protein
+GPFGEMDG_02093	CDS			hypothetical protein
+GPFGEMDG_02094	CDS	ycaM		Inner membrane transporter YcaM
+GPFGEMDG_02095	CDS	cadA	3.6.3.3	Cadmium, zinc and cobalt-transporting ATPase
+GPFGEMDG_02096	CDS	yccF		Inner membrane protein YccF
+GPFGEMDG_02097	CDS			hypothetical protein
+GPFGEMDG_02098	CDS	axe2	3.1.1.72	Acetylxylan esterase
+GPFGEMDG_02099	CDS	asnS	6.1.1.22	Asparagine--tRNA ligase
+GPFGEMDG_02100	CDS		2.6.1.1	Aspartate aminotransferase
+GPFGEMDG_02101	CDS			hypothetical protein
+GPFGEMDG_02102	CDS	dinG_2	3.6.4.12	putative ATP-dependent helicase DinG 
+GPFGEMDG_02103	CDS	cspLA_1		Cold shock-like protein CspLA
+GPFGEMDG_02104	CDS			hypothetical protein
+GPFGEMDG_02105	CDS			hypothetical protein
+GPFGEMDG_02106	CDS			hypothetical protein
+GPFGEMDG_02107	CDS			hypothetical protein
+GPFGEMDG_02108	CDS	dacA	3.4.16.4	D-alanyl-D-alanine carboxypeptidase DacA
+GPFGEMDG_02109	CDS			hypothetical protein
+GPFGEMDG_02110	CDS	eriC		Chloride/fluoride channel protein
+GPFGEMDG_02111	CDS			hypothetical protein
+GPFGEMDG_02112	CDS	rny_2	3.1.-.-	Ribonuclease Y
+GPFGEMDG_02113	CDS		2.1.1.-	Putative TrmH family tRNA/rRNA methyltransferase
+GPFGEMDG_02114	CDS	acyP	3.6.1.7	Acylphosphatase
+GPFGEMDG_02115	CDS	yidC		Membrane protein insertase YidC
+GPFGEMDG_02116	CDS	lacD2	4.1.2.40	Tagatose 1,6-diphosphate aldolase 2
+GPFGEMDG_02117	CDS	mngA		PTS system 2-O-alpha-mannosyl-D-glycerate-specific EIIABC component
+GPFGEMDG_02118	CDS	fruA_3		PTS system fructose-specific EIIABC component
+GPFGEMDG_02119	CDS	pfkB	2.7.1.11	ATP-dependent 6-phosphofructokinase isozyme 2
+GPFGEMDG_02120	CDS	glvR		HTH-type transcriptional regulator GlvR
+GPFGEMDG_02121	CDS	ugd	1.1.1.22	UDP-glucose 6-dehydrogenase
+GPFGEMDG_02122	CDS	wbgU_2	5.1.3.7	UDP-N-acetylglucosamine 4-epimerase
+GPFGEMDG_02123	CDS			hypothetical protein
+GPFGEMDG_02124	CDS			hypothetical protein
+GPFGEMDG_02125	CDS			hypothetical protein
+GPFGEMDG_02126	CDS	pglH_2	2.4.1.292	GalNAc-alpha-(1->4)-GalNAc-alpha-(1->3)-diNAcBac-PP-undecaprenol alpha-1,4-N-acetyl-D-galactosaminyltransferase
+GPFGEMDG_02127	CDS	epsJ_3	2.4.-.-	putative glycosyltransferase EpsJ
+GPFGEMDG_02128	CDS	epsJ_4	2.4.-.-	putative glycosyltransferase EpsJ
+GPFGEMDG_02129	CDS	pimA	2.4.1.57	Phosphatidyl-myo-inositol mannosyltransferase
+GPFGEMDG_02130	CDS	pglA	2.4.1.290	N,N'-diacetylbacillosaminyl-diphospho-undecaprenol alpha-1,3-N-acetylgalactosaminyltransferase
+GPFGEMDG_02131	CDS	epsL	2.-.-.-	putative sugar transferase EpsL
+GPFGEMDG_02132	CDS	epsN	2.6.1.-	Putative pyridoxal phosphate-dependent aminotransferase EpsN
+GPFGEMDG_02133	CDS	gph_3	3.1.3.18	Phosphoglycolate phosphatase
+GPFGEMDG_02134	CDS	ddl_2	6.3.2.4	D-alanine--D-alanine ligase
+GPFGEMDG_02135	CDS	pglF	4.2.1.135	UDP-N-acetyl-alpha-D-glucosamine C6 dehydratase
+GPFGEMDG_02136	CDS	ywqE	3.1.3.48	Tyrosine-protein phosphatase YwqE
+GPFGEMDG_02137	CDS	ywqD	2.7.10.2	Tyrosine-protein kinase YwqD
+GPFGEMDG_02138	CDS	ywqC		putative capsular polysaccharide biosynthesis protein YwqC
+GPFGEMDG_02139	CDS	lytR_2		Transcriptional regulator LytR
+GPFGEMDG_02140	CDS			hypothetical protein
+GPFGEMDG_02141	CDS	glyS	6.1.1.14	Glycine--tRNA ligase beta subunit
+GPFGEMDG_02142	CDS	glyQ	6.1.1.14	Glycine--tRNA ligase alpha subunit
+GPFGEMDG_02143	CDS	recO		DNA repair protein RecO
+GPFGEMDG_02144	CDS	era		GTPase Era
+GPFGEMDG_02145	CDS	dgkA	2.7.1.66	Undecaprenol kinase
+GPFGEMDG_02146	CDS	ybeY	3.1.-.-	Endoribonuclease YbeY
+GPFGEMDG_02147	CDS	pgpH	3.1.4.-	Cyclic-di-AMP phosphodiesterase PgpH
+GPFGEMDG_02148	CDS			PhoH-like protein
+GPFGEMDG_02149	CDS	brnQ_2		Branched-chain amino acid transport system 2 carrier protein
+GPFGEMDG_02150	CDS			hypothetical protein
+GPFGEMDG_02151	CDS	rpsU		30S ribosomal protein S21
+GPFGEMDG_02152	CDS	zur		Zinc-specific metallo-regulatory protein
+GPFGEMDG_02153	CDS	yqfL	2.7.11.32	Putative pyruvate, phosphate dikinase regulatory protein
+GPFGEMDG_02154	CDS	czrA		HTH-type transcriptional repressor CzrA
+GPFGEMDG_02155	CDS	pgcA	5.4.2.2	Phosphoglucomutase
+GPFGEMDG_02156	CDS	trxB	1.8.1.9	Thioredoxin reductase
+GPFGEMDG_02157	CDS	bglH_2	3.2.1.86	Aryl-phospho-beta-D-glucosidase BglH
+GPFGEMDG_02158	CDS	licH	3.2.1.86	putative 6-phospho-beta-glucosidase
+GPFGEMDG_02159	CDS	murR_2		HTH-type transcriptional regulator MurR
+GPFGEMDG_02160	CDS	bglF_3		PTS system beta-glucoside-specific EIIBCA component
+GPFGEMDG_02161	CDS	licT_3		Transcription antiterminator LicT
+GPFGEMDG_02162	CDS	yheH	3.6.3.-	putative multidrug resistance ABC transporter ATP-binding/permease protein YheH
+GPFGEMDG_02163	CDS	yheI	3.6.3.-	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI
+GPFGEMDG_02164	CDS			hypothetical protein
+GPFGEMDG_02165	CDS	mntH		Divalent metal cation transporter MntH
+GPFGEMDG_02166	CDS			hypothetical protein
+GPFGEMDG_02167	CDS			hypothetical protein
+GPFGEMDG_02168	CDS	nfo_2	3.1.21.2	putative endonuclease 4
+GPFGEMDG_02169	CDS	ponA_2		Penicillin-binding protein 1A/1B
+GPFGEMDG_02170	CDS	ccpA_2		Catabolite control protein A
+GPFGEMDG_02171	CDS	pepQ	3.4.13.9	Xaa-Pro dipeptidase
+GPFGEMDG_02172	CDS			hypothetical protein
+GPFGEMDG_02173	CDS			hypothetical protein
+GPFGEMDG_02174	CDS	gtaB_1	2.7.7.9	UTP--glucose-1-phosphate uridylyltransferase
+GPFGEMDG_02175	CDS	gpsA_1	1.1.1.94	Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+GPFGEMDG_02176	CDS	lgt	2.4.99.-	Prolipoprotein diacylglyceryl transferase
+GPFGEMDG_02177	CDS	hprK	2.7.11.-	HPr kinase/phosphorylase
+GPFGEMDG_02178	CDS			hypothetical protein
+GPFGEMDG_02179	CDS			hypothetical protein
+GPFGEMDG_02180	CDS			hypothetical protein
+GPFGEMDG_02181	CDS	smc_5		Chromosome partition protein Smc
+GPFGEMDG_02182	CDS			hypothetical protein
+GPFGEMDG_02183	CDS			hypothetical protein
+GPFGEMDG_02184	CDS	phoU		Phosphate-specific transport system accessory protein PhoU 
+GPFGEMDG_02185	CDS	pstB3_1	3.6.3.27	Phosphate import ATP-binding protein PstB 3
+GPFGEMDG_02186	CDS	pstB3_2	3.6.3.27	Phosphate import ATP-binding protein PstB 3
+GPFGEMDG_02187	CDS	pstA		Phosphate transport system permease protein PstA
+GPFGEMDG_02188	CDS	pstC1		Phosphate transport system permease protein PstC 1
+GPFGEMDG_02189	CDS	pstS1_2		Phosphate-binding protein PstS 1
+GPFGEMDG_02190	CDS	clsA_2	2.7.8.-	Major cardiolipin synthase ClsA
+GPFGEMDG_02191	CDS	ftsX		Cell division protein FtsX
+GPFGEMDG_02192	CDS	ftsE		Cell division ATP-binding protein FtsE
+GPFGEMDG_02193	CDS	prfB		Peptide chain release factor 2
+GPFGEMDG_02194	CDS	secA		Protein translocase subunit SecA
+GPFGEMDG_02195	CDS	hpf		Ribosome hibernation promotion factor
+GPFGEMDG_02196	CDS			hypothetical protein
+GPFGEMDG_02197	CDS	comFA	3.6.4.12	ComF operon protein 1
+GPFGEMDG_02198	CDS	celA_2	2.7.1.205	PTS system cellobiose-specific EIIB component
+GPFGEMDG_02199	CDS			hypothetical protein
+GPFGEMDG_02200	CDS	yigZ		IMPACT family member YigZ
+GPFGEMDG_02201	CDS	yvoA_1		HTH-type transcriptional repressor YvoA
+GPFGEMDG_02202	CDS			hypothetical protein
+GPFGEMDG_02203	tRNA			tRNA-Gln(ttg)
+GPFGEMDG_02204	tRNA			tRNA-Tyr(gta)
+GPFGEMDG_02205	CDS			hypothetical protein
+GPFGEMDG_02206	CDS	bglK	2.7.1.85	Beta-glucoside kinase
+GPFGEMDG_02207	CDS	yvbK	2.3.1.-	putative N-acetyltransferase YvbK
+GPFGEMDG_02208	CDS			Putative membrane protein insertion efficiency factor
+GPFGEMDG_02209	CDS			hypothetical protein
+GPFGEMDG_02210	CDS	murA1_1	2.5.1.7	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1
+GPFGEMDG_02211	CDS			hypothetical protein
+GPFGEMDG_02212	CDS	atpC		ATP synthase epsilon chain
+GPFGEMDG_02213	CDS	atpD	3.6.3.14	ATP synthase subunit beta
+GPFGEMDG_02214	CDS	atpG		ATP synthase gamma chain
+GPFGEMDG_02215	CDS	atpA	3.6.3.14	ATP synthase subunit alpha
+GPFGEMDG_02216	CDS	atpH		ATP synthase subunit delta
+GPFGEMDG_02217	CDS	atpF		ATP synthase subunit b
+GPFGEMDG_02218	CDS	atpE_1		ATP synthase subunit c
+GPFGEMDG_02219	CDS	atpB		ATP synthase subunit a
+GPFGEMDG_02220	CDS	smpB		SsrA-binding protein
+GPFGEMDG_02221	CDS	rnr	3.1.13.1	Ribonuclease R
+GPFGEMDG_02222	CDS	est	3.1.1.1	Carboxylesterase
+GPFGEMDG_02223	CDS	secG		putative protein-export membrane protein SecG
+GPFGEMDG_02224	CDS			hypothetical protein
+GPFGEMDG_02225	CDS	menH_1	4.2.99.20	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
+GPFGEMDG_02226	CDS	rihB	3.2.2.8	Pyrimidine-specific ribonucleoside hydrolase RihB
+GPFGEMDG_02227	CDS			hypothetical protein
+GPFGEMDG_02228	CDS	dapE	3.5.1.18	putative succinyl-diaminopimelate desuccinylase
+GPFGEMDG_02229	CDS			hypothetical protein
+GPFGEMDG_02230	CDS			hypothetical protein
+GPFGEMDG_02231	CDS			hypothetical protein
+GPFGEMDG_02232	CDS	eno	4.2.1.11	Enolase
+GPFGEMDG_02233	CDS	tpiA	5.3.1.1	Triosephosphate isomerase
+GPFGEMDG_02234	CDS	pgk	2.7.2.3	Phosphoglycerate kinase
+GPFGEMDG_02235	CDS	gap_2	1.2.1.12	Glyceraldehyde-3-phosphate dehydrogenase
+GPFGEMDG_02236	CDS	cggR		Central glycolytic genes regulator
+GPFGEMDG_02237	CDS	rpoN1		RNA polymerase sigma-54 factor 1
+GPFGEMDG_02238	tRNA			tRNA-Arg(ccg)
+GPFGEMDG_02239	CDS	pgdA	3.5.1.104	Peptidoglycan-N-acetylglucosamine deacetylase
+GPFGEMDG_02240	CDS	rsiV		Anti-sigma-V factor RsiV
+GPFGEMDG_02241	CDS	sigV		RNA polymerase sigma factor SigV
+GPFGEMDG_02242	CDS	rpoE		putative DNA-directed RNA polymerase subunit delta
+GPFGEMDG_02243	CDS	ywiB		putative beta-barrel protein YwiB
+GPFGEMDG_02244	CDS	lipL	2.3.1.204	Octanoyl-[GcvH]:protein N-octanoyltransferase
+GPFGEMDG_02245	CDS			Deoxyguanosinetriphosphate triphosphohydrolase-like protein
+GPFGEMDG_02246	CDS	yidA_3	3.1.3.23	Sugar phosphatase YidA
+GPFGEMDG_02247	CDS	rppH	3.6.1.-	RNA pyrophosphohydrolase
+GPFGEMDG_02248	CDS	gloA	4.4.1.5	Lactoylglutathione lyase
+GPFGEMDG_02249	CDS	yddE	5.1.-.-	putative isomerase YddE
+GPFGEMDG_02250	CDS	lhpI	1.5.1.49	Delta(1)-pyrroline-2-carboxylate reductase
+GPFGEMDG_02251	CDS	gabR		HTH-type transcriptional regulatory protein GabR
+GPFGEMDG_02252	CDS	ntpJ_1		Potassium/sodium uptake protein NtpJ
+GPFGEMDG_02253	CDS	ntpD		V-type sodium ATPase subunit D
+GPFGEMDG_02254	CDS	ntpB		V-type sodium ATPase subunit B
+GPFGEMDG_02255	CDS	ntpA	3.6.3.15	V-type sodium ATPase catalytic subunit A
+GPFGEMDG_02256	CDS	ntpG		V-type sodium ATPase subunit G
+GPFGEMDG_02257	CDS	ntpC		V-type sodium ATPase subunit C
+GPFGEMDG_02258	CDS	atpE_2		V-type proton ATPase subunit E
+GPFGEMDG_02259	CDS	ntpK		V-type sodium ATPase subunit K
+GPFGEMDG_02260	CDS			hypothetical protein
+GPFGEMDG_02261	CDS			hypothetical protein
+GPFGEMDG_02262	CDS	puuD	3.5.1.94	Gamma-glutamyl-gamma-aminobutyrate hydrolase PuuD
+GPFGEMDG_02263	CDS	fbp	3.1.3.11	Fructose-1,6-bisphosphatase class 3
+GPFGEMDG_02264	CDS			hypothetical protein
+GPFGEMDG_02265	CDS	natA_2		ABC transporter ATP-binding protein NatA
+GPFGEMDG_02266	CDS	uvrC_2		UvrABC system protein C
+GPFGEMDG_02267	CDS	trxA_1		Thioredoxin
+GPFGEMDG_02268	CDS	mutS2_2	3.1.-.-	Endonuclease MutS2
+GPFGEMDG_02269	CDS			hypothetical protein
+GPFGEMDG_02270	CDS	zapA		Cell division protein ZapA
+GPFGEMDG_02271	CDS	rnhC	3.1.26.4	Ribonuclease HIII
+GPFGEMDG_02272	CDS	cwlC	3.5.1.28	Sporulation-specific N-acetylmuramoyl-L-alanine amidase
+GPFGEMDG_02273	CDS	icaR		Biofilm operon icaADBC HTH-type negative transcriptional regulator IcaR
+GPFGEMDG_02274	CDS	hrtA_2	3.6.3.-	Putative hemin import ATP-binding protein HrtA
+GPFGEMDG_02275	CDS			putative ABC transporter permease
+GPFGEMDG_02276	CDS	nox_2	1.6.99.3	NADH oxidase
+GPFGEMDG_02277	CDS			hypothetical protein
+GPFGEMDG_02278	CDS			hypothetical protein
+GPFGEMDG_02279	CDS			hypothetical protein
+GPFGEMDG_02280	CDS			hypothetical protein
+GPFGEMDG_02281	CDS			hypothetical protein
+GPFGEMDG_02282	CDS	hmo	1.1.3.46	4-hydroxymandelate oxidase
+GPFGEMDG_02283	CDS			hypothetical protein
+GPFGEMDG_02284	CDS	mleS	4.1.1.101	Malolactic enzyme
+GPFGEMDG_02285	CDS	citS		Citrate-sodium symporter
+GPFGEMDG_02286	CDS			hypothetical protein
+GPFGEMDG_02287	CDS			hypothetical protein
+GPFGEMDG_02288	CDS			hypothetical protein
+GPFGEMDG_02289	CDS			hypothetical protein
+GPFGEMDG_02290	CDS			hypothetical protein
+GPFGEMDG_02291	CDS			hypothetical protein
+GPFGEMDG_02292	CDS			hypothetical protein
+GPFGEMDG_02293	CDS			hypothetical protein
+GPFGEMDG_02294	CDS			hypothetical protein
+GPFGEMDG_02295	CDS			hypothetical protein
+GPFGEMDG_02296	CDS			hypothetical protein
+GPFGEMDG_02297	CDS			hypothetical protein
+GPFGEMDG_02298	CDS			hypothetical protein
+GPFGEMDG_02299	CDS			hypothetical protein
+GPFGEMDG_02300	CDS			hypothetical protein
+GPFGEMDG_02301	CDS			hypothetical protein
+GPFGEMDG_02302	CDS			hypothetical protein
+GPFGEMDG_02303	CDS			hypothetical protein
+GPFGEMDG_02304	CDS			hypothetical protein
+GPFGEMDG_02305	CDS			hypothetical protein
+GPFGEMDG_02306	CDS			hypothetical protein
+GPFGEMDG_02307	CDS	Int-Tn_2		Transposase from transposon Tn916
+GPFGEMDG_02308	CDS			hypothetical protein
+GPFGEMDG_02309	CDS	yrrK	3.1.-.-	Putative pre-16S rRNA nuclease
+GPFGEMDG_02310	CDS			hypothetical protein
+GPFGEMDG_02311	CDS	endA	3.1.30.-	DNA-entry nuclease
+GPFGEMDG_02312	tRNA			tRNA-Gly(ccc)
+GPFGEMDG_02313	CDS			hypothetical protein
+GPFGEMDG_02314	CDS			hypothetical protein
+GPFGEMDG_02315	CDS			hypothetical protein
+GPFGEMDG_02316	CDS	natA_3		ABC transporter ATP-binding protein NatA
+GPFGEMDG_02317	CDS	agrA_2		Accessory gene regulator A
+GPFGEMDG_02318	CDS			Putative two-component membrane permease complex subunit SMU_746c
+GPFGEMDG_02319	CDS			Putative two-component membrane permease complex subunit SMU_747c
+GPFGEMDG_02320	CDS	trxA_2		Thioredoxin
+GPFGEMDG_02321	CDS	rex_1		Redox-sensing transcriptional repressor Rex
+GPFGEMDG_02322	CDS	yheS_1		putative ABC transporter ATP-binding protein YheS
+GPFGEMDG_02323	CDS	ugl_1	3.2.1.180	Unsaturated chondroitin disaccharide hydrolase
+GPFGEMDG_02324	CDS			hypothetical protein
+GPFGEMDG_02325	CDS	ugl_2	3.2.1.179	Unsaturated glucuronyl hydrolase
+GPFGEMDG_02326	CDS	lacG_3		Lactose transport system permease protein LacG
+GPFGEMDG_02327	CDS	lacF_5		Lactose transport system permease protein LacF
+GPFGEMDG_02328	CDS	araN_2		putative arabinose-binding protein
+GPFGEMDG_02329	CDS	adaA	2.1.1.-	Bifunctional transcriptional activator/DNA repair enzyme AdaA
+GPFGEMDG_02330	CDS	cdr_2	1.8.1.14	Coenzyme A disulfide reductase
+GPFGEMDG_02331	CDS			hypothetical protein
+GPFGEMDG_02332	CDS	hflX		GTPase HflX
+GPFGEMDG_02333	CDS	miaA	2.5.1.75	tRNA dimethylallyltransferase
+GPFGEMDG_02334	CDS	glpQ_2	3.1.4.46	Glycerophosphodiester phosphodiesterase
+GPFGEMDG_02335	CDS			hypothetical protein
+GPFGEMDG_02336	CDS	clpP_1	3.4.21.92	ATP-dependent Clp protease proteolytic subunit
+GPFGEMDG_02337	CDS		2.3.1.-	Putative acetyltransferase
+GPFGEMDG_02338	CDS			hypothetical protein
+GPFGEMDG_02339	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_02340	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_02341	CDS			hypothetical protein
+GPFGEMDG_02342	CDS	rnj1	3.1.-.-	Ribonuclease J 1
+GPFGEMDG_02343	CDS	cspLA_2		Cold shock-like protein CspLA
+GPFGEMDG_02344	CDS			hypothetical protein
+GPFGEMDG_02345	CDS		3.1.3.-	Phosphorylated carbohydrates phosphatase
+GPFGEMDG_02346	CDS	fpgS	6.3.2.17	Folylpolyglutamate synthase
+GPFGEMDG_02347	CDS	valS	6.1.1.9	Valine--tRNA ligase
+GPFGEMDG_02348	CDS	rex_2		Redox-sensing transcriptional repressor Rex
+GPFGEMDG_02349	CDS	thiI	2.8.1.4	putative tRNA sulfurtransferase
+GPFGEMDG_02350	CDS	iscS_2	2.8.1.7	Cysteine desulfurase IscS
+GPFGEMDG_02351	CDS	ezrA		Septation ring formation regulator EzrA
+GPFGEMDG_02352	CDS			hypothetical protein
+GPFGEMDG_02353	CDS	yhaX		Stress response protein YhaX
+GPFGEMDG_02354	CDS			hypothetical protein
+GPFGEMDG_02355	CDS	ansA	3.5.1.1	L-asparaginase
+GPFGEMDG_02356	CDS			hypothetical protein
+GPFGEMDG_02357	CDS			hypothetical protein
+GPFGEMDG_02358	CDS	pepC	3.4.22.40	Aminopeptidase C
+GPFGEMDG_02359	CDS			hypothetical protein
+GPFGEMDG_02360	tRNA			tRNA-Asn(gtt)
+GPFGEMDG_02361	tRNA			tRNA-Thr(ggt)
+GPFGEMDG_02362	CDS	menH_2	4.2.99.20	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
+GPFGEMDG_02363	CDS			hypothetical protein
+GPFGEMDG_02364	CDS			hypothetical protein
+GPFGEMDG_02365	CDS			hypothetical protein
+GPFGEMDG_02366	tRNA			tRNA-Asn(gtt)
+GPFGEMDG_02367	rRNA			5S ribosomal RNA
+GPFGEMDG_02368	rRNA			23S ribosomal RNA
+GPFGEMDG_02369	rRNA			16S ribosomal RNA
+GPFGEMDG_02370	CDS			hypothetical protein
+GPFGEMDG_02371	CDS	yugI_2		General stress protein 13
+GPFGEMDG_02372	CDS	patB	4.4.1.8	Cystathionine beta-lyase PatB
+GPFGEMDG_02373	CDS		5.2.1.8	Putative peptidyl-prolyl cis-trans isomerase
+GPFGEMDG_02374	CDS	yumC	1.18.1.2	Ferredoxin--NADP reductase 2
+GPFGEMDG_02375	CDS			hypothetical protein
+GPFGEMDG_02376	CDS			hypothetical protein
+GPFGEMDG_02377	CDS	yutF	3.1.3.-	Acid sugar phosphatase
+GPFGEMDG_02378	CDS			hypothetical protein
+GPFGEMDG_02379	CDS	yfkN		Trifunctional nucleotide phosphoesterase protein YfkN
+GPFGEMDG_02380	CDS			hypothetical protein
+GPFGEMDG_02381	CDS	tadA_2	3.5.4.33	tRNA-specific adenosine deaminase
+GPFGEMDG_02382	CDS	lrp		Leucine-rich protein
+GPFGEMDG_02383	CDS			hypothetical protein
+GPFGEMDG_02384	CDS	rsmF	2.1.1.-	Ribosomal RNA small subunit methyltransferase F
+GPFGEMDG_02385	CDS			hypothetical protein
+GPFGEMDG_02386	CDS			hypothetical protein
+GPFGEMDG_02387	CDS			hypothetical protein
+GPFGEMDG_02388	CDS			hypothetical protein
+GPFGEMDG_02389	CDS	nrnA	3.1.-.-	putative bifunctional oligoribonuclease and PAP phosphatase NrnA
+GPFGEMDG_02390	CDS		3.6.1.1	Cobalt-dependent inorganic pyrophosphatase
+GPFGEMDG_02391	CDS			hypothetical protein
+GPFGEMDG_02392	CDS	ybaK_2	4.2.-.-	Cys-tRNA(Pro)/Cys-tRNA(Cys) deacylase YbaK
+GPFGEMDG_02393	CDS	rnj2	3.1.-.-	Ribonuclease J 2
+GPFGEMDG_02394	CDS			hypothetical protein
+GPFGEMDG_02395	CDS	lolD	3.6.3.-	Lipoprotein-releasing system ATP-binding protein LolD
+GPFGEMDG_02396	CDS			hypothetical protein
+GPFGEMDG_02397	CDS	iadA	3.4.19.-	Isoaspartyl dipeptidase
+GPFGEMDG_02398	CDS			hypothetical protein
+GPFGEMDG_02399	CDS			hypothetical protein
+GPFGEMDG_02400	CDS			hypothetical protein
+GPFGEMDG_02401	CDS	gtaB_2	2.7.7.9	UTP--glucose-1-phosphate uridylyltransferase
+GPFGEMDG_02402	CDS			hypothetical protein
+GPFGEMDG_02403	CDS	gpsA_2	1.1.1.94	Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+GPFGEMDG_02404	CDS	frlB_1	3.5.-.-	Fructosamine deglycase FrlB
+GPFGEMDG_02405	CDS	nodM	2.6.1.16	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]
+GPFGEMDG_02406	CDS	manZ_4		PTS system mannose-specific EIID component
+GPFGEMDG_02407	CDS	sorA_2		PTS system sorbose-specific EIIC component
+GPFGEMDG_02408	CDS		2.7.1.-	putative phosphotransferase enzyme IIB component
+GPFGEMDG_02409	CDS	manX_3	2.7.1.191	PTS system mannose-specific EIIAB component
+GPFGEMDG_02410	CDS	dgaR_3		Transcriptional regulatory protein DagR
+GPFGEMDG_02411	CDS			hypothetical protein
+GPFGEMDG_02412	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_02413	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_02414	CDS	folT_2		Folate transporter FolT
+GPFGEMDG_02415	CDS	mgsA	4.2.3.3	Methylglyoxal synthase
+GPFGEMDG_02416	CDS	sugC	3.6.3.-	Trehalose import ATP-binding protein SugC
+GPFGEMDG_02417	CDS	niaX		Niacin transporter NiaX
+GPFGEMDG_02418	CDS	rsmA_2	2.1.1.182	Ribosomal RNA small subunit methyltransferase A
+GPFGEMDG_02419	CDS	rnmV	3.1.26.8	Ribonuclease M5
+GPFGEMDG_02420	CDS	dtd3_2	3.1.1.96	D-aminoacyl-tRNA deacylase
+GPFGEMDG_02421	CDS	steT_2		Serine/threonine exchanger SteT
+GPFGEMDG_02422	CDS			hypothetical protein
+GPFGEMDG_02423	CDS	metG	6.1.1.10	Methionine--tRNA ligase
+GPFGEMDG_02424	CDS			hypothetical protein
+GPFGEMDG_02425	CDS			Bifunctional NMN adenylyltransferase/Nudix hydrolase
+GPFGEMDG_02426	CDS			hypothetical protein
+GPFGEMDG_02427	CDS	oppF_2		Oligopeptide transport ATP-binding protein OppF
+GPFGEMDG_02428	CDS	oppD_2		Oligopeptide transport ATP-binding protein OppD
+GPFGEMDG_02429	CDS	dppC		Dipeptide transport system permease protein DppC
+GPFGEMDG_02430	CDS	oppB		Oligopeptide transport system permease protein OppB
+GPFGEMDG_02431	CDS			hypothetical protein
+GPFGEMDG_02432	CDS	dppE		Dipeptide-binding protein DppE
+GPFGEMDG_02433	CDS			hypothetical protein
+GPFGEMDG_02434	CDS	gldA	1.1.1.6	Glycerol dehydrogenase
+GPFGEMDG_02435	CDS	rlmN	2.1.1.192	putative dual-specificity RNA methyltransferase RlmN
+GPFGEMDG_02436	CDS	spoIIIE		DNA translocase SpoIIIE
+GPFGEMDG_02437	CDS	bglC	3.2.1.86	Aryl-phospho-beta-D-glucosidase BglC
+GPFGEMDG_02438	CDS	fliY		L-cystine-binding protein FliY
+GPFGEMDG_02439	CDS	glnQ_2		Glutamine transport ATP-binding protein GlnQ
+GPFGEMDG_02440	CDS	yecS_2		L-cystine transport system permease protein YecS
+GPFGEMDG_02441	CDS	proX_2		Prolyl-tRNA editing protein ProX
+GPFGEMDG_02442	CDS	cna		Collagen adhesin
+GPFGEMDG_02443	CDS	lciA		Lactococcin-A immunity protein
+GPFGEMDG_02444	CDS			hypothetical protein
+GPFGEMDG_02445	CDS			hypothetical protein
+GPFGEMDG_02446	tRNA			tRNA-Thr(cgt)
+GPFGEMDG_02447	CDS			hypothetical protein
+GPFGEMDG_02448	CDS	upp	2.4.2.9	Uracil phosphoribosyltransferase
+GPFGEMDG_02449	CDS	nlhH	3.1.1.1	Carboxylesterase NlhH
+GPFGEMDG_02450	CDS	glyA	2.1.2.1	Serine hydroxymethyltransferase
+GPFGEMDG_02451	CDS			hypothetical protein
+GPFGEMDG_02452	CDS	ywlC	2.7.7.87	Threonylcarbamoyl-AMP synthase
+GPFGEMDG_02453	CDS	prmC_2	2.1.1.297	Release factor glutamine methyltransferase
+GPFGEMDG_02454	CDS	prfA		Peptide chain release factor 1
+GPFGEMDG_02455	CDS	tdk	2.7.1.21	Thymidine kinase
+GPFGEMDG_02456	CDS			hypothetical protein
+GPFGEMDG_02457	CDS			hypothetical protein
+GPFGEMDG_02458	CDS	ubiE_2	2.1.1.163	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE
+GPFGEMDG_02459	CDS	spsB	3.4.21.89	Signal peptidase IB
+GPFGEMDG_02460	CDS			hypothetical protein
+GPFGEMDG_02461	CDS			hypothetical protein
+GPFGEMDG_02462	CDS			hypothetical protein
+GPFGEMDG_02463	CDS	ntpJ_2		Potassium/sodium uptake protein NtpJ
+GPFGEMDG_02464	CDS	murF_2	6.3.2.10	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+GPFGEMDG_02465	CDS	cobQ		Cobyric acid synthase
+GPFGEMDG_02466	CDS	mtlD	1.1.1.17	Mannitol-1-phosphate 5-dehydrogenase
+GPFGEMDG_02467	CDS	mtlF_1	2.7.1.197	Mannitol-specific phosphotransferase enzyme IIA component
+GPFGEMDG_02468	CDS	mtlA_1		PTS system mannitol-specific EIICB component
+GPFGEMDG_02469	CDS	natA_4		ABC transporter ATP-binding protein NatA
+GPFGEMDG_02470	CDS			hypothetical protein
+GPFGEMDG_02471	CDS	mtlF_2	2.7.1.197	Mannitol-specific phosphotransferase enzyme IIA component
+GPFGEMDG_02472	CDS	mtlR_2		Transcriptional regulator MtlR
+GPFGEMDG_02473	CDS	mtlA_2		PTS system mannitol-specific EIICB component
+GPFGEMDG_02474	CDS	mtlA_3		PTS system mannitol-specific EIICB component
+GPFGEMDG_02475	CDS	gmuF	5.3.1.8	putative mannose-6-phosphate isomerase GmuF
+GPFGEMDG_02476	CDS	ampH	3.4.-.-	D-alanyl-D-alanine-carboxypeptidase/endopeptidase AmpH
+GPFGEMDG_02477	CDS	catE	1.13.11.2	Catechol-2,3-dioxygenase
+GPFGEMDG_02478	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_02479	CDS			hypothetical protein
+GPFGEMDG_02480	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_02481	CDS			hypothetical protein
+GPFGEMDG_02482	CDS	glpE_3	2.8.1.1	Thiosulfate sulfurtransferase GlpE
+GPFGEMDG_02483	CDS	azoR	1.7.-.-	FMN-dependent NADH-azoreductase
+GPFGEMDG_02484	CDS	tqsA_4		AI-2 transport protein TqsA
+GPFGEMDG_02485	CDS			hypothetical protein
+GPFGEMDG_02486	CDS	pgl_2	3.1.1.31	6-phosphogluconolactonase
+GPFGEMDG_02487	CDS			hypothetical protein
+GPFGEMDG_02488	CDS			hypothetical protein
+GPFGEMDG_02489	CDS	ltaS1_3		Lipoteichoic acid synthase 1
+GPFGEMDG_02490	CDS		1.1.1.81	Hydroxypyruvate reductase
+GPFGEMDG_02491	CDS	araA	5.3.1.4	L-arabinose isomerase
+GPFGEMDG_02492	CDS	sgbE	5.1.3.4	L-ribulose-5-phosphate 4-epimerase SgbE
+GPFGEMDG_02493	CDS	araB	2.7.1.16	Ribulokinase
+GPFGEMDG_02494	CDS	csbC		putative metabolite transport protein CsbC
+GPFGEMDG_02495	CDS	araR_2		Arabinose metabolism transcriptional repressor
+GPFGEMDG_02496	CDS		3.2.1.55	Extracellular exo-alpha-(1->5)-L-arabinofuranosidase
+GPFGEMDG_02497	CDS	abfA_1	3.2.1.55	Intracellular exo-alpha-(1->5)-L-arabinofuranosidase 1
+GPFGEMDG_02498	CDS			hypothetical protein
+GPFGEMDG_02499	CDS	araQ_6		L-arabinose transport system permease protein AraQ
+GPFGEMDG_02500	CDS	lacF_6		Lactose transport system permease protein LacF
+GPFGEMDG_02501	CDS	ugpB		sn-glycerol-3-phosphate-binding periplasmic protein UgpB
+GPFGEMDG_02502	CDS	abfA_2	3.2.1.55	Intracellular exo-alpha-(1->5)-L-arabinofuranosidase
+GPFGEMDG_02503	CDS			hypothetical protein
+GPFGEMDG_02504	CDS	nadE	6.3.1.5	NH(3)-dependent NAD(+) synthetase
+GPFGEMDG_02505	CDS	pncB2	6.3.4.21	Nicotinate phosphoribosyltransferase pncB2
+GPFGEMDG_02506	CDS			hypothetical protein
+GPFGEMDG_02507	CDS	mta		HTH-type transcriptional activator mta
+GPFGEMDG_02508	CDS	ccpB		Catabolite control protein B
+GPFGEMDG_02509	CDS			hypothetical protein
+GPFGEMDG_02510	CDS			hypothetical protein
+GPFGEMDG_02511	CDS			hypothetical protein
+GPFGEMDG_02512	CDS			hypothetical protein
+GPFGEMDG_02513	CDS			hypothetical protein
+GPFGEMDG_02514	CDS			hypothetical protein
+GPFGEMDG_02515	CDS			hypothetical protein
+GPFGEMDG_02516	CDS			hypothetical protein
+GPFGEMDG_02517	CDS			hypothetical protein
+GPFGEMDG_02518	CDS			hypothetical protein
+GPFGEMDG_02519	tRNA			tRNA-Met(cat)
+GPFGEMDG_02520	CDS	lytA_4	3.5.1.28	Autolysin
+GPFGEMDG_02521	CDS			hypothetical protein
+GPFGEMDG_02522	CDS			hypothetical protein
+GPFGEMDG_02523	CDS			hypothetical protein
+GPFGEMDG_02524	CDS			hypothetical protein
+GPFGEMDG_02525	CDS			hypothetical protein
+GPFGEMDG_02526	CDS			hypothetical protein
+GPFGEMDG_02527	CDS			hypothetical protein
+GPFGEMDG_02528	CDS			hypothetical protein
+GPFGEMDG_02529	CDS	smc_6		Chromosome partition protein Smc
+GPFGEMDG_02530	CDS			hypothetical protein
+GPFGEMDG_02531	CDS			hypothetical protein
+GPFGEMDG_02532	CDS			hypothetical protein
+GPFGEMDG_02533	CDS			hypothetical protein
+GPFGEMDG_02534	CDS			hypothetical protein
+GPFGEMDG_02535	CDS			hypothetical protein
+GPFGEMDG_02536	CDS			hypothetical protein
+GPFGEMDG_02537	CDS			hypothetical protein
+GPFGEMDG_02538	CDS	clpP_2	3.4.21.92	ATP-dependent Clp protease proteolytic subunit
+GPFGEMDG_02539	CDS			hypothetical protein
+GPFGEMDG_02540	CDS			hypothetical protein
+GPFGEMDG_02541	CDS			hypothetical protein
+GPFGEMDG_02542	CDS			hypothetical protein
+GPFGEMDG_02543	CDS			hypothetical protein
+GPFGEMDG_02544	CDS			hypothetical protein
+GPFGEMDG_02545	CDS	cas2_2	3.1.-.-	CRISPR-associated endoribonuclease Cas2
+GPFGEMDG_02546	CDS			hypothetical protein
+GPFGEMDG_02547	CDS			hypothetical protein
+GPFGEMDG_02548	CDS			hypothetical protein
+GPFGEMDG_02549	CDS			hypothetical protein
+GPFGEMDG_02550	CDS			hypothetical protein
+GPFGEMDG_02551	CDS			hypothetical protein
+GPFGEMDG_02552	CDS			hypothetical protein
+GPFGEMDG_02553	CDS			hypothetical protein
+GPFGEMDG_02554	CDS			hypothetical protein
+GPFGEMDG_02555	CDS			hypothetical protein
+GPFGEMDG_02556	CDS			hypothetical protein
+GPFGEMDG_02557	CDS			hypothetical protein
+GPFGEMDG_02558	CDS			hypothetical protein
+GPFGEMDG_02559	CDS			hypothetical protein
+GPFGEMDG_02560	CDS			hypothetical protein
+GPFGEMDG_02561	CDS			hypothetical protein
+GPFGEMDG_02562	CDS			hypothetical protein
+GPFGEMDG_02563	CDS			hypothetical protein
+GPFGEMDG_02564	CDS			hypothetical protein
+GPFGEMDG_02565	CDS			hypothetical protein
+GPFGEMDG_02566	CDS			hypothetical protein
+GPFGEMDG_02567	CDS			hypothetical protein
+GPFGEMDG_02568	CDS			hypothetical protein
+GPFGEMDG_02569	CDS			hypothetical protein
+GPFGEMDG_02570	CDS			hypothetical protein
+GPFGEMDG_02571	CDS			hypothetical protein
+GPFGEMDG_02572	CDS			hypothetical protein
+GPFGEMDG_02573	CDS			hypothetical protein
+GPFGEMDG_02574	CDS	xerC_4		Tyrosine recombinase XerC
+GPFGEMDG_02575	tRNA			tRNA-Arg(cct)
+GPFGEMDG_02576	CDS			hypothetical protein
+GPFGEMDG_02577	CDS			hypothetical protein
+GPFGEMDG_02578	CDS			hypothetical protein
+GPFGEMDG_02579	CDS			hypothetical protein
+GPFGEMDG_02580	CDS			hypothetical protein
+GPFGEMDG_02581	CDS	chbC		PTS system N,N'-diacetylchitobiose-specific EIIC component
+GPFGEMDG_02582	CDS	licA_2	2.7.1.-	Lichenan-specific phosphotransferase enzyme IIA component
+GPFGEMDG_02583	CDS	celA_3	2.7.1.205	PTS system cellobiose-specific EIIB component
+GPFGEMDG_02584	CDS	dgaR_4		Transcriptional regulatory protein DagR
+GPFGEMDG_02585	CDS	yfmL	3.6.4.13	putative ATP-dependent RNA helicase YfmL
+GPFGEMDG_02586	CDS	afr_2	1.1.1.292	1,5-anhydro-D-fructose reductase
+GPFGEMDG_02587	CDS	sfsA		Sugar fermentation stimulation protein A
+GPFGEMDG_02588	CDS			hypothetical protein
+GPFGEMDG_02589	CDS	dtxR		Diphtheria toxin repressor
+GPFGEMDG_02590	CDS	zwf	1.1.1.49	Glucose-6-phosphate 1-dehydrogenase
+GPFGEMDG_02591	CDS	ileS	6.1.1.5	Isoleucine--tRNA ligase
+GPFGEMDG_02592	CDS	divIVA		Cell division protein DivIVA
+GPFGEMDG_02593	CDS			hypothetical protein
+GPFGEMDG_02594	CDS	sepF		Cell division protein SepF
+GPFGEMDG_02595	CDS			hypothetical protein
+GPFGEMDG_02596	CDS	ftsZ		Cell division protein FtsZ
+GPFGEMDG_02597	CDS	ftsA		Cell division protein FtsA
+GPFGEMDG_02598	CDS	divIB		Cell division protein DivIB
+GPFGEMDG_02599	CDS	murG	2.4.1.227	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+GPFGEMDG_02600	CDS	murD	6.3.2.9	UDP-N-acetylmuramoylalanine--D-glutamate ligase
+GPFGEMDG_02601	CDS	mraY	2.7.8.13	Phospho-N-acetylmuramoyl-pentapeptide-transferase
+GPFGEMDG_02602	CDS	pbpX_2		Penicillin-binding protein 2x
+GPFGEMDG_02603	CDS	ftsL_2		Cell division protein FtsL
+GPFGEMDG_02604	CDS	rsmH_2	2.1.1.199	Ribosomal RNA small subunit methyltransferase H
+GPFGEMDG_02605	CDS	mraZ		Transcriptional regulator MraZ
+GPFGEMDG_02606	CDS			hypothetical protein
+GPFGEMDG_02607	CDS			hypothetical protein
+GPFGEMDG_02608	CDS			hypothetical protein
+GPFGEMDG_02609	CDS	recN		DNA repair protein RecN
+GPFGEMDG_02610	CDS	argR_3		Arginine repressor
+GPFGEMDG_02611	CDS	tlyA		Hemolysin A
+GPFGEMDG_02612	CDS		2.5.1.10	Farnesyl diphosphate synthase
+GPFGEMDG_02613	CDS	xseB	3.1.11.6	Exodeoxyribonuclease 7 small subunit
+GPFGEMDG_02614	CDS	xseA	3.1.11.6	Exodeoxyribonuclease 7 large subunit
+GPFGEMDG_02615	CDS	folD		Bifunctional protein FolD protein
+GPFGEMDG_02616	CDS	nusB		N utilization substance protein B 
+GPFGEMDG_02617	CDS			Alkaline shock protein 23
+GPFGEMDG_02618	CDS	ypdF	3.4.11.-	Aminopeptidase YpdF
+GPFGEMDG_02619	CDS			hypothetical protein
+GPFGEMDG_02620	CDS			hypothetical protein
+GPFGEMDG_02621	CDS	manZ_5		PTS system mannose-specific EIID component
+GPFGEMDG_02622	CDS	sorA_3		PTS system sorbose-specific EIIC component
+GPFGEMDG_02623	CDS	manX_4	2.7.1.191	PTS system mannose-specific EIIAB component
+GPFGEMDG_02624	CDS	manX_5	2.7.1.191	PTS system mannose-specific EIIAB component
+GPFGEMDG_02625	CDS	dgaR_5		Transcriptional regulatory protein DagR
+GPFGEMDG_02626	CDS	rpmA		50S ribosomal protein L27
+GPFGEMDG_02627	CDS			hypothetical protein
+GPFGEMDG_02628	CDS	rplU		50S ribosomal protein L21
+GPFGEMDG_02629	CDS			hypothetical protein
+GPFGEMDG_02630	CDS	dauA		C4-dicarboxylic acid transporter DauA
+GPFGEMDG_02631	CDS			hypothetical protein
+GPFGEMDG_02632	tRNA			tRNA-Arg(tct)
+GPFGEMDG_02633	CDS		2.1.1.-	Putative O-methyltransferase
+GPFGEMDG_02634	CDS			hypothetical protein
+GPFGEMDG_02635	CDS			hypothetical protein
+GPFGEMDG_02636	CDS	lplJ	6.3.1.20	Lipoate-protein ligase LplJ
+GPFGEMDG_02637	CDS	rbn_1	3.1.26.11	Ribonuclease BN
+GPFGEMDG_02638	CDS			hypothetical protein
+GPFGEMDG_02639	CDS	ysdC	3.4.11.-	Putative aminopeptidase YsdC
+GPFGEMDG_02640	CDS			hypothetical protein
+GPFGEMDG_02641	CDS	dltC	6.1.1.13	D-alanine--poly(phosphoribitol) ligase subunit 2
+GPFGEMDG_02642	CDS	patA_2	2.3.1.-	Peptidoglycan O-acetyltransferase
+GPFGEMDG_02643	CDS	dltA	6.1.1.13	D-alanine--poly(phosphoribitol) ligase subunit 1
+GPFGEMDG_02644	CDS			hypothetical protein
+GPFGEMDG_02645	CDS	bceB_2		Bacitracin export permease protein BceB
+GPFGEMDG_02646	CDS	bceA_2		Bacitracin export ATP-binding protein BceA
+GPFGEMDG_02647	CDS	nrdD	1.17.4.2	Anaerobic ribonucleoside-triphosphate reductase
+GPFGEMDG_02648	CDS	nrdG	1.97.1.-	Anaerobic ribonucleoside-triphosphate reductase-activating protein
+GPFGEMDG_02649	CDS	dinB_2	2.7.7.7	DNA polymerase IV
+GPFGEMDG_02650	CDS	rsmI	2.1.1.198	Ribosomal RNA small subunit methyltransferase I
+GPFGEMDG_02651	CDS	yabA		Initiation-control protein YabA
+GPFGEMDG_02652	CDS			hypothetical protein
+GPFGEMDG_02653	CDS	dnaX_1	2.7.7.7	DNA polymerase III subunit tau
+GPFGEMDG_02654	CDS			hypothetical protein
+GPFGEMDG_02655	CDS	tmk	2.7.4.9	Thymidylate kinase
+GPFGEMDG_02656	CDS	recR		Recombination protein RecR
+GPFGEMDG_02657	CDS			Nucleoid-associated protein
+GPFGEMDG_02658	CDS	dnaX_2	2.7.7.7	DNA polymerase III subunit tau
+GPFGEMDG_02659	CDS			hypothetical protein
+GPFGEMDG_02660	CDS			hypothetical protein
+GPFGEMDG_02661	CDS			hypothetical protein
+GPFGEMDG_02662	CDS	fnr		Anaerobic regulatory protein
+GPFGEMDG_02663	CDS			hypothetical protein
+GPFGEMDG_02664	CDS	bcr		Bicyclomycin resistance protein
+GPFGEMDG_02665	CDS			hypothetical protein
+GPFGEMDG_02666	CDS	glcR_2		HTH-type transcriptional repressor GlcR
+GPFGEMDG_02667	CDS	kbaY	4.1.2.40	D-tagatose-1,6-bisphosphate aldolase subunit KbaY
+GPFGEMDG_02668	CDS	fruA_4		PTS system fructose-specific EIIABC component
+GPFGEMDG_02669	CDS	fruA_5		PTS system fructose-specific EIIABC component
+GPFGEMDG_02670	CDS	rpmE2		50S ribosomal protein L31 type B
+GPFGEMDG_02671	CDS	rho	3.6.4.-	Transcription termination factor Rho
+GPFGEMDG_02672	CDS	murA1_2	2.5.1.7	UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+GPFGEMDG_02673	CDS	fba	4.1.2.13	Fructose-bisphosphate aldolase
+GPFGEMDG_02674	CDS	pyrG	6.3.4.2	CTP synthase
+GPFGEMDG_02675	CDS			hypothetical protein
+GPFGEMDG_02676	CDS	glnA	6.3.1.2	Glutamine synthetase
+GPFGEMDG_02677	CDS	glnR		HTH-type transcriptional regulator GlnR
+GPFGEMDG_02678	CDS			hypothetical protein
+GPFGEMDG_02679	CDS	metE	2.1.1.14	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase
+GPFGEMDG_02680	CDS	intQ_2		Putative defective protein IntQ
+GPFGEMDG_02681	CDS			hypothetical protein
+GPFGEMDG_02682	CDS			hypothetical protein
+GPFGEMDG_02683	CDS			hypothetical protein
+GPFGEMDG_02684	CDS			hypothetical protein
+GPFGEMDG_02685	CDS	gmuE_4	2.7.1.4	Putative fructokinase
+GPFGEMDG_02686	CDS			hypothetical protein
+GPFGEMDG_02687	CDS			hypothetical protein
+GPFGEMDG_02688	CDS	manZ_6		PTS system mannose-specific EIID component
+GPFGEMDG_02689	CDS	sorC_2		PTS system sorbose-specific EIIC component
+GPFGEMDG_02690	CDS		2.7.1.-	putative phosphotransferase enzyme IIB component
+GPFGEMDG_02691	CDS			hypothetical protein
+GPFGEMDG_02692	CDS	dgaR_6		Transcriptional regulatory protein DagR
+GPFGEMDG_02693	CDS	potD		Spermidine/putrescine-binding periplasmic protein
+GPFGEMDG_02694	CDS	ydcV		Inner membrane ABC transporter permease protein YdcV
+GPFGEMDG_02695	CDS	potB		Spermidine/putrescine transport system permease protein PotB
+GPFGEMDG_02696	CDS	potA_1	3.6.3.31	Spermidine/putrescine import ATP-binding protein PotA
+GPFGEMDG_02697	CDS	puuR		HTH-type transcriptional regulator PuuR
+GPFGEMDG_02698	CDS	acuI	1.3.1.84	putative acrylyl-CoA reductase AcuI
+GPFGEMDG_02699	CDS	coaBC_1		Coenzyme A biosynthesis bifunctional protein CoaBC
+GPFGEMDG_02700	CDS	coaBC_2		Coenzyme A biosynthesis bifunctional protein CoaBC
+GPFGEMDG_02701	CDS	panT_2		Pantothenic acid transporter PanT
+GPFGEMDG_02702	CDS	yhfK	4.-.-.-	putative sugar epimerase YhfK
+GPFGEMDG_02703	CDS		1.3.1.103	2-haloacrylate reductase
+GPFGEMDG_02704	CDS		1.3.5.4	Fumarate reductase flavoprotein subunit
+GPFGEMDG_02705	CDS			hypothetical protein
+GPFGEMDG_02706	CDS	mshD_1	2.3.1.189	Mycothiol acetyltransferase
+GPFGEMDG_02707	CDS			hypothetical protein
+GPFGEMDG_02708	CDS			hypothetical protein
+GPFGEMDG_02709	CDS	murB	1.3.1.98	UDP-N-acetylenolpyruvoylglucosamine reductase
+GPFGEMDG_02710	CDS	yceM	1.-.-.-	Putative oxidoreductase YceM
+GPFGEMDG_02711	CDS	exoA	3.1.11.2	Exodeoxyribonuclease
+GPFGEMDG_02712	CDS	polC_2	2.7.7.7	DNA polymerase III PolC-type
+GPFGEMDG_02713	CDS	mshD_2	2.3.1.189	Mycothiol acetyltransferase
+GPFGEMDG_02714	CDS	tsaE		tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+GPFGEMDG_02715	CDS	pta	2.3.1.8	Phosphate acetyltransferase
+GPFGEMDG_02716	CDS	ung	3.2.2.27	Uracil-DNA glycosylase
+GPFGEMDG_02717	CDS	ywpJ_2	3.1.3.-	Phosphatase YwpJ
+GPFGEMDG_02718	CDS			hypothetical protein
+GPFGEMDG_02719	CDS			hypothetical protein
+GPFGEMDG_02720	CDS			hypothetical protein
+GPFGEMDG_02721	CDS			hypothetical protein
+GPFGEMDG_02722	CDS			hypothetical protein
+GPFGEMDG_02723	CDS	pnuC		Nicotinamide riboside transporter PnuC
+GPFGEMDG_02724	CDS			hypothetical protein
+GPFGEMDG_02725	CDS	pcp	3.4.19.3	Pyrrolidone-carboxylate peptidase
+GPFGEMDG_02726	CDS			hypothetical protein
+GPFGEMDG_02727	CDS			hypothetical protein
+GPFGEMDG_02728	CDS	sugE		Quaternary ammonium compound-resistance protein SugE
+GPFGEMDG_02729	CDS	ecsA_2		ABC-type transporter ATP-binding protein EcsA
+GPFGEMDG_02730	CDS			hypothetical protein
+GPFGEMDG_02731	CDS	arcD1_2		Arginine/ornithine antiporter ArcD1
+GPFGEMDG_02732	CDS			Putative NrdI-like protein
+GPFGEMDG_02733	CDS			PTS system EIIBC component
+GPFGEMDG_02734	CDS	murQ	4.2.1.126	N-acetylmuramic acid 6-phosphate etherase
+GPFGEMDG_02735	CDS			hypothetical protein
+GPFGEMDG_02736	CDS	pspB_3	3.1.3.3	Putative phosphoserine phosphatase 2
+GPFGEMDG_02737	CDS	yheS_2		putative ABC transporter ATP-binding protein YheS
+GPFGEMDG_02738	CDS	garK	2.7.1.165	Glycerate 2-kinase
+GPFGEMDG_02739	CDS	panE	1.1.1.169	2-dehydropantoate 2-reductase
+GPFGEMDG_02740	CDS			hypothetical protein
+GPFGEMDG_02741	CDS	yvbW		putative amino acid permease YvbW
+GPFGEMDG_02742	CDS			hypothetical protein
+GPFGEMDG_02743	CDS	nhaC_5		Na(+)/H(+) antiporter NhaC
+GPFGEMDG_02744	CDS	abgB_2	3.5.1.-	p-aminobenzoyl-glutamate hydrolase subunit B
+GPFGEMDG_02745	CDS	metQ_3		D-methionine-binding lipoprotein MetQ
+GPFGEMDG_02746	CDS	metP_3		Methionine import system permease protein MetP
+GPFGEMDG_02747	CDS	metN_2	3.6.3.-	Methionine import ATP-binding protein MetN
+GPFGEMDG_02748	CDS			hypothetical protein
+GPFGEMDG_02749	CDS		3.1.3.-	Phosphorylated carbohydrates phosphatase
+GPFGEMDG_02750	CDS	mgtB	3.6.3.2	Magnesium-transporting ATPase, P-type 1
+GPFGEMDG_02751	CDS			hypothetical protein
+GPFGEMDG_02752	CDS			hypothetical protein
+GPFGEMDG_02753	CDS			hypothetical protein
+GPFGEMDG_02754	CDS	walR_2		Transcriptional regulatory protein WalR
+GPFGEMDG_02755	CDS	walK_3	2.7.13.3	Sensor protein kinase WalK
+GPFGEMDG_02756	CDS	vanH_1	1.1.1.-	D-specific alpha-keto acid dehydrogenase
+GPFGEMDG_02757	CDS	vanA_1	6.1.2.1	Vancomycin/teicoplanin A-type resistance protein VanA
+GPFGEMDG_02758	CDS	vanX_1	3.4.13.22	D-alanyl-D-alanine dipeptidase
+GPFGEMDG_02759	CDS			hypothetical protein
+GPFGEMDG_02760	CDS			hypothetical protein
+GPFGEMDG_02761	CDS			hypothetical protein
+GPFGEMDG_02762	CDS			hypothetical protein
+GPFGEMDG_02763	CDS			hypothetical protein
+GPFGEMDG_02764	CDS			hypothetical protein
+GPFGEMDG_02765	CDS	bin3_1		Putative transposon Tn552 DNA-invertase bin3
+GPFGEMDG_02766	CDS			hypothetical protein
+GPFGEMDG_02767	CDS			hypothetical protein
+GPFGEMDG_02768	CDS			hypothetical protein
+GPFGEMDG_02769	CDS			hypothetical protein
+GPFGEMDG_02770	CDS			hypothetical protein
+GPFGEMDG_02771	CDS			hypothetical protein
+GPFGEMDG_02772	CDS	bin3_2		Putative transposon Tn552 DNA-invertase bin3
+GPFGEMDG_02773	CDS	ligA_2	6.5.1.2	DNA ligase
+GPFGEMDG_02774	CDS			hypothetical protein
+GPFGEMDG_02775	CDS	bin3_3		Putative transposon Tn552 DNA-invertase bin3
+GPFGEMDG_02776	CDS			hypothetical protein
+GPFGEMDG_02777	CDS			hypothetical protein
+GPFGEMDG_02778	CDS			hypothetical protein
+GPFGEMDG_02779	CDS	repD		Replication initiation protein
+GPFGEMDG_02780	CDS			hypothetical protein
+GPFGEMDG_02781	CDS			hypothetical protein
+GPFGEMDG_02782	CDS			hypothetical protein
+GPFGEMDG_02783	CDS			hypothetical protein
+GPFGEMDG_02784	CDS			hypothetical protein
+GPFGEMDG_02785	CDS			hypothetical protein
+GPFGEMDG_02786	CDS	repN		Replication initiation protein
+GPFGEMDG_02787	CDS			hypothetical protein
+GPFGEMDG_02788	CDS			hypothetical protein
+GPFGEMDG_02789	CDS			hypothetical protein
+GPFGEMDG_02790	CDS	soj_2	3.6.-.-	Sporulation initiation inhibitor protein Soj
+GPFGEMDG_02791	CDS			hypothetical protein
+GPFGEMDG_02792	CDS			hypothetical protein
+GPFGEMDG_02793	CDS			hypothetical protein
+GPFGEMDG_02794	CDS	walR_3		Transcriptional regulatory protein WalR
+GPFGEMDG_02795	CDS	walK_4	2.7.13.3	Sensor protein kinase WalK
+GPFGEMDG_02796	CDS	vanH_2	1.1.1.-	D-specific alpha-keto acid dehydrogenase
+GPFGEMDG_02797	CDS	vanA_2	6.1.2.1	Vancomycin/teicoplanin A-type resistance protein VanA
+GPFGEMDG_02798	CDS	vanX_2	3.4.13.22	D-alanyl-D-alanine dipeptidase
+GPFGEMDG_02799	CDS			hypothetical protein
+GPFGEMDG_02800	CDS			hypothetical protein
+GPFGEMDG_02801	CDS			hypothetical protein
+GPFGEMDG_02802	CDS	tee6		Trypsin-resistant surface T6 protein
+GPFGEMDG_02803	CDS			hypothetical protein
+GPFGEMDG_02804	CDS			hypothetical protein
+GPFGEMDG_02805	CDS			hypothetical protein
+GPFGEMDG_02806	CDS			hypothetical protein
+GPFGEMDG_02807	CDS			hypothetical protein
+GPFGEMDG_02808	CDS			hypothetical protein
+GPFGEMDG_02809	CDS			hypothetical protein
+GPFGEMDG_02810	CDS			hypothetical protein
+GPFGEMDG_02811	CDS	soj_3	3.6.-.-	Sporulation initiation inhibitor protein Soj
+GPFGEMDG_02812	CDS			hypothetical protein
+GPFGEMDG_02813	CDS			hypothetical protein
+GPFGEMDG_02814	CDS			hypothetical protein
+GPFGEMDG_02815	CDS	dinB_3	2.7.7.7	DNA polymerase IV
+GPFGEMDG_02816	CDS	bin3_4		Putative transposon Tn552 DNA-invertase bin3
+GPFGEMDG_02817	CDS	pemK	3.1.-.-	Endoribonuclease PemK
+GPFGEMDG_02818	CDS	mazE		Antitoxin MazE
+GPFGEMDG_02819	CDS			hypothetical protein
+GPFGEMDG_02820	CDS			hypothetical protein
+GPFGEMDG_02821	CDS			hypothetical protein
+GPFGEMDG_02822	CDS			hypothetical protein
+GPFGEMDG_02823	CDS			hypothetical protein
+GPFGEMDG_02824	CDS			hypothetical protein
+GPFGEMDG_02825	CDS			hypothetical protein
+GPFGEMDG_02826	CDS			hypothetical protein
+GPFGEMDG_02827	CDS	ssb_2		Single-stranded DNA-binding protein
+GPFGEMDG_02828	CDS			hypothetical protein
+GPFGEMDG_02829	CDS			hypothetical protein
+GPFGEMDG_02830	CDS			hypothetical protein
+GPFGEMDG_02831	CDS	topB_3	5.99.1.2	DNA topoisomerase 3
+GPFGEMDG_02832	CDS			hypothetical protein
+GPFGEMDG_02833	CDS			hypothetical protein
+GPFGEMDG_02834	CDS			hypothetical protein
+GPFGEMDG_02835	CDS			hypothetical protein
+GPFGEMDG_02836	CDS			hypothetical protein
+GPFGEMDG_02837	CDS			hypothetical protein
+GPFGEMDG_02838	CDS			hypothetical protein
+GPFGEMDG_02839	CDS			hypothetical protein
+GPFGEMDG_02840	CDS			hypothetical protein
+GPFGEMDG_02841	CDS			hypothetical protein
+GPFGEMDG_02842	CDS			hypothetical protein
+GPFGEMDG_02843	CDS			hypothetical protein
+GPFGEMDG_02844	CDS			hypothetical protein
+GPFGEMDG_02845	CDS			hypothetical protein
+GPFGEMDG_02846	CDS			hypothetical protein
+GPFGEMDG_02847	CDS			hypothetical protein
+GPFGEMDG_02848	CDS	yxdL_2		ABC transporter ATP-binding protein YxdL
+GPFGEMDG_02849	CDS	ecfA2_2	3.6.3.-	Energy-coupling factor transporter ATP-binding protein EcfA2
+GPFGEMDG_02850	CDS			hypothetical protein
+GPFGEMDG_02851	CDS			hypothetical protein
+GPFGEMDG_02852	CDS			hypothetical protein
+GPFGEMDG_02853	CDS			hypothetical protein
+GPFGEMDG_02854	CDS			hypothetical protein
+GPFGEMDG_02855	CDS			hypothetical protein
+GPFGEMDG_02856	CDS			hypothetical protein
+GPFGEMDG_02857	CDS	immR		HTH-type transcriptional regulator ImmR
+GPFGEMDG_02858	CDS			hypothetical protein
+GPFGEMDG_02859	CDS			hypothetical protein
+GPFGEMDG_02860	CDS			hypothetical protein
+GPFGEMDG_02861	CDS	yoeB	3.1.-.-	Toxin YoeB
+GPFGEMDG_02862	CDS			hypothetical protein
+GPFGEMDG_02863	CDS			hypothetical protein
+GPFGEMDG_02864	CDS			hypothetical protein
+GPFGEMDG_02865	CDS			hypothetical protein
+GPFGEMDG_02866	CDS			hypothetical protein
+GPFGEMDG_02867	CDS			hypothetical protein
+GPFGEMDG_02868	CDS			hypothetical protein
+GPFGEMDG_02869	CDS	soj_4	3.6.-.-	Sporulation initiation inhibitor protein Soj
+GPFGEMDG_02870	CDS			hypothetical protein
+GPFGEMDG_02871	CDS			hypothetical protein
+GPFGEMDG_02872	CDS			hypothetical protein
+GPFGEMDG_02873	CDS	dinB_4	2.7.7.7	DNA polymerase IV
+GPFGEMDG_02874	CDS			hypothetical protein
+GPFGEMDG_02875	CDS			hypothetical protein
+GPFGEMDG_02876	CDS	dfrD	1.5.1.3	Dihydrofolate reductase
+GPFGEMDG_02877	CDS			hypothetical protein
+GPFGEMDG_02878	CDS			hypothetical protein
+GPFGEMDG_02879	CDS			hypothetical protein
+GPFGEMDG_02880	CDS			hypothetical protein
+GPFGEMDG_02881	CDS			hypothetical protein
+GPFGEMDG_02882	CDS			hypothetical protein
+GPFGEMDG_02883	CDS	topB_4	5.99.1.2	DNA topoisomerase 3
+GPFGEMDG_02884	CDS	toxN	3.1.-.-	Endoribonuclease ToxN
+GPFGEMDG_02885	CDS			hypothetical protein
+GPFGEMDG_02886	CDS			hypothetical protein
+GPFGEMDG_02887	CDS	soj_5	3.6.-.-	Sporulation initiation inhibitor protein Soj
+GPFGEMDG_02888	CDS			hypothetical protein
+GPFGEMDG_02889	CDS			hypothetical protein
+GPFGEMDG_02890	CDS			hypothetical protein
+GPFGEMDG_02891	CDS			hypothetical protein
+GPFGEMDG_02892	CDS			hypothetical protein
+GPFGEMDG_02893	CDS			hypothetical protein
+GPFGEMDG_02894	CDS			hypothetical protein
+GPFGEMDG_02895	CDS			hypothetical protein
+GPFGEMDG_02896	CDS			hypothetical protein
+GPFGEMDG_02897	CDS			Putative conjugal transfer protein
+GPFGEMDG_02898	CDS			hypothetical protein
+GPFGEMDG_02899	CDS			hypothetical protein
+GPFGEMDG_02900	CDS			hypothetical protein
+GPFGEMDG_02901	CDS			hypothetical protein
+GPFGEMDG_02902	CDS			hypothetical protein
+GPFGEMDG_02903	CDS			hypothetical protein
+GPFGEMDG_02904	CDS			hypothetical protein
+GPFGEMDG_02905	CDS			hypothetical protein
+GPFGEMDG_02906	CDS			hypothetical protein
+GPFGEMDG_02907	CDS	ltrA_5		Group II intron-encoded protein LtrA
+GPFGEMDG_02908	CDS			hypothetical protein
+GPFGEMDG_02909	CDS			hypothetical protein
+GPFGEMDG_02910	CDS			hypothetical protein
+GPFGEMDG_02911	CDS			hypothetical protein
+GPFGEMDG_02912	CDS			hypothetical protein
+GPFGEMDG_02913	CDS			hypothetical protein
+GPFGEMDG_02914	CDS	iap_2	3.4.-.-	putative endopeptidase p60
+GPFGEMDG_02915	CDS	ftsL_3		Cell division protein FtsL
+GPFGEMDG_02916	CDS			hypothetical protein
+GPFGEMDG_02917	CDS			hypothetical protein
+GPFGEMDG_02918	CDS			hypothetical protein
+GPFGEMDG_02919	CDS			hypothetical protein
+GPFGEMDG_02920	CDS			hypothetical protein
+GPFGEMDG_02921	CDS			hypothetical protein
+GPFGEMDG_02922	CDS			hypothetical protein
+GPFGEMDG_02923	CDS			hypothetical protein
+GPFGEMDG_02924	CDS			hypothetical protein
+GPFGEMDG_02925	CDS			hypothetical protein
+GPFGEMDG_02926	CDS			hypothetical protein
+GPFGEMDG_02927	CDS	dnaG_2	2.7.7.-	DNA primase
+GPFGEMDG_02928	CDS			hypothetical protein
+GPFGEMDG_02929	CDS			hypothetical protein
+GPFGEMDG_02930	CDS			hypothetical protein
+GPFGEMDG_02931	CDS			hypothetical protein
+GPFGEMDG_02932	CDS			hypothetical protein
+GPFGEMDG_02933	CDS			hypothetical protein
+GPFGEMDG_02934	CDS			hypothetical protein
+GPFGEMDG_02935	CDS			hypothetical protein
+GPFGEMDG_02936	CDS			hypothetical protein
+GPFGEMDG_02937	CDS			hypothetical protein
+GPFGEMDG_02938	CDS			hypothetical protein
+GPFGEMDG_02939	CDS			hypothetical protein
+GPFGEMDG_02940	CDS			hypothetical protein
+GPFGEMDG_02941	CDS			hypothetical protein
+GPFGEMDG_02942	CDS	sinR		HTH-type transcriptional regulator SinR
+GPFGEMDG_02943	CDS			hypothetical protein
+GPFGEMDG_02944	CDS	bin3_5		Putative transposon Tn552 DNA-invertase bin3
+GPFGEMDG_02945	CDS			hypothetical protein
+GPFGEMDG_02946	CDS			hypothetical protein
+GPFGEMDG_02947	CDS			hypothetical protein
+GPFGEMDG_02948	CDS			hypothetical protein
+GPFGEMDG_02949	CDS			hypothetical protein
+GPFGEMDG_02950	CDS			hypothetical protein
+GPFGEMDG_02951	CDS	soj_6	3.6.-.-	Sporulation initiation inhibitor protein Soj
+GPFGEMDG_02952	CDS			hypothetical protein
+GPFGEMDG_02953	CDS			hypothetical protein
+GPFGEMDG_02954	CDS			hypothetical protein
+GPFGEMDG_02955	CDS			hypothetical protein
+GPFGEMDG_02956	CDS			Insertion sequence IS5376 putative ATP-binding protein
+GPFGEMDG_02957	CDS			hypothetical protein
+GPFGEMDG_02958	CDS			hypothetical protein
+GPFGEMDG_02959	CDS			hypothetical protein
+GPFGEMDG_02960	CDS	rbn_2	3.1.26.11	Ribonuclease BN
+GPFGEMDG_02961	CDS	levD_1	2.7.1.202	PTS system fructose-specific EIIA component
+GPFGEMDG_02962	CDS	manX_6	2.7.1.191	PTS system mannose-specific EIIAB component
+GPFGEMDG_02963	CDS	sorA_4		PTS system sorbose-specific EIIC component
+GPFGEMDG_02964	CDS	manZ_7		PTS system mannose-specific EIID component
+GPFGEMDG_02965	CDS	frlB_2	3.5.-.-	Fructosamine deglycase FrlB
+GPFGEMDG_02966	CDS	dgaR_7		Transcriptional regulatory protein DagR
+GPFGEMDG_02967	CDS	yniC	3.1.3.68	2-deoxyglucose-6-phosphate phosphatase
+GPFGEMDG_02968	CDS	acpA_2		Capsule synthesis positive regulator AcpA
+GPFGEMDG_02969	CDS			hypothetical protein
+GPFGEMDG_02970	CDS			hypothetical protein
+GPFGEMDG_02971	CDS	yvoA_2		HTH-type transcriptional repressor YvoA
+GPFGEMDG_02972	CDS	yurK		putative HTH-type transcriptional regulator YurK
+GPFGEMDG_02973	CDS	frlB_3	3.5.-.-	Fructosamine deglycase FrlB
+GPFGEMDG_02974	CDS	levD_2	2.7.1.202	PTS system fructose-specific EIIA component
+GPFGEMDG_02975	CDS		2.7.1.-	putative phosphotransferase enzyme IIB component
+GPFGEMDG_02976	CDS	sorA_5		PTS system sorbose-specific EIIC component
+GPFGEMDG_02977	CDS	manZ_8		PTS system mannose-specific EIID component
+GPFGEMDG_02978	CDS			hypothetical protein
+GPFGEMDG_02979	CDS	bglF_4		PTS system beta-glucoside-specific EIIBCA component
+GPFGEMDG_02980	CDS	bglH_3	3.2.1.86	Aryl-phospho-beta-D-glucosidase BglH
+GPFGEMDG_02981	CDS	licT_4		Transcription antiterminator LicT
+GPFGEMDG_02982	CDS			hypothetical protein
+GPFGEMDG_02983	CDS	bglF_5		PTS system beta-glucoside-specific EIIBCA component
+GPFGEMDG_02984	CDS			hypothetical protein
+GPFGEMDG_02985	CDS			hypothetical protein
+GPFGEMDG_02986	CDS			hypothetical protein
+GPFGEMDG_02987	CDS			hypothetical protein
+GPFGEMDG_02988	CDS			hypothetical protein
+GPFGEMDG_02989	CDS			hypothetical protein
+GPFGEMDG_02990	CDS			hypothetical protein
+GPFGEMDG_02991	CDS			hypothetical protein
+GPFGEMDG_02992	CDS	ohrB_2		Organic hydroperoxide resistance protein OhrB
+GPFGEMDG_02993	CDS			hypothetical protein
+GPFGEMDG_02994	CDS	hsdS		Type-1 restriction enzyme EcoKI specificity protein
+GPFGEMDG_02995	CDS			hypothetical protein
+GPFGEMDG_02996	CDS			hypothetical protein
+GPFGEMDG_02997	CDS			hypothetical protein
+GPFGEMDG_02998	CDS			hypothetical protein
+GPFGEMDG_02999	CDS		2.7.7.-	Adenosine monophosphate-protein transferase NmFic
+GPFGEMDG_03000	CDS			hypothetical protein
+GPFGEMDG_03001	CDS	xerD_4		Tyrosine recombinase XerD
+GPFGEMDG_03002	CDS			hypothetical protein
+GPFGEMDG_03003	CDS			hypothetical protein
+GPFGEMDG_03004	CDS			hypothetical protein
+GPFGEMDG_03005	CDS			hypothetical protein
+GPFGEMDG_03006	CDS			hypothetical protein
+GPFGEMDG_03007	CDS			hypothetical protein
+GPFGEMDG_03008	CDS			hypothetical protein
+GPFGEMDG_03009	CDS			hypothetical protein
+GPFGEMDG_03010	CDS	resA		Thiol-disulfide oxidoreductase ResA
+GPFGEMDG_03011	CDS			hypothetical protein
+GPFGEMDG_03012	CDS			hypothetical protein
+GPFGEMDG_03013	CDS	macB	3.6.3.-	Macrolide export ATP-binding/permease protein MacB
+GPFGEMDG_03014	CDS			putative ABC transporter ATP-binding protein
+GPFGEMDG_03015	CDS			hypothetical protein
+GPFGEMDG_03016	CDS			hypothetical protein
+GPFGEMDG_03017	CDS			hypothetical protein
+GPFGEMDG_03018	CDS			hypothetical protein
+GPFGEMDG_03019	CDS			hypothetical protein
+GPFGEMDG_03020	CDS			hypothetical protein
+GPFGEMDG_03021	CDS			hypothetical protein
+GPFGEMDG_03022	CDS	hpdA	1.97.1.-	4-hydroxyphenylacetate decarboxylase activating enzyme
+GPFGEMDG_03023	CDS			Putative bifunctional phosphatase/peptidyl-prolyl cis-trans isomerase
+GPFGEMDG_03024	CDS			hypothetical protein
+GPFGEMDG_03025	CDS	hisK	3.1.3.15	Histidinol-phosphatase
+GPFGEMDG_03026	CDS			hypothetical protein
+GPFGEMDG_03027	CDS	gpmI	5.4.2.12	2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+GPFGEMDG_03028	CDS			hypothetical protein
+GPFGEMDG_03029	CDS			hypothetical protein
+GPFGEMDG_03030	CDS	potA_2	3.6.3.31	Spermidine/putrescine import ATP-binding protein PotA
+GPFGEMDG_03031	CDS			hypothetical protein
+GPFGEMDG_03032	CDS			putative response regulatory protein
+GPFGEMDG_03033	CDS	ypdA_2	2.7.13.3	Sensor histidine kinase YpdA
+GPFGEMDG_03034	CDS	yteP_3		putative multiple-sugar transport system permease YteP
+GPFGEMDG_03035	CDS	araQ_7		L-arabinose transport system permease protein AraQ
+GPFGEMDG_03036	CDS	lipO_2		Lipoprotein LipO
+GPFGEMDG_03037	CDS			hypothetical protein
+GPFGEMDG_03038	CDS			hypothetical protein
+GPFGEMDG_03039	CDS	ebgA	3.2.1.23	Evolved beta-galactosidase subunit alpha
+GPFGEMDG_03040	CDS	nagJ	3.2.1.169	O-GlcNAcase NagJ
+GPFGEMDG_03041	CDS			hypothetical protein
+GPFGEMDG_03042	CDS	guaA_2	6.3.5.2	GMP synthase [glutamine-hydrolyzing]
+GPFGEMDG_03043	CDS			hypothetical protein
+GPFGEMDG_03044	CDS	qseB		Transcriptional regulatory protein QseB
+GPFGEMDG_03045	CDS	hssS	2.7.13.3	Heme sensor protein HssS
+GPFGEMDG_03046	CDS			hypothetical protein
+GPFGEMDG_03047	CDS			hypothetical protein
+GPFGEMDG_03048	CDS			hypothetical protein
+GPFGEMDG_03049	CDS			hypothetical protein
+GPFGEMDG_03050	CDS			hypothetical protein
+GPFGEMDG_03051	CDS			hypothetical protein
+GPFGEMDG_03052	CDS			hypothetical protein
+GPFGEMDG_03053	CDS			hypothetical protein
+GPFGEMDG_03054	CDS			hypothetical protein
+GPFGEMDG_03055	CDS			hypothetical protein
+GPFGEMDG_03056	CDS			hypothetical protein
+GPFGEMDG_03057	CDS	crr_2	2.7.1.199	PTS system glucose-specific EIIA component
+GPFGEMDG_03058	CDS	agaSK_3		Bifunctional alpha-galactosidase/sucrose kinase AgaSK
+GPFGEMDG_03059	CDS	araC_4		Arabinose operon regulatory protein
+GPFGEMDG_03060	CDS	scrB_1	3.2.1.26	Sucrose-6-phosphate hydrolase
+GPFGEMDG_03061	CDS	treP_2		PTS system trehalose-specific EIIBC component
+GPFGEMDG_03062	CDS			hypothetical protein
+GPFGEMDG_03063	CDS			hypothetical protein
+GPFGEMDG_03064	CDS			hypothetical protein
+GPFGEMDG_03065	CDS			hypothetical protein
+GPFGEMDG_03066	CDS	yvoA_3		HTH-type transcriptional repressor YvoA
+GPFGEMDG_03067	CDS	agaS	5.3.1.-	Putative tagatose-6-phosphate ketose/aldose isomerase
+GPFGEMDG_03068	CDS	lacD	4.1.2.40	Tagatose 1,6-diphosphate aldolase
+GPFGEMDG_03069	CDS			hypothetical protein
+GPFGEMDG_03070	CDS	licC_3		Lichenan permease IIC component
+GPFGEMDG_03071	CDS			hypothetical protein
+GPFGEMDG_03072	CDS	xerS_2		Tyrosine recombinase XerS
+GPFGEMDG_03073	CDS			hypothetical protein
+GPFGEMDG_03074	CDS			hypothetical protein
+GPFGEMDG_03075	CDS	crr_3	2.7.1.199	PTS system glucose-specific EIIA component
+GPFGEMDG_03076	CDS			hypothetical protein
+GPFGEMDG_03077	CDS	glcB		PTS system glucoside-specific EIICBA component
+GPFGEMDG_03078	CDS	nanE_2	5.1.3.9	Putative N-acetylmannosamine-6-phosphate 2-epimerase
+GPFGEMDG_03079	CDS	rpiR		HTH-type transcriptional regulator RpiR
+GPFGEMDG_03080	CDS	bin3_6		Putative transposon Tn552 DNA-invertase bin3
+GPFGEMDG_03081	CDS			hypothetical protein
+GPFGEMDG_03082	CDS			hypothetical protein
+GPFGEMDG_03083	CDS			hypothetical protein
+GPFGEMDG_03084	CDS			hypothetical protein
+GPFGEMDG_03085	CDS			hypothetical protein
+GPFGEMDG_03086	CDS	degA_4		HTH-type transcriptional regulator DegA
+GPFGEMDG_03087	CDS	scrB_2	3.2.1.26	Sucrose-6-phosphate hydrolase
+GPFGEMDG_03088	CDS	treP_3		PTS system trehalose-specific EIIBC component
+GPFGEMDG_03089	CDS			hypothetical protein
+GPFGEMDG_03090	CDS	gmuE_5	2.7.1.4	Putative fructokinase
+GPFGEMDG_03091	CDS			hypothetical protein
+GPFGEMDG_03092	CDS			hypothetical protein
+GPFGEMDG_03093	CDS			hypothetical protein
+GPFGEMDG_03094	CDS	xerD_5		Tyrosine recombinase XerD
+GPFGEMDG_03095	CDS			hypothetical protein
+GPFGEMDG_03096	CDS			hypothetical protein
+GPFGEMDG_03097	CDS			hypothetical protein
+GPFGEMDG_03098	CDS	hxlB	5.3.1.27	3-hexulose-6-phosphate isomerase
+GPFGEMDG_03099	CDS	rpe_2	5.1.3.1	Ribulose-phosphate 3-epimerase
+GPFGEMDG_03100	CDS			hypothetical protein
+GPFGEMDG_03101	CDS			hypothetical protein
+GPFGEMDG_03102	CDS	gatC_3		PTS system galactitol-specific EIIC component
+GPFGEMDG_03103	CDS	gatA_3	2.7.1.200	PTS system galactitol-specific EIIA component
+GPFGEMDG_03104	CDS	manR_3		Transcriptional regulator ManR
+GPFGEMDG_03105	CDS			hypothetical protein
+GPFGEMDG_03106	CDS			hypothetical protein
+GPFGEMDG_03107	CDS			hypothetical protein
+GPFGEMDG_03108	CDS			hypothetical protein
+GPFGEMDG_03109	CDS			hypothetical protein
+GPFGEMDG_03110	CDS			hypothetical protein
+GPFGEMDG_03111	CDS			hypothetical protein
+GPFGEMDG_03112	CDS			hypothetical protein
+GPFGEMDG_03113	CDS			hypothetical protein
+GPFGEMDG_03114	CDS			hypothetical protein
+GPFGEMDG_03115	CDS			hypothetical protein
+GPFGEMDG_03116	CDS			hypothetical protein
+GPFGEMDG_03117	CDS	ssb_3		Single-stranded DNA-binding protein
+GPFGEMDG_03118	CDS	ssbA		Single-stranded DNA-binding protein A
+GPFGEMDG_03119	CDS			hypothetical protein
+GPFGEMDG_03120	CDS			hypothetical protein
+GPFGEMDG_03121	CDS			hypothetical protein
+GPFGEMDG_03122	CDS	topB_5	5.99.1.2	DNA topoisomerase 3
+GPFGEMDG_03123	CDS			hypothetical protein
+GPFGEMDG_03124	CDS			hypothetical protein
+GPFGEMDG_03125	CDS			hypothetical protein
+GPFGEMDG_03126	CDS			hypothetical protein
+GPFGEMDG_03127	CDS			hypothetical protein
+GPFGEMDG_03128	CDS			hypothetical protein
+GPFGEMDG_03129	CDS			hypothetical protein
+GPFGEMDG_03130	CDS			hypothetical protein
+GPFGEMDG_03131	CDS			hypothetical protein
+GPFGEMDG_03132	CDS			hypothetical protein
+GPFGEMDG_03133	CDS			hypothetical protein
+GPFGEMDG_03134	CDS			hypothetical protein
+GPFGEMDG_03135	CDS			hypothetical protein
+GPFGEMDG_03136	CDS			hypothetical protein
+GPFGEMDG_03137	CDS			hypothetical protein
+GPFGEMDG_03138	CDS			hypothetical protein
+GPFGEMDG_03139	CDS			hypothetical protein
+GPFGEMDG_03140	CDS			hypothetical protein
+GPFGEMDG_03141	CDS			hypothetical protein
+GPFGEMDG_03142	CDS			hypothetical protein
+GPFGEMDG_03143	CDS	ltrA_6		Group II intron-encoded protein LtrA
+GPFGEMDG_03144	CDS			hypothetical protein
+GPFGEMDG_03145	CDS			hypothetical protein
+GPFGEMDG_03146	CDS			hypothetical protein
+GPFGEMDG_03147	CDS			hypothetical protein
+GPFGEMDG_03148	CDS			hypothetical protein
+GPFGEMDG_03149	CDS			hypothetical protein
+GPFGEMDG_03150	CDS			hypothetical protein
+GPFGEMDG_03151	CDS			hypothetical protein
+GPFGEMDG_03152	CDS			hypothetical protein
+GPFGEMDG_03153	CDS			hypothetical protein
+GPFGEMDG_03154	CDS			hypothetical protein
+GPFGEMDG_03155	CDS			hypothetical protein
+GPFGEMDG_03156	CDS			hypothetical protein
+GPFGEMDG_03157	CDS			hypothetical protein
+GPFGEMDG_03158	CDS			hypothetical protein
+GPFGEMDG_03159	CDS			hypothetical protein
+GPFGEMDG_03160	CDS			hypothetical protein
+GPFGEMDG_03161	CDS			hypothetical protein
+GPFGEMDG_03162	CDS			hypothetical protein
+GPFGEMDG_03163	CDS			hypothetical protein
+GPFGEMDG_03164	CDS			hypothetical protein
+GPFGEMDG_03165	CDS			hypothetical protein
+GPFGEMDG_03166	CDS			hypothetical protein
+GPFGEMDG_03167	CDS			hypothetical protein
+GPFGEMDG_03168	CDS			hypothetical protein
+GPFGEMDG_03169	CDS			hypothetical protein
+GPFGEMDG_03170	CDS			hypothetical protein
+GPFGEMDG_03171	CDS			hypothetical protein
+GPFGEMDG_03172	CDS			hypothetical protein
