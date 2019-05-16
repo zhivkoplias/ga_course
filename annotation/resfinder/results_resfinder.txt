@@ -1,0 +1,626 @@
+ResFinder result file
+
+*********************************************************************************
+Trimethoprim
+*********************************************************************************
+RES. GENE       IDENTITY  QUERY/HSP     CONTIG  POSITION         ACC NO.         
+=================================================================================
+dfrG            100.00    498/498       1       2210..2707       AB205645        
+_________________________________________________________________________________
+
+*********************************************************************************
+Aminoglycoside
+*********************************************************************************
+RES. GENE       IDENTITY  QUERY/HSP     CONTIG  POSITION         ACC NO.         
+=================================================================================
+aac(6')-Ii      99.64     549/549       2       2471910..2472458 L12710          
+_________________________________________________________________________________
+
+*********************************************************************************
+Glycopeptide
+*********************************************************************************
+RES. GENE       IDENTITY  QUERY/HSP     CONTIG  POSITION         ACC NO.         
+=================================================================================
+VanH            91.85     969/969       3       37402..38370     1_Y15705        
+_________________________________________________________________________________
+
+*********************************************************************************
+Glycopeptide
+*********************************************************************************
+RES. GENE       IDENTITY  QUERY/HSP     CONTIG  POSITION         ACC NO.         
+=================================================================================
+VanA            93.51     1032/1032     4       38363..39394     1_Y15704        
+_________________________________________________________________________________
+
+*********************************************************************************
+Glycopeptide
+*********************************************************************************
+RES. GENE       IDENTITY  QUERY/HSP     CONTIG  POSITION         ACC NO.         
+=================================================================================
+VanX            96.79     249/249       5       39400..39648     1_Y15708        
+_________________________________________________________________________________
+
+*********************************************************************************
+Glycopeptide
+*********************************************************************************
+RES. GENE       IDENTITY  QUERY/HSP     CONTIG  POSITION         ACC NO.         
+=================================================================================
+VanHAX          100.00    2607/2607     6       4980..7586       M97297          
+_________________________________________________________________________________
+
+*********************************************************************************
+Macrolide
+*********************************************************************************
+RES. GENE       IDENTITY  QUERY/HSP     CONTIG  POSITION         ACC NO.         
+=================================================================================
+msr(C)          98.99     1479/1479     7       743512..744990   AY004350        
+_________________________________________________________________________________
+
+
+Contig Table
+-----------
+Contig 1 is NODE_3_length_64343_cov_75.9457
+-----------
+Contig 2 is tig00000001_pilon
+-----------
+Contig 3 is tig00000025_pilon
+-----------
+Contig 4 is tig00000025_pilon
+-----------
+Contig 5 is tig00000025_pilon
+-----------
+Contig 6 is tig00000025_pilon
+-----------
+Contig 7 is tig00000001_pilon
+-----------
+
+
+Alignments as text
+_________________________________________________________________________________
+dfrG: PERFECT MATCH, ID: 100.00%, HSP/Length: 498/498, Contig name: NODE_3_length_64343_cov_75.9457, Position: 2210..2707
+
+Resistance gene seq: atgaaagtttctttgattgctgcgatggataagaatagagtgattggcaaagagaatgac
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       atgaaagtttctttgattgctgcgatggataagaatagagtgattggcaaagagaatgac
+
+Resistance gene seq: attccttggaggattcccaaggactgggaatatgttaaaaatactacaaagggacatccg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       attccttggaggattcccaaggactgggaatatgttaaaaatactacaaagggacatccg
+
+Resistance gene seq: ataatattaggtaggaagaaccttgaatcaatcggaagagccttacctgacagaagaaat
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ataatattaggtaggaagaaccttgaatcaatcggaagagccttacctgacagaagaaat
+
+Resistance gene seq: attattctgacgagagataaggggtttacctttaatggttgtgaaattgttcattcaata
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       attattctgacgagagataaggggtttacctttaatggttgtgaaattgttcattcaata
+
+Resistance gene seq: gaagatgtttttgagttatgtaaaaacgaagaagaaatttttattttcggaggagaacag
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gaagatgtttttgagttatgtaaaaacgaagaagaaatttttattttcggaggagaacag
+
+Resistance gene seq: atttataatttgtttttcccttatgttgagaaaatgtacatcacaaaaatacatcatgaa
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       atttataatttgtttttcccttatgttgagaaaatgtacatcacaaaaatacatcatgaa
+
+Resistance gene seq: ttcgaaggagatactttttttccagaagtgaattatgaggaatggaatgaggtatttgcc
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ttcgaaggagatactttttttccagaagtgaattatgaggaatggaatgaggtatttgcc
+
+Resistance gene seq: caaaaagggataaagaatgataaaaatccgtataactactattttcatgtatatgaaaga
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       caaaaagggataaagaatgataaaaatccgtataactactattttcatgtatatgaaaga
+
+Resistance gene seq: aaaaacttattgagttaa
+                     ||||||||||||||||||
+Hit in genome:       aaaaacttattgagttaa
+
+
+--------------------------------------------------------------------------------
+
+aac(6')-Ii: WARNING1, ID: 99.64%, HSP/Length: 549/549, Contig name: tig00000001_pilon, Position: 2471910..2472458
+
+Resistance gene seq: atgataatcagtgaatttgaccgtaataatccagtattgaaagatcagctttctgattta
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       atgataatcagtgaatttgaccgtaataatccagtattgaaagatcagctttctgattta
+
+Resistance gene seq: ctgagactgacttggccggaagaatatggagacagctcggcagaagaagtagaagaaatg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ctgagactgacttggccggaagaatatggagacagctcggcagaagaagtagaagaaatg
+
+Resistance gene seq: atgaatccagaacgaatcgcggtagcagcggtagaccaagatgagttagtaggatttatt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       atgaatccagaacgaatcgcggtagcagcggtagaccaagatgagttagtaggatttatt
+
+Resistance gene seq: ggtgcaatccctcaatacggtatcacaggttgggaattgcatccattagttgtagaaagc
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ggtgcaatccctcaatacggtatcacaggttgggaattgcatccattagttgtagaaagc
+
+Resistance gene seq: tcccgacgaaagaaccaaataggtactcgattagtcaattacttagaaaaagaagtagct
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tcccgacgaaagaaccaaataggtactcgattagtcaattacttagaaaaagaagtagct
+
+Resistance gene seq: tccagaggaggaatcacgatttatttaggtacggatgatttagaccatggaacaacgtta
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tccagaggaggaatcacgatttatttaggtacggatgatttagaccatggaacaacgtta
+
+Resistance gene seq: agtcaaacggacctgtatgtgcatacatttgataaagtggcttccatccagaaccttcgt
+                     ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       agtcaaacggacctgtatgagcatacatttgataaagtggcttccatccagaaccttcgt
+
+Resistance gene seq: gaacatccgtatgaattctatgaaaaattaggttataaaatcgtaggtgtcttaccaaat
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gaacatccgtatgaattctatgaaaaattaggttataaaatcgtaggtgtcttaccaaat
+
+Resistance gene seq: gcaaatggctgggacaaaccggatatttggatggcaaaaacgattattcctcgaccagat
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Hit in genome:       gcaaatggctgggacaaaccggatatttggatggcaaaaacgattattcctcgaccaaat
+
+Resistance gene seq: tctcaataa
+                     |||||||||
+Hit in genome:       tctcaataa
+
+
+--------------------------------------------------------------------------------
+
+VanH: WARNING1, ID: 91.85%, HSP/Length: 969/969, Contig name: tig00000025_pilon, Position: 37402..38370
+
+Resistance gene seq: atgaaaaacatcggcattaccgtttatggatgtaatcaggatgaggcagatgcattccgt
+                     ||||| |||||||||||||| |||||||||||| | |||||||||||||||||||||| |
+Hit in genome:       atgaataacatcggcattactgtttatggatgtgagcaggatgaggcagatgcattccat
+
+Resistance gene seq: gctctttcgccacaatttggcattatgccctcgattattaacgccgacgtgtcggaagct
+                     ||||||||||| |  |||||| ||||| |  |||| ||||||||| ||||||||||| | 
+Hit in genome:       gctctttcgcctcgctttggcgttatggcaacgataattaacgccaacgtgtcggaatcc
+
+Resistance gene seq: aacgccatatccgcccctttaaatcaatgtatcagtgtgggacacaaatccgagatttcc
+                     ||||||| |||||| ||||| ||||||||||||||||||||||| ||||| |||||||||
+Hit in genome:       aacgccaaatccgcgcctttcaatcaatgtatcagtgtgggacataaatcagagatttcc
+
+Resistance gene seq: gcgtctattcttgttgcgctgaagagaggcggtgtgaaatatatctctacccgaagcatc
+                     || ||||||||| ||||||||||||||| ||||||||||||||| |||||||||||||||
+Hit in genome:       gcctctattcttcttgcgctgaagagagccggtgtgaaatatatttctacccgaagcatc
+
+Resistance gene seq: ggctgcaatcatatagatacaattgccgctaagagaatcggcatcactgtcggcaatgtg
+                     |||||||||||||||||||||| ||| ||||||||||| ||||||||||||| |||||||
+Hit in genome:       ggctgcaatcatatagatacaactgctgctaagagaatgggcatcactgtcgacaatgtg
+
+Resistance gene seq: gcgtattcgccggatagcgttgctgattttaccatgatgctgatgcttatggcagtacgc
+                     ||||| ||||||||||||||||| |||| ||| |||||||| || |||||||||||||||
+Hit in genome:       gcgtactcgccggatagcgttgccgattatactatgatgctaattcttatggcagtacgc
+
+Resistance gene seq: aacacgaaatctatcgtacggtctgtggaaaaacatgatttcaggctggacagcgttcgg
+                     |||   ||||| || || || |||||||||||||||||||||||| |||||||||  || 
+Hit in genome:       aacgtaaaatcgattgtgcgctctgtggaaaaacatgatttcaggttggacagcgaccgt
+
+Resistance gene seq: gggaaggtactgagcgagatgacagttggcgtggtgggaacaggtcagataggcaaagcg
+                     || |||||||| ||||| ||||||||||| ||||||||||| || |||||||||||||||
+Hit in genome:       ggcaaggtactcagcgacatgacagttggtgtggtgggaacgggccagataggcaaagcg
+
+Resistance gene seq: gttattgagcggctgcgaggatttggatgtaaagtgttggcttatagtcacagcaaaagt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||
+Hit in genome:       gttattgagcggctgcgaggatttggatgtaaagtgttggcttatagtcgcagccgaagt
+
+Resistance gene seq: atagaggtatactatgttccgtttgatgagttgttgcaaaatagcgatatcgttaccctt
+                     ||||||||| ||||||| ||||||||||||||| |||||||||||||||||||||| |||
+Hit in genome:       atagaggtaaactatgtaccgtttgatgagttgctgcaaaatagcgatatcgttacgctt
+
+Resistance gene seq: catgtgccgctccatacggatacgcactatatcatcggtcacgaacaaatacagagaatg
+                     |||||||||||| ||||||||||||||||||| ||| | |||||||||||||||||||||
+Hit in genome:       catgtgccgctcaatacggatacgcactatattatcagccacgaacaaatacagagaatg
+
+Resistance gene seq: aagaaaggagcgtttattatcaatactagtcgcggtccacttgtagatacctatgcgttg
+                     ||| ||||||| ||| ||||||||||| | ||||||||||||||||||||||||| ||||
+Hit in genome:       aagcaaggagcatttcttatcaatactgggcgcggtccacttgtagatacctatgagttg
+
+Resistance gene seq: gttaaagcattagaaaacggaaaactgggcggtgccgcattggatgtattggagggagaa
+                     |||||||||||||||||||| |||||||||||||||||||||||||||||||| ||||| 
+Hit in genome:       gttaaagcattagaaaacgggaaactgggcggtgccgcattggatgtattggaaggagag
+
+Resistance gene seq: gaagagtttttctactctgattgtacccaaagacccattgataatcaatttttacttaaa
+                     ||||||||||||||||||||||| ||||||| ||| ||||||||||||||||||||||||
+Hit in genome:       gaagagtttttctactctgattgcacccaaaaaccaattgataatcaatttttacttaaa
+
+Resistance gene seq: cttcaaaaaatgcctaacgtgataatcacaccgcatacggcttattataccgagcaagcg
+                     ||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||
+Hit in genome:       cttcaaagaatgcctaacgtgataatcacaccgcatacggcctattataccgagcaagcg
+
+Resistance gene seq: ttgcgtgataccgttgaaaaaaccattacaaactgtttggattttgaaaggagactggag
+                     |||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||
+Hit in genome:       ttgcgtgataccgttgaaaaaaccattaaaaactgtttggattttgaaaggagacaggag
+
+Resistance gene seq: catgaatag
+                     |||||||||
+Hit in genome:       catgaatag
+
+
+--------------------------------------------------------------------------------
+
+VanA: WARNING1, ID: 93.51%, HSP/Length: 1032/1032, Contig name: tig00000025_pilon, Position: 38363..39394
+
+Resistance gene seq: atgaatagaataaaagttgcaatattgtttgggggttgctcagaggagcatgacgtatct
+                     |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| 
+Hit in genome:       atgaatagaataaaagttgcaatactgtttgggggttgctcagaggagcatgacgtatcg
+
+Resistance gene seq: gtaaaatccgcaatagaaatagccgctaacattgataaagaaaaatacgagacgttatac
+                     |||||||| |||||||| ||||||||||||||| ||||||||||||||||| ||||||||
+Hit in genome:       gtaaaatctgcaatagagatagccgctaacattaataaagaaaaatacgagccgttatac
+
+Resistance gene seq: attgggattaccaaatctggtgtatggaaaatgtgtgaaaaaccgtgcgtggaatgggaa
+                     ||||| ||||| ||||||||||||||||||||||| |||||||| |||| ||||||||||
+Hit in genome:       attggaattacgaaatctggtgtatggaaaatgtgcgaaaaaccttgcgcggaatgggaa
+
+Resistance gene seq: aacgacaattgctgttcagcagtactctcgccggataaaaaaatgcacggattacttgtt
+                     ||||||||||||| |||||| |||||||||||||||||||||||||||||||||||||||
+Hit in genome:       aacgacaattgctattcagctgtactctcgccggataaaaaaatgcacggattacttgtt
+
+Resistance gene seq: aaaaagaaccatgaatatgaaatcgaccacgttgatgtagcattttcggttttgcacggc
+                     |||||||||||||||||||||||| |||| ||||||||||||||||| | |||||| |||
+Hit in genome:       aaaaagaaccatgaatatgaaatcaaccatgttgatgtagcattttcagctttgcatggc
+
+Resistance gene seq: aagtcgggtgaagatggatcaatacaaggtctttttgaattgtccggtatcccctttgta
+                     ||||| |||||||||||||| ||||||||||| |||||||||||||||||||| ||||||
+Hit in genome:       aagtcaggtgaagatggatccatacaaggtctgtttgaattgtccggtatcccttttgta
+
+Resistance gene seq: ggctgcgatattcaaagctcagcgatttgtatggacaaatcactgacatacatcgttgcg
+                     ||||||||||||||||||||||| |||||||||||||||||  |||||||||||||||||
+Hit in genome:       ggctgcgatattcaaagctcagcaatttgtatggacaaatcgttgacatacatcgttgcg
+
+Resistance gene seq: gaaaatgctggcatagctactcccgaattttgggtttttaataaagacgataagccgatg
+                      |||||||||| |||||||||||||  ||||||||| |||||||||| |||| |||| ||
+Hit in genome:       aaaaatgctgggatagctactcccgccttttgggttattaataaagatgataggccggtg
+
+Resistance gene seq: gcagatacgtttacctatcctgtttttgttaagcctgcgcgttcaggctcatcctttggc
+                     |||| |||||||||||||||||||||||||||||| |||||||||||||||||||| || 
+Hit in genome:       gcagctacgtttacctatcctgtttttgttaagccggcgcgttcaggctcatccttcggt
+
+Resistance gene seq: gtgaaaaaggtcaatggagcagacgaattggacgccgcaattgaattggctggacaatat
+                     |||||||| |||||| | || ||||||||||||  ||||||||||| |||  ||||||||
+Hit in genome:       gtgaaaaaagtcaatagcgcggacgaattggactacgcaattgaatcggcaagacaatat
+
+Resistance gene seq: gacagcaaaatcttaattgagcaggctgttttgggctgtgaggtcggttgtgccgtattg
+                     ||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||
+Hit in genome:       gacagcaaaatcttaattgagcaggctgtttcgggctgtgaggtcggttgtgcggtattg
+
+Resistance gene seq: ggaaacagttccgcttttgttgttggcgaggtagaccaaatcagactgcagcacggaatc
+                     ||||||||| |||| || |||||||||||||| ||||||||||| |||||| ||||||||
+Hit in genome:       ggaaacagtgccgcgttagttgttggcgaggtggaccaaatcaggctgcagtacggaatc
+
+Resistance gene seq: tttcgtattcatcaggaagccgagccggaaaaaggctctgaaaacgcagttataaccgtt
+                     ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tttcgtattcatcaggaagtcgagccggaaaaaggctctgaaaacgcagttataaccgtt
+
+Resistance gene seq: cccgcagacctgtcggcagaggagcgaggacggatacaggaaacggcaaaaaaaatatat
+                     ||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       cccgcagacctttcagcagaggagcgaggacggatacaggaaacggcaaaaaaaatatat
+
+Resistance gene seq: aatgcgctcggctgtagaggtctagcccgtgtcgatatgtttttacaagataacggccgc
+                     || ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||
+Hit in genome:       aaagcgctcggctgtagaggtctagcccgtgtggatatgtttttacaagataacggccgc
+
+Resistance gene seq: attgtactgaacgaagtcaataccctgcccggtttcacttcatacagccgttatcctcgt
+                     ||||||||||||||||||||||| |||||||||||||| |||||||| |||||||| |||
+Hit in genome:       attgtactgaacgaagtcaatactctgcccggtttcacgtcatacagtcgttatccccgt
+
+Resistance gene seq: atgatggccgctgtaggtattgcatttcccgaattgattgaccgcttgattgtattagcg
+                     ||||||||||||| |||||||||| |||||||| |||||||||||||||| |||||||||
+Hit in genome:       atgatggccgctgcaggtattgcacttcccgaactgattgaccgcttgatcgtattagcg
+
+Resistance gene seq: ttaaaggggtga
+                     ||||||||||||
+Hit in genome:       ttaaaggggtga
+
+
+--------------------------------------------------------------------------------
+
+VanX: WARNING1, ID: 96.79%, HSP/Length: 249/249, Contig name: tig00000025_pilon, Position: 39400..39648
+
+Resistance gene seq: atggaaataggatttacttttttagataaaatagtacacggtgttcgttgggacgctaaa
+                     ||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||
+Hit in genome:       atggaaataggatttacttttttagatgaaatagtacacggtgttcgttgggacgctaaa
+
+Resistance gene seq: tatgccacttgggataatttcaccggaaaaccggttgacggttatgaagtaaatcgcatt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tatgccacttgggataatttcaccggaaaaccggttgacggttatgaagtaaatcgcatt
+
+Resistance gene seq: gtagggacatacgagttggccgaagcgcttttgaaggcaaaggaactggctgctacccaa
+                     |||||||||||||||||||| ||| |||||||||||||||| ||||||||||||||||||
+Hit in genome:       gtagggacatacgagttggctgaatcgcttttgaaggcaaaagaactggctgctacccaa
+
+Resistance gene seq: ggttacggattgcttctatgggacggttaccgtccgaagcgtgctgtaaattgttttatg
+                     || |||||||||||||||||||||||||||||||| |||||||||||||| |||||||||
+Hit in genome:       gggtacggattgcttctatgggacggttaccgtcctaagcgtgctgtaaactgttttatg
+
+Resistance gene seq: aaatgggct
+                      ||||||||
+Hit in genome:       caatgggct
+
+
+--------------------------------------------------------------------------------
+
+VanHAX: PERFECT MATCH, ID: 100.00%, HSP/Length: 2607/2607, Contig name: tig00000025_pilon, Position: 4980..7586
+
+Resistance gene seq: atgaataacatcggcattactgtttatggatgtgagcaggatgaggcagatgcattccat
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       atgaataacatcggcattactgtttatggatgtgagcaggatgaggcagatgcattccat
+
+Resistance gene seq: gctctttcgcctcgctttggcgttatggcaacgataattaacgccaacgtgtcggaatcc
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gctctttcgcctcgctttggcgttatggcaacgataattaacgccaacgtgtcggaatcc
+
+Resistance gene seq: aacgccaaatccgcgcctttcaatcaatgtatcagtgtgggacataaatcagagatttcc
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       aacgccaaatccgcgcctttcaatcaatgtatcagtgtgggacataaatcagagatttcc
+
+Resistance gene seq: gcctctattcttcttgcgctgaagagagccggtgtgaaatatatttctacccgaagcatc
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gcctctattcttcttgcgctgaagagagccggtgtgaaatatatttctacccgaagcatc
+
+Resistance gene seq: ggctgcaatcatatagatacaactgctgctaagagaatgggcatcactgtcgacaatgtg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ggctgcaatcatatagatacaactgctgctaagagaatgggcatcactgtcgacaatgtg
+
+Resistance gene seq: gcgtactcgccggatagcgttgccgattatactatgatgctaattcttatggcagtacgc
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gcgtactcgccggatagcgttgccgattatactatgatgctaattcttatggcagtacgc
+
+Resistance gene seq: aacgtaaaatcgattgtgcgctctgtggaaaaacatgatttcaggttggacagcgaccgt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       aacgtaaaatcgattgtgcgctctgtggaaaaacatgatttcaggttggacagcgaccgt
+
+Resistance gene seq: ggcaaggtactcagcgacatgacagttggtgtggtgggaacgggccagataggcaaagcg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ggcaaggtactcagcgacatgacagttggtgtggtgggaacgggccagataggcaaagcg
+
+Resistance gene seq: gttattgagcggctgcgaggatttggatgtaaagtgttggcttatagtcgcagccgaagt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gttattgagcggctgcgaggatttggatgtaaagtgttggcttatagtcgcagccgaagt
+
+Resistance gene seq: atagaggtaaactatgtaccgtttgatgagttgctgcaaaatagcgatatcgttacgctt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       atagaggtaaactatgtaccgtttgatgagttgctgcaaaatagcgatatcgttacgctt
+
+Resistance gene seq: catgtgccgctcaatacggatacgcactatattatcagccacgaacaaatacagagaatg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       catgtgccgctcaatacggatacgcactatattatcagccacgaacaaatacagagaatg
+
+Resistance gene seq: aagcaaggagcatttcttatcaatactgggcgcggtccacttgtagatacctatgagttg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       aagcaaggagcatttcttatcaatactgggcgcggtccacttgtagatacctatgagttg
+
+Resistance gene seq: gttaaagcattagaaaacgggaaactgggcggtgccgcattggatgtattggaaggagag
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gttaaagcattagaaaacgggaaactgggcggtgccgcattggatgtattggaaggagag
+
+Resistance gene seq: gaagagtttttctactctgattgcacccaaaaaccaattgataatcaatttttacttaaa
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gaagagtttttctactctgattgcacccaaaaaccaattgataatcaatttttacttaaa
+
+Resistance gene seq: cttcaaagaatgcctaacgtgataatcacaccgcatacggcctattataccgagcaagcg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       cttcaaagaatgcctaacgtgataatcacaccgcatacggcctattataccgagcaagcg
+
+Resistance gene seq: ttgcgtgataccgttgaaaaaaccattaaaaactgtttggattttgaaaggagacaggag
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ttgcgtgataccgttgaaaaaaccattaaaaactgtttggattttgaaaggagacaggag
+
+Resistance gene seq: catgaatagaataaaagttgcaatactgtttgggggttgctcagaggagcatgacgtatc
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       catgaatagaataaaagttgcaatactgtttgggggttgctcagaggagcatgacgtatc
+
+Resistance gene seq: ggtaaaatctgcaatagagatagccgctaacattaataaagaaaaatacgagccgttata
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ggtaaaatctgcaatagagatagccgctaacattaataaagaaaaatacgagccgttata
+
+Resistance gene seq: cattggaattacgaaatctggtgtatggaaaatgtgcgaaaaaccttgcgcggaatggga
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       cattggaattacgaaatctggtgtatggaaaatgtgcgaaaaaccttgcgcggaatggga
+
+Resistance gene seq: aaacgacaattgctattcagctgtactctcgccggataaaaaaatgcacggattacttgt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       aaacgacaattgctattcagctgtactctcgccggataaaaaaatgcacggattacttgt
+
+Resistance gene seq: taaaaagaaccatgaatatgaaatcaaccatgttgatgtagcattttcagctttgcatgg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       taaaaagaaccatgaatatgaaatcaaccatgttgatgtagcattttcagctttgcatgg
+
+Resistance gene seq: caagtcaggtgaagatggatccatacaaggtctgtttgaattgtccggtatcccttttgt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       caagtcaggtgaagatggatccatacaaggtctgtttgaattgtccggtatcccttttgt
+
+Resistance gene seq: aggctgcgatattcaaagctcagcaatttgtatggacaaatcgttgacatacatcgttgc
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       aggctgcgatattcaaagctcagcaatttgtatggacaaatcgttgacatacatcgttgc
+
+Resistance gene seq: gaaaaatgctgggatagctactcccgccttttgggttattaataaagatgataggccggt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gaaaaatgctgggatagctactcccgccttttgggttattaataaagatgataggccggt
+
+Resistance gene seq: ggcagctacgtttacctatcctgtttttgttaagccggcgcgttcaggctcatccttcgg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ggcagctacgtttacctatcctgtttttgttaagccggcgcgttcaggctcatccttcgg
+
+Resistance gene seq: tgtgaaaaaagtcaatagcgcggacgaattggactacgcaattgaatcggcaagacaata
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tgtgaaaaaagtcaatagcgcggacgaattggactacgcaattgaatcggcaagacaata
+
+Resistance gene seq: tgacagcaaaatcttaattgagcaggctgtttcgggctgtgaggtcggttgtgcggtatt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tgacagcaaaatcttaattgagcaggctgtttcgggctgtgaggtcggttgtgcggtatt
+
+Resistance gene seq: gggaaacagtgccgcgttagttgttggcgaggtggaccaaatcaggctgcagtacggaat
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gggaaacagtgccgcgttagttgttggcgaggtggaccaaatcaggctgcagtacggaat
+
+Resistance gene seq: ctttcgtattcatcaggaagtcgagccggaaaaaggctctgaaaacgcagttataaccgt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ctttcgtattcatcaggaagtcgagccggaaaaaggctctgaaaacgcagttataaccgt
+
+Resistance gene seq: tcccgcagacctttcagcagaggagcgaggacggatacaggaaacggcaaaaaaaatata
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tcccgcagacctttcagcagaggagcgaggacggatacaggaaacggcaaaaaaaatata
+
+Resistance gene seq: taaagcgctcggctgtagaggtctagcccgtgtggatatgtttttacaagataacggccg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       taaagcgctcggctgtagaggtctagcccgtgtggatatgtttttacaagataacggccg
+
+Resistance gene seq: cattgtactgaacgaagtcaatactctgcccggtttcacgtcatacagtcgttatccccg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       cattgtactgaacgaagtcaatactctgcccggtttcacgtcatacagtcgttatccccg
+
+Resistance gene seq: tatgatggccgctgcaggtattgcacttcccgaactgattgaccgcttgatcgtattagc
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tatgatggccgctgcaggtattgcacttcccgaactgattgaccgcttgatcgtattagc
+
+Resistance gene seq: gttaaaggggtgataagcatggaaataggatttacttttttagatgaaatagtacacggt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gttaaaggggtgataagcatggaaataggatttacttttttagatgaaatagtacacggt
+
+Resistance gene seq: gttcgttgggacgctaaatatgccacttgggataatttcaccggaaaaccggttgacggt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gttcgttgggacgctaaatatgccacttgggataatttcaccggaaaaccggttgacggt
+
+Resistance gene seq: tatgaagtaaatcgcattgtagggacatacgagttggctgaatcgcttttgaaggcaaaa
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tatgaagtaaatcgcattgtagggacatacgagttggctgaatcgcttttgaaggcaaaa
+
+Resistance gene seq: gaactggctgctacccaagggtacggattgcttctatgggacggttaccgtcctaagcgt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gaactggctgctacccaagggtacggattgcttctatgggacggttaccgtcctaagcgt
+
+Resistance gene seq: gctgtaaactgttttatgcaatgggctgcacagccggaaaataacctgacaaaggaaagt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gctgtaaactgttttatgcaatgggctgcacagccggaaaataacctgacaaaggaaagt
+
+Resistance gene seq: tattatcccaatattgaccgaactgagatgatttcaaaaggatacgtggcttcaaaatca
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tattatcccaatattgaccgaactgagatgatttcaaaaggatacgtggcttcaaaatca
+
+Resistance gene seq: agccatagccgcggcagtgccattgatcttacgctttatcgattagacacgggtgagctt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       agccatagccgcggcagtgccattgatcttacgctttatcgattagacacgggtgagctt
+
+Resistance gene seq: gtaccaatggggagccgatttgattttatggatgaacgctctcatcatgcggcaaatgga
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gtaccaatggggagccgatttgattttatggatgaacgctctcatcatgcggcaaatgga
+
+Resistance gene seq: atatcatgcaatgaagcgcaaaatcgcagacgtttgcgctccatcatggaaaacagtggg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       atatcatgcaatgaagcgcaaaatcgcagacgtttgcgctccatcatggaaaacagtggg
+
+Resistance gene seq: tttgaagcatatagcctcgaatggtggcactatgtattaagagacgaaccataccccaat
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tttgaagcatatagcctcgaatggtggcactatgtattaagagacgaaccataccccaat
+
+Resistance gene seq: agctattttgatttccccgttaaataa
+                     |||||||||||||||||||||||||||
+Hit in genome:       agctattttgatttccccgttaaataa
+
+
+--------------------------------------------------------------------------------
+
+msr(C): WARNING1, ID: 98.99%, HSP/Length: 1479/1479, Contig name: tig00000001_pilon, Position: 743512..744990
+
+Resistance gene seq: atggaaaatttagcagtaaatataacaaatctacaagtcagctttggcaaccagctagaa
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       atggaaaatttagcagtaaatataacaaatctacaagtcagctttggcaaccagctagaa
+
+Resistance gene seq: ctatctattgattctcttcgtgtctatcagcaagatcgtatagggatcataggagaaaat
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ctatctattgattctcttcgtgtctatcagcaagatcgtatagggatcataggagaaaat
+
+Resistance gene seq: ggtgtcggtaaatcgactttgctcaaactaatagccggtgaactttttcccgatcatggg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ggtgtcggtaaatcgactttgctcaaactaatagccggtgaactttttcccgatcatggg
+
+Resistance gene seq: aaaatccaaacagagatcaccttcaactacctgcctcaattaacctatctcgctgaagca
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       aaaatccaaacagagatcaccttcaactacctgcctcaattaacctatctcgctgaagca
+
+Resistance gene seq: aaggacctaaatttggaattagccagtcatttccagttaagactggaagaaacttcagag
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       aaggacctaaatttggaattagccagtcatttccagttaagactggaagaaacttcagag
+
+Resistance gene seq: cggaaatggagcggaggggaagaacgaaagatcgagttgatacgtcttctttcttcttat
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       cggaaatggagcggaggggaagaacgaaagatcgagttgatacgtcttctttcttcttat
+
+Resistance gene seq: gaacaagggatgcttctagacgagccaacaacccatctagatagaaaaagtattgatcga
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gaacaagggatgcttctagacgagccaacaacccatctagatagaaaaagtattgatcga
+
+Resistance gene seq: ctgattgaagagcttcgttattattatggtacgctggtttttgttagtcatgatcgctat
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       ctgattgaagagcttcgttattattatggtacgctggtttttgttagtcatgatcgctat
+
+Resistance gene seq: tttctagatgagctagcatcgaaaatctgggaagtaaaagacggagaaatccgagagttt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tttctagatgagctagcatcgaaaatctgggaagtaaaagacggagaaatccgagagttt
+
+Resistance gene seq: tcggggaattatagtgcctatctcactcaaaaggaattggagaaaaagactcagctacga
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tcggggaattatagtgcctatctcactcaaaaggaattggagaaaaagactcagctacga
+
+Resistance gene seq: gaagcagagtcgatcatgaaagagaaaaaacgattggaaaaatcgatccaagaaaagaaa
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gaagcagagtcgatcatgaaagagaaaaaacgattggaaaaatcgatccaagaaaagaaa
+
+Resistance gene seq: aaacaagcggaaaagttggaaaaagtgtccagtaaaaagaaaaagcaacaaatcagaccg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       aaacaagcggaaaagttggaaaaagtgtccagtaaaaagaaaaagcaacaaatcagaccg
+
+Resistance gene seq: gatcggttgtcttcctctaaacaaaaagacagtgtacaaaaagccatccaaaagaatgcg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gatcggttgtcttcctctaaacaaaaagacagtgtacaaaaagccatccaaaagaatgcg
+
+Resistance gene seq: aaaacattagagagaagactccaaaaaataggagaaacaaccaagccgcagcagatgaaa
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       aaaacattagagagaagactccaaaaaataggagaaacaaccaagccgcagcagatgaaa
+
+Resistance gene seq: caaatccgttttccagtaccaaaatctcttgaactccacagccgctatcccatcatggga
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       caaatccgttttccagtaccaaaatctcttgaactccacagccgctatcccatcatggga
+
+Resistance gene seq: caaaatgtccaattggaaagaagtgggagaacattactggtaaatggtgattttcagttt
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       caaaatgtccaattggaaagaagtgggagaacattactggtaaatggtgattttcagttt
+
+Resistance gene seq: tctttaggtaaaaaaatcgcgattgtcggtgaaaatggttcaggtaagacaaccttattg
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Hit in genome:       tctttaggtaaaaaaatcgcgattgtcggtgaaaatggttcaggtaagacaaccttatta
+
+Resistance gene seq: gaacatatccgcaaacaaggagaaggaatccttctctctccgaaagtaagctttcaagtc
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Hit in genome:       gaacatatccgcaaacaaggagaaggaatccttctctctccgaaagtaagctttcaagta
+
+Resistance gene seq: tatcagcaaaaggattatcaaatgacatctgaagaatccgtcattcgttttgtcatgaga
+                     ||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||||||
+Hit in genome:       tatcagcaaaagggttatcaaatgacatctgaagaatccatcattcgttttgtcatgaga
+
+Resistance gene seq: caaacagagttttcggaatcgcttgtccgcagtttgctgaatcacttagggtttgctcag
+                     |||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||
+Hit in genome:       caaacagagttttcagaatcgcttgtccgtagtttgctgaatcacttagggtttgctcag
+
+Resistance gene seq: gaaactctggcgaaaccgttgtgtacgttaagtgggggagaagcgacccgtttgatgatt
+                     |||||| || |||||||||| ||||| |||||||||||||||||||||||| ||| ||||
+Hit in genome:       gaaactttgacgaaaccgttatgtacattaagtgggggagaagcgacccgtctgacgatt
+
+Resistance gene seq: gctttgctttttactaagccaagtaatgtgttgctgttagatgaaccgactaatttcatt
+                     |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||
+Hit in genome:       gctttgctttttactaagccaagtaatgtgttgctgttagatgaaccgactaattttatt
+
+Resistance gene seq: gatatggcaacgatcgaagctttagagaagctgatgcaagtatatccgggaacgattttg
+                     |||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||||
+Hit in genome:       gatatggcaacgatcgaagctttagagaagctaatgcaaatatatccgggaacgattttg
+
+Resistance gene seq: tttacttctcatgattcttactttgtcgagcgtacggctgatgaagtttatgaaataaaa
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Hit in genome:       tttacttctcatgattcttactttgtcgagcgtacggctgatgaagtttatgaaataaaa
+
+Resistance gene seq: gggcagaaaataaaaaaagtacttacgagaaatttttaa
+                     |||||||||||||||||||||||||||||||||||||||
+Hit in genome:       gggcagaaaataaaaaaagtacttacgagaaatttttaa
+
+
+--------------------------------------------------------------------------------
+

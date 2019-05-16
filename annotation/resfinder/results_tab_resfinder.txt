@@ -1,0 +1,52 @@
+Aminoglycoside
+Resistance gene	Identity	Query/HSP	Contig	Position in contig	Phenotype	Accession no.
+aac(6')-Ii	99.64	549/549	tig00000001_pilon	2471910..2472458		L12710
+
+Beta-lactam
+No resistance genes found.
+
+Colistin
+No resistance genes found.
+
+Fluoroquinolone
+No resistance genes found.
+
+Fosfomycin
+No resistance genes found.
+
+Fusidic Acid
+No resistance genes found.
+
+Glycopeptide
+Resistance gene	Identity	Query/HSP	Contig	Position in contig	Phenotype	Accession no.
+VanH	91.85	969/969	tig00000025_pilon	37402..38370		1_Y15705
+VanA	93.51	1032/1032	tig00000025_pilon	38363..39394	Vancomycin resistance (Glycopeptid resistance)	1_Y15704
+VanX	96.79	249/249	tig00000025_pilon	39400..39648		1_Y15708
+VanHAX	100.00	2607/2607	tig00000025_pilon	4980..7586		M97297
+
+MLS - Macrolide, Lincosamide and Streptogramin B
+Resistance gene	Identity	Query/HSP	Contig	Position in contig	Phenotype	Accession no.
+msr(C)	98.99	1479/1479	tig00000001_pilon	743512..744990	Macrolide, Lincosamide and Streptogramin B resistance	AY004350
+
+Nitroimidazole
+No resistance genes found.
+
+Oxazolidinone
+No resistance genes found.
+
+Phenicol
+No resistance genes found.
+
+Rifampicin
+No resistance genes found.
+
+Sulphonamide
+No resistance genes found.
+
+Tetracycline
+No resistance genes found.
+
+Trimethoprim
+Resistance gene	Identity	Query/HSP	Contig	Position in contig	Phenotype	Accession no.
+dfrG	100.00	498/498	NODE_3_length_64343_cov_75.9457	2210..2707	Trimethoprim resistance	AB205645
+
