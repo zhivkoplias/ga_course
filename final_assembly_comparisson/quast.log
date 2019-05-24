@@ -1,0 +1,142 @@
+/sw/bioinfo/quast/4.5.4/rackham/bin/quast.py /home/erzh4483/ga_course/final_assemblies/final_assembly_canu_and_spades_node3_120419.fasta -R /home/erzh4483/ga_course/reference/the_full_reference.fasta -o /home/erzh4483/ga_course/final_assembly_comparisson
+
+Version: 4.5.4
+
+System information:
+  OS: Linux-3.10.0-957.12.1.el7.x86_64-x86_64-with-centos-7.6.1810-Core (linux_64)
+  Python version: 2.7.6
+  CPUs number: 40
+
+Started: 2019-05-24 17:00:02
+
+Logging to /home/erzh4483/ga_course/final_assembly_comparisson/quast.log
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /domus/h1/erzh4483/ga_course
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/erzh4483/ga_course/reference/the_full_reference.fasta ==> the_full_reference
+
+Contigs:
+  Pre-processing...
+  /home/erzh4483/ga_course/final_assemblies/final_assembly_canu_and_spades_node3_120419.fasta ==> final_assembly_canu_and_spades_node3_120419
+
+2019-05-24 17:00:08
+Running Basic statistics processor...
+  Reference genome:
+    the_full_reference.fasta, length = 3168410, num fragments = 7, GC % = 37.70
+  Contig files: 
+    final_assembly_canu_and_spades_node3_120419
+  Calculating N50 and L50...
+    final_assembly_canu_and_spades_node3_120419, N50 = 2773702, L50 = 1, Total length = 3164587, GC % = 37.72, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/basic_stats/GC_content_plot.pdf
+  Drawing final_assembly_canu_and_spades_node3_120419 GC content plot...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/basic_stats/final_assembly_canu_and_spades_node3_120419_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/basic_stats/coverage_histogram.pdf
+  Drawing final_assembly_canu_and_spades_node3_120419 coverage histogram (bin size: 1x)...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/basic_stats/final_assembly_canu_and_spades_node3_120419_coverage_histogram.pdf
+Done.
+
+2019-05-24 17:00:13
+Running Contig analyzer...
+  final_assembly_canu_and_spades_node3_120419
+  Logging to files /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/contigs_report_final_assembly_canu_and_spades_node3_120419.stdout and contigs_report_final_assembly_canu_and_spades_node3_120419.stderr...
+  Aligning contigs to the reference
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/MUMmer/nucmer \
+  -c 65 -l 65 --maxmatch -p /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419 \
+  --emem -t 10 /home/erzh4483/ga_course/final_assembly_comparisson/quast_corrected_input/the_full_reference.fasta \
+  /home/erzh4483/ga_course/final_assembly_comparisson/quast_corrected_input/final_assembly_canu_and_spades_node3_120419.fasta \
+  >> /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/contigs_report_final_assembly_canu_and_spades_node3_120419.stdout \
+  2>> /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/contigs_report_final_assembly_canu_and_spades_node3_120419.stderr
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/MUMmer/delta-filter \
+  -i 95.0 -l 0 /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.delta \
+  > /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.fdelta \
+  2> /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/contigs_report_final_assembly_canu_and_spades_node3_120419.stderr
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/MUMmer/mummerplot \
+  --html --layout -p /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419 \
+  /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.delta \
+  > /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/contigs_report_final_assembly_canu_and_spades_node3_120419.stdout \
+  2> /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/contigs_report_final_assembly_canu_and_spades_node3_120419.stderr
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/gnuplot/src/gnuplot \
+  /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.gp \
+  > /dev/null 2> /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/contigs_report_final_assembly_canu_and_spades_node3_120419.stderr
+  MUMmer plot saved to /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/final_assembly_canu_and_spades_node3_120419_mummerplot.html
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/MUMmer/show-coords \
+  /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.delta \
+  > /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.coords_tmp \
+  2> /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/contigs_report_final_assembly_canu_and_spades_node3_120419.stderr
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/MUMmer/show-snps \
+  -S -T -H /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.delta \
+  < /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.coords.headless \
+  > /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.all_snps \
+  2> /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/contigs_report_final_assembly_canu_and_spades_node3_120419.stderr
+  Analysis is finished.
+
+  Gzipping /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.all_snps to reduce disk space usage...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/nucmer_output/final_assembly_canu_and_spades_node3_120419.all_snps.gz
+  Creating total report...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2019-05-24 17:00:28
+Running NA-NGA calculation...
+  final_assembly_canu_and_spades_node3_120419, Largest alignment = 2195416, NA50 = 2195416, NGA50 = 2195416, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/erzh4483/ga_course/final_assembly_comparisson/aligned_stats/NGAx_plot.pdf
+Done.
+
+2019-05-24 17:00:30
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  final_assembly_canu_and_spades_node3_120419
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2019-05-24 17:00:31
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2019-05-24 17:00:35
+RESULTS:
+  Text versions of total report are saved to /home/erzh4483/ga_course/final_assembly_comparisson/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/erzh4483/ga_course/final_assembly_comparisson/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /home/erzh4483/ga_course/final_assembly_comparisson/report.html
+  PDF version (tables and plots) is saved to /home/erzh4483/ga_course/final_assembly_comparisson/report.pdf
+  Icarus (contig browser) is saved to /home/erzh4483/ga_course/final_assembly_comparisson/icarus.html
+  Log saved to /home/erzh4483/ga_course/final_assembly_comparisson/quast.log
+
+Finished: 2019-05-24 17:00:35
+Elapsed time: 0:00:32.937238
+NOTICEs: 5; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

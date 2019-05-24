@@ -1,0 +1,33 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	578289	578286	1	CP014529.1_Enterococcus_faecium_strain_E745__complete_genome	tig00000001_pilon	99.99		True
+relocation, inconsistency = -8697 [linear representation of circular genome]
+569593	2765010	2773702	578287	CP014529.1_Enterococcus_faecium_strain_E745__complete_genome	tig00000001_pilon	99.99		True
+CONTIG	tig00000001_pilon	2773702	misassembled
+1	13286	13290	1	CP014531.1_Enterococcus_faecium_strain_E745_plasmid_pl2__complete_sequence	tig00000025_pilon	99.95		True
+relocation, inconsistency = -7592 [linear representation of circular genome]
+5695	32423	40017	13291	CP014531.1_Enterococcus_faecium_strain_E745_plasmid_pl2__complete_sequence	tig00000025_pilon	99.94		True
+CONTIG	tig00000025_pilon	40017	misassembled
+1516	29823	28307	1	CP014534.1_Enterococcus_faecium_strain_E745_plasmid_pl5__complete_sequence	tig00000026_pilon	99.99		True
+CONTIG	tig00000026_pilon	28307	correct
+2750	12743	1	9986	CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence	tig00000029_pilon	99.3		True
+CONTIG	tig00000029_pilon	9986	correct
+7894	9310	1	1416	CP014532.1_Enterococcus_faecium_strain_E745_plasmid_pl3__complete_sequence	tig00000030_pilon	98.81		True
+relocation, inconsistency = -1417 [linear representation of circular genome]
+1	9310	1417	10730	CP014532.1_Enterococcus_faecium_strain_E745_plasmid_pl3__complete_sequence	tig00000030_pilon	99.76		True
+relocation, inconsistency = -9309 [linear representation of circular genome]
+2	671	10731	11400	CP014532.1_Enterococcus_faecium_strain_E745_plasmid_pl3__complete_sequence	tig00000030_pilon	100.0		True
+CONTIG	tig00000030_pilon	11400	misassembled
+6490	15862	9546	1	CP014533.1_Enterococcus_faecium_strain_E745_plasmid_pl4__complete_sequence	tig00000031_pilon	97.79		True
+CONTIG	tig00000031_pilon	9546	correct
+23	64365	1	64343	CP014535.1_Enterococcus_faecium_strain_E745_plasmid_pl6__complete_sequence	NODE_3_length_64343_cov_75.9457	99.99		True
+CONTIG	NODE_3_length_64343_cov_75.9457	64343	correct
+7238	190689	183467	1	CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence	tig00000470_pilon	99.92		True
+translocation
+43604	51949	191817	183468	CP014534.1_Enterococcus_faecium_strain_E745_plasmid_pl5__complete_sequence	tig00000470_pilon	98.49		True
+translocation
+196515	223688	218986	191818	CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence	tig00000470_pilon	99.47		True
+CONTIG	tig00000470_pilon	218986	misassembled
+195812	202379	6563	1	CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence	tig00000471_pilon	99.86		True
+relocation, inconsistency = 1441
+192635	194370	8300	6564	CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence	tig00000471_pilon	99.87		True
+CONTIG	tig00000471_pilon	8300	misassembled

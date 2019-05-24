@@ -1,0 +1,16 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     final_assembly_canu_and_spades_node3_120419
+# misassemblies              7                                          
+    # relocations            5                                          
+    # translocations         2                                          
+    # inversions             0                                          
+# misassembled contigs       5                                          
+Misassembled contigs length  3052405                                    
+# local misassemblies        0                                          
+# unaligned mis. contigs     0                                          
+# mismatches                 195                                        
+# indels                     160                                        
+    # indels (<= 5 bp)       152                                        
+    # indels (> 5 bp)        8                                          
+Indels length                287                                        
