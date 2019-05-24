@@ -7,7 +7,7 @@ directory <- "/home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/h
 sampleFiles_Serum <- grep("Serum",list.files(directory),value=TRUE)
 sampleCondition_Serum <- sub("(.*Serum).*","\\1",sampleFiles_Serum)
 sampleTable_Serum <- data.frame(sampleName = sampleFiles_Serum,
-                          fileName = sampleFiles,
+                          fileName = sampleFiles_Serum,
                           condition = sampleCondition_Serum)
 
 sampleFiles_BH <- grep("BH",list.files(directory),value=TRUE)
@@ -32,7 +32,7 @@ dds <- ddsHTSeq
 #Note on factor levels
 
 #dds$condition <- factor(dds$condition, levels = c("Serum","BH"))
-#dds$condition <- relevel(dds$condition, ref = "Serum")
+dds$condition <- relevel(dds$condition, ref = "BH")
 #dds$condition <- droplevels(dds$condition)
 
 # DE analysis
@@ -46,7 +46,8 @@ res <- results(dds, contrast=c("condition","Serum","BH"))
 
 
 # Log fold change shrinkage for visualization and ranking
-biocLite("apeglm")
+#biocLite("apeglm")
+library(apeglm)
 
 resultsNames(dds)
 
@@ -55,7 +56,7 @@ resLFC
 
 # p-values ordering
 
-resOrdered <- res[order(res$pvalue),]
+resOrdered <- res[order(-res$log2FoldChange),]
 summary(res)
 
 sum(res$padj < 0.1, na.rm=TRUE)
@@ -93,3 +94,9 @@ mcols(res)$description
 
 write.csv(as.data.frame(resOrdered), 
           file="condition_Serum_vs_BH_results.csv")
+
+save_it <- as.data.frame(resOrdered)
+
+write.csv(as.data.frame(save_it[1]), 
+          file="condition_Serum_vs_BH_results.csv")
+save_it[1]          
