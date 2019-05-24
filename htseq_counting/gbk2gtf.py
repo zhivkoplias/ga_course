@@ -19,7 +19,7 @@ from datetime import datetime
 from Bio import SeqIO
 
 
-def gb2gtf(source='gb2gtf', allowedTypes=set(['gene', 'CDS', 'tRNA', 'tmRNA', 'rRNA', 'ncRNA'])):
+def gb2gtf(source='gb2gtf', allowedTypes=set(['gene', 'CDS', 'tRNA', 'tmRNA', 'rRNA', 'ncRNA', 'db_xref'])):
   """
   """
   handle = sys.stdin

@@ -1,0 +1,1082 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 142082048 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2627), pid=26586, tid=0x00007f6b7c343700
+#
+# JRE version: OpenJDK Runtime Environment (8.0_92-b15) (build 1.8.0_92-b15)
+# Java VM: OpenJDK 64-Bit Server VM (25.92-b15 mixed mode linux-amd64 compressed oops)
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f6b7915b000):  VMThread [stack: 0x00007f6b7c243000,0x00007f6b7c344000] [id=26595]
+
+Stack: [0x00007f6b7c243000,0x00007f6b7c344000],  sp=0x00007f6b7c3420d0,  free space=1020k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xa2800e]  VMError::report_and_die()+0x14e
+V  [libjvm.so+0x4d7d69]  report_vm_out_of_memory(char const*, int, unsigned long, VMErrorType, char const*)+0x99
+V  [libjvm.so+0x899c43]  os::Linux::commit_memory_impl(char*, unsigned long, bool)+0xf3
+V  [libjvm.so+0x899fe9]  os::pd_commit_memory(char*, unsigned long, unsigned long, bool)+0x29
+V  [libjvm.so+0x89420a]  os::commit_memory(char*, unsigned long, unsigned long, bool)+0x2a
+V  [libjvm.so+0x90076b]  PSVirtualSpace::expand_by(unsigned long)+0x6b
+V  [libjvm.so+0x8f10f9]  PSOldGen::expand_by(unsigned long)+0x39
+V  [libjvm.so+0x8f1272]  PSOldGen::expand(unsigned long)+0xa2
+V  [libjvm.so+0x8f166b]  PSOldGen::resize(unsigned long)+0x1db
+V  [libjvm.so+0x8f93e6]  PSParallelCompact::invoke_no_policy(bool)+0x986
+V  [libjvm.so+0x8fea29]  PSScavenge::invoke()+0x179
+V  [libjvm.so+0xa29aff]  VM_ParallelGCSystemGC::doit()+0x9f
+V  [libjvm.so+0xa302c2]  VM_Operation::evaluate()+0x52
+V  [libjvm.so+0xa2e7f1]  VMThread::evaluate_operation(VM_Operation*)+0xb1
+V  [libjvm.so+0xa2ec43]  VMThread::loop()+0x1c3
+V  [libjvm.so+0xa2f112]  VMThread::run()+0x72
+V  [libjvm.so+0x89cf62]  java_start(Thread*)+0x122
+
+VM_Operation (0x00007f6b613a4180): ParallelGCSystemGC, mode: safepoint, requested by thread 0x00007f6b79386800
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00007f6b10454800 JavaThread "pool-1-thread-3" [_thread_blocked, id=26699, stack(0x00007f6ae39fe000,0x00007f6ae3aff000)]
+  0x00007f6b1043a000 JavaThread "SwingWorker-pool-3-thread-1" daemon [_thread_blocked, id=26694, stack(0x00007f6ae3aff000,0x00007f6ae3c00000)]
+  0x00007f6b10421000 JavaThread "pool-2-thread-4" [_thread_blocked, id=26691, stack(0x00007f6afc05c000,0x00007f6afc15d000)]
+  0x00007f6b1042f800 JavaThread "pool-1-thread-2" [_thread_blocked, id=26685, stack(0x00007f6afc15d000,0x00007f6afc25e000)]
+  0x00007f6b10425000 JavaThread "pool-1-thread-1" [_thread_blocked, id=26684, stack(0x00007f6b60ca7000,0x00007f6b60da8000)]
+  0x00007f6b10488000 JavaThread "pool-2-thread-3" [_thread_blocked, id=26667, stack(0x00007f6b6095a000,0x00007f6b60a5b000)]
+  0x00007f6af405f000 JavaThread "Thread-8" [_thread_in_native, id=26649, stack(0x00007f6afddb0000,0x00007f6afdeb1000)]
+  0x00007f6af405a800 JavaThread "pool-2-thread-2" [_thread_blocked, id=26648, stack(0x00007f6afdbae000,0x00007f6afdcaf000)]
+  0x00007f6af4057000 JavaThread "TimerQueue" daemon [_thread_blocked, id=26647, stack(0x00007f6afdcaf000,0x00007f6afddb0000)]
+  0x00007f6b10402000 JavaThread "pool-2-thread-1" [_thread_blocked, id=26642, stack(0x00007f6afe86d000,0x00007f6afe96e000)]
+  0x00007f6b10343000 JavaThread "Timer-1" [_thread_blocked, id=26641, stack(0x00007f6afdeb1000,0x00007f6afdfb2000)]
+  0x00007f6b10016000 JavaThread "Timer-0" daemon [_thread_blocked, id=26617, stack(0x00007f6b611a8000,0x00007f6b612a9000)]
+  0x00007f6b7800a800 JavaThread "DestroyJavaVM" [_thread_blocked, id=26590, stack(0x00007f6b80ff2000,0x00007f6b810f3000)]
+  0x00007f6b79386800 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=26616, stack(0x00007f6b612a9000,0x00007f6b613aa000)]
+  0x00007f6b79385000 JavaThread "AWT-Shutdown" [_thread_blocked, id=26615, stack(0x00007f6b613aa000,0x00007f6b614ab000)]
+  0x00007f6b79380800 JavaThread "AWT-XAWT" daemon [_thread_blocked, id=26614, stack(0x00007f6b614ab000,0x00007f6b615ac000)]
+  0x00007f6b79361000 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=26613, stack(0x00007f6b619bc000,0x00007f6b61abd000)]
+  0x00007f6b791bd800 JavaThread "Service Thread" daemon [_thread_blocked, id=26602, stack(0x00007f6b63dfe000,0x00007f6b63eff000)]
+  0x00007f6b791a0000 JavaThread "C1 CompilerThread2" daemon [_thread_blocked, id=26601, stack(0x00007f6b63eff000,0x00007f6b64000000)]
+  0x00007f6b7919e800 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=26600, stack(0x00007f6b6809f000,0x00007f6b681a0000)]
+  0x00007f6b7919b800 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=26599, stack(0x00007f6b681a0000,0x00007f6b682a1000)]
+  0x00007f6b7919a000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=26598, stack(0x00007f6b682a1000,0x00007f6b683a2000)]
+  0x00007f6b79167000 JavaThread "Finalizer" daemon [_thread_blocked, id=26597, stack(0x00007f6b7c041000,0x00007f6b7c142000)]
+  0x00007f6b79162800 JavaThread "Reference Handler" daemon [_thread_blocked, id=26596, stack(0x00007f6b7c142000,0x00007f6b7c243000)]
+
+Other Threads:
+=>0x00007f6b7915b000 VMThread [stack: 0x00007f6b7c243000,0x00007f6b7c344000] [id=26595]
+  0x00007f6b791c0000 WatcherThread [stack: 0x00007f6b63cfd000,0x00007f6b63dfe000] [id=26603]
+
+VM state:at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00007f6b780065e0] ExpandHeap_lock - owner thread: 0x00007f6b7915b000
+[0x00007f6b78006c60] Threads_lock - owner thread: 0x00007f6b7915b000
+[0x00007f6b78007160] Heap_lock - owner thread: 0x00007f6b79386800
+
+Heap:
+ PSYoungGen      total 1247232K, used 97370K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 8% used [0x000000076cb00000,0x0000000772a16828,0x00000007b4900000)
+  from space 69632K, 0% used [0x00000007b4900000,0x00000007b4900000,0x00000007b8d00000)
+  to   space 72704K, 0% used [0x00000007bb900000,0x00000007bb900000,0x00000007c0000000)
+ ParOldGen       total 1068032K, used 1068027K [0x00000006c6000000, 0x0000000707300000, 0x000000076cb00000)
+  object space 1068032K, 99% used [0x00000006c6000000,0x00000007072fef58,0x0000000707300000)
+ Metaspace       used 34003K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+
+Card table byte_map: [0x00007f6b7d61b000,0x00007f6b7ddec000] byte_map_base: 0x00007f6b79feb000
+
+Marking Bits: (ParMarkBitMap*) 0x00007f6b804b8840
+ Begin Bits: [0x00007f6b44300000, 0x00007f6b48180000)
+ End Bits:   [0x00007f6b48180000, 0x00007f6b4c000000)
+
+Polling page: 0x00007f6b81129000
+
+CodeCache: size=245760Kb used=17122Kb max_used=17465Kb free=228637Kb
+ bounds [0x00007f6b69000000, 0x00007f6b6a130000, 0x00007f6b78000000]
+ total_blobs=5795 nmethods=5031 adapters=676
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 168.648 Thread 0x00007f6b791a0000 6189       1       org.broad.igv.ui.panel.MainPanel::getDataPanelX (5 bytes)
+Event: 168.648 Thread 0x00007f6b791a0000 nmethod 6189 0x00007f6b69ac4ad0 code [0x00007f6b69ac4c20, 0x00007f6b69ac4d30]
+Event: 168.648 Thread 0x00007f6b791a0000 6190       1       org.broad.igv.ui.panel.MainPanel::getDataPanelWidth (5 bytes)
+Event: 168.648 Thread 0x00007f6b791a0000 nmethod 6190 0x00007f6b69ad32d0 code [0x00007f6b69ad3420, 0x00007f6b69ad3530]
+Event: 169.545 Thread 0x00007f6b7919b800 6193       4       java.io.InputStreamReader::read (11 bytes)
+Event: 169.593 Thread 0x00007f6b791a0000 6194       3       java.util.TaskQueue::getMin (7 bytes)
+Event: 169.593 Thread 0x00007f6b791a0000 nmethod 6194 0x00007f6b6935a610 code [0x00007f6b6935a780, 0x00007f6b6935a910]
+Event: 169.600 Thread 0x00007f6b7919e800 6195       4       htsjdk.tribble.readers.PositionalBufferedStream::read (133 bytes)
+Event: 169.648 Thread 0x00007f6b7919e800 nmethod 6195 0x00007f6b69fa2b90 code [0x00007f6b69fa2ce0, 0x00007f6b69fa2fb8]
+Event: 170.496 Thread 0x00007f6b7919b800 nmethod 6193 0x00007f6b69be9210 code [0x00007f6b69be9480, 0x00007f6b69bea798]
+
+GC Heap History (10 events):
+Event: 142.054 GC heap after
+Heap after GC invocations=56 (full 8):
+ PSYoungGen      total 1247232K, used 1210766K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 100% used [0x000000076cb00000,0x00000007b4900000,0x00000007b4900000)
+  from space 69632K, 47% used [0x00000007b4900000,0x00000007b6963b30,0x00000007b8d00000)
+  to   space 72704K, 99% used [0x00000007bb900000,0x00000007bfff89b8,0x00000007c0000000)
+ ParOldGen       total 379392K, used 378997K [0x00000006c6000000, 0x00000006dd280000, 0x000000076cb00000)
+  object space 379392K, 99% used [0x00000006c6000000,0x00000006dd21d4c0,0x00000006dd280000)
+ Metaspace       used 33996K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+}
+Event: 142.077 GC heap before
+{Heap before GC invocations=57 (full 9):
+ PSYoungGen      total 1247232K, used 1210766K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 100% used [0x000000076cb00000,0x00000007b4900000,0x00000007b4900000)
+  from space 69632K, 47% used [0x00000007b4900000,0x00000007b6963b30,0x00000007b8d00000)
+  to   space 72704K, 99% used [0x00000007bb900000,0x00000007bfff89b8,0x00000007c0000000)
+ ParOldGen       total 379392K, used 378997K [0x00000006c6000000, 0x00000006dd280000, 0x000000076cb00000)
+  object space 379392K, 99% used [0x00000006c6000000,0x00000006dd21d4c0,0x00000006dd280000)
+ Metaspace       used 33996K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+Event: 146.241 GC heap after
+Heap after GC invocations=57 (full 9):
+ PSYoungGen      total 1247232K, used 93473K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 7% used [0x000000076cb00000,0x00000007726486f0,0x00000007b4900000)
+  from space 69632K, 0% used [0x00000007b4900000,0x00000007b4900000,0x00000007b8d00000)
+  to   space 72704K, 0% used [0x00000007bb900000,0x00000007bb900000,0x00000007c0000000)
+ ParOldGen       total 500224K, used 379338K [0x00000006c6000000, 0x00000006e4880000, 0x000000076cb00000)
+  object space 500224K, 75% used [0x00000006c6000000,0x00000006dd272a98,0x00000006e4880000)
+ Metaspace       used 33996K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+}
+Event: 147.619 GC heap before
+{Heap before GC invocations=58 (full 9):
+ PSYoungGen      total 1247232K, used 1177600K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 100% used [0x000000076cb00000,0x00000007b4900000,0x00000007b4900000)
+  from space 69632K, 0% used [0x00000007b4900000,0x00000007b4900000,0x00000007b8d00000)
+  to   space 72704K, 0% used [0x00000007bb900000,0x00000007bb900000,0x00000007c0000000)
+ ParOldGen       total 500224K, used 379338K [0x00000006c6000000, 0x00000006e4880000, 0x000000076cb00000)
+  object space 500224K, 75% used [0x00000006c6000000,0x00000006dd272a98,0x00000006e4880000)
+ Metaspace       used 33998K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+Event: 159.409 GC heap after
+Heap after GC invocations=58 (full 9):
+ PSYoungGen      total 1247232K, used 1177600K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 100% used [0x000000076cb00000,0x00000007b4900000,0x00000007b4900000)
+  from space 69632K, 0% used [0x00000007b4900000,0x00000007b4900000,0x00000007b8d00000)
+  to   space 72704K, 99% used [0x00000007bb900000,0x00000007bfffffe8,0x00000007c0000000)
+ ParOldGen       total 725504K, used 724570K [0x00000006c6000000, 0x00000006f2480000, 0x000000076cb00000)
+  object space 725504K, 99% used [0x00000006c6000000,0x00000006f2396a98,0x00000006f2480000)
+ Metaspace       used 33998K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+}
+Event: 159.423 GC heap before
+{Heap before GC invocations=59 (full 10):
+ PSYoungGen      total 1247232K, used 1177600K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 100% used [0x000000076cb00000,0x00000007b4900000,0x00000007b4900000)
+  from space 69632K, 0% used [0x00000007b4900000,0x00000007b4900000,0x00000007b8d00000)
+  to   space 72704K, 99% used [0x00000007bb900000,0x00000007bfffffe8,0x00000007c0000000)
+ ParOldGen       total 725504K, used 724570K [0x00000006c6000000, 0x00000006f2480000, 0x000000076cb00000)
+  object space 725504K, 99% used [0x00000006c6000000,0x00000006f2396a98,0x00000006f2480000)
+ Metaspace       used 33998K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+Event: 168.590 GC heap after
+Heap after GC invocations=59 (full 10):
+ PSYoungGen      total 1247232K, used 84508K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 7% used [0x000000076cb00000,0x0000000771d873d8,0x00000007b4900000)
+  from space 69632K, 0% used [0x00000007b4900000,0x00000007b4900000,0x00000007b8d00000)
+  to   space 72704K, 0% used [0x00000007bb900000,0x00000007bb900000,0x00000007c0000000)
+ ParOldGen       total 854528K, used 725412K [0x00000006c6000000, 0x00000006fa280000, 0x000000076cb00000)
+  object space 854528K, 84% used [0x00000006c6000000,0x00000006f24691d8,0x00000006fa280000)
+ Metaspace       used 33998K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+}
+Event: 173.026 GC heap before
+{Heap before GC invocations=60 (full 10):
+ PSYoungGen      total 1247232K, used 1177600K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 100% used [0x000000076cb00000,0x00000007b4900000,0x00000007b4900000)
+  from space 69632K, 0% used [0x00000007b4900000,0x00000007b4900000,0x00000007b8d00000)
+  to   space 72704K, 0% used [0x00000007bb900000,0x00000007bb900000,0x00000007c0000000)
+ ParOldGen       total 854528K, used 774630K [0x00000006c6000000, 0x00000006fa280000, 0x000000076cb00000)
+  object space 854528K, 90% used [0x00000006c6000000,0x00000006f54799e8,0x00000006fa280000)
+ Metaspace       used 34003K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+Event: 248.434 GC heap after
+Heap after GC invocations=60 (full 10):
+ PSYoungGen      total 1247232K, used 1177600K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 100% used [0x000000076cb00000,0x00000007b4900000,0x00000007b4900000)
+  from space 69632K, 0% used [0x00000007b4900000,0x00000007b4900000,0x00000007b8d00000)
+  to   space 72704K, 99% used [0x00000007bb900000,0x00000007bfffbd98,0x00000007c0000000)
+ ParOldGen       total 1068032K, used 1067662K [0x00000006c6000000, 0x0000000707300000, 0x000000076cb00000)
+  object space 1068032K, 99% used [0x00000006c6000000,0x00000007072a39e8,0x0000000707300000)
+ Metaspace       used 34003K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+}
+Event: 248.442 GC heap before
+{Heap before GC invocations=61 (full 11):
+ PSYoungGen      total 1247232K, used 1177600K [0x000000076cb00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1177600K, 100% used [0x000000076cb00000,0x00000007b4900000,0x00000007b4900000)
+  from space 69632K, 0% used [0x00000007b4900000,0x00000007b4900000,0x00000007b8d00000)
+  to   space 72704K, 99% used [0x00000007bb900000,0x00000007bfffbd98,0x00000007c0000000)
+ ParOldGen       total 1068032K, used 1067662K [0x00000006c6000000, 0x0000000707300000, 0x000000076cb00000)
+  object space 1068032K, 99% used [0x00000006c6000000,0x00000007072a39e8,0x0000000707300000)
+ Metaspace       used 34003K, capacity 34476K, committed 34944K, reserved 1079296K
+  class space    used 4065K, capacity 4201K, committed 4224K, reserved 1048576K
+
+Deoptimization events (10 events):
+Event: 128.625 Thread 0x00007f6b79386800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f6b69b0f674 method=java.util.stream.AbstractPipeline.copyIntoWithCancel(Ljava/util/stream/Sink;Ljava/util/Spliterator;)V @ 6
+Event: 128.635 Thread 0x00007f6b10421000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f6b69de9a70 method=java.util.HashMap.isEmpty()Z @ 4
+Event: 128.807 Thread 0x00007f6b79386800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f6b692033d0 method=java.lang.Long.numberOfTrailingZeros(J)I @ 17
+Event: 129.453 Thread 0x00007f6b79386800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f6b69dfefb8 method=java.util.stream.AbstractPipeline.sourceSpliterator(I)Ljava/util/Spliterator; @ 248
+Event: 129.498 Thread 0x00007f6b10454800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f6b6981a84c method=htsjdk.tribble.util.ParsingUtils.split(Ljava/lang/String;[Ljava/lang/String;CZ)I @ 114
+Event: 129.521 Thread 0x00007f6b10454800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f6b69ea0f20 method=java.util.regex.Pattern.range(Ljava/util/regex/Pattern$BitClass;)Ljava/util/regex/Pattern$CharProperty; @ 8
+Event: 129.522 Thread 0x00007f6b10454800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f6b697f4648 method=java.util.regex.Pattern.range(Ljava/util/regex/Pattern$BitClass;)Ljava/util/regex/Pattern$CharProperty; @ 8
+Event: 129.522 Thread 0x00007f6b10454800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f6b6979322c method=java.lang.String.split(Ljava/lang/String;I)[Ljava/lang/String; @ 207
+Event: 129.548 Thread 0x00007f6b10454800 Uncommon trap: reason=array_check action=maybe_recompile pc=0x00007f6b69f28100 method=java.util.AbstractCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object; @ 119
+Event: 146.268 Thread 0x00007f6b79386800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f6b69acb114 method=java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireQueued(Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z @ 17
+
+Internal exceptions (10 events):
+Event: 23.846 Thread 0x00007f6b79386800 Exception <a 'java/lang/reflect/InvocationTargetException'> (0x0000000771f70d30) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/runtime/reflection.cpp, line 1092]
+Event: 23.848 Thread 0x00007f6b79386800 Exception <a 'java/lang/reflect/InvocationTargetException'> (0x0000000771f7c238) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/runtime/reflection.cpp, line 1092]
+Event: 28.170 Thread 0x00007f6b79386800 Exception <a 'java/lang/UnsupportedOperationException': > (0x000000076d3f1ce8) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jni.cpp, line 735]
+Event: 40.268 Thread 0x00007f6b79386800 Exception <a 'java/lang/UnsupportedOperationException': > (0x000000076d4b2b00) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jni.cpp, line 735]
+Event: 41.775 Thread 0x00007f6b79386800 Exception <a 'java/lang/UnsupportedOperationException': > (0x000000076d5d01e8) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jni.cpp, line 735]
+Event: 85.842 Thread 0x00007f6b79386800 Implicit null exception at 0x00007f6b69adcdae to 0x00007f6b69ae2335
+Event: 97.002 Thread 0x00007f6b79386800 Exception <a 'java/lang/UnsupportedOperationException': > (0x00000007870de750) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jni.cpp, line 735]
+Event: 100.634 Thread 0x00007f6b10421000 Implicit null exception at 0x00007f6b69e831f8 to 0x00007f6b69e834c1
+Event: 100.913 Thread 0x00007f6b79386800 Exception <a 'java/lang/UnsupportedOperationException': > (0x00000007941d6a70) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jni.cpp, line 735]
+Event: 128.477 Thread 0x00007f6b1043a000 Implicit null exception at 0x00007f6b69db764a to 0x00007f6b69db85a9
+
+Events (10 events):
+Event: 168.629 Thread 0x00007f6b791a0000 flushing nmethod 0x00007f6b69ddb290
+Event: 168.629 Thread 0x00007f6b791a0000 flushing nmethod 0x00007f6b69dea750
+Event: 168.636 Thread 0x00007f6b7919b800 flushing nmethod 0x00007f6b69df5b90
+Event: 168.636 Thread 0x00007f6b7919b800 flushing nmethod 0x00007f6b69df7fd0
+Event: 168.636 Thread 0x00007f6b7919b800 flushing nmethod 0x00007f6b69e026d0
+Event: 168.640 Thread 0x00007f6b791a0000 flushing nmethod 0x00007f6b69fa2b90
+Event: 170.496 Thread 0x00007f6b7919b800 flushing nmethod 0x00007f6b691c0e50
+Event: 171.810 Executing VM operation: ParallelGCFailedAllocation
+Event: 171.810 Executing VM operation: ParallelGCFailedAllocation done
+Event: 173.025 Executing VM operation: ParallelGCSystemGC
+
+
+Dynamic libraries:
+00400000-00401000 r-xp 00000000 08:06 12325729                           /home/erik/miniconda3/bin/java
+00600000-00601000 rw-p 00000000 08:06 12325729                           /home/erik/miniconda3/bin/java
+00da5000-00fb1000 rw-p 00000000 00:00 0                                  [heap]
+6c6000000-707300000 rw-p 00000000 00:00 0 
+70fa80000-76cb00000 ---p 00000000 00:00 0 
+76cb00000-7c0000000 rw-p 00000000 00:00 0 
+7c0000000-7c0420000 rw-p 00000000 00:00 0 
+7c0420000-800000000 ---p 00000000 00:00 0 
+7f6ad0000000-7f6ad00fe000 rw-p 00000000 00:00 0 
+7f6ad00fe000-7f6ad4000000 ---p 00000000 00:00 0 
+7f6ad8000000-7f6ad80aa000 rw-p 00000000 00:00 0 
+7f6ad80aa000-7f6adc000000 ---p 00000000 00:00 0 
+7f6adc000000-7f6adc021000 rw-p 00000000 00:00 0 
+7f6adc021000-7f6ae0000000 ---p 00000000 00:00 0 
+7f6ae39fe000-7f6ae3a01000 ---p 00000000 00:00 0 
+7f6ae3a01000-7f6ae3aff000 rw-p 00000000 00:00 0 
+7f6ae3aff000-7f6ae3b02000 ---p 00000000 00:00 0 
+7f6ae3b02000-7f6ae3e00000 rw-p 00000000 00:00 0 
+7f6ae3e00000-7f6ae4000000 rw-p 00000000 00:00 0 
+7f6ae4000000-7f6ae4021000 rw-p 00000000 00:00 0 
+7f6ae4021000-7f6ae8000000 ---p 00000000 00:00 0 
+7f6ae8000000-7f6ae8021000 rw-p 00000000 00:00 0 
+7f6ae8021000-7f6aec000000 ---p 00000000 00:00 0 
+7f6aec000000-7f6aec157000 rw-p 00000000 00:00 0 
+7f6aec157000-7f6af0000000 ---p 00000000 00:00 0 
+7f6af0000000-7f6af0021000 rw-p 00000000 00:00 0 
+7f6af0021000-7f6af4000000 ---p 00000000 00:00 0 
+7f6af4000000-7f6af406b000 rw-p 00000000 00:00 0 
+7f6af406b000-7f6af8000000 ---p 00000000 00:00 0 
+7f6af8000000-7f6af8021000 rw-p 00000000 00:00 0 
+7f6af8021000-7f6afc000000 ---p 00000000 00:00 0 
+7f6afc05c000-7f6afc05f000 ---p 00000000 00:00 0 
+7f6afc05f000-7f6afc15d000 rw-p 00000000 00:00 0 
+7f6afc15d000-7f6afc160000 ---p 00000000 00:00 0 
+7f6afc160000-7f6afc45e000 rw-p 00000000 00:00 0 
+7f6afc45e000-7f6afc65e000 rw-p 00000000 00:00 0 
+7f6afc65e000-7f6afc65f000 ---p 00000000 00:00 0 
+7f6afc65f000-7f6afce5f000 rw-p 00000000 00:00 0 
+7f6afce5f000-7f6afce60000 ---p 00000000 00:00 0 
+7f6afce60000-7f6afd660000 rw-p 00000000 00:00 0 
+7f6afd660000-7f6afd6c1000 r-xp 00000000 08:06 5382500                    /usr/lib/x86_64-linux-gnu/libibus-1.0.so.5.0.514
+7f6afd6c1000-7f6afd8c1000 ---p 00061000 08:06 5382500                    /usr/lib/x86_64-linux-gnu/libibus-1.0.so.5.0.514
+7f6afd8c1000-7f6afd8c3000 r--p 00061000 08:06 5382500                    /usr/lib/x86_64-linux-gnu/libibus-1.0.so.5.0.514
+7f6afd8c3000-7f6afd8c4000 rw-p 00063000 08:06 5382500                    /usr/lib/x86_64-linux-gnu/libibus-1.0.so.5.0.514
+7f6afd8d1000-7f6afd8db000 r--s 00116000 08:06 12325923                   /home/erik/miniconda3/jre/lib/ext/localedata.jar
+7f6afd8db000-7f6afd8f7000 r--s 00393000 08:06 12325928                   /home/erik/miniconda3/jre/lib/ext/cldrdata.jar
+7f6afd8f7000-7f6afd8fd000 r-xp 00000000 08:06 5639459                    /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/immodules/im-ibus.so
+7f6afd8fd000-7f6afdafc000 ---p 00006000 08:06 5639459                    /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/immodules/im-ibus.so
+7f6afdafc000-7f6afdafd000 r--p 00005000 08:06 5639459                    /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/immodules/im-ibus.so
+7f6afdafd000-7f6afdafe000 rw-p 00006000 08:06 5639459                    /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/immodules/im-ibus.so
+7f6afdafe000-7f6afdb0b000 r--p 00000000 08:06 6297944                    /usr/share/fonts/truetype/ttf-bitstream-vera/VeraMono.ttf
+7f6afdb0b000-7f6afdb62000 r--p 00000000 08:06 6422807                    /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
+7f6afdbae000-7f6afdbb1000 ---p 00000000 00:00 0 
+7f6afdbb1000-7f6afdcaf000 rw-p 00000000 00:00 0 
+7f6afdcaf000-7f6afdcb2000 ---p 00000000 00:00 0 
+7f6afdcb2000-7f6afddb0000 rw-p 00000000 00:00 0 
+7f6afddb0000-7f6afddb3000 ---p 00000000 00:00 0 
+7f6afddb3000-7f6afdeb1000 rw-p 00000000 00:00 0 
+7f6afdeb1000-7f6afdeb4000 ---p 00000000 00:00 0 
+7f6afdeb4000-7f6afdfb2000 rw-p 00000000 00:00 0 
+7f6afe06d000-7f6afe26d000 rw-p 00000000 00:00 0 
+7f6afe26d000-7f6afe46d000 rw-p 00000000 00:00 0 
+7f6afe46d000-7f6afe66d000 rw-p 00000000 00:00 0 
+7f6afe66d000-7f6afe86d000 rw-p 00000000 00:00 0 
+7f6afe86d000-7f6afe870000 ---p 00000000 00:00 0 
+7f6afe870000-7f6afe96e000 rw-p 00000000 00:00 0 
+7f6afe96e000-7f6afe973000 r-xp 00000000 08:06 1048669                    /lib/x86_64-linux-gnu/libnss_dns-2.26.so
+7f6afe973000-7f6afeb73000 ---p 00005000 08:06 1048669                    /lib/x86_64-linux-gnu/libnss_dns-2.26.so
+7f6afeb73000-7f6afeb74000 r--p 00005000 08:06 1048669                    /lib/x86_64-linux-gnu/libnss_dns-2.26.so
+7f6afeb74000-7f6afeb75000 rw-p 00006000 08:06 1048669                    /lib/x86_64-linux-gnu/libnss_dns-2.26.so
+7f6afeb75000-7f6afeb77000 r-xp 00000000 08:06 1053225                    /lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f6afeb77000-7f6afed76000 ---p 00002000 08:06 1053225                    /lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f6afed76000-7f6afed77000 r--p 00001000 08:06 1053225                    /lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f6afed77000-7f6afed78000 rw-p 00002000 08:06 1053225                    /lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f6afed78000-7f6afed89000 r-xp 00000000 08:06 12325868                   /home/erik/miniconda3/jre/lib/amd64/libnio.so
+7f6afed89000-7f6afef89000 ---p 00011000 08:06 12325868                   /home/erik/miniconda3/jre/lib/amd64/libnio.so
+7f6afef89000-7f6afef8a000 rw-p 00011000 08:06 12325868                   /home/erik/miniconda3/jre/lib/amd64/libnio.so
+7f6afef8a000-7f6afef8d000 rw-p 00018000 08:06 12325868                   /home/erik/miniconda3/jre/lib/amd64/libnio.so
+7f6afef8d000-7f6aff18d000 rw-p 00000000 00:00 0 
+7f6aff18d000-7f6aff194000 r-xp 00000000 08:06 5382716                    /usr/lib/x86_64-linux-gnu/libogg.so.0.8.2
+7f6aff194000-7f6aff394000 ---p 00007000 08:06 5382716                    /usr/lib/x86_64-linux-gnu/libogg.so.0.8.2
+7f6aff394000-7f6aff395000 r--p 00007000 08:06 5382716                    /usr/lib/x86_64-linux-gnu/libogg.so.0.8.2
+7f6aff395000-7f6aff396000 rw-p 00008000 08:06 5382716                    /usr/lib/x86_64-linux-gnu/libogg.so.0.8.2
+7f6aff396000-7f6aff3c0000 r-xp 00000000 08:06 5377074                    /usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.8
+7f6aff3c0000-7f6aff5bf000 ---p 0002a000 08:06 5377074                    /usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.8
+7f6aff5bf000-7f6aff5c0000 r--p 00029000 08:06 5377074                    /usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.8
+7f6aff5c0000-7f6aff5c1000 rw-p 0002a000 08:06 5377074                    /usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.8
+7f6aff5c1000-7f6aff5cb000 r-xp 00000000 08:06 12584000                   /home/erik/miniconda3/lib/libltdl.so.7.3.1
+7f6aff5cb000-7f6aff7ca000 ---p 0000a000 08:06 12584000                   /home/erik/miniconda3/lib/libltdl.so.7.3.1
+7f6aff7ca000-7f6aff7cb000 rw-p 00009000 08:06 12584000                   /home/erik/miniconda3/lib/libltdl.so.7.3.1
+7f6aff7cb000-7f6aff7df000 r-xp 00000000 08:06 5382945                    /usr/lib/x86_64-linux-gnu/libtdb.so.1.3.13
+7f6aff7df000-7f6aff9df000 ---p 00014000 08:06 5382945                    /usr/lib/x86_64-linux-gnu/libtdb.so.1.3.13
+7f6aff9df000-7f6aff9e0000 r--p 00014000 08:06 5382945                    /usr/lib/x86_64-linux-gnu/libtdb.so.1.3.13
+7f6aff9e0000-7f6aff9e1000 rw-p 00015000 08:06 5382945                    /usr/lib/x86_64-linux-gnu/libtdb.so.1.3.13
+7f6aff9e1000-7f6aff9e8000 r-xp 00000000 08:06 5377070                    /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.7
+7f6aff9e8000-7f6affbe7000 ---p 00007000 08:06 5377070                    /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.7
+7f6affbe7000-7f6affbe8000 r--p 00006000 08:06 5377070                    /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.7
+7f6affbe8000-7f6affbe9000 rw-p 00007000 08:06 5377070                    /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.7
+7f6affbe9000-7f6affbf9000 r-xp 00000000 08:06 5382038                    /usr/lib/x86_64-linux-gnu/libcanberra.so.0.2.5
+7f6affbf9000-7f6affdf9000 ---p 00010000 08:06 5382038                    /usr/lib/x86_64-linux-gnu/libcanberra.so.0.2.5
+7f6affdf9000-7f6affdfa000 r--p 00010000 08:06 5382038                    /usr/lib/x86_64-linux-gnu/libcanberra.so.0.2.5
+7f6affdfa000-7f6affdfb000 rw-p 00011000 08:06 5382038                    /usr/lib/x86_64-linux-gnu/libcanberra.so.0.2.5
+7f6affdfb000-7f6affdff000 r-xp 00000000 08:06 5382034                    /usr/lib/x86_64-linux-gnu/libcanberra-gtk.so.0.1.9
+7f6affdff000-7f6affffe000 ---p 00004000 08:06 5382034                    /usr/lib/x86_64-linux-gnu/libcanberra-gtk.so.0.1.9
+7f6affffe000-7f6afffff000 r--p 00003000 08:06 5382034                    /usr/lib/x86_64-linux-gnu/libcanberra-gtk.so.0.1.9
+7f6afffff000-7f6b00000000 rw-p 00004000 08:06 5382034                    /usr/lib/x86_64-linux-gnu/libcanberra-gtk.so.0.1.9
+7f6b00000000-7f6b00021000 rw-p 00000000 00:00 0 
+7f6b00021000-7f6b04000000 ---p 00000000 00:00 0 
+7f6b0401d000-7f6b04022000 r-xp 00000000 08:06 5639473                    /usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libcanberra-gtk-module.so
+7f6b04022000-7f6b04221000 ---p 00005000 08:06 5639473                    /usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libcanberra-gtk-module.so
+7f6b04221000-7f6b04222000 r--p 00004000 08:06 5639473                    /usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libcanberra-gtk-module.so
+7f6b04222000-7f6b04223000 rw-p 00005000 08:06 5639473                    /usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libcanberra-gtk-module.so
+7f6b04223000-7f6b04253000 r-xp 00000000 08:06 5639455                    /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libmurrine.so
+7f6b04253000-7f6b04453000 ---p 00030000 08:06 5639455                    /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libmurrine.so
+7f6b04453000-7f6b04454000 r--p 00030000 08:06 5639455                    /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libmurrine.so
+7f6b04454000-7f6b04455000 rw-p 00031000 08:06 5639455                    /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libmurrine.so
+7f6b04455000-7f6b04456000 ---p 00000000 00:00 0 
+7f6b04456000-7f6b04c56000 rw-p 00000000 00:00 0 
+7f6b04c56000-7f6b04c57000 ---p 00000000 00:00 0 
+7f6b04c57000-7f6b05457000 rw-p 00000000 00:00 0 
+7f6b05457000-7f6b0546d000 r-xp 00000000 08:06 12325871                   /home/erik/miniconda3/jre/lib/amd64/libnet.so
+7f6b0546d000-7f6b0566d000 ---p 00016000 08:06 12325871                   /home/erik/miniconda3/jre/lib/amd64/libnet.so
+7f6b0566d000-7f6b0566e000 rw-p 00016000 08:06 12325871                   /home/erik/miniconda3/jre/lib/amd64/libnet.so
+7f6b0566e000-7f6b05670000 rw-p 0001d000 08:06 12325871                   /home/erik/miniconda3/jre/lib/amd64/libnet.so
+7f6b05670000-7f6b05704000 r--p 00000000 08:06 5243708                    /home/erik/miniconda3/lib/libstdc++.so.6.0.25
+7f6b05704000-7f6b05769000 r-xp 00094000 08:06 5243708                    /home/erik/miniconda3/lib/libstdc++.so.6.0.25
+7f6b05769000-7f6b057a0000 r--p 000f9000 08:06 5243708                    /home/erik/miniconda3/lib/libstdc++.so.6.0.25
+7f6b057a0000-7f6b057aa000 r--p 0012f000 08:06 5243708                    /home/erik/miniconda3/lib/libstdc++.so.6.0.25
+7f6b057aa000-7f6b057ae000 rw-p 00139000 08:06 5243708                    /home/erik/miniconda3/lib/libstdc++.so.6.0.25
+7f6b057ae000-7f6b057b1000 rw-p 00000000 00:00 0 
+7f6b057b1000-7f6b057d6000 r-xp 00000000 08:06 5251515                    /home/erik/miniconda3/lib/liblzma.so.5.2.4
+7f6b057d6000-7f6b059d5000 ---p 00025000 08:06 5251515                    /home/erik/miniconda3/lib/liblzma.so.5.2.4
+7f6b059d5000-7f6b059d6000 r--p 00024000 08:06 5251515                    /home/erik/miniconda3/lib/liblzma.so.5.2.4
+7f6b059d6000-7f6b059d7000 rw-p 00025000 08:06 5251515                    /home/erik/miniconda3/lib/liblzma.so.5.2.4
+7f6b059d7000-7f6b072d7000 r--p 00000000 08:06 6032341                    /home/erik/miniconda3/lib/libicudata.so.58.2
+7f6b072d7000-7f6b074d6000 ---p 01900000 08:06 6032341                    /home/erik/miniconda3/lib/libicudata.so.58.2
+7f6b074d6000-7f6b074d7000 rw-p 018ff000 08:06 6032341                    /home/erik/miniconda3/lib/libicudata.so.58.2
+7f6b074d7000-7f6b076c2000 r-xp 00000000 08:06 6032330                    /home/erik/miniconda3/lib/libicuuc.so.58.2
+7f6b076c2000-7f6b078c1000 ---p 001eb000 08:06 6032330                    /home/erik/miniconda3/lib/libicuuc.so.58.2
+7f6b078c1000-7f6b078d4000 rw-p 001ea000 08:06 6032330                    /home/erik/miniconda3/lib/libicuuc.so.58.2
+7f6b078d4000-7f6b078d6000 rw-p 00000000 00:00 0 
+7f6b078d6000-7f6b07bc6000 r-xp 00000000 08:06 6032335                    /home/erik/miniconda3/lib/libicui18n.so.58.2
+7f6b07bc6000-7f6b07dc5000 ---p 002f0000 08:06 6032335                    /home/erik/miniconda3/lib/libicui18n.so.58.2
+7f6b07dc5000-7f6b07dd6000 rw-p 002ef000 08:06 6032335                    /home/erik/miniconda3/lib/libicui18n.so.58.2
+7f6b07dd6000-7f6b07dff000 r-xp 00000000 08:06 5642978                    /home/erik/miniconda3/lib/libgraphite2.so.3.2.1
+7f6b07dff000-7f6b07ffe000 ---p 00029000 08:06 5642978                    /home/erik/miniconda3/lib/libgraphite2.so.3.2.1
+7f6b07ffe000-7f6b08000000 rw-p 00028000 08:06 5642978                    /home/erik/miniconda3/lib/libgraphite2.so.3.2.1
+7f6b08000000-7f6b08112000 rw-p 00000000 00:00 0 
+7f6b08112000-7f6b0c000000 ---p 00000000 00:00 0 
+7f6b0c000000-7f6b0c081000 rw-p 00000000 00:00 0 
+7f6b0c081000-7f6b10000000 ---p 00000000 00:00 0 
+7f6b10000000-7f6b10543000 rw-p 00000000 00:00 0 
+7f6b10543000-7f6b14000000 ---p 00000000 00:00 0 
+7f6b14000000-7f6b14021000 rw-p 00000000 00:00 0 
+7f6b14021000-7f6b18000000 ---p 00000000 00:00 0 
+7f6b18000000-7f6b18291000 rw-p 00000000 00:00 0 
+7f6b18291000-7f6b1c000000 ---p 00000000 00:00 0 
+7f6b1c000000-7f6b1c021000 rw-p 00000000 00:00 0 
+7f6b1c021000-7f6b20000000 ---p 00000000 00:00 0 
+7f6b20000000-7f6b20021000 rw-p 00000000 00:00 0 
+7f6b20021000-7f6b24000000 ---p 00000000 00:00 0 
+7f6b24000000-7f6b24021000 rw-p 00000000 00:00 0 
+7f6b24021000-7f6b28000000 ---p 00000000 00:00 0 
+7f6b28000000-7f6b28850000 rw-p 00000000 00:00 0 
+7f6b28850000-7f6b2c000000 ---p 00000000 00:00 0 
+7f6b2c000000-7f6b2c021000 rw-p 00000000 00:00 0 
+7f6b2c021000-7f6b30000000 ---p 00000000 00:00 0 
+7f6b30000000-7f6b32307000 rw-p 00000000 00:00 0 
+7f6b32307000-7f6b34000000 ---p 00000000 00:00 0 
+7f6b34000000-7f6b35734000 rw-p 00000000 00:00 0 
+7f6b35734000-7f6b38000000 ---p 00000000 00:00 0 
+7f6b38000000-7f6b38021000 rw-p 00000000 00:00 0 
+7f6b38021000-7f6b3c000000 ---p 00000000 00:00 0 
+7f6b3c000000-7f6b3c021000 rw-p 00000000 00:00 0 
+7f6b3c021000-7f6b40000000 ---p 00000000 00:00 0 
+7f6b40000000-7f6b40021000 rw-p 00000000 00:00 0 
+7f6b40021000-7f6b44000000 ---p 00000000 00:00 0 
+7f6b44028000-7f6b4402f000 r--s 00000000 08:06 9835382                    /home/erik/miniconda3/var/cache/fontconfig/4be9850f182b35c1350b6bbf2e42601c-le64.cache-7
+7f6b4402f000-7f6b44031000 r--s 00000000 08:06 9835381                    /home/erik/miniconda3/var/cache/fontconfig/30a99c4256905863f7aa12b5e873c27c-le64.cache-7
+7f6b44031000-7f6b44032000 r--s 00000000 08:06 9835380                    /home/erik/miniconda3/var/cache/fontconfig/087e1975ba9a574b140bb1df193bf770-le64.cache-7
+7f6b44032000-7f6b44038000 r--s 00000000 08:06 9835379                    /home/erik/miniconda3/var/cache/fontconfig/6fe8b0d39a161d19087fe931545dda13-le64.cache-7
+7f6b44038000-7f6b4403c000 r--s 00000000 08:06 9835378                    /home/erik/miniconda3/var/cache/fontconfig/6aa41aa22e18b8fa06a12da28ea9c28b-le64.cache-7
+7f6b4403c000-7f6b44047000 r--s 00000000 08:06 9833279                    /home/erik/miniconda3/var/cache/fontconfig/945677eb7aeaf62f1d50efc3fb3ec7d8-le64.cache-7
+7f6b44047000-7f6b4404e000 r--s 00000000 08:06 9835377                    /home/erik/miniconda3/var/cache/fontconfig/63c7aca0c1b0a3f740ee470c2e28e675-le64.cache-7
+7f6b4404e000-7f6b44056000 r--s 00000000 08:06 9835376                    /home/erik/miniconda3/var/cache/fontconfig/a6d8cf8e4ec09cdbc8633c31745a07dd-le64.cache-7
+7f6b44056000-7f6b4405c000 r--s 00000000 08:06 9833278                    /home/erik/miniconda3/var/cache/fontconfig/2cd17615ca594fa2959ae173292e504c-le64.cache-7
+7f6b4405c000-7f6b4405d000 r--s 00000000 08:06 9833277                    /home/erik/miniconda3/var/cache/fontconfig/0d8c3b2ac0904cb8a57a757ad11a4a08-le64.cache-7
+7f6b4405d000-7f6b44061000 r--s 00000000 08:06 9833276                    /home/erik/miniconda3/var/cache/fontconfig/de156ccd2eddbdc19d37a45b8b2aac9c-le64.cache-7
+7f6b44061000-7f6b44076000 r--s 00000000 08:06 9833275                    /home/erik/miniconda3/var/cache/fontconfig/04aabc0a78ac019cf9454389977116d2-le64.cache-7
+7f6b44076000-7f6b44077000 r--s 00000000 08:06 9833274                    /home/erik/miniconda3/var/cache/fontconfig/1ac9eb803944fde146138c791f5cc56a-le64.cache-7
+7f6b44077000-7f6b44078000 r--s 00000000 08:06 9835375                    /home/erik/miniconda3/var/cache/fontconfig/b95bc8ffbebda2bbdae4265e45b8178d-le64.cache-7
+7f6b44078000-7f6b4407c000 r--s 00000000 08:06 9833273                    /home/erik/miniconda3/var/cache/fontconfig/385c0604a188198f04d133e54aba7fe7-le64.cache-7
+7f6b4407c000-7f6b4407d000 r--s 00000000 08:06 9835374                    /home/erik/miniconda3/var/cache/fontconfig/9c956a7723ca69a44b382d9179c9802f-le64.cache-7
+7f6b4407d000-7f6b4407e000 r--s 00000000 08:06 9833272                    /home/erik/miniconda3/var/cache/fontconfig/dc05db6664285cc2f12bf69c139ae4c3-le64.cache-7
+7f6b4407e000-7f6b44080000 r--s 00000000 08:06 9833271                    /home/erik/miniconda3/var/cache/fontconfig/14a5e22175779b556eaa434240950366-le64.cache-7
+7f6b44080000-7f6b44081000 r--s 00000000 08:06 9833270                    /home/erik/miniconda3/var/cache/fontconfig/660208299946a285a940457d1287da33-le64.cache-7
+7f6b44081000-7f6b44082000 r--s 00000000 08:06 9835372                    /home/erik/miniconda3/var/cache/fontconfig/5d1cca7074f29429a8d18692746c2426-le64.cache-7
+7f6b44082000-7f6b44084000 r--s 00000000 08:06 9833269                    /home/erik/miniconda3/var/cache/fontconfig/4f3e3037c9980c83b53a9351efadef62-le64.cache-7
+7f6b44084000-7f6b44087000 r--s 00000000 08:06 9833268                    /home/erik/miniconda3/var/cache/fontconfig/767a8244fc0220cfb567a839d0392e0b-le64.cache-7
+7f6b44087000-7f6b44088000 r--s 00000000 08:06 9833267                    /home/erik/miniconda3/var/cache/fontconfig/4794a0821666d79190d59a36cb4f44b5-le64.cache-7
+7f6b44088000-7f6b44089000 r--s 00000000 08:06 9833266                    /home/erik/miniconda3/var/cache/fontconfig/9eae20f1ff8cc0a7d125749e875856bd-le64.cache-7
+7f6b44089000-7f6b440b2000 r--s 00000000 08:06 9835371                    /home/erik/miniconda3/var/cache/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-7
+7f6b440b2000-7f6b440b5000 r--s 00000000 08:06 9835370                    /home/erik/miniconda3/var/cache/fontconfig/bf2c1853a9e9b00bb02fe2e9bcf1e201-le64.cache-7
+7f6b440b5000-7f6b440bb000 r--s 00000000 08:06 9833265                    /home/erik/miniconda3/var/cache/fontconfig/8801497958630a81b71ace7c5f9b32a8-le64.cache-7
+7f6b440bb000-7f6b440be000 r--s 00000000 08:06 9833264                    /home/erik/miniconda3/var/cache/fontconfig/a015930274ffcd967d2ca1b57da47cc7-le64.cache-7
+7f6b440be000-7f6b440c2000 r--s 00000000 08:06 9833263                    /home/erik/miniconda3/var/cache/fontconfig/c57959a16110560c8d0fcea73374aeeb-le64.cache-7
+7f6b440c2000-7f6b440c3000 r--s 00000000 08:06 9833262                    /home/erik/miniconda3/var/cache/fontconfig/b872e6e592da6075ffa4ab0a1fcc0c75-le64.cache-7
+7f6b440c3000-7f6b440c4000 r--s 00000000 08:06 9833261                    /home/erik/miniconda3/var/cache/fontconfig/f6d4eedfaab2589bde49f7a3ff831d22-le64.cache-7
+7f6b440c4000-7f6b440c5000 r--s 00000000 08:06 9833260                    /home/erik/miniconda3/var/cache/fontconfig/589f83ef4c36d296ce6e1c846f468f08-le64.cache-7
+7f6b440c5000-7f6b440c6000 r--s 00000000 08:06 9833259                    /home/erik/miniconda3/var/cache/fontconfig/bab58bb527bb656aaa9f116d68a48d89-le64.cache-7
+7f6b440c6000-7f6b440c7000 r--s 00000000 08:06 9833258                    /home/erik/miniconda3/var/cache/fontconfig/2171a34dccabdb6bcbbc728186263178-le64.cache-7
+7f6b440c7000-7f6b440c8000 r--s 00000000 08:06 9833257                    /home/erik/miniconda3/var/cache/fontconfig/c5c45a61289222e0d30b1a26ef4effbe-le64.cache-7
+7f6b440c8000-7f6b440c9000 r--s 00000000 08:06 9833256                    /home/erik/miniconda3/var/cache/fontconfig/aec30016f93e1b46d1a973dce0d74068-le64.cache-7
+7f6b440c9000-7f6b440ca000 r--s 00000000 08:06 9833255                    /home/erik/miniconda3/var/cache/fontconfig/3f589640d34b7dc9042c8d453f7c8b9c-le64.cache-7
+7f6b440ca000-7f6b440cb000 r--s 00000000 08:06 9833254                    /home/erik/miniconda3/var/cache/fontconfig/16c2fda60d1b4b719f4b3d06fd951d25-le64.cache-7
+7f6b440cb000-7f6b440cc000 r--s 00000000 08:06 9833253                    /home/erik/miniconda3/var/cache/fontconfig/a48eab177a16e4f3713381162db2f3e9-le64.cache-7
+7f6b440cc000-7f6b440cd000 r--s 00000000 08:06 9833252                    /home/erik/miniconda3/var/cache/fontconfig/564b2e68ac9bc4e36a6f7f6d6125ec1c-le64.cache-7
+7f6b440cd000-7f6b440d3000 r--s 00000000 08:06 9833251                    /home/erik/miniconda3/var/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-7
+7f6b440d3000-7f6b440db000 r--s 00000000 08:06 9835369                    /home/erik/miniconda3/var/cache/fontconfig/bf3b770c553c462765856025a94f1ce6-le64.cache-7
+7f6b440db000-7f6b440dc000 r--s 00000000 08:06 9833250                    /home/erik/miniconda3/var/cache/fontconfig/56cf4f4769d0f4abc89a4895d7bd3ae1-le64.cache-7
+7f6b440dc000-7f6b440dd000 r--s 00000000 08:06 9833249                    /home/erik/miniconda3/var/cache/fontconfig/b9d506c9ac06c20b433354fa67a72993-le64.cache-7
+7f6b440dd000-7f6b440e3000 r--s 00000000 08:06 9833248                    /home/erik/miniconda3/var/cache/fontconfig/b47c4e1ecd0709278f4910c18777a504-le64.cache-7
+7f6b440e3000-7f6b440e6000 r--s 00000000 08:06 9835368                    /home/erik/miniconda3/var/cache/fontconfig/14d493b97896515cad3840ba4896e372-le64.cache-7
+7f6b440e6000-7f6b440f9000 r--s 00000000 08:06 9833247                    /home/erik/miniconda3/var/cache/fontconfig/d52a8644073d54c13679302ca1180695-le64.cache-7
+7f6b440f9000-7f6b44100000 r-xp 00000000 08:06 9050709                    /home/erik/miniconda3/lib/libuuid.so.1.3.0
+7f6b44100000-7f6b442ff000 ---p 00007000 08:06 9050709                    /home/erik/miniconda3/lib/libuuid.so.1.3.0
+7f6b442ff000-7f6b44300000 rw-p 00006000 08:06 9050709                    /home/erik/miniconda3/lib/libuuid.so.1.3.0
+7f6b44300000-7f6b4c000000 rw-p 00000000 00:00 0 
+7f6b4c000000-7f6b4c021000 rw-p 00000000 00:00 0 
+7f6b4c021000-7f6b50000000 ---p 00000000 00:00 0 
+7f6b50000000-7f6b50328000 rw-p 00000000 00:00 0 
+7f6b50328000-7f6b54000000 ---p 00000000 00:00 0 
+7f6b54000000-7f6b54440000 rw-p 00000000 00:00 0 
+7f6b54440000-7f6b58000000 ---p 00000000 00:00 0 
+7f6b58000000-7f6b58004000 r--s 00000000 08:06 9835367                    /home/erik/miniconda3/var/cache/fontconfig/e49e89034d371f0f9de17aab02136486-le64.cache-7
+7f6b58004000-7f6b58006000 r--s 00000000 08:06 9835366                    /home/erik/miniconda3/var/cache/fontconfig/4b14b093aebc79c320de5e86ae1d3314-le64.cache-7
+7f6b58006000-7f6b58007000 r--s 00000000 08:06 9835365                    /home/erik/miniconda3/var/cache/fontconfig/8aec10f4cc8391dcef22ca549f1e4354-le64.cache-7
+7f6b58007000-7f6b58008000 r--s 00000000 08:06 9833246                    /home/erik/miniconda3/var/cache/fontconfig/370e5b74bf5dafc30834de68e24a87a4-le64.cache-7
+7f6b58008000-7f6b58009000 r--s 00000000 08:06 9833245                    /home/erik/miniconda3/var/cache/fontconfig/6b2c5944714ca7831b25bed9e85cb5c8-le64.cache-7
+7f6b58009000-7f6b5800a000 r--s 00000000 08:06 9833244                    /home/erik/miniconda3/var/cache/fontconfig/d5178ab6d91b49bf20a416737dcea9e8-le64.cache-7
+7f6b5800a000-7f6b5800b000 r--s 00000000 08:06 9833243                    /home/erik/miniconda3/var/cache/fontconfig/551ecf3b0e8b0bca0f25c0944f561853-le64.cache-7
+7f6b5800b000-7f6b5800e000 r--s 00000000 08:06 9833242                    /home/erik/miniconda3/var/cache/fontconfig/f259c2cffa685e28062317905db73c4a-le64.cache-7
+7f6b5800e000-7f6b58010000 r--s 00000000 08:06 9833241                    /home/erik/miniconda3/var/cache/fontconfig/550f3886151c940c12a5ed35f6a00586-le64.cache-7
+7f6b58010000-7f6b58013000 r--s 00000000 08:06 9833240                    /home/erik/miniconda3/var/cache/fontconfig/674d1711f2d1d2a09646eb0bdcadee49-le64.cache-7
+7f6b58013000-7f6b58014000 r--s 00000000 08:06 9835364                    /home/erik/miniconda3/var/cache/fontconfig/8a687c406b77f27d99abfeeba937fcce-le64.cache-7
+7f6b58014000-7f6b5801a000 r--s 00000000 08:06 9835363                    /home/erik/miniconda3/var/cache/fontconfig/75ad6aa2358a85f0de2c8ee4837e8227-le64.cache-7
+7f6b5801a000-7f6b5801b000 r--s 00000000 08:06 9833239                    /home/erik/miniconda3/var/cache/fontconfig/3f7329c5293ffd510edef78f73874cfd-le64.cache-7
+7f6b5801b000-7f6b58027000 r--s 00000000 08:06 9833293                    /home/erik/miniconda3/var/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-7
+7f6b58027000-7f6b581e1000 r-xp 00000000 08:06 9308756                    /home/erik/miniconda3/lib/libxml2.so.2.9.8
+7f6b581e1000-7f6b583e1000 ---p 001ba000 08:06 9308756                    /home/erik/miniconda3/lib/libxml2.so.2.9.8
+7f6b583e1000-7f6b583eb000 rw-p 001ba000 08:06 9308756                    /home/erik/miniconda3/lib/libxml2.so.2.9.8
+7f6b583eb000-7f6b583ec000 rw-p 00000000 00:00 0 
+7f6b583ec000-7f6b58402000 r-xp 00000000 08:06 1053065                    /lib/x86_64-linux-gnu/libresolv-2.26.so
+7f6b58402000-7f6b58602000 ---p 00016000 08:06 1053065                    /lib/x86_64-linux-gnu/libresolv-2.26.so
+7f6b58602000-7f6b58603000 r--p 00016000 08:06 1053065                    /lib/x86_64-linux-gnu/libresolv-2.26.so
+7f6b58603000-7f6b58604000 rw-p 00017000 08:06 1053065                    /lib/x86_64-linux-gnu/libresolv-2.26.so
+7f6b58604000-7f6b58606000 rw-p 00000000 00:00 0 
+7f6b58606000-7f6b5860d000 r-xp 00000000 08:06 5243746                    /home/erik/miniconda3/lib/libffi.so.6.0.4
+7f6b5860d000-7f6b5880d000 ---p 00007000 08:06 5243746                    /home/erik/miniconda3/lib/libffi.so.6.0.4
+7f6b5880d000-7f6b5880e000 r--p 00007000 08:06 5243746                    /home/erik/miniconda3/lib/libffi.so.6.0.4
+7f6b5880e000-7f6b5880f000 rw-p 00008000 08:06 5243746                    /home/erik/miniconda3/lib/libffi.so.6.0.4
+7f6b5880f000-7f6b5881f000 r-xp 00000000 08:06 9049831                    /home/erik/miniconda3/lib/libxcb-render.so.0.0.0
+7f6b5881f000-7f6b58a1e000 ---p 00010000 08:06 9049831                    /home/erik/miniconda3/lib/libxcb-render.so.0.0.0
+7f6b58a1e000-7f6b58a1f000 rw-p 0000f000 08:06 9049831                    /home/erik/miniconda3/lib/libxcb-render.so.0.0.0
+7f6b58a1f000-7f6b58a22000 r-xp 00000000 08:06 9049777                    /home/erik/miniconda3/lib/libxcb-shm.so.0.0.0
+7f6b58a22000-7f6b58c21000 ---p 00003000 08:06 9049777                    /home/erik/miniconda3/lib/libxcb-shm.so.0.0.0
+7f6b58c21000-7f6b58c22000 rw-p 00002000 08:06 9049777                    /home/erik/miniconda3/lib/libxcb-shm.so.0.0.0
+7f6b58c22000-7f6b58fc4000 r-xp 00000000 08:06 9053989                    /home/erik/miniconda3/lib/libpixman-1.so.0.34.0
+7f6b58fc4000-7f6b591c4000 ---p 003a2000 08:06 9053989                    /home/erik/miniconda3/lib/libpixman-1.so.0.34.0
+7f6b591c4000-7f6b591cc000 rw-p 003a2000 08:06 9053989                    /home/erik/miniconda3/lib/libpixman-1.so.0.34.0
+7f6b591cc000-7f6b592b8000 r-xp 00000000 08:06 7610238                    /home/erik/miniconda3/lib/libharfbuzz.so.0.10900.0
+7f6b592b8000-7f6b594b8000 ---p 000ec000 08:06 7610238                    /home/erik/miniconda3/lib/libharfbuzz.so.0.10900.0
+7f6b594b8000-7f6b594bb000 rw-p 000ec000 08:06 7610238                    /home/erik/miniconda3/lib/libharfbuzz.so.0.10900.0
+7f6b594bb000-7f6b594bc000 r-xp 00000000 08:06 9442435                    /home/erik/miniconda3/lib/libgthread-2.0.so.0.5500.0
+7f6b594bc000-7f6b596bb000 ---p 00001000 08:06 9442435                    /home/erik/miniconda3/lib/libgthread-2.0.so.0.5500.0
+7f6b596bb000-7f6b596bc000 rw-p 00000000 08:06 9442435                    /home/erik/miniconda3/lib/libgthread-2.0.so.0.5500.0
+7f6b596bc000-7f6b5970c000 r-xp 00000000 08:06 6163647                    /home/erik/miniconda3/lib/libpcre.so.1.2.9
+7f6b5970c000-7f6b5990c000 ---p 00050000 08:06 6163647                    /home/erik/miniconda3/lib/libpcre.so.1.2.9
+7f6b5990c000-7f6b5990d000 rw-p 00050000 08:06 6163647                    /home/erik/miniconda3/lib/libpcre.so.1.2.9
+7f6b5990d000-7f6b599fb000 r-xp 00000000 08:06 8920990                    /home/erik/miniconda3/lib/libiconv.so.2.6.0
+7f6b599fb000-7f6b59bfa000 ---p 000ee000 08:06 8920990                    /home/erik/miniconda3/lib/libiconv.so.2.6.0
+7f6b59bfa000-7f6b59bfc000 rw-p 000ed000 08:06 8920990                    /home/erik/miniconda3/lib/libiconv.so.2.6.0
+7f6b59bfc000-7f6b59bfe000 r-xp 00000000 08:06 5381900                    /usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+7f6b59bfe000-7f6b59dfd000 ---p 00002000 08:06 5381900                    /usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+7f6b59dfd000-7f6b59dfe000 r--p 00001000 08:06 5381900                    /usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+7f6b59dfe000-7f6b59dff000 rw-p 00002000 08:06 5381900                    /usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+7f6b59dff000-7f6b59e01000 r-xp 00000000 08:06 5381896                    /usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+7f6b59e01000-7f6b5a000000 ---p 00002000 08:06 5381896                    /usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+7f6b5a000000-7f6b5a001000 r--p 00001000 08:06 5381896                    /usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+7f6b5a001000-7f6b5a002000 rw-p 00002000 08:06 5381896                    /usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+7f6b5a002000-7f6b5a00c000 r-xp 00000000 08:06 5381924                    /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f6b5a00c000-7f6b5a20b000 ---p 0000a000 08:06 5381924                    /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f6b5a20b000-7f6b5a20c000 r--p 00009000 08:06 5381924                    /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f6b5a20c000-7f6b5a20d000 rw-p 0000a000 08:06 5381924                    /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f6b5a20d000-7f6b5a20f000 r-xp 00000000 08:06 5381916                    /usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+7f6b5a20f000-7f6b5a40e000 ---p 00002000 08:06 5381916                    /usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+7f6b5a40e000-7f6b5a40f000 r--p 00001000 08:06 5381916                    /usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+7f6b5a40f000-7f6b5a410000 rw-p 00002000 08:06 5381916                    /usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+7f6b5a410000-7f6b5a45d000 r-xp 00000000 08:06 9703110                    /home/erik/miniconda3/lib/libfontconfig.so.1.12.0
+7f6b5a45d000-7f6b5a65d000 ---p 0004d000 08:06 9703110                    /home/erik/miniconda3/lib/libfontconfig.so.1.12.0
+7f6b5a65d000-7f6b5a65f000 rw-p 0004d000 08:06 9703110                    /home/erik/miniconda3/lib/libfontconfig.so.1.12.0
+7f6b5a65f000-7f6b5a78c000 r-xp 00000000 08:06 8921128                    /home/erik/miniconda3/lib/libglib-2.0.so.0.5500.0
+7f6b5a78c000-7f6b5a98b000 ---p 0012d000 08:06 8921128                    /home/erik/miniconda3/lib/libglib-2.0.so.0.5500.0
+7f6b5a98b000-7f6b5a98d000 rw-p 0012c000 08:06 8921128                    /home/erik/miniconda3/lib/libglib-2.0.so.0.5500.0
+7f6b5a98d000-7f6b5a9e1000 r-xp 00000000 08:06 8921129                    /home/erik/miniconda3/lib/libgobject-2.0.so.0.5500.0
+7f6b5a9e1000-7f6b5abe0000 ---p 00054000 08:06 8921129                    /home/erik/miniconda3/lib/libgobject-2.0.so.0.5500.0
+7f6b5abe0000-7f6b5abe2000 rw-p 00053000 08:06 8921129                    /home/erik/miniconda3/lib/libgobject-2.0.so.0.5500.0
+7f6b5abe2000-7f6b5ac3c000 r-xp 00000000 08:06 9703535                    /home/erik/miniconda3/lib/libpango-1.0.so.0.4000.14
+7f6b5ac3c000-7f6b5ae3b000 ---p 0005a000 08:06 9703535                    /home/erik/miniconda3/lib/libpango-1.0.so.0.4000.14
+7f6b5ae3b000-7f6b5ae3e000 rw-p 00059000 08:06 9703535                    /home/erik/miniconda3/lib/libpango-1.0.so.0.4000.14
+7f6b5ae3e000-7f6b5ae57000 r-xp 00000000 08:06 12324127                   /home/erik/miniconda3/lib/libpangoft2-1.0.so.0.4000.14
+7f6b5ae57000-7f6b5b056000 ---p 00019000 08:06 12324127                   /home/erik/miniconda3/lib/libpangoft2-1.0.so.0.4000.14
+7f6b5b056000-7f6b5b057000 rw-p 00018000 08:06 12324127                   /home/erik/miniconda3/lib/libpangoft2-1.0.so.0.4000.14
+7f6b5b057000-7f6b5b23a000 r-xp 00000000 08:06 8921127                    /home/erik/miniconda3/lib/libgio-2.0.so.0.5500.0
+7f6b5b23a000-7f6b5b439000 ---p 001e3000 08:06 8921127                    /home/erik/miniconda3/lib/libgio-2.0.so.0.5500.0
+7f6b5b439000-7f6b5b440000 rw-p 001e2000 08:06 8921127                    /home/erik/miniconda3/lib/libgio-2.0.so.0.5500.0
+7f6b5b440000-7f6b5b442000 rw-p 00000000 00:00 0 
+7f6b5b442000-7f6b5b464000 r-xp 00000000 08:06 5376929                    /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3611.0
+7f6b5b464000-7f6b5b664000 ---p 00022000 08:06 5376929                    /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3611.0
+7f6b5b664000-7f6b5b665000 r--p 00022000 08:06 5376929                    /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3611.0
+7f6b5b665000-7f6b5b666000 rw-p 00023000 08:06 5376929                    /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3611.0
+7f6b5b666000-7f6b5b7c3000 r-xp 00000000 08:06 12325555                   /home/erik/miniconda3/lib/libcairo.so.2.11400.12
+7f6b5b7c3000-7f6b5b9c3000 ---p 0015d000 08:06 12325555                   /home/erik/miniconda3/lib/libcairo.so.2.11400.12
+7f6b5b9c3000-7f6b5b9c7000 rw-p 0015d000 08:06 12325555                   /home/erik/miniconda3/lib/libcairo.so.2.11400.12
+7f6b5b9c7000-7f6b5b9c8000 rw-p 00000000 00:00 0 
+7f6b5b9c8000-7f6b5b9eb000 r-xp 00000000 08:06 5381978                    /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.22609.1
+7f6b5b9eb000-7f6b5bbea000 ---p 00023000 08:06 5381978                    /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.22609.1
+7f6b5bbea000-7f6b5bbed000 r--p 00022000 08:06 5381978                    /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.22609.1
+7f6b5bbed000-7f6b5bbee000 rw-p 00025000 08:06 5381978                    /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.22609.1
+7f6b5bbee000-7f6b5bbfc000 r-xp 00000000 08:06 12324121                   /home/erik/miniconda3/lib/libpangocairo-1.0.so.0.4000.14
+7f6b5bbfc000-7f6b5bdfc000 ---p 0000e000 08:06 12324121                   /home/erik/miniconda3/lib/libpangocairo-1.0.so.0.4000.14
+7f6b5bdfc000-7f6b5bdfd000 rw-p 0000e000 08:06 12324121                   /home/erik/miniconda3/lib/libpangocairo-1.0.so.0.4000.14
+7f6b5bdfd000-7f6b5be00000 r-xp 00000000 08:06 9442653                    /home/erik/miniconda3/lib/libgmodule-2.0.so.0.5500.0
+7f6b5be00000-7f6b5bfff000 ---p 00003000 08:06 9442653                    /home/erik/miniconda3/lib/libgmodule-2.0.so.0.5500.0
+7f6b5bfff000-7f6b5c000000 rw-p 00002000 08:06 9442653                    /home/erik/miniconda3/lib/libgmodule-2.0.so.0.5500.0
+7f6b5c000000-7f6b5cb8f000 rw-p 00000000 00:00 0 
+7f6b5cb8f000-7f6b60000000 ---p 00000000 00:00 0 
+7f6b60000000-7f6b60001000 r--s 00000000 08:06 9835362                    /home/erik/miniconda3/var/cache/fontconfig/ac2cf712d852da827a87a9baf682f5b9-le64.cache-7
+7f6b60001000-7f6b60003000 r--s 00000000 08:06 9835361                    /home/erik/miniconda3/var/cache/fontconfig/65f976e5259cbe6dc7697b8648396239-le64.cache-7
+7f6b60003000-7f6b60007000 r--s 00000000 08:06 9835360                    /home/erik/miniconda3/var/cache/fontconfig/246184dc75a16901ca37d96895904249-le64.cache-7
+7f6b60007000-7f6b6000c000 r--s 00000000 08:06 9835359                    /home/erik/miniconda3/var/cache/fontconfig/b25010134a2e462c779c1c1d5ccbff7b-le64.cache-7
+7f6b6000c000-7f6b6000d000 r--s 00000000 08:06 9835358                    /home/erik/miniconda3/var/cache/fontconfig/94f7fe9bd33aadfac165873bd010d595-le64.cache-7
+7f6b6000d000-7f6b6000f000 r--s 00000000 08:06 9835357                    /home/erik/miniconda3/var/cache/fontconfig/423767150eb258c59035de29db6fca84-le64.cache-7
+7f6b6000f000-7f6b60010000 r--s 00000000 08:06 9835356                    /home/erik/miniconda3/var/cache/fontconfig/845c20fd2c4814bcec78e05d37a63ccc-le64.cache-7
+7f6b60010000-7f6b60011000 r--s 00000000 08:06 9835355                    /home/erik/miniconda3/var/cache/fontconfig/e7de81b01590fb7e12b38e274e17d0db-le64.cache-7
+7f6b60011000-7f6b60014000 r--s 00000000 08:06 9835354                    /home/erik/miniconda3/var/cache/fontconfig/6386b86020ecc1ef9690bb720a13964f-le64.cache-7
+7f6b60014000-7f6b60015000 r--s 00000000 08:06 9835353                    /home/erik/miniconda3/var/cache/fontconfig/406a1d2d2bf3ed7664fbadefac0b2f66-le64.cache-7
+7f6b60015000-7f6b60017000 r--s 00000000 08:06 9835352                    /home/erik/miniconda3/var/cache/fontconfig/67709b7835c0f764c1135060c9575660-le64.cache-7
+7f6b60017000-7f6b60019000 r--s 00000000 08:06 9835351                    /home/erik/miniconda3/var/cache/fontconfig/099525ddca5eae4f2477b69cf2d7f16d-le64.cache-7
+7f6b60019000-7f6b6001b000 r--s 00000000 08:06 9835350                    /home/erik/miniconda3/var/cache/fontconfig/61092ac79d9058a69eda095afa0a78f1-le64.cache-7
+7f6b6001b000-7f6b6001d000 r--s 00000000 08:06 9835349                    /home/erik/miniconda3/var/cache/fontconfig/a722efc6911bbe16667b1a77497ffd37-le64.cache-7
+7f6b6001d000-7f6b6001f000 r--s 00000000 08:06 9835348                    /home/erik/miniconda3/var/cache/fontconfig/d63fdd8e0f42559533dd777c334fdfcc-le64.cache-7
+7f6b6001f000-7f6b60020000 r--s 00000000 08:06 9833237                    /home/erik/miniconda3/var/cache/fontconfig/30829fa25452a46451e813d634d7f916-le64.cache-7
+7f6b60020000-7f6b6002e000 r--s 00000000 08:06 9835347                    /home/erik/miniconda3/var/cache/fontconfig/198d8fcf01c96d0cf813f74fd759bdb7-le64.cache-7
+7f6b6002e000-7f6b6002f000 r--s 00000000 08:06 9833236                    /home/erik/miniconda3/var/cache/fontconfig/0c9eb80ebd1c36541ebe2852d3bb0c49-le64.cache-7
+7f6b6002f000-7f6b60030000 r--s 00000000 08:06 9833235                    /home/erik/miniconda3/var/cache/fontconfig/22368d551a680bfe5a62c02760edf4ea-le64.cache-7
+7f6b60030000-7f6b60031000 r--s 00000000 08:06 9833234                    /home/erik/miniconda3/var/cache/fontconfig/4d9c95eba1cb85bbcf2878543262124a-le64.cache-7
+7f6b60031000-7f6b60032000 r--s 00000000 08:06 9833233                    /home/erik/miniconda3/var/cache/fontconfig/85e0a52ce643a7ba2ae53e5d6949cead-le64.cache-7
+7f6b60032000-7f6b60033000 r--s 00000000 08:06 9833232                    /home/erik/miniconda3/var/cache/fontconfig/49f0de54bdd920fe4f0dfd4cbac43e6b-le64.cache-7
+7f6b60033000-7f6b60036000 r--s 00000000 08:06 9835345                    /home/erik/miniconda3/var/cache/fontconfig/75114ca45c98e8a441da0ff356701271-le64.cache-7
+7f6b60036000-7f6b60042000 r--s 00000000 08:06 9835344                    /home/erik/miniconda3/var/cache/fontconfig/83bf95040141907cd45bb53cf7c1c148-le64.cache-7
+7f6b60042000-7f6b60050000 r--s 00000000 08:06 9833229                    /home/erik/miniconda3/var/cache/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-7
+7f6b60050000-7f6b60063000 r--s 00000000 08:06 9834902                    /home/erik/miniconda3/var/cache/fontconfig/4ac51e5cfbc76fc3f983e470323a16d3-le64.cache-7
+7f6b60063000-7f6b60112000 r-xp 00000000 08:06 5382308                    /usr/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0.2400.31
+7f6b60112000-7f6b60312000 ---p 000af000 08:06 5382308                    /usr/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0.2400.31
+7f6b60312000-7f6b60316000 r--p 000af000 08:06 5382308                    /usr/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0.2400.31
+7f6b60316000-7f6b60318000 rw-p 000b3000 08:06 5382308                    /usr/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0.2400.31
+7f6b60318000-7f6b6074d000 r-xp 00000000 08:06 5382447                    /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0.2400.31
+7f6b6074d000-7f6b6094c000 ---p 00435000 08:06 5382447                    /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0.2400.31
+7f6b6094c000-7f6b60953000 r--p 00434000 08:06 5382447                    /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0.2400.31
+7f6b60953000-7f6b60957000 rw-p 0043b000 08:06 5382447                    /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0.2400.31
+7f6b60957000-7f6b6095a000 rw-p 00000000 00:00 0 
+7f6b6095a000-7f6b6095d000 ---p 00000000 00:00 0 
+7f6b6095d000-7f6b60a5b000 rw-p 00000000 00:00 0 
+7f6b60a5b000-7f6b60a8e000 r-xp 00000000 08:06 12325890                   /home/erik/miniconda3/jre/lib/amd64/libsunec.so
+7f6b60a8e000-7f6b60c8e000 ---p 00033000 08:06 12325890                   /home/erik/miniconda3/jre/lib/amd64/libsunec.so
+7f6b60c8e000-7f6b60c94000 rw-p 00033000 08:06 12325890                   /home/erik/miniconda3/jre/lib/amd64/libsunec.so
+7f6b60c94000-7f6b60ca6000 rw-p 00000000 00:00 0 
+7f6b60ca6000-7f6b60ca7000 rw-p 00041000 08:06 12325890                   /home/erik/miniconda3/jre/lib/amd64/libsunec.so
+7f6b60ca7000-7f6b60caa000 ---p 00000000 00:00 0 
+7f6b60caa000-7f6b60fa8000 rw-p 00000000 00:00 0 
+7f6b60fa8000-7f6b611a8000 rw-p 00000000 00:00 0 
+7f6b611a8000-7f6b611ab000 ---p 00000000 00:00 0 
+7f6b611ab000-7f6b612a9000 rw-p 00000000 00:00 0 
+7f6b612a9000-7f6b612ac000 ---p 00000000 00:00 0 
+7f6b612ac000-7f6b613aa000 rw-p 00000000 00:00 0 
+7f6b613aa000-7f6b613ad000 ---p 00000000 00:00 0 
+7f6b613ad000-7f6b614ab000 rw-p 00000000 00:00 0 
+7f6b614ab000-7f6b614ae000 ---p 00000000 00:00 0 
+7f6b614ae000-7f6b615ac000 rw-p 00000000 00:00 0 
+7f6b615ac000-7f6b615b1000 r-xp 00000000 08:06 5381906                    /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f6b615b1000-7f6b617b0000 ---p 00005000 08:06 5381906                    /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f6b617b0000-7f6b617b1000 r--p 00004000 08:06 5381906                    /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f6b617b1000-7f6b617b2000 rw-p 00005000 08:06 5381906                    /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f6b617b2000-7f6b617bb000 r-xp 00000000 08:06 5381898                    /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f6b617bb000-7f6b619ba000 ---p 00009000 08:06 5381898                    /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f6b619ba000-7f6b619bb000 r--p 00008000 08:06 5381898                    /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f6b619bb000-7f6b619bc000 rw-p 00009000 08:06 5381898                    /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f6b619bc000-7f6b619bf000 ---p 00000000 00:00 0 
+7f6b619bf000-7f6b61abd000 rw-p 00000000 00:00 0 
+7f6b61abd000-7f6b61afe000 r-xp 00000000 08:06 8260538                    /home/erik/miniconda3/lib/libpng16.so.16.34.0
+7f6b61afe000-7f6b61cfd000 ---p 00041000 08:06 8260538                    /home/erik/miniconda3/lib/libpng16.so.16.34.0
+7f6b61cfd000-7f6b61cfe000 rw-p 00040000 08:06 8260538                    /home/erik/miniconda3/lib/libpng16.so.16.34.0
+7f6b61cfe000-7f6b61d14000 r-xp 00000000 08:06 5251606                    /home/erik/miniconda3/lib/libz.so.1.2.11
+7f6b61d14000-7f6b61f13000 ---p 00016000 08:06 5251606                    /home/erik/miniconda3/lib/libz.so.1.2.11
+7f6b61f13000-7f6b61f14000 r--p 00015000 08:06 5251606                    /home/erik/miniconda3/lib/libz.so.1.2.11
+7f6b61f14000-7f6b61f15000 rw-p 00016000 08:06 5251606                    /home/erik/miniconda3/lib/libz.so.1.2.11
+7f6b61f15000-7f6b61fee000 r-xp 00000000 08:06 5771751                    /home/erik/miniconda3/lib/libfreetype.so.6.16.1
+7f6b61fee000-7f6b621ed000 ---p 000d9000 08:06 5771751                    /home/erik/miniconda3/lib/libfreetype.so.6.16.1
+7f6b621ed000-7f6b621f4000 rw-p 000d8000 08:06 5771751                    /home/erik/miniconda3/lib/libfreetype.so.6.16.1
+7f6b621f4000-7f6b62251000 r-xp 00000000 08:06 12325909                   /home/erik/miniconda3/jre/lib/amd64/libfontmanager.so
+7f6b62251000-7f6b62451000 ---p 0005d000 08:06 12325909                   /home/erik/miniconda3/jre/lib/amd64/libfontmanager.so
+7f6b62451000-7f6b62455000 rw-p 0005d000 08:06 12325909                   /home/erik/miniconda3/jre/lib/amd64/libfontmanager.so
+7f6b62455000-7f6b62468000 rw-p 00000000 00:00 0 
+7f6b62468000-7f6b6246a000 rw-p 00079000 08:06 12325909                   /home/erik/miniconda3/jre/lib/amd64/libfontmanager.so
+7f6b6246a000-7f6b62470000 r-xp 00000000 08:06 9183057                    /home/erik/miniconda3/lib/libXdmcp.so.6.0.0
+7f6b62470000-7f6b6266f000 ---p 00006000 08:06 9183057                    /home/erik/miniconda3/lib/libXdmcp.so.6.0.0
+7f6b6266f000-7f6b62670000 rw-p 00005000 08:06 9183057                    /home/erik/miniconda3/lib/libXdmcp.so.6.0.0
+7f6b62670000-7f6b62673000 r-xp 00000000 08:06 9050191                    /home/erik/miniconda3/lib/libXau.so.6.0.0
+7f6b62673000-7f6b62872000 ---p 00003000 08:06 9050191                    /home/erik/miniconda3/lib/libXau.so.6.0.0
+7f6b62872000-7f6b62873000 rw-p 00002000 08:06 9050191                    /home/erik/miniconda3/lib/libXau.so.6.0.0
+7f6b62873000-7f6b628a3000 r-xp 00000000 08:06 9049849                    /home/erik/miniconda3/lib/libxcb.so.1.1.0
+7f6b628a3000-7f6b62aa2000 ---p 00030000 08:06 9049849                    /home/erik/miniconda3/lib/libxcb.so.1.1.0
+7f6b62aa2000-7f6b62aa3000 rw-p 0002f000 08:06 9049849                    /home/erik/miniconda3/lib/libxcb.so.1.1.0
+7f6b62aa3000-7f6b62ab2000 r-xp 00000000 08:06 5381914                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f6b62ab2000-7f6b62cb1000 ---p 0000f000 08:06 5381914                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f6b62cb1000-7f6b62cb2000 r--p 0000e000 08:06 5381914                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f6b62cb2000-7f6b62cb3000 rw-p 0000f000 08:06 5381914                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f6b62cb3000-7f6b62cb8000 r-xp 00000000 08:06 5381932                    /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f6b62cb8000-7f6b62eb7000 ---p 00005000 08:06 5381932                    /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f6b62eb7000-7f6b62eb8000 r--p 00004000 08:06 5381932                    /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f6b62eb8000-7f6b62eb9000 rw-p 00005000 08:06 5381932                    /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f6b62eb9000-7f6b62ec5000 r-xp 00000000 08:06 5906394                    /home/erik/miniconda3/lib/libXrender.so.1.3.0
+7f6b62ec5000-7f6b630c4000 ---p 0000c000 08:06 5906394                    /home/erik/miniconda3/lib/libXrender.so.1.3.0
+7f6b630c4000-7f6b630c5000 rw-p 0000b000 08:06 5906394                    /home/erik/miniconda3/lib/libXrender.so.1.3.0
+7f6b630c5000-7f6b63227000 r-xp 00000000 08:06 9703092                    /home/erik/miniconda3/lib/libX11.so.6.3.0
+7f6b63227000-7f6b63426000 ---p 00162000 08:06 9703092                    /home/erik/miniconda3/lib/libX11.so.6.3.0
+7f6b63426000-7f6b6342d000 rw-p 00161000 08:06 9703092                    /home/erik/miniconda3/lib/libX11.so.6.3.0
+7f6b6342d000-7f6b63441000 r-xp 00000000 08:06 11154941                   /home/erik/miniconda3/lib/libXext.so.6.4.0
+7f6b63441000-7f6b63641000 ---p 00014000 08:06 11154941                   /home/erik/miniconda3/lib/libXext.so.6.4.0
+7f6b63641000-7f6b63642000 rw-p 00014000 08:06 11154941                   /home/erik/miniconda3/lib/libXext.so.6.4.0
+7f6b63642000-7f6b6369b000 r-xp 00000000 08:06 12325908                   /home/erik/miniconda3/jre/lib/amd64/libawt_xawt.so
+7f6b6369b000-7f6b6389b000 ---p 00059000 08:06 12325908                   /home/erik/miniconda3/jre/lib/amd64/libawt_xawt.so
+7f6b6389b000-7f6b6389f000 rw-p 00059000 08:06 12325908                   /home/erik/miniconda3/jre/lib/amd64/libawt_xawt.so
+7f6b6389f000-7f6b638a0000 rw-p 00000000 00:00 0 
+7f6b638a0000-7f6b638a6000 rw-p 00071000 08:06 12325908                   /home/erik/miniconda3/jre/lib/amd64/libawt_xawt.so
+7f6b638a6000-7f6b63949000 r-xp 00000000 08:06 12325921                   /home/erik/miniconda3/jre/lib/amd64/libawt.so
+7f6b63949000-7f6b63b49000 ---p 000a3000 08:06 12325921                   /home/erik/miniconda3/jre/lib/amd64/libawt.so
+7f6b63b49000-7f6b63b55000 rw-p 000a3000 08:06 12325921                   /home/erik/miniconda3/jre/lib/amd64/libawt.so
+7f6b63b55000-7f6b63b79000 rw-p 00000000 00:00 0 
+7f6b63b79000-7f6b63b80000 rw-p 000bd000 08:06 12325921                   /home/erik/miniconda3/jre/lib/amd64/libawt.so
+7f6b63b80000-7f6b63cfd000 r--s 01bac000 08:06 5772405                    /home/erik/miniconda3/bin/igv.jar
+7f6b63cfd000-7f6b63cfe000 ---p 00000000 00:00 0 
+7f6b63cfe000-7f6b63dfe000 rw-p 00000000 00:00 0 
+7f6b63dfe000-7f6b63e01000 ---p 00000000 00:00 0 
+7f6b63e01000-7f6b63eff000 rw-p 00000000 00:00 0 
+7f6b63eff000-7f6b63f02000 ---p 00000000 00:00 0 
+7f6b63f02000-7f6b64000000 rw-p 00000000 00:00 0 
+7f6b64000000-7f6b64658000 rw-p 00000000 00:00 0 
+7f6b64658000-7f6b68000000 ---p 00000000 00:00 0 
+7f6b68000000-7f6b68001000 r--s 00000000 08:06 9833231                    /home/erik/miniconda3/var/cache/fontconfig/f6e6e0a5c3d2f6ae0c0c2e0ecd42a997-le64.cache-7
+7f6b68001000-7f6b68003000 r--s 00000000 08:06 9835343                    /home/erik/miniconda3/var/cache/fontconfig/6e6b34ae150a7ad95e82fb4a522f0bda-le64.cache-7
+7f6b68003000-7f6b6800a000 r--s 00000000 08:06 9835341                    /home/erik/miniconda3/var/cache/fontconfig/53d14c92082a93e67d5078324eb314ca-le64.cache-7
+7f6b6800a000-7f6b6800e000 r--s 00000000 08:06 9835340                    /home/erik/miniconda3/var/cache/fontconfig/6c08beecf0dac481ec92e759e0c2e6d7-le64.cache-7
+7f6b6800e000-7f6b6809f000 r--s 013b4000 08:06 8532738                    /home/erik/miniconda3/jre/lib/ext/jfxrt.jar
+7f6b6809f000-7f6b680a2000 ---p 00000000 00:00 0 
+7f6b680a2000-7f6b681a0000 rw-p 00000000 00:00 0 
+7f6b681a0000-7f6b681a3000 ---p 00000000 00:00 0 
+7f6b681a3000-7f6b682a1000 rw-p 00000000 00:00 0 
+7f6b682a1000-7f6b682a4000 ---p 00000000 00:00 0 
+7f6b682a4000-7f6b683a2000 rw-p 00000000 00:00 0 
+7f6b683a2000-7f6b68800000 r--p 00000000 08:06 5377307                    /usr/lib/locale/locale-archive
+7f6b68800000-7f6b69000000 rw-p 00000000 00:00 0 
+7f6b69000000-7f6b6a130000 rwxp 00000000 00:00 0 
+7f6b6a130000-7f6b78000000 ---p 00000000 00:00 0 
+7f6b78000000-7f6b79523000 rw-p 00000000 00:00 0 
+7f6b79523000-7f6b7c000000 ---p 00000000 00:00 0 
+7f6b7c000000-7f6b7c001000 r--s 00000000 08:06 9833230                    /home/erik/miniconda3/var/cache/fontconfig/4b2eda6bb976bda485cb2176619421d5-le64.cache-7
+7f6b7c001000-7f6b7c005000 r--s 00000000 08:06 9835339                    /home/erik/miniconda3/var/cache/fontconfig/4d6aee6d44eccb37054d3216e945f618-le64.cache-7
+7f6b7c005000-7f6b7c028000 r--s 00000000 08:06 9833222                    /home/erik/miniconda3/var/cache/fontconfig/cabbd14511b9e8a55e92af97fb3a0461-le64.cache-7
+7f6b7c028000-7f6b7c041000 r--s 00000000 08:06 9833343                    /home/erik/miniconda3/var/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-7
+7f6b7c041000-7f6b7c044000 ---p 00000000 00:00 0 
+7f6b7c044000-7f6b7c142000 rw-p 00000000 00:00 0 
+7f6b7c142000-7f6b7c145000 ---p 00000000 00:00 0 
+7f6b7c145000-7f6b7c243000 rw-p 00000000 00:00 0 
+7f6b7c243000-7f6b7c244000 ---p 00000000 00:00 0 
+7f6b7c244000-7f6b7c344000 rw-p 00000000 00:00 0 
+7f6b7c344000-7f6b7c511000 r--s 03bec000 08:06 12325932                   /home/erik/miniconda3/jre/lib/rt.jar
+7f6b7c511000-7f6b7cce1000 rw-p 00000000 00:00 0 
+7f6b7cce1000-7f6b7cce2000 ---p 00000000 00:00 0 
+7f6b7cce2000-7f6b7cde2000 rw-p 00000000 00:00 0 
+7f6b7cde2000-7f6b7cde3000 ---p 00000000 00:00 0 
+7f6b7cde3000-7f6b7cee3000 rw-p 00000000 00:00 0 
+7f6b7cee3000-7f6b7cee4000 ---p 00000000 00:00 0 
+7f6b7cee4000-7f6b7cfe4000 rw-p 00000000 00:00 0 
+7f6b7cfe4000-7f6b7cfe5000 ---p 00000000 00:00 0 
+7f6b7cfe5000-7f6b7d2ef000 rw-p 00000000 00:00 0 
+7f6b7d2ef000-7f6b7d61b000 ---p 00000000 00:00 0 
+7f6b7d61b000-7f6b7d825000 rw-p 00000000 00:00 0 
+7f6b7d825000-7f6b7db50000 ---p 00000000 00:00 0 
+7f6b7db50000-7f6b7ddeb000 rw-p 00000000 00:00 0 
+7f6b7ddeb000-7f6b7de31000 rw-p 00000000 00:00 0 
+7f6b7de31000-7f6b7e1ac000 ---p 00000000 00:00 0 
+7f6b7e1ac000-7f6b7e1c6000 r-xp 00000000 08:06 12325872                   /home/erik/miniconda3/jre/lib/amd64/libzip.so
+7f6b7e1c6000-7f6b7e3c5000 ---p 0001a000 08:06 12325872                   /home/erik/miniconda3/jre/lib/amd64/libzip.so
+7f6b7e3c5000-7f6b7e3c6000 rw-p 00019000 08:06 12325872                   /home/erik/miniconda3/jre/lib/amd64/libzip.so
+7f6b7e3c6000-7f6b7e3c7000 rw-p 0001e000 08:06 12325872                   /home/erik/miniconda3/jre/lib/amd64/libzip.so
+7f6b7e3c7000-7f6b7e3d2000 r-xp 00000000 08:06 1048670                    /lib/x86_64-linux-gnu/libnss_files-2.26.so
+7f6b7e3d2000-7f6b7e5d1000 ---p 0000b000 08:06 1048670                    /lib/x86_64-linux-gnu/libnss_files-2.26.so
+7f6b7e5d1000-7f6b7e5d2000 r--p 0000a000 08:06 1048670                    /lib/x86_64-linux-gnu/libnss_files-2.26.so
+7f6b7e5d2000-7f6b7e5d3000 rw-p 0000b000 08:06 1048670                    /lib/x86_64-linux-gnu/libnss_files-2.26.so
+7f6b7e5d3000-7f6b7e5d9000 rw-p 00000000 00:00 0 
+7f6b7e5d9000-7f6b7e5e4000 r-xp 00000000 08:06 1048672                    /lib/x86_64-linux-gnu/libnss_nis-2.26.so
+7f6b7e5e4000-7f6b7e7e3000 ---p 0000b000 08:06 1048672                    /lib/x86_64-linux-gnu/libnss_nis-2.26.so
+7f6b7e7e3000-7f6b7e7e4000 r--p 0000a000 08:06 1048672                    /lib/x86_64-linux-gnu/libnss_nis-2.26.so
+7f6b7e7e4000-7f6b7e7e5000 rw-p 0000b000 08:06 1048672                    /lib/x86_64-linux-gnu/libnss_nis-2.26.so
+7f6b7e7e5000-7f6b7e7fc000 r-xp 00000000 08:06 1048667                    /lib/x86_64-linux-gnu/libnsl-2.26.so
+7f6b7e7fc000-7f6b7e9fb000 ---p 00017000 08:06 1048667                    /lib/x86_64-linux-gnu/libnsl-2.26.so
+7f6b7e9fb000-7f6b7e9fc000 r--p 00016000 08:06 1048667                    /lib/x86_64-linux-gnu/libnsl-2.26.so
+7f6b7e9fc000-7f6b7e9fd000 rw-p 00017000 08:06 1048667                    /lib/x86_64-linux-gnu/libnsl-2.26.so
+7f6b7e9fd000-7f6b7e9ff000 rw-p 00000000 00:00 0 
+7f6b7e9ff000-7f6b7ea07000 r-xp 00000000 08:06 1048668                    /lib/x86_64-linux-gnu/libnss_compat-2.26.so
+7f6b7ea07000-7f6b7ec06000 ---p 00008000 08:06 1048668                    /lib/x86_64-linux-gnu/libnss_compat-2.26.so
+7f6b7ec06000-7f6b7ec07000 r--p 00007000 08:06 1048668                    /lib/x86_64-linux-gnu/libnss_compat-2.26.so
+7f6b7ec07000-7f6b7ec08000 rw-p 00008000 08:06 1048668                    /lib/x86_64-linux-gnu/libnss_compat-2.26.so
+7f6b7ec08000-7f6b7ec32000 r-xp 00000000 08:06 12325884                   /home/erik/miniconda3/jre/lib/amd64/libjava.so
+7f6b7ec32000-7f6b7ee32000 ---p 0002a000 08:06 12325884                   /home/erik/miniconda3/jre/lib/amd64/libjava.so
+7f6b7ee32000-7f6b7ee34000 rw-p 0002a000 08:06 12325884                   /home/erik/miniconda3/jre/lib/amd64/libjava.so
+7f6b7ee34000-7f6b7ee38000 rw-p 00036000 08:06 12325884                   /home/erik/miniconda3/jre/lib/amd64/libjava.so
+7f6b7ee38000-7f6b7ee45000 r-xp 00000000 08:06 12325856                   /home/erik/miniconda3/jre/lib/amd64/libverify.so
+7f6b7ee45000-7f6b7f045000 ---p 0000d000 08:06 12325856                   /home/erik/miniconda3/jre/lib/amd64/libverify.so
+7f6b7f045000-7f6b7f047000 rw-p 0000d000 08:06 12325856                   /home/erik/miniconda3/jre/lib/amd64/libverify.so
+7f6b7f047000-7f6b7f048000 rw-p 00011000 08:06 12325856                   /home/erik/miniconda3/jre/lib/amd64/libverify.so
+7f6b7f048000-7f6b7f04f000 r-xp 00000000 08:06 1053083                    /lib/x86_64-linux-gnu/librt-2.26.so
+7f6b7f04f000-7f6b7f24e000 ---p 00007000 08:06 1053083                    /lib/x86_64-linux-gnu/librt-2.26.so
+7f6b7f24e000-7f6b7f24f000 r--p 00006000 08:06 1053083                    /lib/x86_64-linux-gnu/librt-2.26.so
+7f6b7f24f000-7f6b7f250000 rw-p 00007000 08:06 1053083                    /lib/x86_64-linux-gnu/librt-2.26.so
+7f6b7f250000-7f6b7f3a5000 r-xp 00000000 08:06 1048664                    /lib/x86_64-linux-gnu/libm-2.26.so
+7f6b7f3a5000-7f6b7f5a4000 ---p 00155000 08:06 1048664                    /lib/x86_64-linux-gnu/libm-2.26.so
+7f6b7f5a4000-7f6b7f5a5000 r--p 00154000 08:06 1048664                    /lib/x86_64-linux-gnu/libm-2.26.so
+7f6b7f5a5000-7f6b7f5a6000 rw-p 00155000 08:06 1048664                    /lib/x86_64-linux-gnu/libm-2.26.so
+7f6b7f5a6000-7f6b801d6000 r-xp 00000000 08:06 12325929                   /home/erik/miniconda3/jre/lib/amd64/server/libjvm.so
+7f6b801d6000-7f6b803d6000 ---p 00c30000 08:06 12325929                   /home/erik/miniconda3/jre/lib/amd64/server/libjvm.so
+7f6b803d6000-7f6b804a4000 rw-p 00c30000 08:06 12325929                   /home/erik/miniconda3/jre/lib/amd64/server/libjvm.so
+7f6b804a4000-7f6b804e7000 rw-p 00000000 00:00 0 
+7f6b804e7000-7f6b804ea000 rw-p 00f74000 08:06 12325929                   /home/erik/miniconda3/jre/lib/amd64/server/libjvm.so
+7f6b804ea000-7f6b806c0000 r-xp 00000000 08:06 1048660                    /lib/x86_64-linux-gnu/libc-2.26.so
+7f6b806c0000-7f6b808c0000 ---p 001d6000 08:06 1048660                    /lib/x86_64-linux-gnu/libc-2.26.so
+7f6b808c0000-7f6b808c4000 r--p 001d6000 08:06 1048660                    /lib/x86_64-linux-gnu/libc-2.26.so
+7f6b808c4000-7f6b808c6000 rw-p 001da000 08:06 1048660                    /lib/x86_64-linux-gnu/libc-2.26.so
+7f6b808c6000-7f6b808ca000 rw-p 00000000 00:00 0 
+7f6b808ca000-7f6b808cd000 r-xp 00000000 08:06 1048663                    /lib/x86_64-linux-gnu/libdl-2.26.so
+7f6b808cd000-7f6b80acc000 ---p 00003000 08:06 1048663                    /lib/x86_64-linux-gnu/libdl-2.26.so
+7f6b80acc000-7f6b80acd000 r--p 00002000 08:06 1048663                    /lib/x86_64-linux-gnu/libdl-2.26.so
+7f6b80acd000-7f6b80ace000 rw-p 00003000 08:06 1048663                    /lib/x86_64-linux-gnu/libdl-2.26.so
+7f6b80ace000-7f6b80ae3000 r-xp 00000000 08:06 12325895                   /home/erik/miniconda3/lib/libjli.so
+7f6b80ae3000-7f6b80ce3000 ---p 00015000 08:06 12325895                   /home/erik/miniconda3/lib/libjli.so
+7f6b80ce3000-7f6b80ce4000 rw-p 00015000 08:06 12325895                   /home/erik/miniconda3/lib/libjli.so
+7f6b80ce4000-7f6b80cfe000 r-xp 00000000 08:06 1053018                    /lib/x86_64-linux-gnu/libpthread-2.26.so
+7f6b80cfe000-7f6b80efd000 ---p 0001a000 08:06 1053018                    /lib/x86_64-linux-gnu/libpthread-2.26.so
+7f6b80efd000-7f6b80efe000 r--p 00019000 08:06 1053018                    /lib/x86_64-linux-gnu/libpthread-2.26.so
+7f6b80efe000-7f6b80eff000 rw-p 0001a000 08:06 1053018                    /lib/x86_64-linux-gnu/libpthread-2.26.so
+7f6b80eff000-7f6b80f03000 rw-p 00000000 00:00 0 
+7f6b80f03000-7f6b80f2a000 r-xp 00000000 08:06 1048592                    /lib/x86_64-linux-gnu/ld-2.26.so
+7f6b80f2a000-7f6b80f2b000 r--s 00000000 08:06 9835342                    /home/erik/miniconda3/var/cache/fontconfig/3334a778d104e76d188e9df399bc24d2-le64.cache-7
+7f6b80f2b000-7f6b80f2f000 r--s 00000000 08:06 9835338                    /home/erik/miniconda3/var/cache/fontconfig/d6c6df98c3df5faf9bd0f8ef4d91efe5-le64.cache-7
+7f6b80f2f000-7f6b80f33000 r--s 00000000 08:06 9835337                    /home/erik/miniconda3/var/cache/fontconfig/9fb319ef52839f11ee26ab8b4cffa12b-le64.cache-7
+7f6b80f33000-7f6b80f35000 r--s 00000000 08:06 9834904                    /home/erik/miniconda3/var/cache/fontconfig/43bfe21a9e1edebcf703d79ee2950b06-le64.cache-7
+7f6b80f35000-7f6b80f38000 r--s 00000000 08:06 9833373                    /home/erik/miniconda3/var/cache/fontconfig/c19b55eb3b4c5b40ea175e31682068a5-le64.cache-7
+7f6b80f38000-7f6b80f3e000 r--s 00000000 08:06 9833345                    /home/erik/miniconda3/var/cache/fontconfig/3629f2adf904f9a612908891fae71ceb-le64.cache-7
+7f6b80f3e000-7f6b80f44000 r--s 0003a000 08:06 12325889                   /home/erik/miniconda3/jre/lib/ext/sunjce_provider.jar
+7f6b80f44000-7f6b80f45000 r--s 00000000 08:06 9833347                    /home/erik/miniconda3/var/cache/fontconfig/c277e94e32b20404286a1ddafa5a80f0-le64.cache-7
+7f6b80f45000-7f6b80f49000 r--s 00000000 08:06 9833344                    /home/erik/miniconda3/var/cache/fontconfig/de83a0a961185c8bd1f159015d56c039-le64.cache-7
+7f6b80f49000-7f6b80f59000 r--s 00000000 08:06 9833289                    /home/erik/miniconda3/var/cache/fontconfig/a88c0185-9508-404e-b7b0-dcf1dcff7899-le64.cache-7
+7f6b80f59000-7f6b80f5f000 r--s 00000000 08:06 9833342                    /home/erik/miniconda3/var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-7
+7f6b80f74000-7f6b80f77000 r--s 00000000 08:06 6306579                    /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/snp_calling/Illumina_reads_for_SNP_sorted.bai
+7f6b80f77000-7f6b80f7b000 r--s 00037000 08:06 12325885                   /home/erik/miniconda3/jre/lib/ext/sunpkcs11.jar
+7f6b80f7b000-7f6b80f7e000 r--p 00000000 08:06 5243560                    /home/erik/miniconda3/lib/libgcc_s.so.1
+7f6b80f7e000-7f6b80f8b000 r-xp 00003000 08:06 5243560                    /home/erik/miniconda3/lib/libgcc_s.so.1
+7f6b80f8b000-7f6b80f8e000 r--p 00010000 08:06 5243560                    /home/erik/miniconda3/lib/libgcc_s.so.1
+7f6b80f8e000-7f6b80f8f000 r--p 00012000 08:06 5243560                    /home/erik/miniconda3/lib/libgcc_s.so.1
+7f6b80f8f000-7f6b80f90000 rw-p 00013000 08:06 5243560                    /home/erik/miniconda3/lib/libgcc_s.so.1
+7f6b80f90000-7f6b80fa3000 r--s 00345000 08:06 12325927                   /home/erik/miniconda3/jre/lib/resources.jar
+7f6b80fa3000-7f6b80ff2000 rw-p 00000000 00:00 0 
+7f6b80ff2000-7f6b80ff5000 ---p 00000000 00:00 0 
+7f6b80ff5000-7f6b810f7000 rw-p 00000000 00:00 0 
+7f6b810f7000-7f6b810f8000 r--s 00000000 08:06 9833292                    /home/erik/miniconda3/var/cache/fontconfig/7b8b080d-b891-4454-b1d7-0e0073eedf7e-le64.cache-7
+7f6b810f8000-7f6b810f9000 r--s 00008000 08:06 12325844                   /home/erik/miniconda3/jre/lib/ext/sunec.jar
+7f6b810f9000-7f6b81116000 r--s 001e9000 08:06 5772404                    /home/erik/miniconda3/bin/goby-io-igv__V1.0.jar
+7f6b81116000-7f6b81119000 r--s 00029000 08:06 5772403                    /home/erik/miniconda3/bin/batik-codec__V1.7.jar
+7f6b81119000-7f6b8111c000 r--s 00015000 08:06 12325863                   /home/erik/miniconda3/jre/lib/jce.jar
+7f6b8111c000-7f6b81120000 r--s 00097000 08:06 12325913                   /home/erik/miniconda3/jre/lib/jsse.jar
+7f6b81120000-7f6b81128000 rw-s 00000000 08:06 4720030                    /tmp/hsperfdata_erik/26586
+7f6b81128000-7f6b81129000 rw-p 00000000 00:00 0 
+7f6b81129000-7f6b8112a000 ---p 00000000 00:00 0 
+7f6b8112a000-7f6b8112b000 r--p 00027000 08:06 1048592                    /lib/x86_64-linux-gnu/ld-2.26.so
+7f6b8112b000-7f6b8112c000 rw-p 00028000 08:06 1048592                    /lib/x86_64-linux-gnu/ld-2.26.so
+7f6b8112c000-7f6b8112d000 rw-p 00000000 00:00 0 
+7fffcd24c000-7fffcd26d000 rw-p 00000000 00:00 0                          [stack]
+7fffcd3a2000-7fffcd3a5000 r--p 00000000 00:00 0                          [vvar]
+7fffcd3a5000-7fffcd3a7000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Xmx4000m -XX:+IgnoreUnrecognizedVMOptions --illegal-access=permit --add-modules=java.xml.bind -Dapple.laf.useScreenMenuBar=true -Djava.net.preferIPv4Stack=true 
+java_command: /home/erik/miniconda3/bin/igv.jar browser
+java_class_path (initial): /home/erik/miniconda3/bin/igv.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=/home/erik/sweden/courses/2nd_semester/Genome_Analysis/spades_assembly/gnuplot-4.6.0/src/::/home/erik/miniconda3/bin/LIMS/:/home/erik/miniconda3/bin:/home/erik/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+USERNAME=erik
+SHELL=/bin/bash
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xa289e0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGBUS: [libjvm.so+0xa289e0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGFPE: [libjvm.so+0x8967f0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGPIPE: SIG_IGN, sa_mask[0]=00000000000010000000000000000000, sa_flags=SA_RESTART
+SIGXFSZ: [libjvm.so+0x8967f0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGILL: [libjvm.so+0x8967f0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGUSR1: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGUSR2: [libjvm.so+0x897cd0], sa_mask[0]=00000000000000000000000000000000, sa_flags=SA_RESTART|SA_SIGINFO
+SIGHUP: [libjvm.so+0x8993c0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGINT: [libjvm.so+0x8993c0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGTERM: [libjvm.so+0x8993c0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGQUIT: [libjvm.so+0x8993c0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+
+
+---------------  S Y S T E M  ---------------
+
+OS:DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=17.10
+DISTRIB_CODENAME=artful
+DISTRIB_DESCRIPTION="Ubuntu 17.10"
+
+uname:Linux 4.13.0-46-generic #51-Ubuntu SMP Tue Jun 12 12:36:29 UTC 2018 x86_64
+libc:glibc 2.26 NPTL 2.26 
+rlimit: STACK 8192k, CORE 0k, NPROC 15112, NOFILE 4096, AS infinity
+load average:12.17 15.53 7.98
+
+/proc/meminfo:
+MemTotal:        3923088 kB
+MemFree:           84228 kB
+MemAvailable:      36696 kB
+Buffers:            3172 kB
+Cached:           113648 kB
+SwapCached:         3696 kB
+Active:          2916428 kB
+Inactive:         623376 kB
+Active(anon):    2867212 kB
+Inactive(anon):   581116 kB
+Active(file):      49216 kB
+Inactive(file):    42260 kB
+Unevictable:          32 kB
+Mlocked:              32 kB
+SwapTotal:       4077564 kB
+SwapFree:          12148 kB
+Dirty:               332 kB
+Writeback:           248 kB
+AnonPages:       3420256 kB
+Mapped:            74308 kB
+Shmem:             27548 kB
+Slab:             139864 kB
+SReclaimable:      49636 kB
+SUnreclaim:        90228 kB
+KernelStack:       18496 kB
+PageTables:        88908 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6039108 kB
+Committed_AS:   16620188 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      205880 kB
+DirectMap2M:     3872768 kB
+
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, ht, tsc, tscinvbit
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz
+stepping	: 7
+microcode	: 0x2d
+cpu MHz		: 1873.401
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti retpoline spec_ctrl tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass
+bogomips	: 3192.55
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz
+stepping	: 7
+microcode	: 0x2d
+cpu MHz		: 1906.373
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti retpoline spec_ctrl tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass
+bogomips	: 3192.55
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz
+stepping	: 7
+microcode	: 0x2d
+cpu MHz		: 1853.009
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti retpoline spec_ctrl tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass
+bogomips	: 3192.55
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz
+stepping	: 7
+microcode	: 0x2d
+cpu MHz		: 1937.464
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti retpoline spec_ctrl tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass
+bogomips	: 3192.55
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 3923088k(84616k free), swap 4077564k(10452k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.92-b15) for linux-amd64 JRE (1.8.0_92-b15), built on Apr 26 2016 01:52:35 by "zulu_re" with gcc 4.4.7 20120313 (Red Hat 4.4.7-3)
+
+time: Fri May 24 16:22:53 2019
+elapsed time: 562 seconds (0d 0h 9m 22s)
+
