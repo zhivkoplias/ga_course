@@ -38,12 +38,8 @@
 ##bcftools_normCommand=norm -Ou -f /home/erzh4483/ga_course/final_assemblies/final_assembly_canu_and_spades_node3_120419.fasta -d all -o Illumina_reads_for_SNP_sorted_2.vcf Illumina_reads_for_SNP_sorted_1.vcf; Date=Mon May 27 09:28:08 2019
 ##bcftools_filterVersion=1.8+htslib-1.8
 ##bcftools_filterCommand=filter -Ov -e 'QUAL<40 || DP<10 || GT!="1/1"' -o Illumina_reads_for_SNP_sorted_3.vcf Illumina_reads_for_SNP_sorted_2.vcf; Date=Mon May 27 09:28:18 2019
+##bcftools_filterVersion=1.4.1+htslib-1.5
+##bcftools_filterCommand=filter -Ov -e 'QUAL<40 || DP<20' -o Illumina_reads_for_SNP_sorted_3.vcf Illumina_reads_for_SNP_sorted_3.vcf; Date=Tue May 28 00:55:22 2019
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Illumina_reads_for_SNP_sorted.bam
 tig00000029_pilon	3301	.	TA	T	75	PASS	INDEL;IDV=122;IMF=0.847222;DP=144;VDB=0.992868;SGB=-0.693147;MQSB=0.936131;MQ0F=0;AC=2;AN=2;DP4=11,11,54,68;MQ=41	GT:PL	1/1:102,147,0
 tig00000031_pilon	4826	.	AT	A	90	PASS	INDEL;IDV=100;IMF=0.900901;DP=111;VDB=0.526201;SGB=-0.693147;MQSB=0.983793;MQ0F=0;AC=2;AN=2;DP4=4,9,57,41;MQ=41	GT:PL	1/1:117,132,0
-tig00000031_pilon	5048	.	TA	T	63	PASS	INDEL;IDV=94;IMF=0.903846;DP=104;VDB=0.360411;SGB=-0.693147;MQSB=0.942345;MQ0F=0;AC=2;AN=2;DP4=5,5,46,48;MQ=41	GT:PL	1/1:90,176,0
-tig00000031_pilon	8906	.	TA	T	85	PASS	INDEL;IDV=78;IMF=0.896552;DP=87;VDB=0.970026;SGB=-0.693147;MQSB=0.97341;MQ0F=0;AC=2;AN=2;DP4=4,5,9,69;MQ=41	GT:PL	1/1:112,138,0
-tig00000470_pilon	83	.	C	T	177	PASS	DP=11;VDB=0.000125511;SGB=-0.676189;MQ0F=0;AC=2;AN=2;DP4=0,0,11,0;MQ=42	GT:PL	1/1:207,33,0
-tig00000470_pilon	404	.	TC	T	72	PASS	INDEL;IDV=37;IMF=0.822222;DP=45;VDB=0.792065;SGB=-0.693146;MQ0F=0;AC=2;AN=2;DP4=2,0,43,0;MQ=41	GT:PL	1/1:99,87,0
-tig00000470_pilon	407	.	C	T	156	PASS	DP=41;VDB=0.174452;SGB=-0.693144;RPB=0;MQB=0.897436;BQB=0.974359;MQ0F=0;AC=2;AN=2;DP4=2,0,39,0;MQ=41	GT:PL	1/1:183,44,0
-tig00000471_pilon	6512	.	TG	T	80	PASS	INDEL;IDV=55;IMF=0.916667;DP=60;VDB=0.998839;SGB=-0.693147;MQSB=0.830122;MQ0F=0;AC=2;AN=2;DP4=4,1,49,6;MQ=41	GT:PL	1/1:107,86,0
