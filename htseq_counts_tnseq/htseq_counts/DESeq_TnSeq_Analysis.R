@@ -10,8 +10,8 @@ sampleTable_Serum <- data.frame(sampleName = sampleFiles_Serum,
                           fileName = sampleFiles_Serum,
                           condition = sampleCondition_Serum)
 
-sampleFiles_Human <- grep("Human",list.files(directory),value=TRUE)
-sampleCondition_Human <- sub("(.*Human).*","\\1",sampleFiles_Human)
+sampleFiles_Human <- grep("HeatInactivated",list.files(directory),value=TRUE)
+sampleCondition_Human <- sub("(.*HeatInactivated).*","\\1",sampleFiles_Human)
 sampleTable_Human <- data.frame(sampleName = sampleFiles_Human,
                                 fileName = sampleFiles_Human,
                                 condition = sampleCondition_Human)
@@ -22,10 +22,10 @@ sampleTable_BH <- data.frame(sampleName = sampleFiles_BH,
                                 fileName = sampleFiles_BH,
                                 condition = sampleCondition_BH)
 
-sampleCondition <- c(sampleCondition_Serum, sampleCondition_BH, sampleCondition_Human)
+sampleCondition <- c(sampleCondition_Serum, sampleCondition_BH)
 
-sampleTable_SH <- merge(sampleTable_BH, sampleTable_Serum, all=TRUE)
-sampleTable <- merge(sampleTable_SH, sampleTable_Human, all=TRUE)
+sampleTable <- merge(sampleTable_BH, sampleTable_Serum, all=TRUE)
+#sampleTable <- merge(sampleTable_SH, sampleTable_Human, all=TRUE)
 
 ddsHTSeq <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
                                        directory = directory,
@@ -45,7 +45,7 @@ dds <- ddsHTSeq
 
 
 # DE analysis
-dds <- dds[, dds$condition %in% c("Serum","BH","Human") ]
+dds <- dds[, dds$condition %in% c("Serum","BH") ]
 dds <- DESeq(dds)
 res <- results(dds)
 res
@@ -62,7 +62,8 @@ library(apeglm)
 resultsNames(dds)
 
 resLFC <- lfcShrink(dds, coef="condition_Serum_vs_BH", type="apeglm")
-resLFC
+resOrdered <- resLFC[order(resLFC$padj),]
+resOrdered
 
 # p-values ordering
 
@@ -74,13 +75,14 @@ sum(res$padj < 0.1, na.rm=TRUE)
 res05 <- results(dds, alpha=0.05)
 summary(res05)
 
-sum(res05$padj < 0.05, na.rm=TRUE)
+sum(res05$padj < 0.1, na.rm=TRUE)
 
 #plots DE
 
 plotMA(res, ylim=c(-9,9))
 
-plotMA(resLFC, ylim=c(-9,9))
+plotMA(resLFC, ylim=c(-10,10), main='MA plot', alpha=0.1)
+
 
 idx <- identify(res$baseMean, res$log2FoldChange)
 rownames(res)[idx]
@@ -144,7 +146,7 @@ addgrids3d(project.pca$x[,1:3], grid = c("xy", "xz", "yz"))
 
 library(FactoMineR)
 iris.pca <- PCA(iris, quali.sup=5)
-plot(project.pca, habillage = 5, 
+plot(iris.pca, habillage = 5, 
      col.hab = c("green", "blue", "red"), 
      title = "Dataset projected onto PC1-2 Subspace")
 
@@ -165,7 +167,43 @@ p
 # Claudios - on DE data
 
 rld <- rlogTransformation(dds, blind=TRUE)
+#plot(0, 0, main = "", xlab = "", ylab = "", xlim = c(-6, 6), ylim = c(-10, 10), col = "white", asp = 1)
 plotPCA(rld)
+
+new_plot <- function (object, intgroup = "condition", ntop = 500, 
+                         returnData = FALSE) 
+{
+  rv <- rowVars(assay(object))
+  select <- order(rv, decreasing = TRUE)[seq_len(min(ntop, 
+                                                     length(rv)))]
+  pca <- prcomp(t(assay(object)[select, ]))
+  percentVar <- pca$sdev^2/sum(pca$sdev^2)
+  if (!all(intgroup %in% names(colData(object)))) {
+    stop("the argument 'intgroup' should specify columns of colData(dds)")
+  }
+  intgroup.df <- as.data.frame(colData(object)[, intgroup, 
+                                               drop = FALSE])
+  group <- if (length(intgroup) > 1) {
+    factor(apply(intgroup.df, 1, paste, collapse = ":"))
+  }
+  else {
+    colData(object)[[intgroup]]
+  }
+  d <- data.frame(PC1 = pca$x[, 1], PC2 = pca$x[, 2], group = group, 
+                  intgroup.df, name = colnames(object))
+  if (returnData) {
+    attr(d, "percentVar") <- percentVar[1:2]
+    return(d)
+  }
+  ggplot(data = d, aes_string(x = "PC1", y = "PC2", color = "group")) + 
+    ylim(-20, 20) +
+    theme_bw() +
+    geom_point(size = 5) + xlab(paste0("PC1: ", round(percentVar[1] * 
+                                                        100), "% variance")) + ylab(paste0("PC2: ", round(percentVar[2] * 
+                                                                                                            100), "% variance")) + coord_fixed()
+}
+
+new_plot(rld)
 
 # more results
 
@@ -174,7 +212,7 @@ mcols(res)$description
 
 #save data
 
-save_it <- as.data.frame(resOrdered)
+save_it <- as.data.frame(only_sign_dds_rlog)
 
 write.csv(as.data.frame(save_it[1]), 
           file="exclude_two_sample_3_cond_down.csv")
@@ -183,3 +221,85 @@ new <- read.csv("exclude_two_sample_3_cond_down.csv", sep = ',')
 names <- new$X
 write.csv(names, 
           file="exclude_two_sample_3_cond_gene_names_down.csv", row.names = FALSE)
+
+#kalles code
+
+# Create the report from the DESeq2 package, 
+DESeq2Report(dds = dds, intgroup = "growth_medium")
+
+# Since expression data is 
+rld <- rlog(dds)
+resultsdds <- results(dds)
+
+only_sign_dds_rlog <- subset(resultsdds, padj < 0.1)
+only_sign_dds_rlog <- subset(only_sign_dds_rlog, log2FoldChange < -2)
+
+
+change_filter <- change_filter <- which(
+  abs(only_sign_dds_rlog$padj < 0.1) | 
+    abs(only_sign_dds_rlog$padj < 0.1)
+)
+
+topVarGenes <- head(order(-rowVars(assay(rld))),40)
+#topVarGenes <- topVarGenes[(topVarGenes %in% only_sign_dds_rlog$)]
+
+mat = assay(rld)[ head(order(res$padj),40), ] # select the top 30 genes with the lowest padj
+mat = mat - rowMeans(mat) # Subtract the row means from each value
+df <- as.data.frame(colData(rld)[,"condition"])
+colnames(mat) <- c("BH-1","BH-2","BH-3","Serum-1","Serum-2","Serum-3")
+colnames(df) <- "Condition"
+rownames(df) <- colnames(mat)
+#install.packages("pheatmap")
+library(pheatmap)
+pheatmap(mat, annotation_col=df)
+
+
+
+
+# Example of DESeq analysis
+plotDispEsts(dds)
+log_dds<-rlog(dds)
+
+counts_table = counts( dds, normalized=TRUE )
+
+filtered_norm_counts<-counts_table[!rowSums(counts_table==0)>=1, ]
+filtered_norm_counts<-as.data.frame(filtered_norm_counts)
+GeneID<-rownames(filtered_norm_counts)
+filtered_norm_counts<-cbind(filtered_norm_counts,GeneID)
+dim(filtered_norm_counts)
+head(filtered_norm_counts)
+
+res_ordered<-res[order(res$padj),]
+GeneID<-rownames(res_ordered)
+res_ordered<-as.data.frame(res_ordered)
+res_genes<-cbind(res_ordered,GeneID)
+dim(res_genes)
+head(res_genes)
+dim(res_genes)
+res_genes_merged <- merge(res_genes,filtered_norm_counts,by=unique("GeneID"))
+dim(res_genes_merged)
+head(res_genes_merged)
+res_ordered<-res_genes_merged[order(res_genes_merged$padj),]
+
+plot(log2(res_ordered$baseMean), res_ordered$log2FoldChange, col=ifelse(res_ordered$padj < 0.1, "red","gray67"),main="MA plot (padj<0.05)", xlab = "Mean of normalized counts", ylab = "Log fold change", xlim=c(1,20),pch=20,cex=1,ylim=c(-5,5))
+abline(h=c(-1,1), col="blue")
+
+resSig = res_ordered[res_ordered$padj < 0.1, ]
+resSig = resSig[resSig$log2FoldChange > 1 | resSig$log2FoldChange < -1,]
+
+genes<-resSig$GeneID
+mygenes <- resSig[,]
+baseMean_mygenes <- mygenes[,"baseMean"]
+log2FoldChange_mygenes <- mygenes[,"log2FoldChange"]
+text(log2(baseMean_mygenes),log2FoldChange_mygenes,labels=genes,pos=1,cex=0.70)
+
+#Gene clustering
+library("genefilter")
+vsd <- rlog(dds, blind = FALSE)
+topVarGenes <- head(order(rowVars(assay(vsd)), decreasing = TRUE), 30)
+
+mat  <- assay(vsd)[ topVarGenes, ]
+mat  <- mat - rowMeans(mat)
+anno <- as.data.frame(colData(vsd)[, c("BH","Serum")])
+pheatmap(mat, annotation_col = df)
+

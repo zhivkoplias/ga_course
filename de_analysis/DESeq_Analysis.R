@@ -2,8 +2,7 @@
 #biocLite("DESeq2")
 library(DESeq2)
 
-directory <- "/home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/htseq_counting"
-
+directory <- "/home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/htseq_counting/"
 sampleFiles_Serum <- grep("Serum",list.files(directory),value=TRUE)
 sampleCondition_Serum <- sub("(.*Serum).*","\\1",sampleFiles_Serum)
 sampleTable_Serum <- data.frame(sampleName = sampleFiles_Serum,
