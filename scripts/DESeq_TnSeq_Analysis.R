@@ -30,7 +30,7 @@ ddsHTSeq <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
                                        directory = directory,
                                        design= ~ condition)
 
-### Prefiltering
+### Pre-filtering
 
 keep <- rowSums(counts(ddsHTSeq)) >= 10
 ddsHTSeq <- ddsHTSeq[keep,]
