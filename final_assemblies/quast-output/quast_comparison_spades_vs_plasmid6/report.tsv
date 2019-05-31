@@ -1,0 +1,51 @@
+Assembly	NODE_3
+# contigs (>= 0 bp)	1
+# contigs (>= 1000 bp)	1
+# contigs (>= 5000 bp)	1
+# contigs (>= 10000 bp)	1
+# contigs (>= 25000 bp)	1
+# contigs (>= 50000 bp)	1
+Total length (>= 0 bp)	64343
+Total length (>= 1000 bp)	64343
+Total length (>= 5000 bp)	64343
+Total length (>= 10000 bp)	64343
+Total length (>= 25000 bp)	64343
+Total length (>= 50000 bp)	64343
+# contigs	1
+Largest contig	64343
+Total length	64343
+Reference length	65558
+GC (%)	31.96
+Reference GC (%)	32.05
+N50	64343
+NG50	64343
+N75	64343
+NG75	64343
+L50	1
+LG50	1
+L75	1
+LG75	1
+# misassemblies	0
+# misassembled contigs	0
+Misassembled contigs length	0
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	0
+# unaligned contigs	0 + 0 part
+Unaligned length	0
+Genome fraction (%)	98.147
+Duplication ratio	1.000
+# N's per 100 kbp	0.00
+# mismatches per 100 kbp	1.55
+# indels per 100 kbp	0.00
+Largest alignment	64343
+Total aligned length	64343
+NA50	64343
+NGA50	64343
+NA75	64343
+NGA75	64343
+LA50	1
+LGA50	1
+LA75	1
+LGA75	1

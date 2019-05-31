@@ -1,0 +1,51 @@
+Assembly	pilon
+# contigs (>= 0 bp)	9
+# contigs (>= 1000 bp)	9
+# contigs (>= 5000 bp)	9
+# contigs (>= 10000 bp)	6
+# contigs (>= 25000 bp)	5
+# contigs (>= 50000 bp)	2
+Total length (>= 0 bp)	3126531
+Total length (>= 1000 bp)	3126531
+Total length (>= 5000 bp)	3126531
+Total length (>= 10000 bp)	3098699
+Total length (>= 25000 bp)	3087299
+Total length (>= 50000 bp)	2992688
+# contigs	9
+Largest contig	2773702
+Total length	3126531
+Reference length	3151876
+GC (%)	37.80
+Reference GC (%)	37.71
+N50	2773702
+NG50	2773702
+N75	2773702
+NG75	2773702
+L50	1
+LG50	1
+L75	1
+LG75	1
+# misassemblies	28
+# misassembled contigs	7
+Misassembled contigs length	3090258
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	0
+# unaligned contigs	0 + 0 part
+Unaligned length	0
+Genome fraction (%)	97.825
+Duplication ratio	1.014
+# N's per 100 kbp	0.00
+# mismatches per 100 kbp	32.40
+# indels per 100 kbp	3.63
+Largest alignment	1084784
+Total aligned length	3120924
+NA50	852846
+NGA50	852846
+NA75	836072
+NGA75	836072
+LA50	2
+LGA50	2
+LA75	3
+LGA75	3

@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.133*1.02] collected minimizers
+[M::mm_idx_gen::0.169*1.02] sorted minimizers
+[M::main::0.169*1.02] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.176*1.02] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.181*1.02] distinct minimizers: 259950 (97.56% are singletons); average occurrences: 1.063; average spacing: 10.002
+[M::worker_pipeline::1.441*1.00] mapped 1 sequences
+[M::main] Version: 2.11-r797
+[M::main] CMD: /home/erik/miniconda3/lib/python2.7/site-packages/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /home/erik/sweden/courses/2nd_semester/Genome_Analysis/reference/quast_comparison_pilon_1st_contig_reference_chromosome/quast_corrected_input/chromosme_sequence.fasta /home/erik/sweden/courses/2nd_semester/Genome_Analysis/reference/quast_comparison_pilon_1st_contig_reference_chromosome/quast_corrected_input/tig00000001_pilon.fasta
+[M::main] Real time: 1.452 sec; CPU: 1.452 sec

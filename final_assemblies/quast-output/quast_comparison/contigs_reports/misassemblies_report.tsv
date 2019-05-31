@@ -1,0 +1,21 @@
+Assembly	tig00000001_pilon
+# misassemblies	2
+  # contig misassemblies	2
+    # c. relocations	2
+    # c. translocations	0
+    # c. inversions	0
+  # scaffold misassemblies	0
+    # s. relocations	0
+    # s. translocations	0
+    # s. inversions	0
+# misassembled contigs	1
+Misassembled contigs length	2773702
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	0
+# mismatches	452
+# indels	27
+    # indels (<= 5 bp)	25
+    # indels (> 5 bp)	2
+Indels length	52

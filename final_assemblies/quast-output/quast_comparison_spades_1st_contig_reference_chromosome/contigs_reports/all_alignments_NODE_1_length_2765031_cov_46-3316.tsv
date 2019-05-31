@@ -1,0 +1,7 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	1406315	1406300	1	CP014529.1_Enterococcus_faecium_strain_E745__complete_genome	NODE_1_length_2765031_cov_46.3316	99.98		True
+fake: not a misassembly [linear representation of circular genome]
+2264950	2765010	1906342	1406301	CP014529.1_Enterococcus_faecium_strain_E745__complete_genome	NODE_1_length_2765031_cov_46.3316	99.97		True
+inversion
+1405664	2264352	1906343	2765031	CP014529.1_Enterococcus_faecium_strain_E745__complete_genome	NODE_1_length_2765031_cov_46.3316	99.99		True
+CONTIG	NODE_1_length_2765031_cov_46.3316	2765031	misassembled

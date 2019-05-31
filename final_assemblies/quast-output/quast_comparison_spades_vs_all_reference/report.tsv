@@ -1,0 +1,51 @@
+Assembly	spades_assembly_110419
+# contigs (>= 0 bp)	43
+# contigs (>= 1000 bp)	15
+# contigs (>= 5000 bp)	8
+# contigs (>= 10000 bp)	4
+# contigs (>= 25000 bp)	4
+# contigs (>= 50000 bp)	4
+Total length (>= 0 bp)	3151876
+Total length (>= 1000 bp)	3145695
+Total length (>= 5000 bp)	3124883
+Total length (>= 10000 bp)	3094039
+Total length (>= 25000 bp)	3094039
+Total length (>= 50000 bp)	3094039
+# contigs	16
+Largest contig	2765031
+Total length	3146525
+Reference length	3168410
+GC (%)	37.71
+Reference GC (%)	37.70
+N50	2765031
+NG50	2765031
+N75	2765031
+NG75	2765031
+L50	1
+LG50	1
+L75	1
+LG75	1
+# misassemblies	3
+# misassembled contigs	2
+Misassembled contigs length	2816937
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	1
+# unaligned contigs	1 + 1 part
+Unaligned length	5848
+Genome fraction (%)	98.892
+Duplication ratio	1.002
+# N's per 100 kbp	0.00
+# mismatches per 100 kbp	29.97
+# indels per 100 kbp	3.73
+Largest alignment	1899903
+Total aligned length	3128539
+NA50	1899903
+NGA50	1899903
+NA75	858689
+NGA75	858689
+LA50	1
+LGA50	1
+LA75	2
+LGA75	2

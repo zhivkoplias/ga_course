@@ -1,0 +1,277 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NODE_27_length_243_cov_32.4149]
+	Loaded [NODE_31_length_137_cov_80.1341]
+	Loaded [NODE_20_length_357_cov_46.457]
+	Loaded [NODE_34_length_108_cov_99.0377]
+	Loaded [NODE_39_length_62_cov_3]
+	Loaded [NODE_17_length_456_cov_59.8603]
+	Loaded [NODE_32_length_112_cov_40.9649]
+	Loaded [NODE_28_length_233_cov_80.4775]
+	Loaded [NODE_26_length_249_cov_35.6237]
+	Loaded [NODE_23_length_311_cov_39.8672]
+	Loaded [NODE_37_length_73_cov_616.556]
+	Loaded [NODE_30_length_149_cov_57.1809]
+	Loaded [NODE_14_length_1685_cov_191.666]
+	Loaded [NODE_18_length_446_cov_35.6854]
+	Loaded [NODE_22_length_332_cov_0.274368]
+	Loaded [NODE_33_length_111_cov_285.054]
+	Loaded [NODE_9_length_4732_cov_102.521]
+	Loaded [NODE_24_length_266_cov_38.5782]
+	Loaded [NODE_16_length_830_cov_355.652]
+	Loaded [NODE_1_length_2765031_cov_46.3316]
+	Loaded [NODE_21_length_356_cov_0.481728]
+	Loaded [NODE_38_length_73_cov_247.778]
+	Loaded [NODE_29_length_228_cov_34.9075]
+	Loaded [NODE_35_length_95_cov_28.8]
+	Loaded [NODE_10_length_3990_cov_113.141]
+	Loaded [NODE_19_length_387_cov_37.3976]
+	Loaded [NODE_41_length_59_cov_406]
+	Loaded [NODE_5_length_9325_cov_146.069]
+	Loaded [NODE_3_length_64343_cov_75.9457]
+	Loaded [NODE_11_length_3460_cov_267.035]
+	Loaded [NODE_13_length_2046_cov_124.501]
+	Loaded [NODE_8_length_5034_cov_113.887]
+	Loaded [NODE_25_length_251_cov_80.4745]
+	Loaded [NODE_15_length_1685_cov_106.536]
+	Loaded [NODE_12_length_3214_cov_234.27]
+	Loaded [NODE_2_length_212759_cov_102.867]
+	Loaded [NODE_42_length_59_cov_373.75]
+	Loaded [NODE_43_length_56_cov_68]
+	Loaded [NODE_40_length_62_cov_1.42857]
+	Loaded [NODE_4_length_51906_cov_93.7338]
+	Loaded [NODE_6_length_8551_cov_52.8456]
+	Loaded [NODE_36_length_80_cov_144.92]
+	Loaded [NODE_7_length_7934_cov_102.905]
+	Total Regions: 43
+	Total Region Length: 3151876
+Analyzing contigs...
+CONTIG: tig00000001_pilon (2773702bp)
+Best alignment score: 1084567.0 (LEN: 1084784, IDY: 99.98), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 2772234.2, number of alignments: 3, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 5843 between Alignment 1 and 2: 1906343 2765031 | 1937630 1078942 | 858689 858689 --> 1906343 2759188 | 1937630 1084785 | 852846 852846
+			Real Alignment 1: 828026 1912781 | 1 1084784 | 1084756 1084784 | 99.98 | NODE_1_length_2765031_cov_46.3316 tig00000001_pilon
+			  Extensive misassembly (relocation, inconsistency = -6439) between these two alignments
+			Excluding internal overlap of size 652 between Alignment 2 and 3: 1 836722 | 1936979 2773702 | 836722 836724 --> 653 836722 | 1937631 2773702 | 836070 836072
+			Real Alignment 2: 1906343 2759188 | 1937630 1084785 | 852846 852846 | 99.99 | NODE_1_length_2765031_cov_46.3316 tig00000001_pilon
+			  Extensive misassembly (relocation, inconsistency = 1069620) between these two alignments
+			Real Alignment 3: 653 836722 | 1937631 2773702 | 836070 836072 | 99.98 | NODE_1_length_2765031_cov_46.3316 tig00000001_pilon
+
+CONTIG: tig00000025_pilon (40017bp)
+Best alignment score: 7934.0 (LEN: 7934, IDY: 100.00), Total number of alignments: 60
+			Looking for the best set of alignments (out of 60 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 53396 54204 | 2877 2069 | 809 809 | 99.88 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 46358 47167 | 2877 2068 | 810 810 | 99.63 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 179128 179905 | 2068 2877 | 778 810 | 95.93 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 53396 54204 | 7802 8610 | 809 809 | 100.0 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 46358 47166 | 7802 8610 | 809 809 | 99.75 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 179129 179905 | 8610 7802 | 777 809 | 96.04 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 53396 54204 | 13235 14043 | 809 809 | 99.51 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 179129 179905 | 14043 13235 | 777 809 | 95.55 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 46356 47166 | 13233 14043 | 811 811 | 99.26 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 46358 47166 | 22606 21798 | 809 809 | 99.75 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 179129 179905 | 21798 22606 | 777 809 | 96.04 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 53396 54214 | 22606 21789 | 819 818 | 99.88 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 53396 54204 | 25351 24543 | 809 809 | 100.0 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 46358 47166 | 25351 24543 | 809 809 | 99.75 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 179129 179905 | 24543 25351 | 777 809 | 96.04 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 452 823 | 28016 27645 | 372 372 | 97.31 | NODE_13_length_2046_cov_124.501 tig00000025_pilon
+		Skipping redundant alignment 26485 27292 | 29528 30335 | 808 808 | 100.0 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 46358 47166 | 30336 29528 | 809 809 | 99.75 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 179129 179905 | 29528 30336 | 777 809 | 96.04 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 1 108 | 30284 30391 | 108 108 | 100.0 | NODE_34_length_108_cov_99.0377 tig00000025_pilon
+		Skipping redundant alignment 1191563 1191874 | 30337 30648 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 1112621 1112932 | 30648 30337 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 1130974 1131285 | 30337 30648 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 1286944 1287255 | 30648 30337 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 427271 427582 | 30648 30337 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 1253718 1254029 | 30648 30337 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 759857 760168 | 30648 30337 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 31661 31972 | 30648 30337 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 1076468 1076779 | 30337 30648 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 2603918 2604229 | 30337 30648 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 2003946 2004257 | 30337 30648 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 2318940 2319251 | 30648 30337 | 312 312 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 104208 104519 | 30648 30337 | 312 312 | 99.68 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 2105820 2106132 | 30649 30337 | 313 313 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 1121277 1121589 | 30337 30649 | 313 313 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 1861898 1862210 | 30337 30649 | 313 313 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 192462 192774 | 30649 30337 | 313 313 | 100.0 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 74338 74650 | 30337 30649 | 313 313 | 100.0 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 2264477 2264791 | 30337 30651 | 315 315 | 100.0 | NODE_1_length_2765031_cov_46.3316 tig00000025_pilon
+		Skipping redundant alignment 153769 154083 | 30651 30337 | 315 315 | 100.0 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 53396 54204 | 35301 34493 | 809 809 | 99.88 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 46358 47167 | 35301 34492 | 810 810 | 99.63 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		Skipping redundant alignment 179128 179905 | 34492 35301 | 778 810 | 95.93 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 35198.9, number of alignments: 17, unaligned bases: 362
+		This contig is misassembled.
+			Excluding internal overlap of size 55 between Alignment 1 and 2: 26485 27292 | 2069 2876 | 808 808 --> 26540 27292 | 2124 2876 | 753 753
+			Real Alignment 1: 1872 3990 | 1 2123 | 2119 2123 | 99.72 | NODE_10_length_3990_cov_113.141 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 54 between Alignment 2 and 3: 26540 27292 | 2124 2876 | 753 753 --> 26540 27238 | 2124 2822 | 699 699
+			Real Alignment 2: 26540 27238 | 2124 2822 | 699 699 | 99.88 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 54 between Alignment 3 and 4: 26485 27292 | 8610 7803 | 808 808 --> 26485 27238 | 8610 7857 | 754 754
+			Real Alignment 3: 1 5034 | 7856 2823 | 5034 5034 | 100.0 | NODE_8_length_5034_cov_113.887 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 4 and 5: 26485 27238 | 8610 7857 | 754 754 --> 26540 27238 | 8555 7857 | 699 699
+			Real Alignment 4: 26540 27238 | 8555 7857 | 699 699 | 100.0 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 52 between Alignment 5 and 6: 26485 27292 | 14043 13236 | 808 808 --> 26485 27240 | 14043 13288 | 756 756
+			Real Alignment 5: 1 4732 | 13287 8556 | 4732 4732 | 100.0 | NODE_9_length_4732_cov_102.521 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 126 between Alignment 6 and 7: 26485 27240 | 14043 13288 | 756 756 --> 26611 27240 | 13917 13288 | 630 630
+			Real Alignment 6: 26611 27240 | 13917 13288 | 630 630 | 99.5 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 7 and 8: 26484 27292 | 21797 22605 | 809 809 --> 26539 27292 | 21852 22605 | 754 754
+			Real Alignment 7: 1 7934 | 21851 13918 | 7934 7934 | 100.0 | NODE_7_length_7934_cov_102.905 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 54 between Alignment 8 and 9: 26539 27292 | 21852 22605 | 754 754 --> 26539 27238 | 21852 22551 | 700 700
+			Real Alignment 8: 26539 27238 | 21852 22551 | 700 700 | 100.0 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 9 and 10: 26485 27292 | 24543 25350 | 808 808 --> 26540 27292 | 24598 25350 | 753 753
+			Real Alignment 9: 1 2046 | 22552 24597 | 2046 2046 | 99.95 | NODE_13_length_2046_cov_124.501 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 54 between Alignment 10 and 11: 26540 27292 | 24598 25350 | 753 753 --> 26540 27238 | 24598 25296 | 699 699
+			Real Alignment 10: 26540 27238 | 24598 25296 | 699 699 | 100.0 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 11 and 12: 1 830 | 26927 27756 | 830 830 --> 56 830 | 26982 27756 | 775 775
+			Real Alignment 11: 1 1685 | 26981 25297 | 1685 1685 | 100.0 | NODE_15_length_1685_cov_106.536 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 12: 56 830 | 26982 27756 | 775 775 | 100.0 | NODE_16_length_830_cov_355.652 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 13 and 14: 53396 54204 | 30336 29528 | 809 809 --> 53396 54149 | 30336 29583 | 754 754
+			Real Alignment 13: 1 1685 | 27898 29582 | 1685 1685 | 99.58 | NODE_14_length_1685_cov_191.666 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 14: 53396 54149 | 30336 29583 | 754 754 | 100.0 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 15 and 16: 26485 27292 | 34493 35300 | 808 808 --> 26540 27292 | 34548 35300 | 753 753
+			Real Alignment 15: 1 3990 | 30558 34547 | 3990 3990 | 100.0 | NODE_10_length_3990_cov_113.141 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 54 between Alignment 16 and 17: 26540 27292 | 34548 35300 | 753 753 --> 26540 27238 | 34548 35246 | 699 699
+			Real Alignment 16: 26540 27238 | 34548 35246 | 699 699 | 99.88 | NODE_2_length_212759_cov_102.867 tig00000025_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 17: 261 5034 | 40017 35247 | 4774 4771 | 99.9 | NODE_8_length_5034_cov_113.887 tig00000025_pilon
+
+CONTIG: tig00000026_pilon (28307bp)
+Best alignment score: 21875.6 (LEN: 21880, IDY: 99.98), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 27446.1, number of alignments: 3, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 497 between Alignment 1 and 2: 8649 11387 | 3794 6533 | 2739 2740 --> 9146 11387 | 4291 6533 | 2242 2243
+			Real Alignment 1: 1 4290 | 4290 1 | 4290 4290 | 100.0 | NODE_4_length_51906_cov_93.7338 tig00000026_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 106 between Alignment 2 and 3: 9146 11387 | 4291 6533 | 2242 2243 --> 9146 11282 | 4291 6427 | 2137 2137
+			Real Alignment 2: 9146 11282 | 4291 6427 | 2137 2137 | 97.52 | NODE_2_length_212759_cov_102.867 tig00000026_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 3: 30027 51906 | 28307 6428 | 21880 21880 | 99.98 | NODE_4_length_51906_cov_93.7338 tig00000026_pilon
+
+CONTIG: tig00000029_pilon (9986bp)
+Best alignment score: 9968.0 (LEN: 9986, IDY: 99.82), Total number of alignments: 1
+		One align captures most of this contig: 20824 30815 | 1 9986 | 9992 9986 | 99.82 | NODE_4_length_51906_cov_93.7338 tig00000029_pilon
+
+CONTIG: tig00000030_pilon (11400bp)
+Best alignment score: 6839.0 (LEN: 6850, IDY: 99.84), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 73 | 4579 4507 | 73 73 | 100.0 | NODE_38_length_73_cov_247.778 tig00000030_pilon
+		Skipping redundant alignment 1 73 | 4601 4529 | 73 73 | 100.0 | NODE_38_length_73_cov_247.778 tig00000030_pilon
+			The best set is below. Score: 11125.3, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 7 between Alignment 1 and 2: 1 4565 | 4557 1 | 4565 4557 --> 8 4565 | 4550 1 | 4558 4550
+			Real Alignment 1: 8 4565 | 4550 1 | 4558 4550 | 99.78 | NODE_5_length_9325_cov_146.069 tig00000030_pilon
+			  Extensive misassembly (relocation, inconsistency = -2095 [linear representation of circular genome]) between these two alignments
+			Real Alignment 2: 2471 9325 | 11400 4551 | 6855 6850 | 99.84 | NODE_5_length_9325_cov_146.069 tig00000030_pilon
+
+CONTIG: tig00000031_pilon (9546bp)
+Best alignment score: 5720.0 (LEN: 5724, IDY: 99.93), Total number of alignments: 10
+			Looking for the best set of alignments (out of 10 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 149 | 2705 2557 | 149 149 | 100.0 | NODE_30_length_149_cov_57.1809 tig00000031_pilon
+		Skipping redundant alignment 26485 27292 | 2653 3460 | 808 808 | 99.88 | NODE_2_length_212759_cov_102.867 tig00000031_pilon
+		Skipping redundant alignment 46358 47166 | 3461 2653 | 809 809 | 99.63 | NODE_2_length_212759_cov_102.867 tig00000031_pilon
+		Skipping redundant alignment 179129 179905 | 2653 3461 | 777 809 | 95.92 | NODE_2_length_212759_cov_102.867 tig00000031_pilon
+		Skipping redundant alignment 1 357 | 3767 3411 | 357 357 | 100.0 | NODE_20_length_357_cov_46.457 tig00000031_pilon
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 8305.5, number of alignments: 5, unaligned bases: 20
+		This contig is misassembled.
+			Excluding internal overlap of size 210 between Alignment 1 and 2: 39785 41017 | 2632 1400 | 1233 1233 --> 39785 40807 | 2632 1610 | 1023 1023
+			Real Alignment 1: 6943 8551 | 1 1609 | 1609 1609 | 100.0 | NODE_6_length_8551_cov_52.8456 tig00000031_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 2: 39785 40807 | 2632 1610 | 1023 1023 | 96.03 | NODE_4_length_51906_cov_93.7338 tig00000031_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 3: 53396 54204 | 3461 2653 | 809 809 | 99.88 | NODE_2_length_212759_cov_102.867 tig00000031_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 112 between Alignment 4 and 5: 48442 48914 | 3934 3462 | 473 473 --> 48554 48914 | 3822 3462 | 361 361
+			Real Alignment 4: 48554 48914 | 3822 3462 | 361 361 | 97.25 | NODE_4_length_51906_cov_93.7338 tig00000031_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 5: 1 5721 | 3823 9546 | 5721 5724 | 99.93 | NODE_6_length_8551_cov_52.8456 tig00000031_pilon
+
+CONTIG: tig00000033_pilon (26287bp)
+Best alignment score: 26281.7 (LEN: 26287, IDY: 99.98), Total number of alignments: 1
+		One align captures most of this contig: 16472 42759 | 26287 1 | 26288 26287 | 99.98 | NODE_3_length_64343_cov_75.9457 tig00000033_pilon
+
+CONTIG: tig00000470_pilon (218986bp)
+Best alignment score: 185834.2 (LEN: 185983, IDY: 99.92), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 217527.7, number of alignments: 3, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 192 between Alignment 1 and 2: 7243 24100 | 202645 185792 | 16858 16854 --> 7243 23907 | 202645 185984 | 16665 16662
+			Real Alignment 1: 26778 212759 | 1 185983 | 185982 185983 | 99.92 | NODE_2_length_212759_cov_102.867 tig00000470_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 4609 between Alignment 2 and 3: 7243 23907 | 202645 185984 | 16665 16662 --> 11856 23907 | 198036 185984 | 12052 12053
+			Real Alignment 2: 11856 23907 | 198036 185984 | 12052 12053 | 97.64 | NODE_4_length_51906_cov_93.7338 tig00000470_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 3: 1 20952 | 198037 218986 | 20952 20950 | 99.15 | NODE_2_length_212759_cov_102.867 tig00000470_pilon
+
+CONTIG: tig00000471_pilon (8300bp)
+Best alignment score: 6546.3 (LEN: 6562, IDY: 99.76), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 7780.4, number of alignments: 2, unaligned bases: 1
+		This contig is misassembled.
+			Excluding internal overlap of size 2882 between Alignment 1 and 2: 20215 24832 | 3682 8300 | 4618 4619 --> 23096 24832 | 6564 8300 | 1737 1737
+			Real Alignment 1: 15089 21655 | 2 6563 | 6567 6562 | 99.76 | NODE_2_length_212759_cov_102.867 tig00000471_pilon
+			  Extensive misassembly (relocation, inconsistency = 1440) between these two alignments
+			Real Alignment 2: 23096 24832 | 6564 8300 | 1737 1737 | 99.78 | NODE_2_length_212759_cov_102.867 tig00000471_pilon
+
+Analyzing coverage...
+Writing SNPs into /home/erik/sweden/courses/2nd_semester/Genome_Analysis/spades_assembly/quast_comparison_all_contigs/contigs_reports/minimap_output/pilon.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/erik/sweden/courses/2nd_semester/Genome_Analysis/spades_assembly/quast_comparison_all_contigs/contigs_reports/minimap_output/pilon.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 28
+		Relocations: 4
+		Translocations: 24
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 7
+	Misassembled Contig Bases: 3090258
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 2
+Total Bases in Ambiguously Mapped Contigs: 49563
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 3083307
+
+	SNPs: 999
+	Insertions: 80
+	Deletions: 71
+

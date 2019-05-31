@@ -1,0 +1,7 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+828026	1912781	1	1084784	NODE_1_length_2765031_cov_46.3316	tig00000001_pilon	99.98		True
+relocation, inconsistency = -6439
+1906343	2759188	1937630	1084785	NODE_1_length_2765031_cov_46.3316	tig00000001_pilon	99.99		True
+relocation, inconsistency = 1069620
+653	836722	1937631	2773702	NODE_1_length_2765031_cov_46.3316	tig00000001_pilon	99.98		True
+CONTIG	tig00000001_pilon	2773702	misassembled

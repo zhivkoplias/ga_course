@@ -1,0 +1,3 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+23	64365	1	64343	CP014535.1_Enterococcus_faecium_strain_E745_plasmid_pl6__complete_sequence	NODE_3_length_64343_cov_75.9457	100.0		True
+CONTIG	NODE_3_length_64343_cov_75.9457	64343	correct

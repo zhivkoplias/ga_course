@@ -1,0 +1,75 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+828026	1912781	1	1084784	NODE_1_length_2765031_cov_46.3316	tig00000001_pilon	99.98		True
+relocation, inconsistency = -6439
+1906343	2759188	1937630	1084785	NODE_1_length_2765031_cov_46.3316	tig00000001_pilon	99.99		True
+relocation, inconsistency = 1069620
+653	836722	1937631	2773702	NODE_1_length_2765031_cov_46.3316	tig00000001_pilon	99.98		True
+CONTIG	tig00000001_pilon	2773702	misassembled
+1872	3990	1	2123	NODE_10_length_3990_cov_113.141	tig00000025_pilon	99.72		True
+translocation
+26540	27238	2124	2822	NODE_2_length_212759_cov_102.867	tig00000025_pilon	99.88		True
+translocation
+1	5034	7856	2823	NODE_8_length_5034_cov_113.887	tig00000025_pilon	100.0		True
+translocation
+26540	27238	8555	7857	NODE_2_length_212759_cov_102.867	tig00000025_pilon	100.0		True
+translocation
+1	4732	13287	8556	NODE_9_length_4732_cov_102.521	tig00000025_pilon	100.0		True
+translocation
+26611	27240	13917	13288	NODE_2_length_212759_cov_102.867	tig00000025_pilon	99.5		True
+translocation
+1	7934	21851	13918	NODE_7_length_7934_cov_102.905	tig00000025_pilon	100.0		True
+translocation
+26539	27238	21852	22551	NODE_2_length_212759_cov_102.867	tig00000025_pilon	100.0		True
+translocation
+1	2046	22552	24597	NODE_13_length_2046_cov_124.501	tig00000025_pilon	99.95		True
+translocation
+26540	27238	24598	25296	NODE_2_length_212759_cov_102.867	tig00000025_pilon	100.0		True
+translocation
+1	1685	26981	25297	NODE_15_length_1685_cov_106.536	tig00000025_pilon	100.0		True
+translocation
+56	830	26982	27756	NODE_16_length_830_cov_355.652	tig00000025_pilon	100.0		True
+translocation
+1	1685	27898	29582	NODE_14_length_1685_cov_191.666	tig00000025_pilon	99.58		True
+translocation
+53396	54149	30336	29583	NODE_2_length_212759_cov_102.867	tig00000025_pilon	100.0		True
+translocation
+1	3990	30558	34547	NODE_10_length_3990_cov_113.141	tig00000025_pilon	100.0		True
+translocation
+26540	27238	34548	35246	NODE_2_length_212759_cov_102.867	tig00000025_pilon	99.88		True
+translocation
+261	5034	40017	35247	NODE_8_length_5034_cov_113.887	tig00000025_pilon	99.9		True
+CONTIG	tig00000025_pilon	40017	misassembled
+1	4290	4290	1	NODE_4_length_51906_cov_93.7338	tig00000026_pilon	100.0		True
+translocation
+9146	11282	4291	6427	NODE_2_length_212759_cov_102.867	tig00000026_pilon	97.52		True
+translocation
+30027	51906	28307	6428	NODE_4_length_51906_cov_93.7338	tig00000026_pilon	99.98		True
+CONTIG	tig00000026_pilon	28307	misassembled
+20824	30815	1	9986	NODE_4_length_51906_cov_93.7338	tig00000029_pilon	99.82		True
+CONTIG	tig00000029_pilon	9986	correct
+8	4565	4550	1	NODE_5_length_9325_cov_146.069	tig00000030_pilon	99.78		True
+relocation, inconsistency = -2095 [linear representation of circular genome]
+2471	9325	11400	4551	NODE_5_length_9325_cov_146.069	tig00000030_pilon	99.84		True
+CONTIG	tig00000030_pilon	11400	misassembled
+6943	8551	1	1609	NODE_6_length_8551_cov_52.8456	tig00000031_pilon	100.0		True
+translocation
+39785	40807	2632	1610	NODE_4_length_51906_cov_93.7338	tig00000031_pilon	96.03		True
+translocation
+53396	54204	3461	2653	NODE_2_length_212759_cov_102.867	tig00000031_pilon	99.88		True
+translocation
+48554	48914	3822	3462	NODE_4_length_51906_cov_93.7338	tig00000031_pilon	97.25		True
+translocation
+1	5721	3823	9546	NODE_6_length_8551_cov_52.8456	tig00000031_pilon	99.93		True
+CONTIG	tig00000031_pilon	9546	misassembled
+16472	42759	26287	1	NODE_3_length_64343_cov_75.9457	tig00000033_pilon	99.98		True
+CONTIG	tig00000033_pilon	26287	correct
+26778	212759	1	185983	NODE_2_length_212759_cov_102.867	tig00000470_pilon	99.92		True
+translocation
+11856	23907	198036	185984	NODE_4_length_51906_cov_93.7338	tig00000470_pilon	97.64		True
+translocation
+1	20952	198037	218986	NODE_2_length_212759_cov_102.867	tig00000470_pilon	99.15		True
+CONTIG	tig00000470_pilon	218986	misassembled
+15089	21655	2	6563	NODE_2_length_212759_cov_102.867	tig00000471_pilon	99.76		True
+relocation, inconsistency = 1440
+23096	24832	6564	8300	NODE_2_length_212759_cov_102.867	tig00000471_pilon	99.78		True
+CONTIG	tig00000471_pilon	8300	misassembled

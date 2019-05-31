@@ -1,0 +1,54 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NODE_1_length_2765031_cov_46.3316]
+	Total Regions: 1
+	Total Region Length: 2765031
+Analyzing contigs...
+CONTIG: tig00000001_pilon (2773702bp)
+Best alignment score: 1084567.0 (LEN: 1084784, IDY: 99.98), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 2772234.2, number of alignments: 3, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 5843 between Alignment 1 and 2: 1906343 2765031 | 1937630 1078942 | 858689 858689 --> 1906343 2759188 | 1937630 1084785 | 852846 852846
+			Real Alignment 1: 828026 1912781 | 1 1084784 | 1084756 1084784 | 99.98 | NODE_1_length_2765031_cov_46.3316 tig00000001_pilon
+			  Extensive misassembly (relocation, inconsistency = -6439) between these two alignments
+			Excluding internal overlap of size 652 between Alignment 2 and 3: 1 836722 | 1936979 2773702 | 836722 836724 --> 653 836722 | 1937631 2773702 | 836070 836072
+			Real Alignment 2: 1906343 2759188 | 1937630 1084785 | 852846 852846 | 99.99 | NODE_1_length_2765031_cov_46.3316 tig00000001_pilon
+			  Extensive misassembly (relocation, inconsistency = 1069620) between these two alignments
+			Real Alignment 3: 653 836722 | 1937631 2773702 | 836070 836072 | 99.98 | NODE_1_length_2765031_cov_46.3316 tig00000001_pilon
+
+Analyzing coverage...
+Writing SNPs into /home/erik/sweden/courses/2nd_semester/Genome_Analysis/spades_assembly/quast_comparison/contigs_reports/minimap_output/tig00000001_pilon.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/erik/sweden/courses/2nd_semester/Genome_Analysis/spades_assembly/quast_comparison/contigs_reports/minimap_output/tig00000001_pilon.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 2
+		Relocations: 2
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 2773702
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 2758536
+
+	SNPs: 452
+	Insertions: 41
+	Deletions: 11
+

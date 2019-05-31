@@ -1,0 +1,118 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence]
+	Loaded [CP014529.1_Enterococcus_faecium_strain_E745__complete_genome]
+	Loaded [CP014532.1_Enterococcus_faecium_strain_E745_plasmid_pl3__complete_sequence]
+	Loaded [CP014531.1_Enterococcus_faecium_strain_E745_plasmid_pl2__complete_sequence]
+	Loaded [CP014533.1_Enterococcus_faecium_strain_E745_plasmid_pl4__complete_sequence]
+	Loaded [CP014534.1_Enterococcus_faecium_strain_E745_plasmid_pl5__complete_sequence]
+	Loaded [CP014535.1_Enterococcus_faecium_strain_E745_plasmid_pl6__complete_sequence]
+	Total Regions: 7
+	Total Region Length: 3168410
+Analyzing contigs...
+CONTIG: tig00000001_pilon (2773702bp)
+Best alignment score: 2195416.0 (LEN: 2195416, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 2773452.0, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Real Alignment 1: 1 578289 | 578286 1 | 578289 578286 | 100.0 | CP014529.1_Enterococcus_faecium_strain_E745__complete_genome tig00000001_pilon
+			  Extensive misassembly (relocation, inconsistency = -8697 [linear representation of circular genome]) between these two alignments
+			Real Alignment 2: 569593 2765010 | 2773702 578287 | 2195418 2195416 | 100.0 | CP014529.1_Enterococcus_faecium_strain_E745__complete_genome tig00000001_pilon
+
+CONTIG: tig00000025_pilon (40017bp)
+Best alignment score: 26711.0 (LEN: 26727, IDY: 99.94), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 185254 185696 | 13235 13678 | 443 444 | 98.42 | CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence tig00000025_pilon
+			The best set is below. Score: 39744.1, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Real Alignment 1: 1 13286 | 13290 1 | 13286 13290 | 99.95 | CP014531.1_Enterococcus_faecium_strain_E745_plasmid_pl2__complete_sequence tig00000025_pilon
+			  Extensive misassembly (relocation, inconsistency = -7592 [linear representation of circular genome]) between these two alignments
+			Real Alignment 2: 5695 32423 | 40017 13291 | 26729 26727 | 99.94 | CP014531.1_Enterococcus_faecium_strain_E745_plasmid_pl2__complete_sequence tig00000025_pilon
+
+CONTIG: tig00000026_pilon (28307bp)
+Best alignment score: 28307.0 (LEN: 28307, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1516 29823 | 28307 1 | 28308 28307 | 100.0 | CP014534.1_Enterococcus_faecium_strain_E745_plasmid_pl5__complete_sequence tig00000026_pilon
+
+CONTIG: tig00000029_pilon (9986bp)
+Best alignment score: 9916.1 (LEN: 9986, IDY: 99.30), Total number of alignments: 1
+		One align captures most of this contig: 2750 12743 | 1 9986 | 9994 9986 | 99.3 | CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence tig00000029_pilon
+
+CONTIG: tig00000030_pilon (11400bp)
+Best alignment score: 9291.6 (LEN: 9314, IDY: 99.76), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 10859.1, number of alignments: 3, unaligned bases: 0
+		This contig is misassembled.
+			Real Alignment 1: 7894 9310 | 1 1416 | 1417 1416 | 98.81 | CP014532.1_Enterococcus_faecium_strain_E745_plasmid_pl3__complete_sequence tig00000030_pilon
+			  Extensive misassembly (relocation, inconsistency = -1417 [linear representation of circular genome]) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 2 and 3: 1 671 | 10730 11400 | 671 671 --> 2 671 | 10731 11400 | 670 670
+			Real Alignment 2: 1 9310 | 1417 10730 | 9310 9314 | 99.76 | CP014532.1_Enterococcus_faecium_strain_E745_plasmid_pl3__complete_sequence tig00000030_pilon
+			  Extensive misassembly (relocation, inconsistency = -9309 [linear representation of circular genome]) between these two alignments
+			Real Alignment 3: 2 671 | 10731 11400 | 670 670 | 100.0 | CP014532.1_Enterococcus_faecium_strain_E745_plasmid_pl3__complete_sequence tig00000030_pilon
+
+CONTIG: tig00000031_pilon (9546bp)
+Best alignment score: 9319.8 (LEN: 9546, IDY: 97.63), Total number of alignments: 1
+		One align captures most of this contig: 6490 15862 | 9546 1 | 9373 9546 | 97.63 | CP014533.1_Enterococcus_faecium_strain_E745_plasmid_pl4__complete_sequence tig00000031_pilon
+
+CONTIG: tig00000033_pilon (26287bp)
+Best alignment score: 26281.7 (LEN: 26287, IDY: 99.98), Total number of alignments: 1
+		One align captures most of this contig: 16494 42781 | 26287 1 | 26288 26287 | 99.98 | CP014535.1_Enterococcus_faecium_strain_E745_plasmid_pl6__complete_sequence tig00000033_pilon
+
+CONTIG: tig00000470_pilon (218986bp)
+Best alignment score: 183953.2 (LEN: 184248, IDY: 99.84), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 217435.2, number of alignments: 3, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 3999 between Alignment 1 and 2: 32776 55167 | 202645 180250 | 22392 22396 --> 32776 51169 | 202645 184249 | 18394 18397
+			Real Alignment 1: 6445 190689 | 184248 1 | 184245 184248 | 99.84 | CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence tig00000470_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 10828 between Alignment 2 and 3: 32776 51169 | 202645 184249 | 18394 18397 --> 43608 51169 | 191817 184249 | 7562 7569
+			Real Alignment 2: 43608 51169 | 191817 184249 | 7562 7569 | 98.52 | CP014534.1_Enterococcus_faecium_strain_E745_plasmid_pl5__complete_sequence tig00000470_pilon
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 3: 196515 223688 | 218986 191818 | 27174 27169 | 99.47 | CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence tig00000470_pilon
+
+CONTIG: tig00000471_pilon (8300bp)
+Best alignment score: 6553.8 (LEN: 6563, IDY: 99.86), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 7789.5, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 2882 between Alignment 1 and 2: 192635 197252 | 8300 3682 | 4618 4619 --> 192635 194371 | 8300 6564 | 1737 1737
+			Real Alignment 1: 195812 202379 | 6563 1 | 6568 6563 | 99.86 | CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence tig00000471_pilon
+			  Extensive misassembly (relocation, inconsistency = 1440) between these two alignments
+			Real Alignment 2: 192635 194371 | 8300 6564 | 1737 1737 | 99.87 | CP014530.1_Enterococcus_faecium_strain_E745_plasmid_pl1__complete_sequence tig00000471_pilon
+
+Analyzing coverage...
+Writing SNPs into /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_canu_vs_reference_chromosome/contigs_reports/minimap_output/pilon.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_canu_vs_reference_chromosome/contigs_reports/minimap_output/pilon.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 7
+		Relocations: 5
+		Translocations: 2
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 5
+	Misassembled Contig Bases: 3052405
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 3095828
+
+	SNPs: 441
+	Insertions: 274
+	Deletions: 111
+

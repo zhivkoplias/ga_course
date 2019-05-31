@@ -1,0 +1,14 @@
+reference chromosomes:
+	CP014535.1_Enterococcus_faecium_strain_E745_plasmid_pl6__complete_sequence (total length: 65558 bp, total length without N's: 65558 bp, maximal covered length: 64343 bp)
+
+total genome size: 65558
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+NODE_3                   | 98.147    | 1.000       | 1         | -         | -         | -         | -         |

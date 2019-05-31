@@ -1,0 +1,53 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [CP014529.1_Enterococcus_faecium_strain_E745__complete_genome]
+	Total Regions: 1
+	Total Region Length: 2765010
+Analyzing contigs...
+CONTIG: NODE_1_length_2765031_cov_46.3316 (2765031bp)
+Best alignment score: 1406018.7 (LEN: 1406300, IDY: 99.98), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 2764015.9, number of alignments: 3, unaligned bases: 0
+		This contig is misassembled.
+			Real Alignment 1: 1 1406315 | 1406300 1 | 1406315 1406300 | 99.98 | CP014529.1_Enterococcus_faecium_strain_E745__complete_genome NODE_1_length_2765031_cov_46.3316
+			  Not a misassembly [linear representation of circular genome] between these two alignments
+			Excluding internal overlap of size 6439 between Alignment 2 and 3: 2258510 2765010 | 1912781 1406301 | 506501 506481 --> 2264950 2765010 | 1906342 1406301 | 500061 500042
+			Real Alignment 2: 2264950 2765010 | 1906342 1406301 | 500061 500042 | 99.97 | CP014529.1_Enterococcus_faecium_strain_E745__complete_genome NODE_1_length_2765031_cov_46.3316
+			  Extensive misassembly (inversion) between these two alignments
+			Real Alignment 3: 1405664 2264352 | 1906343 2765031 | 858689 858689 | 99.99 | CP014529.1_Enterococcus_faecium_strain_E745__complete_genome NODE_1_length_2765031_cov_46.3316
+
+Analyzing coverage...
+Writing SNPs into /home/erik/sweden/courses/2nd_semester/Genome_Analysis/reference/quast_comparison_spades_1st_contig_reference_chromosome/contigs_reports/minimap_output/NODE_1_length_2765031_cov_46-3316.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/erik/sweden/courses/2nd_semester/Genome_Analysis/reference/quast_comparison_spades_1st_contig_reference_chromosome/contigs_reports/minimap_output/NODE_1_length_2765031_cov_46-3316.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 1
+		Relocations: 0
+		Translocations: 0
+		Inversions: 1
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 2765031
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 2764413
+
+	SNPs: 376
+	Insertions: 8
+	Deletions: 42
+

@@ -1,0 +1,118 @@
+/home/erik/miniconda3/bin/quast /home/erik/sweden/courses/2nd_semester/Genome_Analysis/assemblies/spades_assembly/NODE_3.fasta -r /home/erik/sweden/courses/2nd_semester/Genome_Analysis/reference/plasmidpl6_sequence.fasta -o quast_comparison_spades_vs_plasmid6
+
+Version: 5.0.0
+
+System information:
+  OS: Linux-4.13.0-46-generic-x86_64-with-debian-stretch-sid (linux_64)
+  Python version: 2.7.15
+  CPUs number: 4
+
+Started: 2019-04-12 14:05:09
+
+Logging to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/quast.log
+NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+
+CWD: /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2
+Main parameters: 
+  MODE: default, threads: 1, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/erik/sweden/courses/2nd_semester/Genome_Analysis/reference/plasmidpl6_sequence.fasta ==> plasmidpl6_sequence
+
+Contigs:
+  Pre-processing...
+  /home/erik/sweden/courses/2nd_semester/Genome_Analysis/assemblies/spades_assembly/NODE_3.fasta ==> NODE_3
+
+2019-04-12 14:05:10
+Running Basic statistics processor...
+  Reference genome:
+    plasmidpl6_sequence.fasta, length = 65558, num fragments = 1, GC % = 32.05
+  Contig files: 
+    NODE_3
+  Calculating N50 and L50...
+    NODE_3, N50 = 64343, L50 = 1, Total length = 64343, GC % = 31.96, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/basic_stats/GC_content_plot.pdf
+  Drawing NODE_3 GC content plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/basic_stats/NODE_3_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/basic_stats/coverage_histogram.pdf
+  Drawing NODE_3 coverage histogram (bin size: 1x)...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/basic_stats/NODE_3_coverage_histogram.pdf
+Done.
+
+2019-04-12 14:05:11
+Running Contig analyzer...
+  NODE_3
+  Logging to files /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/contigs_reports/contigs_report_NODE_3.stdout and contigs_report_NODE_3.stderr...
+  Aligning contigs to the reference
+  /home/erik/miniconda3/lib/python2.7/site-packages/quast_libs/minimap2/minimap2 -c \
+  -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ \
+  200 -g 2500 --score-N 2 --cs -t 1 quast_comparison_spades_vs_plasmid6/quast_corrected_input/plasmidpl6_sequence.fasta \
+  quast_comparison_spades_vs_plasmid6/quast_corrected_input/NODE_3.fasta > quast_comparison_spades_vs_plasmid6/contigs_reports/minimap_output/NODE_3.coords_tmp \
+  2>> quast_comparison_spades_vs_plasmid6/contigs_reports/contigs_report_NODE_3.stderr
+  Analysis is finished.
+
+  Creating total report...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2019-04-12 14:05:12
+Running NA-NGA calculation...
+  NODE_3, Largest alignment = 64343, NA50 = 64343, NGA50 = 64343, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/aligned_stats/NGAx_plot.pdf
+Done.
+
+2019-04-12 14:05:13
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  NODE_3
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2019-04-12 14:05:13
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2019-04-12 14:05:14
+RESULTS:
+  Text versions of total report are saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/report.html
+  PDF version (tables and plots) is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/report.pdf
+  Icarus (contig browser) is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/icarus.html
+  Log is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_plasmid6/quast.log
+
+Finished: 2019-04-12 14:05:14
+Elapsed time: 0:00:05.618878
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     NODE_1_length_2765031_cov_46.3316
+# misassemblies              1                                
+  # contig misassemblies     1                                
+    # c. relocations         0                                
+    # c. translocations      0                                
+    # c. inversions          1                                
+  # scaffold misassemblies   0                                
+    # s. relocations         0                                
+    # s. translocations      0                                
+    # s. inversions          0                                
+# misassembled contigs       1                                
+Misassembled contigs length  2765031                          
+# local misassemblies        0                                
+# scaffold gap ext. mis.     0                                
+# scaffold gap loc. mis.     0                                
+# unaligned mis. contigs     0                                
+# mismatches                 376                              
+# indels                     24                               
+    # indels (<= 5 bp)       22                               
+    # indels (> 5 bp)        2                                
+Indels length                50                               

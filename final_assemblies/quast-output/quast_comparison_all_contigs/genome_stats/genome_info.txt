@@ -1,0 +1,56 @@
+reference chromosomes:
+	NODE_27_length_243_cov_32.4149 (total length: 243 bp, total length without N's: 243 bp, maximal covered length: 0 bp)
+	NODE_31_length_137_cov_80.1341 (total length: 137 bp, total length without N's: 137 bp, maximal covered length: 0 bp)
+	NODE_20_length_357_cov_46.457 (total length: 357 bp, total length without N's: 357 bp, maximal covered length: 0 bp)
+	NODE_34_length_108_cov_99.0377 (total length: 108 bp, total length without N's: 108 bp, maximal covered length: 0 bp)
+	NODE_39_length_62_cov_3 (total length: 62 bp, total length without N's: 62 bp, maximal covered length: 0 bp)
+	NODE_17_length_456_cov_59.8603 (total length: 456 bp, total length without N's: 456 bp, maximal covered length: 0 bp)
+	NODE_32_length_112_cov_40.9649 (total length: 112 bp, total length without N's: 112 bp, maximal covered length: 0 bp)
+	NODE_28_length_233_cov_80.4775 (total length: 233 bp, total length without N's: 233 bp, maximal covered length: 0 bp)
+	NODE_26_length_249_cov_35.6237 (total length: 249 bp, total length without N's: 249 bp, maximal covered length: 0 bp)
+	NODE_23_length_311_cov_39.8672 (total length: 311 bp, total length without N's: 311 bp, maximal covered length: 0 bp)
+	NODE_37_length_73_cov_616.556 (total length: 73 bp, total length without N's: 73 bp, maximal covered length: 0 bp)
+	NODE_30_length_149_cov_57.1809 (total length: 149 bp, total length without N's: 149 bp, maximal covered length: 0 bp)
+	NODE_14_length_1685_cov_191.666 (total length: 1685 bp, total length without N's: 1685 bp, maximal covered length: 1685 bp)
+	NODE_18_length_446_cov_35.6854 (total length: 446 bp, total length without N's: 446 bp, maximal covered length: 0 bp)
+	NODE_22_length_332_cov_0.274368 (total length: 332 bp, total length without N's: 332 bp, maximal covered length: 0 bp)
+	NODE_33_length_111_cov_285.054 (total length: 111 bp, total length without N's: 111 bp, maximal covered length: 0 bp)
+	NODE_9_length_4732_cov_102.521 (total length: 4732 bp, total length without N's: 4732 bp, maximal covered length: 4732 bp)
+	NODE_24_length_266_cov_38.5782 (total length: 266 bp, total length without N's: 266 bp, maximal covered length: 0 bp)
+	NODE_16_length_830_cov_355.652 (total length: 830 bp, total length without N's: 830 bp, maximal covered length: 775 bp)
+	NODE_1_length_2765031_cov_46.3316 (total length: 2765031 bp, total length without N's: 2765031 bp, maximal covered length: 2758536 bp)
+	NODE_21_length_356_cov_0.481728 (total length: 356 bp, total length without N's: 356 bp, maximal covered length: 0 bp)
+	NODE_38_length_73_cov_247.778 (total length: 73 bp, total length without N's: 73 bp, maximal covered length: 0 bp)
+	NODE_29_length_228_cov_34.9075 (total length: 228 bp, total length without N's: 228 bp, maximal covered length: 0 bp)
+	NODE_35_length_95_cov_28.8 (total length: 95 bp, total length without N's: 95 bp, maximal covered length: 0 bp)
+	NODE_10_length_3990_cov_113.141 (total length: 3990 bp, total length without N's: 3990 bp, maximal covered length: 3990 bp)
+	NODE_19_length_387_cov_37.3976 (total length: 387 bp, total length without N's: 387 bp, maximal covered length: 0 bp)
+	NODE_41_length_59_cov_406 (total length: 59 bp, total length without N's: 59 bp, maximal covered length: 0 bp)
+	NODE_5_length_9325_cov_146.069 (total length: 9325 bp, total length without N's: 9325 bp, maximal covered length: 9318 bp)
+	NODE_3_length_64343_cov_75.9457 (total length: 64343 bp, total length without N's: 64343 bp, maximal covered length: 26288 bp)
+	NODE_11_length_3460_cov_267.035 (total length: 3460 bp, total length without N's: 3460 bp, maximal covered length: 0 bp)
+	NODE_13_length_2046_cov_124.501 (total length: 2046 bp, total length without N's: 2046 bp, maximal covered length: 2046 bp)
+	NODE_8_length_5034_cov_113.887 (total length: 5034 bp, total length without N's: 5034 bp, maximal covered length: 5034 bp)
+	NODE_25_length_251_cov_80.4745 (total length: 251 bp, total length without N's: 251 bp, maximal covered length: 0 bp)
+	NODE_15_length_1685_cov_106.536 (total length: 1685 bp, total length without N's: 1685 bp, maximal covered length: 1685 bp)
+	NODE_12_length_3214_cov_234.27 (total length: 3214 bp, total length without N's: 3214 bp, maximal covered length: 0 bp)
+	NODE_2_length_212759_cov_102.867 (total length: 212759 bp, total length without N's: 212759 bp, maximal covered length: 209613 bp)
+	NODE_42_length_59_cov_373.75 (total length: 59 bp, total length without N's: 59 bp, maximal covered length: 0 bp)
+	NODE_43_length_56_cov_68 (total length: 56 bp, total length without N's: 56 bp, maximal covered length: 0 bp)
+	NODE_40_length_62_cov_1.42857 (total length: 62 bp, total length without N's: 62 bp, maximal covered length: 0 bp)
+	NODE_4_length_51906_cov_93.7338 (total length: 51906 bp, total length without N's: 51906 bp, maximal covered length: 44341 bp)
+	NODE_6_length_8551_cov_52.8456 (total length: 8551 bp, total length without N's: 8551 bp, maximal covered length: 7330 bp)
+	NODE_36_length_80_cov_144.92 (total length: 80 bp, total length without N's: 80 bp, maximal covered length: 0 bp)
+	NODE_7_length_7934_cov_102.905 (total length: 7934 bp, total length without N's: 7934 bp, maximal covered length: 7934 bp)
+
+total genome size: 3151876
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+pilon                    | 97.825    | 1.014       | 38        | -         | -         | -         | -         |

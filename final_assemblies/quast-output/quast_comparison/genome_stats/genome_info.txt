@@ -1,0 +1,14 @@
+reference chromosomes:
+	NODE_1_length_2765031_cov_46.3316 (total length: 2765031 bp, total length without N's: 2765031 bp, maximal covered length: 2758536 bp)
+
+total genome size: 2765031
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+tig00000001_pilon        | 99.765    | 1.005       | 2         | -         | -         | -         | -         |
