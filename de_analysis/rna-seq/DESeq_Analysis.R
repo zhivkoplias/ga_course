@@ -1,8 +1,19 @@
+###Load libraries
+
 source("https://bioconductor.org/biocLite.R")
 #biocLite("DESeq2")
 library(DESeq2)
+library(ggplot2)
+library(pheatmap)
+library(apeglm)
+#biocLite("regionReport")
+#BiocInstaller::biocValid()
 
-directory <- "/home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/htseq_counting/for-r/"
+
+directory <- "/home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/de_analysis/input-tables/htseq_counting/for-r"
+setwd("/home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/de_analysis/input-tables/htseq_counting/for-r")
+save_output_directory <- '/home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/de_analysis/rna-seq/'
+
 sampleFiles_Serum <- grep("Serum",list.files(directory),value=TRUE)
 sampleCondition_Serum <- sub("(.*Serum).*","\\1",sampleFiles_Serum)
 sampleTable_Serum <- data.frame(sampleName = sampleFiles_Serum,
@@ -28,11 +39,9 @@ keep <- rowSums(counts(ddsHTSeq)) >= 10
 ddsHTSeq <- ddsHTSeq[keep,]
 dds <- ddsHTSeq 
 
-#Note on factor levels
+#Choosing the reference condition
 
-#dds$condition <- factor(dds$condition, levels = c("Serum","BH"))
 dds$condition <- relevel(dds$condition, ref = "BH")
-#dds$condition <- droplevels(dds$condition)
 
 # DE analysis
 dds <- dds[, dds$condition %in% c("Serum","BH") ]
@@ -46,10 +55,8 @@ res <- results(dds, contrast=c("condition","Serum","BH"))
 
 # Log fold change shrinkage for visualization and ranking
 #biocLite("apeglm")
-library(apeglm)
 
 resultsNames(dds)
-
 resLFC <- lfcShrink(dds, coef="condition_Serum_vs_BH", type="apeglm")
 resLFC
 
@@ -65,20 +72,16 @@ summary(res05)
 
 sum(res05$padj < 0.05, na.rm=TRUE)
 
-#plots DE
+#plots DE with MA
 
 plotMA(res, ylim=c(-9,9))
-
 plotMA(resLFC, ylim=c(-9,9))
-
-idx <- identify(res$baseMean, res$log2FoldChange)
-rownames(res)[idx]
 
 # plots counts
 
 d <- plotCounts(dds, gene=which.min(res$padj), intgroup="condition", 
                 returnData=TRUE)
-library("ggplot2")
+
 ggplot(d, aes(x=condition, y=count)) + 
   geom_point(position=position_jitter(w=0.1,h=0)) + 
   scale_y_log10(breaks=c(25,100,400))
@@ -91,31 +94,73 @@ mcols(res)$description
 
 #save data
 
-write.csv(as.data.frame(resOrdered), 
-          file="condition_Serum_vs_BH_results.csv")
-
 save_it <- as.data.frame(resOrdered)
+save_it <- subset(save_it, padj<0.001)
+save_it_up <- subset(save_it, log2FoldChange > 2 )
+save_it_down <- subset(save_it, log2FoldChange < 0.5 )
 
-write.csv(as.data.frame(save_it[1]), 
-          file="condition_Serum_vs_BH_results.csv")
-save_it[1]          
+write.table(save_it_up, 
+            file=save_output_directory+"genes_up_in_Serum.csv",row.names=TRUE, sep='\t')
+write.table(save_it_up[0], 
+          file=save_output_directory+"genes_up_in_Serum_gene_names.csv", row.names=TRUE, sep='\t')
+          
+
+write.table(save_it_down, 
+            file=save_output_directory+"genes_down_in_Serum.csv",row.names=TRUE, sep='\t')
+write.table(save_it_down[0], 
+            file=save_output_directory+"genes_down_in_Serum_gene_names.csv", row.names=TRUE, sep='\t')
 
 
-# Create the report from the DESeq2 package, 
-DESeq2Report(dds = dds, intgroup = "condition")
+# Create the report from the DESeq2 package 
+# DESeq2Report(dds = dds, intgroup = "condition")
 
-# Since expression data is 
+report <- DESeq2Report(dds, 'DESeq2-example', c('condition', 'type'),
+                       outdir = 'DESeq2Report-example')
+
+# Plot PCA
+
+rld <- rlogTransformation(dds, blind=TRUE)
+
+new_plot <- function (object, intgroup = "condition", ntop = 500, 
+                      returnData = FALSE) 
+{
+  rv <- rowVars(assay(object))
+  select <- order(rv, decreasing = TRUE)[seq_len(min(ntop, 
+                                                     length(rv)))]
+  pca <- prcomp(t(assay(object)[select, ]))
+  percentVar <- pca$sdev^2/sum(pca$sdev^2)
+  if (!all(intgroup %in% names(colData(object)))) {
+    stop("the argument 'intgroup' should specify columns of colData(dds)")
+  }
+  intgroup.df <- as.data.frame(colData(object)[, intgroup, 
+                                               drop = FALSE])
+  group <- if (length(intgroup) > 1) {
+    factor(apply(intgroup.df, 1, paste, collapse = ":"))
+  }
+  else {
+    colData(object)[[intgroup]]
+  }
+  d <- data.frame(PC1 = pca$x[, 1], PC2 = pca$x[, 2], group = group, 
+                  intgroup.df, name = colnames(object))
+  if (returnData) {
+    attr(d, "percentVar") <- percentVar[1:2]
+    return(d)
+  }
+  ggplot(data = d, aes_string(x = "PC1", y = "PC2", color = "group")) + 
+    ylim(-20, 20) +
+    theme_bw() +
+    geom_point(size = 10) + xlab(paste0("PC1: ", round(percentVar[1] * 
+                                                        100), "% variance")) + ylab(paste0("PC2: ", round(percentVar[2] * 
+                                                                                                            100), "% variance")) + coord_fixed()
+}
+
+new_plot(rld)
+
+
+# Plot heatmap
 rld <- rlog(dds)
 resultsdds <- results(dds)
 
-only_sign_dds_rlog <- subset(resultsdds, padj < 0.05)
-#only_sign_dds_rlog <- subset(only_sign_dds_rlog, log2FoldChange < -2)
-
-
-change_filter <- change_filter <- which(
-  abs(only_sign_dds_rlog$padj < 0.1) | 
-    abs(only_sign_dds_rlog$padj < 0.1)
-)
 
 topVarGenes <- head(order(-rowVars(assay(rld))),20)
 #topVarGenes <- topVarGenes[(topVarGenes %in% only_sign_dds_rlog$)]
@@ -126,6 +171,5 @@ df <- as.data.frame(colData(rld)[,"condition"])
 colnames(mat) <- c("BH-1","BH-2","BH-3","Serum-1","Serum-2","Serum-3", "Serum-4")
 colnames(df) <- "Condition"
 rownames(df) <- colnames(mat)
-#install.packages("pheatmap")
-library(pheatmap)
+
 pheatmap(mat, annotation_col=df)
