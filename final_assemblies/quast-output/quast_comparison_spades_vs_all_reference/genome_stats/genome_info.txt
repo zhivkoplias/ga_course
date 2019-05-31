@@ -17,4 +17,4 @@ partial gene/operon min size: 100
 assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
                          | fraction  | ratio       | number    |           | genes     |           | operons   |
 ========================================================================================================================
-spades_assembly_110419   | 98.892    | 1.002       | 15        | -         | -         | -         | -         |
+contigs_spades           | 98.892    | 1.002       | 15        | -         | -         | -         | -         |

@@ -1,4 +1,4 @@
-/home/erik/miniconda3/bin/quast spades_assembly_110419.fasta -r /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/reference_sequences_from_paper/the_full_reference.fasta -o /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference
+/home/erik/miniconda3/bin/quast /home/erik/sweden/courses/2nd_semester/Genome_Analysis/assemblies/spades_assembly/contigs_spades.fasta -r /home/erik/sweden/courses/2nd_semester/Genome_Analysis/reference/the_full_reference.fasta -o quast_comparison_spades_vs_reference_chromosome
 
 Version: 5.0.0
 
@@ -7,113 +7,113 @@ System information:
   Python version: 2.7.15
   CPUs number: 4
 
-Started: 2019-05-31 16:50:50
+Started: 2019-04-11 15:32:25
 
-Logging to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/quast.log
+Logging to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/quast.log
 NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
 
-CWD: /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies
+CWD: /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2
 Main parameters: 
   MODE: default, threads: 1, minimum contig length: 500, minimum alignment length: 65, \
   ambiguity: one, threshold for extensive misassembly size: 1000
 
 Reference:
-  /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/reference_sequences_from_paper/the_full_reference.fasta ==> the_full_reference
+  /home/erik/sweden/courses/2nd_semester/Genome_Analysis/reference/the_full_reference.fasta ==> the_full_reference
 
 Contigs:
   Pre-processing...
-  spades_assembly_110419.fasta ==> spades_assembly_110419
+  /home/erik/sweden/courses/2nd_semester/Genome_Analysis/assemblies/spades_assembly/contigs_spades.fasta ==> contigs_spades
 
-2019-05-31 16:50:51
+2019-04-11 15:32:28
 Running Basic statistics processor...
   Reference genome:
     the_full_reference.fasta, length = 3168410, num fragments = 7, GC % = 37.70
   Contig files: 
-    spades_assembly_110419
+    contigs_spades
   Calculating N50 and L50...
-    spades_assembly_110419, N50 = 2765031, L50 = 1, Total length = 3146525, GC % = 37.71, # N's per 100 kbp =  0.00
+    contigs_spades, N50 = 2765031, L50 = 1, Total length = 3146525, GC % = 37.71, # N's per 100 kbp =  0.00
   Drawing Nx plot...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/basic_stats/Nx_plot.pdf
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/basic_stats/Nx_plot.pdf
   Drawing NGx plot...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/basic_stats/NGx_plot.pdf
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/basic_stats/NGx_plot.pdf
   Drawing cumulative plot...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/basic_stats/cumulative_plot.pdf
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/basic_stats/cumulative_plot.pdf
   Drawing GC content plot...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/basic_stats/GC_content_plot.pdf
-  Drawing spades_assembly_110419 GC content plot...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/basic_stats/spades_assembly_110419_GC_content_plot.pdf
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/basic_stats/GC_content_plot.pdf
+  Drawing contigs_spades GC content plot...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/basic_stats/contigs_spades_GC_content_plot.pdf
   Drawing Coverage histogram (bin size: 1x)...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/basic_stats/coverage_histogram.pdf
-  Drawing spades_assembly_110419 coverage histogram (bin size: 1x)...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/basic_stats/spades_assembly_110419_coverage_histogram.pdf
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/basic_stats/coverage_histogram.pdf
+  Drawing contigs_spades coverage histogram (bin size: 1x)...
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/basic_stats/contigs_spades_coverage_histogram.pdf
 Done.
 
-2019-05-31 16:50:54
+2019-04-11 15:32:35
 Running Contig analyzer...
-  spades_assembly_110419
-  Logging to files /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/contigs_reports/contigs_report_spades_assembly_110419.stdout and contigs_report_spades_assembly_110419.stderr...
+  contigs_spades
+  Logging to files /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/contigs_reports/contigs_report_contigs_spades.stdout and contigs_report_contigs_spades.stderr...
   Aligning contigs to the reference
   /home/erik/miniconda3/lib/python2.7/site-packages/quast_libs/minimap2/minimap2 -c \
   -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ \
-  200 -g 2500 --score-N 2 --cs -t 1 quast-output/quast_comparison_spades_vs_all_reference/quast_corrected_input/the_full_reference.fasta \
-  quast-output/quast_comparison_spades_vs_all_reference/quast_corrected_input/spades_assembly_110419.fasta \
-  > quast-output/quast_comparison_spades_vs_all_reference/contigs_reports/minimap_output/spades_assembly_110419.coords_tmp \
-  2>> quast-output/quast_comparison_spades_vs_all_reference/contigs_reports/contigs_report_spades_assembly_110419.stderr
+  200 -g 2500 --score-N 2 --cs -t 1 quast_comparison_spades_vs_reference_chromosome/quast_corrected_input/the_full_reference.fasta \
+  quast_comparison_spades_vs_reference_chromosome/quast_corrected_input/contigs_spades.fasta \
+  > quast_comparison_spades_vs_reference_chromosome/contigs_reports/minimap_output/contigs_spades.coords_tmp \
+  2>> quast_comparison_spades_vs_reference_chromosome/contigs_reports/contigs_report_contigs_spades.stderr
   Analysis is finished.
 
   Creating total report...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
   Transposed version of total report...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
   Creating total report...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
   Drawing misassemblies by types plot...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/contigs_reports/misassemblies_plot.pdf
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/contigs_reports/misassemblies_plot.pdf
   Drawing misassemblies FRCurve plot...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/contigs_reports/misassemblies_frcurve_plot.pdf
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/contigs_reports/misassemblies_frcurve_plot.pdf
 Done.
 
-2019-05-31 16:50:58
+2019-04-11 15:32:45
 Running NA-NGA calculation...
-  spades_assembly_110419, Largest alignment = 1899903, NA50 = 1899903, NGA50 = 1899903, LA50 = 1, LGA50 = 1
+  contigs_spades, Largest alignment = 1899903, NA50 = 1899903, NGA50 = 1899903, LA50 = 1, LGA50 = 1
   Drawing cumulative plot...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/aligned_stats/cumulative_plot.pdf
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/aligned_stats/cumulative_plot.pdf
   Drawing NAx plot...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/aligned_stats/NAx_plot.pdf
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/aligned_stats/NAx_plot.pdf
   Drawing NGAx plot...
-    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/aligned_stats/NGAx_plot.pdf
+    saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/aligned_stats/NGAx_plot.pdf
 Done.
 
-2019-05-31 16:50:58
+2019-04-11 15:32:47
 Running Genome analyzer...
   NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
 
   NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
-  spades_assembly_110419
+  contigs_spades
   Analysis is finished.
   Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
 Done.
 
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2019-05-31 16:51:00
+2019-04-11 15:32:51
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2019-05-31 16:51:02
+2019-04-11 15:32:57
 RESULTS:
-  Text versions of total report are saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/report.txt, report.tsv, and report.tex
-  Text versions of transposed total report are saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
-  HTML version (interactive tables and plots) is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/report.html
-  PDF version (tables and plots) is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/report.pdf
-  Icarus (contig browser) is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/icarus.html
-  Log is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/ga_course/final_assemblies/quast-output/quast_comparison_spades_vs_all_reference/quast.log
+  Text versions of total report are saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/report.html
+  PDF version (tables and plots) is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/report.pdf
+  Icarus (contig browser) is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/icarus.html
+  Log is saved to /home/erik/sweden/courses/2nd_semester/Genome_Analysis/quast-5.0.2/quast_comparison_spades_vs_reference_chromosome/quast.log
 
-Finished: 2019-05-31 16:51:02
-Elapsed time: 0:00:12.126402
+Finished: 2019-04-11 15:32:57
+Elapsed time: 0:00:31.573503
 NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
